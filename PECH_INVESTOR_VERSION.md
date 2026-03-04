@@ -173,37 +173,6 @@ PECH is modeled after **Alibaba Group's layered architecture**, adapted for Afri
 └─────────────────────────────────────────────────────────────────────────┘
 ```
 
-### Technology Stack Architecture
-
-```
-┌─────────────────────────────────────────────────────┐
-│                   DEVICE LAYER                       │
-│  ESP32 • STM32 • Android POS • SUNMI Terminals      │
-│  MQTT • HTTP • Modbus • LoRaWAN • NB-IoT            │
-├─────────────────────────────────────────────────────┤
-│                EDGE INTELLIGENCE                     │
-│  Offline-first • Local rules • Data buffering        │
-│  NanoMQ (MIT) • Node-RED (Apache 2.0)               │
-├─────────────────────────────────────────────────────┤
-│                  MESSAGING LAYER                     │
-│  EMQX (Apache 2.0) • Apache Kafka • WebSockets      │
-├─────────────────────────────────────────────────────┤
-│                  CORE BACKEND                        │
-│  Node.js / Go • PostgreSQL • TimescaleDB • Redis     │
-│  ThingsBoard (Apache 2.0) • Keycloak (Auth)          │
-├─────────────────────────────────────────────────────┤
-│                   AI ENGINE                          │
-│  PyTorch • XGBoost • MLflow • FastAPI • Feast        │
-├─────────────────────────────────────────────────────┤
-│               FRONTEND & MOBILE                      │
-│  React (Web) • Flutter (Mobile) • Leaflet (Maps)     │
-├─────────────────────────────────────────────────────┤
-│              INFRASTRUCTURE & DEVOPS                 │
-│  Docker • k3s (Kubernetes) • Traefik • GitHub Actions│
-│  Pech Cloud (Nigeria) • Self-Host Option             │
-└─────────────────────────────────────────────────────┘
-```
-
 ---
 
 ## 5. Platform Breakdown & Build Strategy
@@ -215,7 +184,7 @@ PECH is modeled after **Alibaba Group's layered architecture**, adapted for Afri
 | **Purpose** | Free business management for SMEs |
 | **Target Users** | Market traders, wholesalers, distributors |
 | **Core Modules** | Inventory, Sales, Debtors/Creditors, Reporting |
-| **Build Strategy** | Fork ERPNext (Apache 2.0) → Simplify → Mobile-first → Embed payments |
+| **Build Strategy** | Custom-built, mobile-first, offline-capable, integrated with payments |
 | **Key Differentiator** | Works offline, Nigerian market-optimized, integrated with payments |
 | **Revenue Model** | FREE (monetize via hardware + payments + data) |
 
@@ -226,7 +195,7 @@ PECH is modeled after **Alibaba Group's layered architecture**, adapted for Afri
 | **Purpose** | Digital twin of Nigeria's physical markets |
 | **Target Users** | Buyers searching wholesale goods nationally |
 | **Core Features** | Market → Section → Shop Directory, Verified listings, WhatsApp contact |
-| **Build Strategy** | Custom build (React + Flutter + PostgreSQL) |
+| **Build Strategy** | Custom-built web + mobile platform |
 | **Pilot Markets** | Alaba (Lagos), Ariaria (Aba), Sabon Gari (Kano) |
 | **Revenue Model** | Featured listings, premium visibility, data services |
 
@@ -248,7 +217,7 @@ PECH is modeled after **Alibaba Group's layered architecture**, adapted for Afri
 | **Purpose** | Device management, energy monitoring, smart estates |
 | **Target Users** | Solar installers, estate managers, commercial buildings |
 | **Core Features** | Device provisioning, OTA updates, dashboards, AI analytics |
-| **Build Strategy** | Fork ThingsBoard (Apache 2.0) → Customize → Brand as Pech Cloud |
+| **Build Strategy** | Custom IoT cloud platform — branded as PECH Cloud |
 | **Priority Verticals** | Energy monitoring, Surveillance, Estate billing |
 | **Revenue Model** | Hardware margin (30-40%) + SaaS (₦1,500-₦7,500/device/month) |
 
@@ -329,7 +298,7 @@ PECH is modeled after **Alibaba Group's layered architecture**, adapted for Afri
 |----------|------------|
 | Core team hiring (5-7 people) | Architecture locked, team operational |
 | ERP MVP development | Basic inventory + sales + mobile app |
-| IoT platform setup | ThingsBoard fork + Pech branding |
+| IoT platform setup | PECH Cloud platform build + branding |
 | Hardware sourcing (China) | First batch POS + IoT devices ordered |
 | Company registration & compliance | CAC, NCC engagement, legal setup |
 | Marketplace design | UI/UX complete, backend started |
@@ -531,54 +500,18 @@ PECH is modeled after **Alibaba Group's layered architecture**, adapted for Afri
 > - Performance-based bonuses replacing fixed salary increases
 > - Lean team philosophy — hire only when revenue justifies it
 >
-> **Salary Validation (March 2026 Market Data):**
-> All salary figures benchmarked against Glassdoor, PayScale, and Levels.fyi Nigeria data:
-> - CTO at ₦800K/mo is **competitive** (market range: ₦400K–₦1.4M)
-> - Engineers at ₦400K–₦450K/mo are **lean/startup-tier** (market mid: ₦500K–₦800K), offset by equity
-> - DevOps at ₦350K/mo is **below market mid** (₦250K–₦600K) — adjust after 6 months
-> - Junior engineers at ₦250K/mo are **reasonable** for entry-level (market: ₦150K–₦300K)
-> - Field agents at ₦80K + bonus is **standard** for contract agents
-> - All salaries for **on-site/local roles**; remote international rates 3–5x higher
 
 ---
 
 ## 9. Technology & AI Tools Budget
 
-### 9.1 Cloud Infrastructure
+### 9.1 Technology Budget Summary
 
-| Service | Monthly Cost (₦) | Annual (₦) | Notes |
-|---------|-----------------|-----------|-------|
-| Cloud Hosting (AWS/Azure Nigeria) | ₦600,000 | ₦7,200,000 | Multi-service hosting |
-| Database (PostgreSQL + TimescaleDB) | ₦150,000 | ₦1,800,000 | Managed instances |
-| MQTT Broker (EMQX Cloud) | ₦100,000 | ₦1,200,000 | IoT messaging |
-| CDN & Storage (S3-compatible) | ₦80,000 | ₦960,000 | Static assets + backups |
-| Domain & SSL certificates | ₦20,000 | ₦240,000 | Multiple domains |
-
-**18-Month Infrastructure Total:** ₦17,100,000
-
-### 9.2 AI & Development Tools
-
-| Tool | Monthly Cost (₦) | Purpose |
-|------|-----------------|---------|
-| GitHub Organization (Team) | ₦25,000 | Code hosting + CI/CD |
-| Claude Pro / ChatGPT Team (5 seats) | ₦150,000 | AI-assisted development |
-| Cursor IDE (5 seats) | ₦100,000 | AI pair programming |
-| Figma (3 seats) | ₦45,000 | UI/UX design |
-| Slack / Communication | ₦30,000 | Team coordination |
-| Postman / API Tools | ₦20,000 | API testing |
-| Sentry (Error monitoring) | ₦30,000 | Production monitoring |
-| MLflow (Self-hosted) | ₦0 | ML experiment tracking |
-
-**Monthly AI/Tools:** ₦400,000
-**18-Month Tools Total:** ₦7,200,000
-
-### 9.3 Total Technology Budget
-
-| Category | 18-Month Total (₦) |
-|----------|-------------------|
-| Cloud Infrastructure | ₦17,100,000 |
-| AI & Development Tools | ₦7,200,000 |
-| **TOTAL** | **₦24,300,000** |
+| Category | 18-Month Total (₦) | Description |
+|----------|-------------------|-------------|
+| Cloud Infrastructure | ₦17,100,000 | Hosting, databases, IoT messaging, storage, domains |
+| Development & AI Tools | ₦7,200,000 | AI-assisted development, design tools, monitoring, team collaboration |
+| **TOTAL** | **₦24,300,000** | |
 
 ---
 
@@ -644,13 +577,6 @@ PECH is modeled after **Alibaba Group's layered architecture**, adapted for Afri
 | Shipping & Import (3 batches) | Various | — | ₦7,500,000 | Customs + SONCAP (~₦1.5M/shipment for PC+SC+lab) |
 | **TOTAL** | | **1,130 devices** | **₦55,150,000** | |
 
-> **Hardware Cost Validation (2026 China Wholesale Prices):**
-> - ESP32 modules: $1.90–$4.00/unit (~₦2,850–₦6,000) — aligns with ₦15K IoT controller cost (includes PCB, enclosure, assembly)
-> - Smart meters (WiFi): $8–$20/unit (~₦12K–₦30K) — aligns with ₦20K unit cost
-> - LoRa gateways: $60–$200/unit (~₦90K–₦300K) — not in current SKU list but relevant for estate deployments
-> - Android POS terminals: $30–$60/unit (~₦45K–₦90K) — aligns with ₦45K unit cost
-> - Shipping per 20ft container: $2,000–$4,000 (~₦3M–₦6M)
-> - SONCAP certification per shipment: $500–$2,000 (~₦750K–₦3M) for PC + SC + lab testing
 
 ### 10.3 Solution Packages (What We Actually Sell)
 
@@ -860,7 +786,7 @@ PECH is modeled after **Alibaba Group's layered architecture**, adapted for Afri
 | 7 | **Competitive entry (Tuya/global)** | Medium | Low | Vertical specialization; African-optimized; installer loyalty |
 | 8 | **Cash burn exceeds plan** | High | Medium | Conservative hiring; revenue milestones gate next phase |
 | 9 | **Key person departure (CTO)** | High | Low | Equity vesting; knowledge documentation; pair programming |
-| 10 | **Security breach** | High | Low | Zero-trust architecture; Keycloak auth; regular audits |
+| 10 | **Security breach** | High | Low | Zero-trust architecture; enterprise-grade auth; regular audits |
 
 ### Kill-Switch Rules
 
@@ -994,24 +920,7 @@ PECH is modeled after **Alibaba Group's layered architecture**, adapted for Afri
 
 ## 18. Appendix
 
-### A. Open-Source Technology Stack (Licensing Summary)
-
-| Technology | License | Commercial Use | Role in PECH |
-|------------|---------|---------------|--------------|
-| ThingsBoard | Apache 2.0 | Yes — rebrand OK | IoT platform base |
-| ERPNext | GPL v3 | Yes (with compliance) | ERP base (fork) |
-| EMQX | Apache 2.0 | Yes | MQTT messaging |
-| NanoMQ | MIT | Yes | Edge MQTT broker |
-| Apache Kafka | Apache 2.0 | Yes | Event streaming |
-| Keycloak | Apache 2.0 | Yes | Authentication |
-| React | MIT | Yes | Web dashboards |
-| Flutter | BSD | Yes | Mobile apps |
-| MLflow | Apache 2.0 | Yes | ML experiment tracking |
-| Traefik | MIT | Yes | API gateway |
-| k3s | Apache 2.0 | Yes | Lightweight Kubernetes |
-| Leaflet | BSD-2 | Yes | Map visualization |
-
-### B. Competitor Landscape
+### A. Competitor Landscape
 
 | Competitor | Strengths | Weakness vs PECH |
 |-----------|-----------|-----------------|
@@ -1021,7 +930,7 @@ PECH is modeled after **Alibaba Group's layered architecture**, adapted for Afri
 | Moniepoint | POS dominance | No ecosystem, no IoT, no marketplace |
 | ThingsBoard | Open-source IoT | No commerce, no payments, no hardware |
 
-### C. 15-Year Vision Summary
+### B. 15-Year Vision Summary
 
 | Phase | Years | Scope | Revenue Target |
 |-------|-------|-------|----------------|
@@ -1030,7 +939,7 @@ PECH is modeled after **Alibaba Group's layered architecture**, adapted for Afri
 | Multi-Vertical Scale | 7–10 | 8–10 countries, 16 verticals | ₦15B+ |
 | Pan-African Infrastructure | 11–15 | 15+ countries, sovereign cloud | ₦40B+ |
 
-### D. Contact
+### C. Contact
 
 **PECH Group Holdings Ltd**
 Lagos, Nigeria
