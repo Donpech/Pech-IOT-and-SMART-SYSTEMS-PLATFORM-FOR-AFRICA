@@ -1,5 +1,5 @@
 # PECH: Africa's Commerce & Infrastructure Operating System
-## Investor Financial Proposal & Capital Deployment Plan
+## ₦250M Capital Deployment Plan — 18-Month Operational Roadmap
 
 ---
 
@@ -45,7 +45,7 @@
 - **Payments Infrastructure** — PSSP-licensed payment processing across all platforms
 - **Smart Hardware Devices** — POS terminals, IoT controllers, smart meters, payment devices
 
-This proposal requests **₦250,000,000** to fund the first **18 months** of simultaneous lean platform launches, targeting **Nigeria first** with a clear path to West African expansion.
+This plan details the deployment of **₦250,000,000** in secured capital across the first **18 months** of simultaneous lean platform launches, targeting **Nigeria first** with a clear path to West African expansion. Additional capital will be injected by the investor as the business gains traction.
 
 ### Why PECH Will Win
 
@@ -339,13 +339,16 @@ PECH is modeled after **Alibaba Group's layered architecture**, adapted for Afri
 | **Human Capital (Salaries & Contractors)** | ₦82,000,000 | 32.8% |
 | **Hardware Procurement (China Sourcing)** | ₦52,000,000 | 20.8% |
 | **Technology Infrastructure & AI Tools** | ₦24,000,000 | 9.6% |
-| **Licensing, Legal & Compliance** | ₦18,000,000 | 7.2% |
+| **Licensing, Legal & Compliance** | ₦18,750,000 | 7.5% |
 | **Marketing & Customer Acquisition** | ₦22,000,000 | 8.8% |
 | **Office, Equipment & Operations** | ₦16,000,000 | 6.4% |
 | **Logistics Platform (Stations Setup)** | ₦12,000,000 | 4.8% |
-| **PSSP License Capital (Escrow)** | ₦15,000,000 | 6.0% |
-| **Contingency & Emergency Reserve** | ₦9,000,000 | 3.6% |
+| **Contingency & Emergency Reserve** | ₦13,250,000 | 5.3% |
 | **TOTAL** | **₦250,000,000** | **100%** |
+
+> **FUNDING GAP:** PSSP regulatory capital (₦200M for CBN share capital + escrow) is **not covered** by this initial ₦250M.
+> Payment processing in Phase 1–3 uses licensed PSP partners (Paystack/Flutterwave).
+> Own PSSP license will be pursued when the investor injects additional capital as the business gains traction.
 
 ### 7.2 Monthly Cash Flow Projection
 
@@ -367,11 +370,12 @@ PECH is modeled after **Alibaba Group's layered architecture**, adapted for Afri
   Hardware          ████████████████████░░░░░░░░░░░░  20.8%  ₦52M
   Tech & AI Tools   █████████░░░░░░░░░░░░░░░░░░░░░░   9.6%  ₦24M
   Marketing         ████████░░░░░░░░░░░░░░░░░░░░░░░   8.8%  ₦22M
-  Legal/Compliance  ███████░░░░░░░░░░░░░░░░░░░░░░░░   7.2%  ₦18M
+  Legal/Compliance  ███████░░░░░░░░░░░░░░░░░░░░░░░░   7.5%  ₦18.75M
   Office & Ops      ██████░░░░░░░░░░░░░░░░░░░░░░░░░   6.4%  ₦16M
-  PSSP Escrow       █████░░░░░░░░░░░░░░░░░░░░░░░░░░   6.0%  ₦15M
+  Contingency       █████░░░░░░░░░░░░░░░░░░░░░░░░░░   5.3%  ₦13.25M
   Logistics Setup   ████░░░░░░░░░░░░░░░░░░░░░░░░░░░   4.8%  ₦12M
-  Contingency       ███░░░░░░░░░░░░░░░░░░░░░░░░░░░░   3.6%  ₦9M
+
+  * PSSP regulatory capital (₦200M) NOT included — requires separate raise
 ```
 
 ---
@@ -459,6 +463,15 @@ PECH is modeled after **Alibaba Group's layered architecture**, adapted for Afri
 > - Contract/part-time arrangements for field agents
 > - Revenue offsetting costs from Month 10+
 > - Performance-based bonuses replacing fixed salary increases
+>
+> **Salary Validation (March 2026 Market Data):**
+> All salary figures have been benchmarked against Glassdoor, PayScale, and Levels.fyi Nigeria data:
+> - CTO at ₦800K/mo is **competitive** (market range: ₦400K–₦1.4M)
+> - Senior engineers at ₦400K–₦450K/mo are **lean/startup-tier** (market mid: ₦500K–₦800K), offset by equity and mission
+> - DevOps at ₦350K/mo is **below market mid** (₦250K–₦600K) — may need adjustment after 6 months
+> - Junior engineers at ₦250K/mo are **reasonable** for entry-level (market: ₦150K–₦300K)
+> - Field agents at ₦80K + bonus is **standard** for contract agents in Lagos/Aba markets
+> - All salaries are for **on-site/local roles**; remote international rates would be 3–5x higher
 
 ---
 
@@ -523,8 +536,16 @@ PECH is modeled after **Alibaba Group's layered architecture**, adapted for Afri
 | Batch 1 | Month 3 | 100 POS + 50 IoT + 30 Scanners | ₦8,550,000 | Pilot devices |
 | Batch 2 | Month 7 | 200 POS + 100 IoT + 50 Kits | ₦16,600,000 | Market entry |
 | Batch 3 | Month 12 | 300 POS + 200 IoT + 100 Meters | ₦22,500,000 | Scale batch |
-| Shipping & Import (3 batches) | Various | — | ₦4,350,000 | Customs + SONCAP |
-| **TOTAL** | | **1,130 devices** | **₦52,000,000** | |
+| Shipping & Import (3 batches) | Various | — | ₦7,500,000 | Customs + SONCAP (~₦1.5M/shipment for PC+SC+lab) |
+| **TOTAL** | | **1,130 devices** | **₦55,150,000** | |
+
+> **Hardware Cost Validation (2026 China Wholesale Prices):**
+> - ESP32 modules: $1.90–$4.00/unit (~₦2,850–₦6,000) — aligns with ₦15K IoT controller cost (includes PCB, enclosure, assembly)
+> - Smart meters (WiFi): $8–$20/unit (~₦12K–₦30K) — aligns with ₦20K unit cost
+> - LoRa gateways: $60–$200/unit (~₦90K–₦300K) — not in current SKU list but relevant for estate deployments
+> - Android POS terminals: $30–$60/unit (~₦45K–₦90K) — aligns with ₦45K unit cost
+> - Shipping per 20ft container: $2,000–$4,000 (~₦3M–₦6M)
+> - SONCAP certification per shipment: $500–$2,000 (~₦750K–₦3M) for PC + SC + lab testing
 
 ### 10.3 Solution Packages (What We Actually Sell)
 
@@ -544,32 +565,49 @@ PECH is modeled after **Alibaba Group's layered architecture**, adapted for Afri
 
 | # | License/Approval | Authority | Cost (₦) | Timeline | Phase |
 |---|-----------------|-----------|----------|----------|-------|
-| 1 | Company Registration (CAC) | CAC | ₦100,000 | 2–4 weeks | Month 1 |
+| 1 | Company Registration (CAC) | CAC | ₦50,000 | 2–4 weeks | Month 1 |
 | 2 | Business Premises Permit | State Govt | ₦150,000 | 2–3 weeks | Month 1 |
 | 3 | NCC Type Approval (IoT devices) | NCC | ₦500,000 | 3–6 months | Month 1 |
-| 4 | NDPA Compliance Registration | NDPC | ₦350,000 | 4–8 weeks | Month 2 |
-| 5 | SONCAP (Hardware Import) | SON | ₦200,000/shipment | Per batch | Month 3 |
-| 6 | Trademark Registration (3 classes) | Trademarks Registry | ₦360,000 | 6–12 months | Month 1 |
+| 4 | NDPA Compliance Registration + DPO | NDPC | ₦500,000 | 4–8 weeks | Month 2 |
+| 5 | SONCAP (Hardware Import — PC + SC) | SON | ₦1,500,000/shipment | Per batch | Month 3 |
+| 6 | Trademark Registration (3 classes) | Trademarks Registry | ₦3,000,000 | 6–12 months | Month 1 |
 | 7 | PSSP License Application | CBN | ₦1,100,000 | 6–12 months | Month 9 |
-| 8 | PSSP Escrow Capital | CBN | ₦15,000,000 | With application | Month 9 |
+| 8 | PSSP Share Capital + Escrow (CBN) | CBN | ₦200,000,000 | With application | Month 9 |
 | 9 | NEMSA Compliance (Smart Meters) | NEMSA | ₦350,000 | 2–4 months | Month 6 |
 | 10 | NERC Mini-Grid Permit (if applicable) | NERC | ₦200,000 | 3–6 months | Month 12 |
 | 11 | Legal Retainer (Regulatory Counsel) | Law Firm | ₦200,000/month | Ongoing | Month 1 |
+| 12 | PCI DSS Certification (for payments) | PCI SSC | ₦5,000,000 | 2–4 months | Month 10 |
+
+> **FUNDING GAP — PSSP/PTSP LICENSE CAPITAL REQUIREMENT:**
+> The CBN requires a **minimum ₦100,000,000 share capital** (unimpaired by losses) plus a **refundable ₦100,000,000 escrow deposit** for PSSP licensing. This totals **₦200,000,000** in regulatory capital alone, which is not covered by the initial ₦250M deployment.
+>
+> **Strategy (Dual-Path):**
+> - **Path A (Primary):** Begin the PSSP application process in Phase 3 (Month 9). The investor has committed to injecting additional capital as the business progresses. If the PSSP capital can be funded from the next tranche, proceed with own license.
+> - **Path B (Fallback — if capital not yet available in Phase 3):** Partner with an existing licensed PSP (Paystack, Flutterwave, or OPay) for payment processing in Phase 1–3. Defer own PSSP/PTSP licensing to the investor's next capital injection. This approach is already built into Section 5.5 ("Strategy Phase 1: Partner with Paystack/Flutterwave").
+>
+> **The ₦100M escrow is refundable** and effectively functions as a regulatory deposit, not an expense. However, it must be available upfront.
 
 ### 11.2 Total Compliance Budget
 
-| Category | Amount (₦) |
-|----------|-----------|
-| Registration & Permits | ₦600,000 |
-| Device Certifications (NCC + NEMSA) | ₦850,000 |
-| Data Protection (NDPA) | ₦350,000 |
-| Import Compliance (SONCAP × 3) | ₦600,000 |
-| Trademarks | ₦360,000 |
-| PSSP License (Application + Escrow) | ₦16,100,000 |
-| Legal Retainer (18 months) | ₦3,600,000 |
-| **TOTAL** | **₦22,460,000** |
+| Category | Amount (₦) | Notes |
+|----------|-----------|-------|
+| Registration & Permits (CAC + Premises) | ₦200,000 | One-time |
+| Device Certifications (NCC + NEMSA) | ₦850,000 | Per device class |
+| Data Protection (NDPA + DPO setup) | ₦500,000 | Annual CARs ongoing |
+| Import Compliance (SONCAP × 3 shipments) | ₦4,500,000 | ~₦1.5M per shipment (PC + SC + lab testing) |
+| Trademarks (3 classes) | ₦3,000,000 | ₦900K–₦1M per class |
+| PCI DSS Certification | ₦5,000,000 | Required for card payments |
+| PSSP License (Application fee) | ₦1,100,000 | Non-refundable |
+| Legal Retainer (18 months) | ₦3,600,000 | ₦200K/month |
+| **SUBTOTAL (From ₦250M Budget)** | **₦18,750,000** | |
+| | | |
+| **PSSP Regulatory Capital (Separate)** | **₦200,000,000** | ₦100M share capital + ₦100M refundable escrow |
 
-> **Note:** ₦15M of the PSSP escrow is recoverable capital, not an expense. Actual regulatory cost is ~₦7.5M.
+> **FUNDING GAP:** The ₦200M PSSP regulatory capital is **not included** in the initial ₦250M deployment. It will be covered by:
+> (a) The investor's next capital injection when the business starts performing well, OR
+> (b) Deferral via Path B — partnering with licensed PSP (Paystack/Flutterwave) until capital is available.
+>
+> The ₦100M escrow is **refundable** and functions as a regulatory deposit, not a sunk cost.
 
 ---
 
@@ -775,10 +813,12 @@ PECH is modeled after **Alibaba Group's layered architecture**, adapted for Afri
 │  ├─ Brand & Content            ₦4,000,000                     │
 │  └─ Demo Stations & Workshops  ₦3,000,000                     │
 │                                                                 │
-│  COMPLIANCE (7.2%)        ₦18,000,000                          │
-│  ├─ Licenses & Permits         ₦2,460,000                     │
-│  ├─ PSSP Escrow               ₦15,000,000                     │
-│  └─ Legal Retainer             ₦3,600,000                     │
+│  COMPLIANCE (7.5%)        ₦18,750,000                          │
+│  ├─ Licenses & Permits         ₦5,650,000                     │
+│  ├─ SONCAP (3 shipments)       ₦4,500,000                     │
+│  ├─ Trademarks (3 classes)     ₦3,000,000                     │
+│  ├─ PCI DSS Certification      ₦5,000,000                     │
+│  └─ Legal Retainer (18mo)      ₦3,600,000                     │
 │                                                                 │
 │  OPERATIONS (6.4%)        ₦16,000,000                          │
 │  ├─ Office Rent (18 months)    ₦9,000,000                     │
@@ -789,11 +829,12 @@ PECH is modeled after **Alibaba Group's layered architecture**, adapted for Afri
 │  ├─ Spoke Station Equipment    ₦8,000,000                     │
 │  └─ Hub Setup & Branding       ₦4,000,000                     │
 │                                                                 │
-│  PSSP ESCROW (6.0%)       ₦15,000,000                          │
-│  └─ (Included in Compliance above — recoverable)               │
-│                                                                 │
-│  CONTINGENCY (3.6%)       ₦9,000,000                           │
+│  CONTINGENCY (5.3%)       ₦13,250,000                          │
 │  └─ Emergency reserve for unforeseen expenses                  │
+│                                                                 │
+│  ⚠ PSSP CAPITAL (NOT IN THIS BUDGET)                           │
+│  ├─ CBN Share Capital          ₦100,000,000  (separate raise)  │
+│  └─ CBN Escrow (refundable)    ₦100,000,000  (separate raise)  │
 │                                                                 │
 ├─────────────────────────────────────────────────────────────────┤
 │  TOTAL: ₦250,000,000                                           │
