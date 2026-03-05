@@ -105,6 +105,8 @@ This plan details the deployment of **₦250,000,000** in secured capital across
 
 ## 3. PECH Ecosystem Overview
 
+![PECH Commerce OS Architecture](proposal_images/commerce_os_architecture.png)
+
 PECH is modeled after **Alibaba Group's layered architecture**, adapted for African realities:
 
 | PECH Layer | Alibaba Equivalent | Function |
@@ -323,6 +325,8 @@ PECH is modeled after **Alibaba Group's layered architecture**, adapted for Afri
 
 ## 6. Phased Execution Roadmap (18 Months)
 
+![18-Month Phased Roadmap](proposal_images/phase_roadmap.png)
+
 ### Phase 1: Foundation (Months 0–3) — "Build the Engine"
 
 | Activity | Deliverable |
@@ -432,6 +436,8 @@ PECH is modeled after **Alibaba Group's layered architecture**, adapted for Afri
 
 **Break-even projected:** Month 14–16 (operational break-even)
 
+![Budget Allocation](proposal_images/budget_allocation.png)
+
 ### 7.3 Budget Allocation Visual
 
 ```
@@ -450,6 +456,8 @@ PECH is modeled after **Alibaba Group's layered architecture**, adapted for Afri
 ---
 
 ## 8. Human Capital & Hiring Plan
+
+![Team Growth & Payroll](proposal_images/team_growth.png)
 
 ### 8.1 Phase-by-Phase Hiring
 
@@ -584,6 +592,8 @@ PECH is modeled after **Alibaba Group's layered architecture**, adapted for Afri
 
 ## 10. Hardware & Device Strategy
 
+![Hardware Product Portfolio — 23 SKUs](proposal_images/product_portfolio.png)
+
 ### 10.1 Hardware Product Line
 
 #### Commerce & Business Devices
@@ -687,6 +697,8 @@ PECH is modeled after **Alibaba Group's layered architecture**, adapted for Afri
 
 ## 11. Licensing, Compliance & Regulatory
 
+![Regulatory & Compliance Timeline](proposal_images/compliance_timeline.png)
+
 ### 11.1 Required Licenses & Approvals
 
 | # | License/Approval | Authority | Cost (₦) | Timeline | Phase | From ₦250M? |
@@ -707,32 +719,41 @@ PECH is modeled after **Alibaba Group's layered architecture**, adapted for Afri
 | 14 | **PTSP Escrow Deposit** | CBN | ₦100,000,000 | With application | Month 12+ | **Next tranche** |
 | 15 | PCI DSS Certification | PCI SSC | ₦5,000,000 | 2–4 months | Month 10+ | **Next tranche** |
 | 16 | NERC Mini-Grid Permit (if applicable) | NERC | ₦200,000 | 3–6 months | Month 12 | **Next tranche** |
+| 17 | **MMO License Application** (for wallets & escrow) | CBN | ₦1,100,000 | 10–13 months | When justified | **Future tranche** |
+| 18 | **MMO Share Capital** | CBN | ₦2,000,000,000 | With application | When justified | **Future tranche** |
+| 19 | **MMO Escrow Deposit** | CBN | ₦2,000,000,000 | With application | When justified | **Future tranche** |
 
-### 11.2 PSSP & PTSP License — Detailed Breakdown
+### 11.2 PSSP, PTSP & MMO License — Detailed Breakdown
 
-| Item | PSSP (Payments) | PTSP (POS Terminals) |
-|------|----------------|---------------------|
-| **Application Fee** | ₦100,000 | ₦100,000 |
-| **Licensing Fee** | ₦1,000,000 | ₦1,000,000 |
-| **Minimum Share Capital** | ₦100,000,000 | ₦100,000,000 |
-| **CBN Escrow Deposit** | ₦100,000,000 (refundable) | ₦100,000,000 (refundable) |
-| **PCI DSS Certification** | ₦3,000,000–₦8,000,000 | Included with PSSP |
-| **Approval Process** | Phase 1: AIP (2–3 months) → Phase 2: Final (4–6 months) | Same |
-| **Total Capital Required** | **~₦205,000,000** | **~₦201,000,000** |
+| Item | PSSP (Payments) | PTSP (POS Terminals) | MMO (Wallets & Escrow) |
+|------|----------------|---------------------|----------------------|
+| **Application Fee** | ₦100,000 | ₦100,000 | ₦100,000 |
+| **Licensing Fee** | ₦1,000,000 | ₦1,000,000 | ₦1,000,000 |
+| **Minimum Share Capital** | ₦100,000,000 | ₦100,000,000 | ₦2,000,000,000 |
+| **CBN Escrow Deposit** | ₦100,000,000 (refundable) | ₦100,000,000 (refundable) | ₦2,000,000,000 (refundable) |
+| **PCI DSS Certification** | ₦3,000,000–₦8,000,000 | Included with PSSP | Included with PSSP |
+| **Approval Process** | AIP (2–3 mo) → Final (4–6 mo) | Same | AIP (6 mo) → Final (4–7 mo) |
+| **Total Capital Required** | **~₦205,000,000** | **~₦201,000,000** | **~₦4,001,000,000** |
+| **What It Permits** | Payment processing, gateway | POS terminal deployment | E-money issuance, wallets, customer escrow |
 
-> **ESCROW DURATION:** The ₦100M CBN escrow is held **for the entire duration of the license** — as long as you operate as a PSSP/PTSP. CBN reserves the right to invest it in treasury bills. It is **refundable only when you surrender the license**. Annual license reviews by CBN assess performance targets; failure to meet targets can result in license withdrawal.
+> **ESCROW DURATION:** All CBN escrow deposits (PSSP, PTSP, MMO) are held **for the entire duration of the license** — as long as you operate under that license. CBN invests the escrow in treasury bills. Escrow is **refundable only when you surrender the license**. Annual license reviews assess performance targets.
 >
-> **COMBINED PSSP + PTSP CAPITAL:** If pursuing both licenses, total capital requirement is approximately **₦400M+** (₦200M PSSP + ₦200M PTSP). However, a single entity may be able to hold both licenses with shared capital — this requires CBN clarification.
+> **COMBINED PSSP + PTSP CAPITAL:** If pursuing both licenses, total capital requirement is approximately **₦400M+** (₦200M PSSP + ₦200M PTSP). A single entity may hold both with shared capital — requires CBN clarification.
+>
+> **MMO LICENSE (FOR WALLETS & ESCROW):** A PSSP license alone **does NOT permit** holding customer funds or issuing digital wallets. To hold merchant escrow, operate business wallets, or issue e-money, an **MMO license is required** (₦2B capital + ₦2B escrow = ₦4B total). Until the ₦4B is justifiable, PECH will partner with an existing licensed MMO in a **white-label arrangement** to provide wallet services across all platforms.
 
-### 11.3 Payment License Strategy (Dual-Path)
+### 11.3 Payment & Wallet License Strategy
 
-| Path | Approach | Timeline | Capital Needed |
-|------|----------|----------|---------------|
-| **Path A (Primary)** | Partner with Paystack/Flutterwave for payment processing. Zero license cost. | Immediate (Month 1) | ₦0 |
-| **Path B (When business grows)** | Apply for PSSP license. Investor injects additional capital. | Month 9–18 | ~₦205M |
-| **Path C (Post-18 months)** | Apply for PTSP license to deploy own POS terminals. | After Month 18 | ~₦201M |
+| Path | Approach | Timeline | Capital Needed | Priority |
+|------|----------|----------|---------------|----------|
+| **Path A (Now)** | Partner with Paystack/Flutterwave for payment processing + white-label MMO for wallet services | Immediate (Month 1) | ₦0 | Phase 1 |
+| **Path B (PRIORITY)** | Apply for **PSSP license** — own payment processing. Investor injects capital ASAP. | As soon as next tranche arrives | ~₦205M | **HIGH — GET ASAP** |
+| **Path C (PRIORITY)** | Apply for **PTSP license** — own POS terminal network. Apply alongside or shortly after PSSP. | Alongside PSSP | ~₦201M | **HIGH — GET ASAP** |
+| **Path D (When justified)** | Apply for **MMO license** — own wallet/escrow capability. When transaction volume justifies ₦4B capital. | When revenue justifies | ~₦4B | Future |
 
-> The investor has committed to injecting additional capital as the business gains traction. PSSP/PTSP licensing is a **Phase 2 capital event**, not a Phase 1 expense.
+> **PSSP and PTSP are the #1 priority** for the investor's next capital tranche. These licenses are critical for PECH to control its own payment infrastructure. The investor has committed to injecting additional capital as the business gains traction — PSSP/PTSP applications should be filed **immediately** when that capital arrives.
+>
+> For wallets and escrow, PECH will operate under a **white-label MMO partnership** until transaction volumes and revenue justify the ₦4B capital requirement for an own MMO license.
 
 ### 11.4 Total Compliance Budget (From ₦250M)
 
@@ -748,16 +769,23 @@ PECH is modeled after **Alibaba Group's layered architecture**, adapted for Afri
 | Buffer for unexpected compliance | ₦1,150,000 | NCC delays, additional certifications |
 | **TOTAL COMPLIANCE (From ₦250M)** | **₦10,000,000** | |
 | | | |
-| **DEFERRED TO INVESTOR'S NEXT TRANCHE:** | | |
-| PSSP License + Capital + Escrow | ₦205,000,000 | When business proves model |
-| PTSP License + Capital + Escrow | ₦201,000,000 | Post-18 months |
+| **DEFERRED TO INVESTOR'S NEXT TRANCHE (PRIORITY):** | | |
+| PSSP License + Capital + Escrow | ₦205,000,000 | **PRIORITY — apply immediately when capital arrives** |
+| PTSP License + Capital + Escrow | ₦201,000,000 | **PRIORITY — apply alongside or shortly after PSSP** |
 | PCI DSS Certification | ₦5,000,000 | Required before own payment processing |
 | Remaining 2 trademark classes | ₦2,000,000 | |
 | NERC permit | ₦200,000 | If applicable |
+| | | |
+| **DEFERRED TO FUTURE TRANCHE (when justified):** | | |
+| MMO License + Capital + Escrow | ₦4,001,000,000 | When transaction volume justifies; white-label MMO until then |
 
 ---
 
 ## 12. Marketing & Customer Acquisition
+
+![Nigeria Market Entry Strategy](proposal_images/market_entry_map.png)
+
+![Customer Journey & Lock-In Flywheel](proposal_images/customer_journey.png)
 
 ### 12.1 Marketing Strategy
 
@@ -792,6 +820,8 @@ PECH is modeled after **Alibaba Group's layered architecture**, adapted for Afri
 ---
 
 ## 13. Revenue Model & Financial Projections
+
+![Revenue Streams Breakdown](proposal_images/revenue_streams.png)
 
 ### 13.1 Revenue Streams
 
@@ -828,6 +858,8 @@ PECH is modeled after **Alibaba Group's layered architecture**, adapted for Afri
 | 18 | 5.0 | 2.5 | 3.5 | 1.0 | **12.0** |
 | **TOTAL** | **46.3** | **18.5** | **27.8** | **8.5** | **₦103.6M** |
 
+![Revenue vs Expenses](proposal_images/revenue_projection.png)
+
 ### 13.3 Path to Profitability
 
 ```
@@ -848,6 +880,8 @@ PECH is modeled after **Alibaba Group's layered architecture**, adapted for Afri
 ---
 
 ## 14. Risk Analysis & Mitigation
+
+![Risk Assessment Heat Map](proposal_images/risk_heatmap.png)
 
 | # | Risk | Impact | Probability | Mitigation |
 |---|------|--------|-------------|------------|
@@ -1021,14 +1055,18 @@ PECH is modeled after **Alibaba Group's layered architecture**, adapted for Afri
 | Moniepoint | POS dominance | No ecosystem, no IoT, no marketplace |
 | ThingsBoard | Open-source IoT | No commerce, no payments, no hardware |
 
-### C. 15-Year Vision Summary
+### C. 15-Year Vertical Expansion Blueprint
 
-| Phase | Years | Scope | Revenue Target |
-|-------|-------|-------|----------------|
-| Foundation | 1–3 | Nigeria (Lagos, Abuja, Aba, Kano) | ₦1.5B+ |
-| West Africa | 4–6 | Ghana, Cote d'Ivoire, Kenya | ₦4B+ |
-| Multi-Vertical Scale | 7–10 | 8–10 countries, 16 verticals | ₦15B+ |
-| Pan-African Infrastructure | 11–15 | 15+ countries, sovereign cloud | ₦40B+ |
+![15-Year Expansion Blueprint](proposal_images/15_year_expansion.png)
+
+| Phase | Years | Geography | Verticals Added | Key Milestones |
+|-------|-------|-----------|----------------|----------------|
+| **Foundation** | 1–3 | Nigeria (Lagos, Abuja, Aba, Kano) | Commerce & POS, IoT & Smart Systems, Payments (via PSP), Spoke-Hub Logistics, Smart Home & Electrical, Smart Water Controllers, Learning Tablets, Energy Storage | ERP at 3,000+ merchants, 800+ IoT devices, own PSSP/PTSP licenses obtained |
+| **Expansion** | 4–6 | West Africa (Ghana, Ivory Coast, Kenya) | Energy (Solar/Mini-Grid), Agriculture (Smart Farming), Water (Utility-Scale), Smart Cities (Estate Mgmt), Own PSSP/PTSP/MMO | Multi-country operations, 10+ verticals, installer ecosystem launched |
+| **Multi-Vertical** | 7–10 | 8–10 African countries | Mobility & Fleet Tracking, Telecom Integration, Government & Utility Partnerships, Insurance (InsurTech), Certified Installer Network | Cross-border trade platform, government contracts, 12+ verticals |
+| **Pan-African Dominance** | 11–15 | 15+ countries | Sovereign Cloud Infrastructure, Embedded Fintech (Loans/Credit), Digital Identity, Cross-Border Trade Platform, Developer Platform & Open API Ecosystem | Pan-African infrastructure OS, developer marketplace, data services |
+
+> **Note:** Revenue projections for years 4-15 are not included as they depend on market conditions, regulatory environments, and capital availability at each phase. PECH will publish updated projections at the end of each phase based on actual performance data.
 
 ### D. Contact
 
