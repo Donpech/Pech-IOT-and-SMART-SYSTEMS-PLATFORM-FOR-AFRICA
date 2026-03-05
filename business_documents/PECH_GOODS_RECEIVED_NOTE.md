@@ -103,6 +103,20 @@ __________________________________________
 
 ---
 
+## QUALITY / COMPLIANCE CERTIFICATION
+
+| Field | Details |
+|---|---|
+| **Quality Certificate Received:** | [ ] Yes [ ] No [ ] N/A |
+| **Certificate Type:** | [ ] SON (Standards Organisation of Nigeria) [ ] NAFDAC [ ] ISO [ ] Other: ________ |
+| **Certificate Number:** | __________________________________________ |
+| **Expiry Date:** | ______ / ______ / __________ (DD/MM/YYYY) |
+| **Batch/Lot Numbers:** | __________________________________________ |
+| **Material Safety Data Sheet (MSDS):** | [ ] Received [ ] Not Required [ ] Pending |
+| **Mandatory Inspection Required:** | [ ] Electronics [ ] Food/Consumables [ ] Chemicals [ ] None |
+
+---
+
 ## STORAGE DETAILS
 
 | Field | Details |

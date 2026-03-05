@@ -48,6 +48,35 @@ Website: [pechgroupholdings.tech](https://pechgroupholdings.tech)
 
 ---
 
+## SAFETY REQUIREMENTS
+
+| Field | Details |
+|---|---|
+| **Work Permit Required:** | [ ] Yes — Permit No.: __________________ [ ] No |
+| **Safety Clearance Obtained:** | [ ] Yes [ ] No [ ] N/A |
+| **Environmental Impact Assessment:** | [ ] Required [ ] Not Required [ ] Completed |
+
+**Personal Protective Equipment (PPE) Required:**
+
+- [ ] Safety Helmet
+- [ ] Safety Boots
+- [ ] High-Visibility Vest
+- [ ] Safety Goggles / Eye Protection
+- [ ] Gloves (Type: __________________)
+- [ ] Ear Protection
+- [ ] Fall Protection / Harness
+- [ ] Other: __________________________________________
+
+**Site-Specific Restrictions:**
+
+| Field | Details |
+|---|---|
+| **Operating Hours Allowed:** | __________________________________________ |
+| **Noise Restrictions:** | [ ] Yes — Max dB: ________ [ ] No |
+| **Access Requirements:** | __________________________________________ |
+
+---
+
 ## WORK DESCRIPTION
 
 **Scope of Work:**
@@ -146,6 +175,14 @@ __________________________________________
 | 3 | | | |
 
 **Actual Total Cost (₦):** __________________________________________
+
+**Warranty on Work Performed:**
+
+| Field | Details |
+|---|---|
+| **Warranty Period:** | __________ months from completion date |
+| **Warranty Covers:** | __________________________________________ |
+| **Warranty Exclusions:** | __________________________________________ |
 
 **Issues Encountered:**
 

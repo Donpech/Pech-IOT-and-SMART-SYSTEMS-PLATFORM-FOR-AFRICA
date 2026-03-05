@@ -32,6 +32,8 @@ Website: [pechgroupholdings.tech](https://pechgroupholdings.tech)
 | **Department:** | __________________________________________ |
 | **Position/Designation:** | __________________________________________ |
 | **Project/Job Reference:** | __________________________________________ |
+| **Cost Center / Budget Code:** | __________________________________________ |
+| **Approved Budget Amount (₦):** | __________________________________________ |
 
 ---
 
@@ -84,7 +86,7 @@ __________________________________________
 
 ---
 
-> **NOTE:** All stock requisitions must be approved by the relevant Department Head before materials can be issued. Items valued above ₦100,000 require additional approval from the Finance Department. This form must be submitted to the Store at least forty-eight (48) hours before the required date, except in cases of emergency.
+> **NOTE:** All stock requisitions must be approved by the relevant Department Head before materials can be issued. Approval authority thresholds: Department Head up to ₦200,000; Finance Department required for items above ₦200,000; MD/CEO approval required above ₦500,000. This form must be submitted to the Store at least forty-eight (48) hours before the required date, except in cases of emergency. For urgent requests, provide written justification and obtain verbal approval from the Department Head before submission.
 
 ---
 

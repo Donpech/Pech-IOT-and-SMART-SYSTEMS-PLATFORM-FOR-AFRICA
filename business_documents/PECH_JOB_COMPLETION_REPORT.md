@@ -187,6 +187,32 @@ __________________________________________
 
 ---
 
+## OUTSTANDING ITEMS / PUNCH LIST
+
+*(Items requiring further attention after job completion)*
+
+| S/N | Description | Priority | Responsible | Target Date | Status |
+|---|---|---|---|---|---|
+| 1 | | High / Medium / Low | | | Open / Closed |
+| 2 | | High / Medium / Low | | | Open / Closed |
+| 3 | | High / Medium / Low | | | Open / Closed |
+
+- [ ] No outstanding items — job fully complete
+
+---
+
+## FOLLOW-UP AND WARRANTY
+
+| Field | Details |
+|---|---|
+| **Next Service / Review Date:** | ______ / ______ / __________ (DD/MM/YYYY) |
+| **Warranty on Work Performed:** | __________ months |
+| **Warranty Expiry Date:** | ______ / ______ / __________ (DD/MM/YYYY) |
+| **Maintenance Schedule Provided to Client:** | [ ] Yes [ ] No [ ] N/A |
+| **Technical Documentation Updated:** | [ ] Yes [ ] No |
+
+---
+
 ## SIGNATURES
 
 | Role | Name | Signature | Date |
