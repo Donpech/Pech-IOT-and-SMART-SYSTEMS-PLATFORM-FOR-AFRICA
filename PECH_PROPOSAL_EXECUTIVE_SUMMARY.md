@@ -45,7 +45,11 @@ All PECH products are **designed for Africa** — wide voltage tolerance, heat r
 
 ---
 
+![PECH Ecosystem](proposal_images/commerce_os_architecture.png)
+
 ## Budget Allocation
+
+![Budget Allocation](proposal_images/budget_allocation.png)
 
 | Category | Amount (₦) | % of Total |
 |----------|-----------|-----------|
@@ -72,6 +76,8 @@ All PECH products are **designed for Africa** — wide voltage tolerance, heat r
 
 ---
 
+![Hardware Portfolio](proposal_images/product_portfolio.png)
+
 ## Hardware Portfolio (23 SKUs)
 
 | Category | Products | Price Range (₦) |
@@ -83,6 +89,8 @@ All PECH products are **designed for Africa** — wide voltage tolerance, heat r
 | **Education & Display** | Learning Tablet, Indoor LED Panel, Outdoor LED Screen | ₦45K–₦140K |
 
 ---
+
+![Phase Roadmap](proposal_images/phase_roadmap.png)
 
 ## 18-Month Execution Roadmap
 
@@ -122,17 +130,20 @@ All PECH products are **designed for Africa** — wide voltage tolerance, heat r
 
 ---
 
-## PSSP/PTSP Payment Licenses — Funding Gap
+## Payment & Wallet Licenses — Strategy
 
-| License | Capital Required | Escrow Duration | From ₦250M? |
-|---------|-----------------|----------------|------------|
-| **PSSP** (Payments) | ~₦205M (₦100M capital + ₦100M escrow + fees) | **Life of license** (refundable on surrender) | **No — Next tranche** |
-| **PTSP** (POS Terminals) | ~₦201M (₦100M capital + ₦100M escrow + fees) | **Life of license** (refundable on surrender) | **No — Next tranche** |
+| License | Capital Required | Escrow Duration | Priority |
+|---------|-----------------|----------------|----------|
+| **PSSP** (Payments) | ~₦205M (₦100M capital + ₦100M escrow + fees) | **Life of license** (refundable on surrender) | **HIGH — GET ASAP** |
+| **PTSP** (POS Terminals) | ~₦201M (₦100M capital + ₦100M escrow + fees) | **Life of license** (refundable on surrender) | **HIGH — GET ASAP** |
+| **MMO** (Wallets & Escrow) | ~₦4B (₦2B capital + ₦2B escrow + fees) | **Life of license** (refundable on surrender) | Future — when justified |
 
 **Strategy:**
-- **Phase 1–3:** Partner with Paystack/Flutterwave (zero license cost)
-- **When business grows:** Investor injects capital for PSSP license
-- **Post-18 months:** PTSP license for own POS terminal deployment
+- **Now:** Partner with Paystack/Flutterwave for payments + white-label MMO for wallets
+- **PRIORITY (next tranche):** Apply for PSSP + PTSP licenses immediately when capital arrives
+- **Future:** Own MMO license when transaction volume justifies the ₦4B capital requirement
+
+> A PSSP license does NOT permit holding customer funds or issuing wallets — that requires an MMO license. PECH will use a white-label MMO partnership until own license is justified.
 
 ---
 
