@@ -354,8 +354,7 @@ pre {
 /* Ensure bold/link text stays white on blue header backgrounds */
 .pech-table th strong, .pech-table thead tr strong,
 .pech-table th a, .pech-table thead tr a,
-.pech-table th em, .pech-table thead tr em,
-th strong, thead strong, thead a {
+.pech-table th em, .pech-table thead tr em {
   color: var(--pech-white);
 }
 
