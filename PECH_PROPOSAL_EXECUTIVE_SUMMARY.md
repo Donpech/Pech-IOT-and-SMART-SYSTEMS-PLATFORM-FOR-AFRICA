@@ -6,7 +6,7 @@
 **Prepared by:** PECH Group Holdings Ltd
 **Date:** March 2026
 **Secured Capital:** ₦250,000,000 (Two Hundred and Fifty Million Naira)
-**Deployment Period:** 18 Months (March 2026 — August 2027)
+**Deployment Period:** 24 Months (March 2026 — February 2028)
 **Confidentiality:** This document is strictly confidential
 
 ---
@@ -41,7 +41,7 @@ All PECH products are **designed for Africa** — wide voltage tolerance, heat r
 
 ## Secured Capital
 
-**₦250,000,000** committed capital for the first 18 months. The investor will inject additional capital as the business gains traction.
+**₦250,000,000** committed capital for the first 24 months. The investor will inject additional capital as the business gains traction.
 
 ---
 
@@ -53,68 +53,70 @@ All PECH products are **designed for Africa** — wide voltage tolerance, heat r
 
 | Category | Amount (₦) | % of Total |
 |----------|-----------|-----------|
-| **Hardware Procurement (23 SKUs from China)** | ₦75,000,000 | 30.0% |
+| **Hardware Procurement (25 SKUs from China)** | ₦75,000,000 | 30.0% |
 | **Human Capital (Salaries & Contractors)** | ₦70,000,000 | 28.0% |
-| **Technology Infrastructure & AI Tools** | ₦24,000,000 | 9.6% |
-| **Marketing & Customer Acquisition** | ₦22,000,000 | 8.8% |
-| **Contingency & FX Reserve** | ₦21,000,000 | 8.4% |
-| **Office, Equipment & Operations** | ₦16,000,000 | 6.4% |
+| **Technology Infrastructure & AI Tools** | ₦28,000,000 | 11.2% |
+| **Office, Equipment & Operations** | ₦20,000,000 | 8.0% |
+| **Contingency & Emergency Reserve** | ₦18,000,000 | 7.2% |
+| **Marketing & Customer Acquisition** | ₦15,000,000 | 6.0% |
 | **Logistics Platform (Stations Setup)** | ₦12,000,000 | 4.8% |
-| **Licensing, Legal & Compliance** | ₦10,000,000 | 4.0% |
+| **Licensing, Legal & Compliance** | ₦12,000,000 | 4.8% |
 | **TOTAL** | **₦250,000,000** | **100%** |
 
 ```
-  Hardware (23 SKUs)██████████████████████████████░░  30.0%  ₦75M
+  Hardware (25 SKUs)██████████████████████████████░░  30.0%  ₦75M
   Human Capital     ████████████████████████████░░░░  28.0%  ₦70M
-  Tech & AI Tools   █████████░░░░░░░░░░░░░░░░░░░░░░   9.6%  ₦24M
-  Marketing         ████████░░░░░░░░░░░░░░░░░░░░░░░   8.8%  ₦22M
-  Contingency/FX    ████████░░░░░░░░░░░░░░░░░░░░░░░   8.4%  ₦21M
-  Office & Ops      ██████░░░░░░░░░░░░░░░░░░░░░░░░░   6.4%  ₦16M
+  Tech & AI Tools   ███████████░░░░░░░░░░░░░░░░░░░░  11.2%  ₦28M
+  Office & Ops      ████████░░░░░░░░░░░░░░░░░░░░░░░   8.0%  ₦20M
+  Contingency       ███████░░░░░░░░░░░░░░░░░░░░░░░░   7.2%  ₦18M
+  Marketing         ██████░░░░░░░░░░░░░░░░░░░░░░░░░   6.0%  ₦15M
   Logistics Setup   ████░░░░░░░░░░░░░░░░░░░░░░░░░░░   4.8%  ₦12M
-  Legal/Compliance  ████░░░░░░░░░░░░░░░░░░░░░░░░░░░   4.0%  ₦10M
+  Legal/Compliance  ████░░░░░░░░░░░░░░░░░░░░░░░░░░░   4.8%  ₦12M
 ```
 
 ---
 
 ![Hardware Portfolio](proposal_images/product_portfolio.png)
 
-## Hardware Portfolio (23 SKUs)
+## Hardware Portfolio (25 SKUs)
 
 | Category | Products | Price Range (₦) |
 |----------|---------|----------------|
-| **Commerce** | Smart POS, POS Tablet, Self-Service Kiosk, Barcode/Receipt Kit, Logistics Scanner | ₦28K–₦250K |
-| **IoT & Energy** | Energy Controller, Smart Meter, Power Kit, Mini UPS, Home Battery | ₦20K–₦130K |
-| **Water Controllers** | Tier 1 Basic, Tier 2 Mid-Range, Tier 3 Smart IoT, Tier 4 Industrial/SCADA | ₦15K–₦120K |
-| **Smart Home** | Smart Switch, Smart Socket, Smart Camera, IP Camera, Premium Switch/Socket | ₦1.5K–₦30K |
-| **Education & Display** | Learning Tablet, Indoor LED Panel, Outdoor LED Screen | ₦45K–₦140K |
+| **Commerce** | Smart POS, POS Tablet, Self-Service Kiosk, Barcode/Receipt Kit, Logistics Scanner | ₦40K–₦480K |
+| **IoT & Energy** | Energy Controller, Smart Meter, Power Kit, Mini UPS, Home Battery | ₦18K–₦240K |
+| **Water Controllers** | Tier 1 Basic, Tier 2 Mid-Range, Tier 3 Smart IoT, Tier 4 Industrial/SCADA | ₦22K–₦175K |
+| **Smart Home** | Smart Switch, Smart Socket, Smart Camera, IP Camera, Premium Switch/Socket | ₦2.8K–₦58K |
+| **Education & Display** | Learning Tablet, Indoor LED Panel, Outdoor LED Screen | ₦110K–₦250K |
+| **Solar Products** | Solar Street Light, Solar Rechargeable Fan | ₦45K–₦200K |
 
 ---
 
 ![Phase Roadmap](proposal_images/phase_roadmap.png)
 
-## 18-Month Execution Roadmap
+## 24-Month Execution Roadmap
 
 | Phase | Months | Focus | Budget (₦) |
 |-------|--------|-------|-----------|
 | **Phase 1: Foundation** | 0–3 | Core team (5 people), architecture, first hardware order, legal setup | ₦55,000,000 |
-| **Phase 2: MVP & Pilot** | 4–6 | 50 merchants, 30 IoT devices, 2 logistics stations, smart home launch | ₦52,000,000 |
+| **Phase 2: MVP & Pilot** | 4–6 | 50 merchants, 30 IoT devices, 2 logistics stations, smart home + solar products launch | ₦52,000,000 |
 | **Phase 3: Market Entry** | 7–9 | 500 merchants, 3 markets, water controllers launch, marketing campaigns | ₦55,000,000 |
 | **Phase 4: Revenue Scale** | 10–12 | 1,500 merchants, 300 devices, credit scoring prototype | ₦45,000,000 |
-| **Phase 5: Maturity** | 13–18 | 3,000 merchants, 800 devices, API launch, LED displays, West Africa research | ₦43,000,000 |
+| **Phase 5: Ecosystem Maturity** | 13–18 | 3,000 merchants, 800 devices, API launch, LED displays, PSSP license application | ₦33,000,000 |
+| **Phase 6: Growth & Expansion** | 19–24 | 5,000 merchants, 1,500 devices, West Africa expansion | ₦10,000,000 (revenue-funded) |
 
 ---
 
-## Key Targets (18 Months)
+## Key Targets (24 Months)
 
-| Metric | Month 6 | Month 12 | Month 18 |
-|--------|---------|----------|----------|
-| Active Merchants (ERP) | 200 | 1,500 | 3,000 |
-| IoT Devices Deployed | 50 | 300 | 800 |
-| Markets Digitized | 1 | 3 | 5 |
-| Monthly Revenue (₦) | 1.5M | 9.0M | 14.0M |
-| Team Size | 9 | 18 | 22–25 |
+| Metric | Month 6 | Month 12 | Month 18 | Month 24 |
+|--------|---------|----------|----------|----------|
+| Active Merchants (ERP) | 200 | 1,500 | 3,000 | 5,000 |
+| IoT Devices Deployed | 50 | 300 | 800 | 1,500 |
+| Markets Digitized | 1 | 3 | 5 | 8 |
+| Monthly Revenue (₦) | 1.5M | 10.2M | 16.4M | 21.3M |
+| Team Size | 9 | 18 | 25 | 30 |
 
-**18-Month Cumulative Revenue:** ₦103.6M | **Break-even:** Month 14–16
+**24-Month Cumulative Revenue:** ₦243.6M | **Break-even:** Month 16–18
 
 ---
 
@@ -127,6 +129,7 @@ All PECH products are **designed for Africa** — wide voltage tolerance, heat r
 | Phase 3 (Mo 7–9) | 13 | ₦4,310,000 | Payments PM, data analyst, 2 support |
 | Phase 4 (Mo 10–12) | 18 | ₦5,320,000 | Logistics lead, 2 jr engineers, 2 agents |
 | Phase 5 (Mo 13–18) | 22–25 | ₦6,690,000 | Data engineer, BD lead, field coordinator |
+| Phase 6 (Mo 19–24) | 25–30 | ₦7,950,000 | PSSP compliance, 2 engineers, 2 agents |
 
 ---
 
@@ -134,13 +137,13 @@ All PECH products are **designed for Africa** — wide voltage tolerance, heat r
 
 | License | Capital Required | Escrow Duration | Priority |
 |---------|-----------------|----------------|----------|
-| **PSSP** (Payments) | ~₦205M (₦100M capital + ₦100M escrow + fees) | **Life of license** (refundable on surrender) | **HIGH — GET ASAP** |
-| **PTSP** (POS Terminals) | ~₦201M (₦100M capital + ₦100M escrow + fees) | **Life of license** (refundable on surrender) | **HIGH — GET ASAP** |
+| **PSSP** (Payments) | ~₦205M (₦100M capital + ₦100M escrow + fees) | **Life of license** (refundable on surrender) | **HIGH — GET ASAP** (Month 9+ from business traction) |
+| **PTSP** (POS Terminals) | ~₦201M (₦100M capital + ₦100M escrow + fees) | **Life of license** (refundable on surrender) | When volume justifies |
 | **MMO** (Wallets & Escrow) | ~₦4B (₦2B capital + ₦2B escrow + fees) | **Life of license** (refundable on surrender) | Future — when justified |
 
 **Strategy:**
-- **Now:** Partner with Paystack/Flutterwave for payments + white-label MMO for wallets
-- **PRIORITY (next tranche):** Apply for PSSP + PTSP licenses immediately when capital arrives
+- **Now:** Partner with Paystack/Flutterwave for payments + partner PTSP + partner bank
+- **PRIORITY:** Apply for PSSP after Month 9 when hardware sales and software revenue justify capital deployment
 - **Future:** Own MMO license when transaction volume justifies the ₦4B capital requirement
 
 > A PSSP license does NOT permit holding customer funds or issuing wallets — that requires an MMO license. PECH will use a white-label MMO partnership until own license is justified.

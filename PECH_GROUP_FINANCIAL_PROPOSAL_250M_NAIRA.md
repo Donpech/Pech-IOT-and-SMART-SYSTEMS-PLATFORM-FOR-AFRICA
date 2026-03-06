@@ -423,7 +423,7 @@ PECH is modeled after **Alibaba Group's layered architecture**, adapted for Afri
 
 | Category | Amount (₦) | % of Total |
 |----------|-----------|-----------|
-| **Hardware Procurement (China Sourcing — 23 SKUs)** | ₦75,000,000 | 30.0% |
+| **Hardware Procurement (China Sourcing — 25 SKUs)** | ₦75,000,000 | 30.0% |
 | **Human Capital (Salaries & Contractors)** | ₦70,000,000 | 28.0% |
 | **Technology Infrastructure & AI Tools** | ₦28,000,000 | 11.2% |
 | **Office, Equipment & Operations** | ₦20,000,000 | 8.0% |
@@ -460,7 +460,7 @@ PECH is modeled after **Alibaba Group's layered architecture**, adapted for Afri
 ### 7.3 Budget Allocation Visual
 
 ```
-  Hardware (23 SKUs)██████████████████████████████░░  30.0%  ₦75M
+  Hardware (25 SKUs)██████████████████████████████░░  30.0%  ₦75M
   Human Capital     ████████████████████████████░░░░  28.0%  ₦70M
   Tech & AI Tools   ███████████░░░░░░░░░░░░░░░░░░░░  11.2%  ₦28M
   Office & Ops      ████████░░░░░░░░░░░░░░░░░░░░░░░   8.0%  ₦20M
@@ -595,7 +595,7 @@ PECH is modeled after **Alibaba Group's layered architecture**, adapted for Afri
 | CDN & Storage (S3-compatible) | ₦80,000 | ₦960,000 | Static assets + backups |
 | Domain & SSL certificates | ₦20,000 | ₦240,000 | Multiple domains |
 
-**18-Month Infrastructure Total:** ₦17,100,000
+**24-Month Infrastructure Total:** ₦19,200,000
 
 ### 9.2 AI & Development Tools
 
@@ -611,120 +611,139 @@ PECH is modeled after **Alibaba Group's layered architecture**, adapted for Afri
 | MLflow (Self-hosted) | ₦0 | ML experiment tracking |
 
 **Monthly AI/Tools:** ₦400,000
-**18-Month Tools Total:** ₦7,200,000
+**24-Month Tools Total:** ₦9,600,000
 
 ### 9.3 Total Technology Budget
 
-| Category | 18-Month Total (₦) |
+| Category | 24-Month Total (₦) |
 |----------|-------------------|
-| Cloud Infrastructure | ₦17,100,000 |
-| AI & Development Tools | ₦7,200,000 |
-| **TOTAL** | **₦24,300,000** |
+| Cloud Infrastructure | ₦19,200,000 |
+| AI & Development Tools | ₦9,600,000 |
+| **TOTAL** | **₦28,800,000** |
 
 ---
 
 ## 10. Hardware & Device Strategy
 
-![Hardware Product Portfolio — 23 SKUs](proposal_images/product_portfolio.png)
+![Hardware Product Portfolio — 25 SKUs](proposal_images/product_portfolio.png)
 
 ### 10.1 Hardware Product Line
 
+> **Pricing Methodology:** All unit costs below are **fully-landed costs** in Lagos, Nigeria. Calculated as: FOB price (sourced from Alibaba.com, 1688.com, Made-in-China.com wholesale listings, March 2026) × exchange rate (₦1,500/USD) × landed cost multiplier (1.50–1.60× depending on duty rate). The multiplier includes: CIF (FOB + 15% shipping), import duty (5–20%), surcharge (7% of duty), CISS (1% FOB), ETLS (0.5% CIF), VAT (7.5%), clearing (3%), local transport (2%), and amortized SONCAP certification costs.
+
 #### Commerce & Business Devices
 
-| SKU | Device | Unit Cost (₦) | Sell Price (₦) | Margin |
-|-----|--------|---------------|----------------|--------|
-| SKU-01 | **Smart POS Terminal** (Android, 4G, printer built-in) | ₦45,000 | ₦65,000 | 44% |
-| SKU-02 | **POS Tablet PC** (10", Android, LTE, for merchants) | ₦35,000 | ₦55,000 | 57% |
-| SKU-03 | **Self-Service Kiosk** (Touch screen, payment, info) | ₦150,000 | ₦250,000 | 67% |
-| SKU-04 | **Receipt + Barcode Kit** | ₦18,000 | ₦28,000 | 56% |
-| SKU-05 | **Logistics Scanner** (SUNMI-compatible) | ₦25,000 | ₦40,000 | 60% |
+| SKU | Device | FOB ($) | Landed Cost (₦) | Sell Price (₦) | Margin |
+|-----|--------|---------|-----------------|----------------|--------|
+| SKU-01 | **Smart POS Terminal** (Android, 4G, printer built-in) | $50 | ₦85,000 | ₦130,000 | 53% |
+| SKU-02 | **POS Tablet PC** (10", Android, LTE, for merchants) | $38 | ₦68,000 | ₦110,000 | 62% |
+| SKU-03 | **Self-Service Kiosk** (Touch screen, payment, info) | $180 | ₦310,000 | ₦480,000 | 55% |
+| SKU-04 | **Receipt + Barcode Kit** | $15 | ₦25,000 | ₦40,000 | 60% |
+| SKU-05 | **Logistics Scanner** (SUNMI-compatible) | $22 | ₦38,000 | ₦60,000 | 58% |
 
 #### IoT & Energy Devices
 
-| SKU | Device | Unit Cost (₦) | Sell Price (₦) | Margin |
-|-----|--------|---------------|----------------|--------|
-| SKU-06 | **IoT Energy Controller** (ESP32, MQTT, solar) | ₦15,000 | ₦25,000 | 67% |
-| SKU-07 | **Smart Meter** (energy monitoring, WiFi) | ₦20,000 | ₦35,000 | 75% |
-| SKU-08 | **Power Stability Kit** (Mini UPS + surge) | ₦12,000 | ₦20,000 | 67% |
-| SKU-09 | **Energy Storage — Mini UPS** (IoT backup, LiFePO4) | ₦25,000 | ₦40,000 | 60% |
-| SKU-10 | **Energy Storage — Home Battery** (1kWh LiFePO4) | ₦80,000 | ₦130,000 | 63% |
+| SKU | Device | FOB ($) | Landed Cost (₦) | Sell Price (₦) | Margin |
+|-----|--------|---------|-----------------|----------------|--------|
+| SKU-06 | **IoT Energy Controller** (ESP32, MQTT, solar) | $9 | ₦18,000 | ₦30,000 | 67% |
+| SKU-07 | **Smart Meter** (energy monitoring, WiFi) | $16 | ₦30,000 | ₦48,000 | 60% |
+| SKU-08 | **Power Stability Kit** (Mini UPS + surge) | $10 | ₦18,000 | ₦32,000 | 78% |
+| SKU-09 | **Energy Storage — Mini UPS** (IoT backup, LiFePO4) | $20 | ₦38,000 | ₦60,000 | 58% |
+| SKU-10 | **Energy Storage — Home Battery** (1kWh LiFePO4) | $85 | ₦155,000 | ₦240,000 | 55% |
 
 #### Smart Water Controllers
 
-| SKU | Device | Unit Cost (₦) | Sell Price (₦) | Margin |
-|-----|--------|---------------|----------------|--------|
-| SKU-11 | **Water Controller Tier 1** (Basic — float switches, Arduino) | ₦8,000 | ₦15,000 | 88% |
-| SKU-12 | **Water Controller Tier 2** (Mid — ultrasonic, ESP8266, LCD) | ₦18,000 | ₦35,000 | 94% |
-| SKU-13 | **Water Controller Tier 3** (Smart IoT — ESP32, GSM, app) | ₦30,000 | ₦55,000 | 83% |
-| SKU-14 | **Water Controller Tier 4** (Industrial — STM32, 4G, SCADA) | ₦65,000 | ₦120,000 | 85% |
+| SKU | Device | FOB ($) | Landed Cost (₦) | Sell Price (₦) | Margin |
+|-----|--------|---------|-----------------|----------------|--------|
+| SKU-11 | **Water Controller Tier 1** (Basic — float switches, Arduino) | $5.50 | ₦12,000 | ₦22,000 | 83% |
+| SKU-12 | **Water Controller Tier 2** (Mid — ultrasonic, ESP8266, LCD) | $13 | ₦25,000 | ₦45,000 | 80% |
+| SKU-13 | **Water Controller Tier 3** (Smart IoT — ESP32, GSM, app) | $24 | ₦45,000 | ₦72,000 | 60% |
+| SKU-14 | **Water Controller Tier 4** (Industrial — STM32, 4G, SCADA) | $58 | ₦105,000 | ₦175,000 | 67% |
 
 #### Smart Home & Electrical
 
-| SKU | Device | Unit Cost (₦) | Sell Price (₦) | Margin |
-|-----|--------|---------------|----------------|--------|
-| SKU-15 | **Smart Switch** (WiFi, app control, 1-4 gang) | ₦3,000 | ₦7,000 | 133% |
-| SKU-16 | **Smart Socket** (WiFi, energy monitoring) | ₦2,500 | ₦5,500 | 120% |
-| SKU-17 | **Smart Camera** (WiFi, 1080p, night vision, 2-way audio) | ₦8,000 | ₦18,000 | 125% |
-| SKU-18 | **IP Camera** (PoE, outdoor, 2K) | ₦15,000 | ₦30,000 | 100% |
-| SKU-19 | **Non-Smart Switch** (Premium quality, 1-4 gang) | ₦800 | ₦2,000 | 150% |
-| SKU-20 | **Non-Smart Socket** (Premium quality, 13A) | ₦600 | ₦1,500 | 150% |
+| SKU | Device | FOB ($) | Landed Cost (₦) | Sell Price (₦) | Margin |
+|-----|--------|---------|-----------------|----------------|--------|
+| SKU-15 | **Smart Switch** (WiFi, Tuya, 1-4 gang) | $3.50 | ₦7,000 | ₦12,500 | 79% |
+| SKU-16 | **Smart Socket** (WiFi, energy monitoring) | $3.00 | ₦6,000 | ₦10,000 | 67% |
+| SKU-17 | **Smart Camera** (WiFi, 1080p, night vision, 2-way audio) | $9 | ₦16,000 | ₦28,000 | 75% |
+| SKU-18 | **IP Camera** (PoE, outdoor, 2K) | $20 | ₦36,000 | ₦58,000 | 61% |
+| SKU-19 | **Non-Smart Switch** (Premium quality, 1-4 gang) | $0.90 | ₦1,800 | ₦3,500 | 94% |
+| SKU-20 | **Non-Smart Socket** (Premium quality, 13A) | $0.70 | ₦1,400 | ₦2,800 | 100% |
 
 #### Education & Display
 
-| SKU | Device | Unit Cost (₦) | Sell Price (₦) | Margin |
-|-----|--------|---------------|----------------|--------|
-| SKU-21 | **Learning Tablet** (8", Android, pre-loaded content) | ₦25,000 | ₦45,000 | 80% |
-| SKU-22 | **LED Display Panel** (P3 indoor, 64×32cm) | ₦40,000 | ₦70,000 | 75% |
-| SKU-23 | **Outdoor LED Screen** (P5, weatherproof, 96×48cm) | ₦80,000 | ₦140,000 | 75% |
+| SKU | Device | FOB ($) | Landed Cost (₦) | Sell Price (₦) | Margin |
+|-----|--------|---------|-----------------|----------------|--------|
+| SKU-21 | **Learning Tablet** (8", Android, pre-loaded content) | $38 | ₦70,000 | ₦110,000 | 57% |
+| SKU-22 | **LED Display Panel** (P3 indoor, 64×32cm) | $48 | ₦85,000 | ₦140,000 | 65% |
+| SKU-23 | **Outdoor LED Screen** (P5, weatherproof, 96×48cm) | $90 | ₦160,000 | ₦250,000 | 56% |
+
+#### Solar Products
+
+| SKU | Device | FOB ($) | Landed Cost (₦) | Sell Price (₦) | Margin |
+|-----|--------|---------|-----------------|----------------|--------|
+| SKU-24 | **Solar Street Light** (All-in-One, 60W LED, IP66, LiFePO4) | $55 | ₦132,000 | ₦200,000 | 52% |
+| SKU-25 | **Solar Rechargeable Fan** (16", DC, 3-speed, LED light, 6000mAh) | $16 | ₦36,000 | ₦45,000 | 25% |
 
 ### 10.2 Hardware Procurement Schedule
 
-| Batch | Month | Devices | Total Cost (₦) | Notes |
-|-------|-------|---------|----------------|-------|
-| Batch 1 | Month 3 | 100 POS + 50 IoT + 30 Scanners | ₦8,550,000 | Pilot devices |
-| Batch 2 | Month 7 | 200 POS + 100 IoT + 50 Kits | ₦16,600,000 | Market entry |
-| Batch 3 | Month 12 | 300 POS + 200 IoT + 100 Meters | ₦22,500,000 | Scale batch |
-| Shipping & Import (3 batches) | Various | — | ₦7,500,000 | Customs + SONCAP (~₦1.5M/shipment for PC+SC+lab) |
-| **TOTAL** | | **1,130 devices** | **₦55,150,000** | |
+| Batch | Month | Devices | Total Landed Cost (₦) | Notes |
+|-------|-------|---------|----------------------|-------|
+| Batch 1 | Month 3 | 80 POS + 40 IoT + 20 Scanners + 50 Solar Fans | ₦12,200,000 | Pilot devices |
+| Batch 2 | Month 7 | 150 POS + 80 IoT + 30 Water Controllers + 100 Smart Home + 30 Solar Lights | ₦18,400,000 | Market entry |
+| Batch 3 | Month 12 | 200 POS + 150 IoT + 80 Water Controllers + 200 Smart Home + 50 Solar Lights + 100 Solar Fans | ₦24,800,000 | Scale batch |
+| Batch 4 | Month 18 | Extended product line — higher volume | ₦15,100,000 | Growth batch (partially funded by revenue) |
+| SONCAP Certification (amortized) | Various | — | ₦4,500,000 | ~₦1.5M/shipment for PC + SC + lab testing |
+| **TOTAL** | | **~1,360 devices** | **₦75,000,000** | |
 
-> **Hardware Cost Validation (2026 China Wholesale Prices):**
-> - ESP32 modules: $1.90–$4.00/unit (~₦2,850–₦6,000) — aligns with ₦15K IoT controller cost (includes PCB, enclosure, assembly)
-> - Smart meters (WiFi): $8–$20/unit (~₦12K–₦30K) — aligns with ₦20K unit cost
-> - LoRa gateways: $60–$200/unit (~₦90K–₦300K) — not in current SKU list but relevant for estate deployments
-> - Android POS terminals: $30–$60/unit (~₦45K–₦90K) — aligns with ₦45K unit cost
+> **Hardware Cost Validation — Sources (March 2026):**
+> - All FOB prices sourced from Alibaba.com, 1688.com, and Made-in-China.com wholesale listings
+> - Exchange rate: ₦1,500/USD (CBN parallel market rate, March 2026)
+> - Landed cost multiplier: 1.50× (10% duty items — solar, IoT) to 1.60× (20% duty items — electronics, fans)
+> - Multiplier components: CIF (FOB+15%), duty (5–20%), surcharge (7% of duty), CISS (1% FOB), ETLS (0.5% CIF), VAT (7.5%), clearing (3%), local transport (2%)
+> - SONCAP certification: $2,000–$13,000 per product category (SON.gov.ng schedules)
 > - Shipping per 20ft container: $2,000–$4,000 (~₦3M–₦6M)
-> - SONCAP certification per shipment: $500–$2,000 (~₦750K–₦3M) for PC + SC + lab testing
+> - Solar street light prices verified against Inlux Solar 2026 price guide ($45–$120 range for 30W–200W)
+> - Solar fan prices verified against Alibaba listings ($14–$26 range for 16" DC rechargeable models)
 
 ### 10.3 Solution Packages (What We Actually Sell)
 
 #### Commerce Packages
 | Package | Contents | Price (₦) | Target |
 |---------|----------|-----------|--------|
-| **Micro Trader Kit** | Smart POS + Receipt Printer + Free ERP | ₦75,000 | Kiosks, small shops |
-| **SME Business Kit** | Smart POS + Tablet + Barcode Scanner + Power Kit + ERP | ₦155,000 | Wholesalers |
-| **Market Power Seller Kit** | 2× POS + Tablet + Full Kit + Priority Support | ₦280,000 | Large market shops |
+| **Micro Trader Kit** | Smart POS + Receipt Kit + Free ERP | ₦160,000 | Kiosks, small shops |
+| **SME Business Kit** | Smart POS + Tablet + Barcode Scanner + Power Kit + ERP | ₦350,000 | Wholesalers |
+| **Market Power Seller Kit** | 2× POS + Tablet + Full Kit + Priority Support | ₦500,000 | Large market shops |
 
 #### IoT & Energy Packages
 | Package | Contents | Price (₦) | Target |
 |---------|----------|-----------|--------|
-| **IoT Starter Kit** | 3× Energy Controllers + Smart Meter + Dashboard | ₦120,000 | Solar installers |
-| **Estate Management Kit** | 5× Smart Meters + CCTV + Access Control + Platform | ₦350,000 | Estate managers |
-| **Water Management Kit** | Tier 3 Water Controller + Smart Meter + App Setup | ₦85,000 | Households, boreholes |
-| **Industrial Water Kit** | Tier 4 Controller + Pressure Sensor + 4G + SCADA Dashboard | ₦180,000 | Hotels, hospitals, estates |
+| **IoT Starter Kit** | 3× Energy Controllers + Smart Meter + Dashboard | ₦140,000 | Solar installers |
+| **Estate Management Kit** | 5× Smart Meters + CCTV + Access Control + Platform | ₦500,000 | Estate managers |
+| **Water Management Kit** | Tier 3 Water Controller + Smart Meter + App Setup | ₦110,000 | Households, boreholes |
+| **Industrial Water Kit** | Tier 4 Controller + Pressure Sensor + 4G + SCADA Dashboard | ₦250,000 | Hotels, hospitals, estates |
 
 #### Smart Home Packages
 | Package | Contents | Price (₦) | Target |
 |---------|----------|-----------|--------|
-| **Smart Home Starter** | 4× Smart Switches + 2× Smart Sockets + App Setup | ₦45,000 | Homeowners |
-| **Home Security Kit** | 2× Smart Cameras + Smart Switch + Cloud Storage | ₦55,000 | Families, landlords |
-| **Premium Home Kit** | 8× Smart Switches + 4× Sockets + 2× Cameras + Energy Monitor | ₦120,000 | Premium homes |
+| **Smart Home Starter** | 4× Smart Switches + 2× Smart Sockets + App Setup | ₦70,000 | Homeowners |
+| **Home Security Kit** | 2× Smart Cameras + Smart Switch + Cloud Storage | ₦75,000 | Families, landlords |
+| **Premium Home Kit** | 8× Smart Switches + 4× Sockets + 2× Cameras + Energy Monitor | ₦200,000 | Premium homes |
+
+#### Solar Products Packages
+| Package | Contents | Price (₦) | Target |
+|---------|----------|-----------|--------|
+| **Solar Street Light Kit** | Solar Street Light + Pole + Installation Guide | ₦230,000 | Estates, communities, LGAs |
+| **Solar Cooling Kit** | 2× Solar Fans + Solar Panel | ₦100,000 | Homes, shops, market stalls |
+| **Community Solar Kit** | 3× Solar Street Lights + 5× Solar Fans + Installation | ₦680,000 | Gated estates, rural communities |
 
 #### Education & Display Packages
 | Package | Contents | Price (₦) | Target |
 |---------|----------|-----------|--------|
-| **Learning Kit** | Learning Tablet + Protective Case + 1 Year Content | ₦55,000 | Parents, schools |
-| **Classroom Kit** | 10× Learning Tablets + Teacher Dashboard + Content License | ₦480,000 | Schools |
-| **Digital Signage Kit** | LED Display + Media Player + PECH Ad Platform | ₦90,000 | Shops, markets |
+| **Learning Kit** | Learning Tablet + Protective Case + 1 Year Content | ₦125,000 | Parents, schools |
+| **Classroom Kit** | 10× Learning Tablets + Teacher Dashboard + Content License | ₦1,050,000 | Schools |
+| **Digital Signage Kit** | LED Display + Media Player + PECH Ad Platform | ₦165,000 | Shops, markets |
 
 ---
 
@@ -732,31 +751,38 @@ PECH is modeled after **Alibaba Group's layered architecture**, adapted for Afri
 
 ![Regulatory & Compliance Timeline](proposal_images/compliance_timeline.png)
 
-### 11.1 Required Licenses & Approvals
+### 11.1 Corporate Structure
+
+```
+PECH Group Holdings Ltd (Parent — Technology Company)
+├── PECH Payments Ltd (Subsidiary 1 — holds PSSP license)
+├── PECH Terminal Services Ltd (Subsidiary 2 — holds PTSP license, later)
+└── Future subsidiaries as needed
+```
+
+> PECH Group Holdings Ltd is the **parent technology company**. Payment and terminal licenses are held by dedicated subsidiaries to isolate regulatory risk and meet CBN requirements for single-purpose entities.
+
+### 11.2 Required Licenses & Approvals
 
 | # | License/Approval | Authority | Cost (₦) | Timeline | Phase | From ₦250M? |
 |---|-----------------|-----------|----------|----------|-------|------------|
-| 1 | Company Registration (CAC) | CAC | ₦50,000 | 2–4 weeks | Month 1 | Yes |
+| 1 | Company Registration (CAC — parent + subsidiary) | CAC | ₦100,000 | 2–4 weeks | Month 1 | Yes |
 | 2 | Business Premises Permit | State Govt | ₦150,000 | 2–3 weeks | Month 1 | Yes |
 | 3 | NCC Type Approval (IoT + Water Controllers) | NCC | ₦500,000 | 3–6 months | Month 1 | Yes |
 | 4 | NDPA Compliance Registration + DPO | NDPC | ₦500,000 | 4–8 weeks | Month 2 | Yes |
 | 5 | SONCAP (Hardware Import — PC + SC) | SON | ₦1,500,000/shipment | Per batch | Month 3 | Yes |
-| 6 | Trademark Registration (1 class now, 2 later) | Trademarks Registry | ₦1,000,000 | 6–12 months | Month 1 | Yes |
+| 6 | Trademark Registration (1 class @ ₦100K) | Trademarks Registry | ₦100,000 | 6–12 months | Month 1 | Yes |
 | 7 | NEMSA Compliance (Smart Meters + Water Controllers) | NEMSA | ₦350,000 | 2–4 months | Month 6 | Yes |
-| 8 | Legal Retainer (Regulatory Counsel) | Law Firm | ₦100,000/month | Ongoing | Month 1 | Yes |
-| 9 | **PSSP License Application** | CBN | ₦1,100,000 | 6–12 months | Month 9 | **Next tranche** |
-| 10 | **PSSP Share Capital** | CBN | ₦100,000,000 | With application | Month 9 | **Next tranche** |
-| 11 | **PSSP Escrow Deposit** | CBN | ₦100,000,000 | With application | Month 9 | **Next tranche** |
-| 12 | **PTSP License Application** | CBN | ₦100,000 | 6–12 months | Month 12+ | **Next tranche** |
-| 13 | **PTSP Share Capital** | CBN | ₦100,000,000 | With application | Month 12+ | **Next tranche** |
-| 14 | **PTSP Escrow Deposit** | CBN | ₦100,000,000 | With application | Month 12+ | **Next tranche** |
-| 15 | PCI DSS Certification | PCI SSC | ₦5,000,000 | 2–4 months | Month 10+ | **Next tranche** |
-| 16 | NERC Mini-Grid Permit (if applicable) | NERC | ₦200,000 | 3–6 months | Month 12 | **Next tranche** |
-| 17 | **MMO License Application** (for wallets & escrow) | CBN | ₦1,100,000 | 10–13 months | When justified | **Future tranche** |
-| 18 | **MMO Share Capital** | CBN | ₦2,000,000,000 | With application | When justified | **Future tranche** |
-| 19 | **MMO Escrow Deposit** | CBN | ₦2,000,000,000 | With application | When justified | **Future tranche** |
+| 8 | Legal Consulting (₦1M/year × 2 years) | Law Firm | ₦2,000,000 | As needed | Ongoing | Yes |
+| 9 | Accountant Consulting (₦500K/year × 2 years) | Accounting Firm | ₦1,000,000 | As needed | Ongoing | Yes |
+| 10 | **PSSP License Application** | CBN | ₦1,100,000 | 6–12 months | Month 9+ | **From business traction** |
+| 11 | **PSSP Share Capital** | CBN | ₦100,000,000 | With application | Month 9+ | **From business traction** |
+| 12 | **PSSP Escrow Deposit** | CBN | ₦100,000,000 | With application | Month 9+ | **From business traction** |
+| 13 | PCI DSS Certification | PCI SSC | ₦5,000,000 | 2–4 months | Month 10+ | **From business traction** |
+| 14 | **PTSP License** (when justified) | CBN | ~₦201,000,000 | 6–12 months | When justified | **When volume justifies** |
+| 15 | **MMO License** (for wallets & escrow) | CBN | ~₦4,001,000,000 | 10–13 months | When justified | **Future — when justified** |
 
-### 11.2 PSSP, PTSP & MMO License — Detailed Breakdown
+### 11.3 PSSP, PTSP & MMO License — Detailed Breakdown
 
 | Item | PSSP (Payments) | PTSP (POS Terminals) | MMO (Wallets & Escrow) |
 |------|----------------|---------------------|----------------------|
@@ -775,42 +801,58 @@ PECH is modeled after **Alibaba Group's layered architecture**, adapted for Afri
 >
 > **MMO LICENSE (FOR WALLETS & ESCROW):** A PSSP license alone **does NOT permit** holding customer funds or issuing digital wallets. To hold merchant escrow, operate business wallets, or issue e-money, an **MMO license is required** (₦2B capital + ₦2B escrow = ₦4B total). Until the ₦4B is justifiable, PECH will partner with an existing licensed MMO in a **white-label arrangement** to provide wallet services across all platforms.
 
-### 11.3 Payment & Wallet License Strategy
+### 11.4 Payment & Wallet License Strategy — Phased Approach
 
-| Path | Approach | Timeline | Capital Needed | Priority |
-|------|----------|----------|---------------|----------|
-| **Path A (Now)** | Partner with Paystack/Flutterwave for payment processing + white-label MMO for wallet services | Immediate (Month 1) | ₦0 | Phase 1 |
-| **Path B (PRIORITY)** | Apply for **PSSP license** — own payment processing. Investor injects capital ASAP. | As soon as next tranche arrives | ~₦205M | **HIGH — GET ASAP** |
-| **Path C (PRIORITY)** | Apply for **PTSP license** — own POS terminal network. Apply alongside or shortly after PSSP. | Alongside PSSP | ~₦201M | **HIGH — GET ASAP** |
-| **Path D (When justified)** | Apply for **MMO license** — own wallet/escrow capability. When transaction volume justifies ₦4B capital. | When revenue justifies | ~₦4B | Future |
+**Phase 1: Partner Model (Months 1–9)**
 
-> **PSSP and PTSP are the #1 priority** for the investor's next capital tranche. These licenses are critical for PECH to control its own payment infrastructure. The investor has committed to injecting additional capital as the business gains traction — PSSP/PTSP applications should be filed **immediately** when that capital arrives.
->
-> For wallets and escrow, PECH will operate under a **white-label MMO partnership** until transaction volumes and revenue justify the ₦4B capital requirement for an own MMO license.
+| Component | Provider | Capital from ₦250M |
+|-----------|----------|-------------------|
+| Payment Gateway | Licensed PSP partner (Paystack/Flutterwave) | ₦0 |
+| POS Infrastructure | Partner PTSP (e.g., Moniepoint, ITEX) | ₦0 |
+| Wallet / Escrow | Partner Bank (white-label MMO) | ₦0 |
+| Settlement | Partner Bank | ₦0 |
+| Switching | Licensed Switch (e.g., Interswitch, NIBSS) | ₦0 |
 
-### 11.4 Total Compliance Budget (From ₦250M)
+**Phase 2: Own PSSP (Month 9+ — from business traction)**
+
+After Month 9, revenue from hardware sales and software products justifies deploying capital for PSSP licensing through the subsidiary **PECH Payments Ltd**.
+
+| License | Capital Required | Timeline |
+|---------|-----------------|----------|
+| **PSSP** (own payment gateway) | ~₦205M (₦100M capital + ₦100M escrow + fees + PCI DSS) | Month 9+ |
+
+**Phase 3: Strategic Growth (when justified)**
+
+| License | Capital Required | Timeline |
+|---------|-----------------|----------|
+| **PTSP** (own POS terminal network) | ~₦201M | When POS volume justifies |
+| **MMO** (own wallets & escrow) | ~₦4B | When transaction volume justifies |
+
+> **Key principle:** PECH starts by partnering with already-licensed entities, builds revenue and track record, then progressively acquires its own licenses as the business justifies the capital. PSSP is the first priority — it enables PECH to control its own payment processing. PTSP and MMO follow only when volume justifies the capital requirement.
+
+### 11.5 Total Compliance Budget (From ₦250M)
 
 | Category | Amount (₦) | Notes |
 |----------|-----------|-------|
-| Registration & Permits (CAC + Premises) | ₦200,000 | One-time |
+| Registration & Permits (CAC parent + subsidiary + Premises) | ₦250,000 | One-time |
 | Device Certifications (NCC + NEMSA) | ₦850,000 | IoT devices + water controllers + meters |
 | Data Protection (NDPA + DPO setup) | ₦500,000 | Annual CARs ongoing |
 | Import Compliance (SONCAP × 3 shipments) | ₦4,500,000 | ~₦1.5M per shipment (PC + SC + lab testing) |
-| Trademarks (1 class — expand later) | ₦1,000,000 | Remaining 2 classes deferred to next tranche |
-| Legal Retainer (18 months × ₦100K) | ₦1,800,000 | Lean retainer — scale with complexity |
-| **SUBTOTAL (From ₦250M Budget)** | **₦8,850,000** | |
-| Buffer for unexpected compliance | ₦1,150,000 | NCC delays, additional certifications |
-| **TOTAL COMPLIANCE (From ₦250M)** | **₦10,000,000** | |
+| Trademark Registration (1 class @ ₦100K) | ₦100,000 | Additional classes when justified |
+| Legal Consulting (₦1M/year × 2 years) | ₦2,000,000 | As-needed regulatory counsel |
+| Accountant Consulting (₦500K/year × 2 years) | ₦1,000,000 | Financial reporting + tax compliance |
+| Other Registrations | ₦1,800,000 | Various state/federal permits |
+| **SUBTOTAL (From ₦250M Budget)** | **₦11,000,000** | |
+| Buffer for unexpected compliance | ₦1,000,000 | NCC delays, additional certifications |
+| **TOTAL COMPLIANCE (From ₦250M)** | **₦12,000,000** | |
 | | | |
-| **DEFERRED TO INVESTOR'S NEXT TRANCHE (PRIORITY):** | | |
-| PSSP License + Capital + Escrow | ₦205,000,000 | **PRIORITY — apply immediately when capital arrives** |
-| PTSP License + Capital + Escrow | ₦201,000,000 | **PRIORITY — apply alongside or shortly after PSSP** |
+| **DEPLOYED AFTER MONTH 9 (from business traction):** | | |
+| PSSP License + Capital + Escrow (via PECH Payments Ltd) | ₦205,000,000 | First priority |
 | PCI DSS Certification | ₦5,000,000 | Required before own payment processing |
-| Remaining 2 trademark classes | ₦2,000,000 | |
-| NERC permit | ₦200,000 | If applicable |
 | | | |
-| **DEFERRED TO FUTURE TRANCHE (when justified):** | | |
-| MMO License + Capital + Escrow | ₦4,001,000,000 | When transaction volume justifies; white-label MMO until then |
+| **DEPLOYED WHEN JUSTIFIED (future):** | | |
+| PTSP License + Capital + Escrow (via PECH Terminal Services Ltd) | ₦201,000,000 | When POS volume justifies |
+| MMO License + Capital + Escrow | ₦4,001,000,000 | White-label MMO partnership until then |
 
 ---
 
@@ -824,12 +866,13 @@ PECH is modeled after **Alibaba Group's layered architecture**, adapted for Afri
 
 | Phase | Strategy | Budget (₦) |
 |-------|----------|-----------|
-| **Months 1–3** | Brand identity, website, social media setup | ₦2,000,000 |
-| **Months 4–6** | Market association partnerships, demo units, pilot events | ₦4,000,000 |
-| **Months 7–9** | Digital marketing (Google, Meta, TikTok), installer workshops | ₦5,000,000 |
-| **Months 10–12** | Trade shows, enterprise sales collateral, case studies | ₦4,000,000 |
-| **Months 13–18** | National campaigns, developer hackathon, brand ambassadors | ₦7,000,000 |
-| **TOTAL** | | **₦22,000,000** |
+| **Months 1–3** | Brand identity, website, social media setup | ₦1,500,000 |
+| **Months 4–6** | Market association partnerships, demo units, pilot events | ₦2,500,000 |
+| **Months 7–9** | Digital marketing (Google, Meta, TikTok), installer workshops | ₦3,000,000 |
+| **Months 10–12** | Trade shows, enterprise sales collateral, case studies | ₦2,500,000 |
+| **Months 13–18** | National campaigns, developer hackathon, brand ambassadors | ₦3,000,000 |
+| **Months 19–24** | Expansion marketing, West Africa awareness, partnership events | ₦2,500,000 |
+| **TOTAL** | | **₦15,000,000** |
 
 ### 12.2 Customer Acquisition Cost Targets
 
@@ -858,38 +901,45 @@ PECH is modeled after **Alibaba Group's layered architecture**, adapted for Afri
 
 ### 13.1 Revenue Streams
 
-| Stream | Source | Model | Monthly Target (Month 18) |
+| Stream | Source | Model | Monthly Target (Month 24) |
 |--------|--------|-------|--------------------------|
-| **Hardware Sales** | POS, IoT devices, kits | One-time | ₦5,000,000 |
-| **Setup & Training** | Installation fees | One-time | ₦800,000 |
-| **IoT SaaS** | Device monitoring subscriptions | Recurring | ₦2,500,000 |
-| **Transaction Fees** | Payment processing (0.5–1.5%) | Per-transaction | ₦3,500,000 |
-| **Marketplace** | Featured listings, premium visibility | Recurring | ₦1,000,000 |
-| **Logistics** | Per-package fees, station licensing | Per-transaction | ₦700,000 |
-| **Support Subscriptions** | Premium support plans | Recurring | ₦500,000 |
-| **TOTAL MRR TARGET** | | | **₦14,000,000** |
+| **Hardware Sales** | POS, IoT devices, solar products, kits | One-time | ₦8,000,000 |
+| **Setup & Training** | Installation fees | One-time | ₦1,200,000 |
+| **IoT SaaS** | Device monitoring subscriptions | Recurring | ₦4,000,000 |
+| **Transaction Fees** | Payment processing (0.5–1.5%) | Per-transaction | ₦5,000,000 |
+| **Marketplace** | Featured listings, premium visibility | Recurring | ₦2,000,000 |
+| **Logistics** | Per-package fees, station licensing | Per-transaction | ₦1,500,000 |
+| **Support Subscriptions** | Premium support plans | Recurring | ₦800,000 |
+| **Solar Solutions** | Street lights, fans, installation packages | One-time + Recurring | ₦2,500,000 |
+| **TOTAL MRR TARGET** | | | **₦25,000,000** |
 
-### 13.2 18-Month Revenue Projection
+### 13.2 24-Month Revenue Projection
 
-| Month | Hardware (₦M) | SaaS (₦M) | Transactions (₦M) | Other (₦M) | Total (₦M) |
-|-------|--------------|-----------|-------------------|-----------|------------|
-| 1–3 | 0 | 0 | 0 | 0 | **0** |
-| 4 | 0.5 | 0 | 0 | 0 | **0.5** |
-| 5 | 0.8 | 0.1 | 0.1 | 0 | **1.0** |
-| 6 | 1.0 | 0.2 | 0.2 | 0.1 | **1.5** |
-| 7 | 1.5 | 0.4 | 0.5 | 0.2 | **2.6** |
-| 8 | 2.0 | 0.6 | 0.8 | 0.3 | **3.7** |
-| 9 | 2.5 | 0.8 | 1.0 | 0.4 | **4.7** |
-| 10 | 3.0 | 1.2 | 1.5 | 0.5 | **6.2** |
-| 11 | 3.5 | 1.5 | 2.0 | 0.6 | **7.6** |
-| 12 | 4.0 | 1.8 | 2.5 | 0.7 | **9.0** |
-| 13 | 4.0 | 2.0 | 2.8 | 0.8 | **9.6** |
-| 14 | 4.5 | 2.2 | 3.0 | 0.9 | **10.6** |
-| 15 | 4.5 | 2.3 | 3.2 | 1.0 | **11.0** |
-| 16 | 5.0 | 2.4 | 3.3 | 1.0 | **11.7** |
-| 17 | 5.0 | 2.5 | 3.4 | 1.0 | **11.9** |
-| 18 | 5.0 | 2.5 | 3.5 | 1.0 | **12.0** |
-| **TOTAL** | **46.3** | **18.5** | **27.8** | **8.5** | **₦103.6M** |
+| Month | Hardware (₦M) | SaaS (₦M) | Transactions (₦M) | Solar (₦M) | Other (₦M) | Total (₦M) |
+|-------|--------------|-----------|-------------------|-----------|-----------|------------|
+| 1–3 | 0 | 0 | 0 | 0 | 0 | **0** |
+| 4 | 0.5 | 0 | 0 | 0 | 0 | **0.5** |
+| 5 | 0.8 | 0.1 | 0.1 | 0 | 0 | **1.0** |
+| 6 | 1.0 | 0.2 | 0.2 | 0.1 | 0 | **1.5** |
+| 7 | 1.5 | 0.4 | 0.5 | 0.3 | 0.2 | **2.9** |
+| 8 | 2.0 | 0.6 | 0.8 | 0.5 | 0.3 | **4.2** |
+| 9 | 2.5 | 0.8 | 1.0 | 0.6 | 0.4 | **5.3** |
+| 10 | 3.0 | 1.2 | 1.5 | 0.8 | 0.5 | **7.0** |
+| 11 | 3.5 | 1.5 | 2.0 | 1.0 | 0.6 | **8.6** |
+| 12 | 4.0 | 1.8 | 2.5 | 1.2 | 0.7 | **10.2** |
+| 13 | 4.5 | 2.0 | 2.8 | 1.3 | 0.8 | **11.4** |
+| 14 | 5.0 | 2.2 | 3.0 | 1.5 | 0.9 | **12.6** |
+| 15 | 5.5 | 2.5 | 3.2 | 1.6 | 1.0 | **13.8** |
+| 16 | 5.5 | 2.8 | 3.5 | 1.8 | 1.0 | **14.6** |
+| 17 | 6.0 | 3.0 | 3.8 | 2.0 | 1.2 | **16.0** |
+| 18 | 6.0 | 3.2 | 4.0 | 2.0 | 1.2 | **16.4** |
+| 19 | 6.5 | 3.5 | 4.2 | 2.2 | 1.3 | **17.7** |
+| 20 | 7.0 | 3.8 | 4.5 | 2.3 | 1.4 | **19.0** |
+| 21 | 7.0 | 4.0 | 4.8 | 2.5 | 1.5 | **19.8** |
+| 22 | 7.5 | 4.0 | 5.0 | 2.5 | 1.5 | **20.5** |
+| 23 | 8.0 | 4.0 | 5.0 | 2.5 | 1.8 | **21.3** |
+| 24 | 8.0 | 4.0 | 5.0 | 2.5 | 1.8 | **21.3** |
+| **TOTAL** | **95.3** | **43.6** | **56.4** | **25.2** | **18.1** | **₦243.6M** |
 
 ![Revenue vs Expenses](proposal_images/revenue_projection.png)
 
@@ -898,16 +948,17 @@ PECH is modeled after **Alibaba Group's layered architecture**, adapted for Afri
 ```
   Revenue vs Expenses (₦ Millions per Month)
 
-  Month:   1   3   6   9   12   15   18
+  Month:   1   3   6   9   12   15   18   21   24
 
-  Revenue: 0   0  1.5  4.7  9.0  11.0  12.0
-           ░░  ░░  █░  ███  ████  █████  █████
+  Revenue: 0   0  1.5  5.3  10.2 13.8 16.4 19.8 21.3
+           ░░  ░░  █░  ███  ████ █████ ██████ ███████ ████████
 
-  Expense: 14  14  16  17   15   12.5   8.3
-           ██  ██  ███ ███  ███  ██░░░  █░░░░
+  Expense: 12  12  14  14.5 13   11   9.5  7.0  2.3
+           ██  ██  ███ ███  ███  ██░  █░░  █░░  ░░░░
 
-  ✦ Break-even: Month 14–15
-  ✦ Cash-positive: Month 16+
+  ✦ Break-even: Month 16–18 (operational break-even)
+  ✦ Cash-positive: Month 19+ (revenue exceeds all costs)
+  ✦ 24-Month Cumulative Revenue: ₦243.6M
 ```
 
 ---
@@ -923,7 +974,7 @@ PECH is modeled after **Alibaba Group's layered architecture**, adapted for Afri
 | 3 | **FX volatility (Naira/USD)** | High | High | Pre-purchase hardware in bulk; hedge with USD reserves |
 | 4 | **Low merchant adoption** | High | Medium | Free ERP + pilot incentives + market association partnerships |
 | 5 | **Power/internet instability** | Medium | High | Offline-first design; power kits bundled; edge processing |
-| 6 | **Regulatory changes (NDPA/CBN)** | Medium | Medium | Legal retainer; proactive compliance; data localization |
+| 6 | **Regulatory changes (NDPA/CBN)** | Medium | Medium | Legal consulting; proactive compliance; data localization |
 | 7 | **Competitive entry (Tuya/global)** | Medium | Low | Vertical specialization; African-optimized; installer loyalty |
 | 8 | **Cash burn exceeds plan** | High | Medium | Conservative hiring; revenue milestones gate next phase |
 | 9 | **Key person departure (CTO)** | High | Low | Equity vesting; knowledge documentation; pair programming |
@@ -949,7 +1000,18 @@ PECH is modeled after **Alibaba Group's layered architecture**, adapted for Afri
 | Seed/Angel Investors | 15–20% | This round (₦250M valuation basis) |
 | Strategic Reserve | 10–15% | Future rounds, partnerships |
 
-### 15.2 Governance
+### 15.2 Corporate Holding Structure
+
+```
+PECH Group Holdings Ltd (Parent — Technology Company)
+├── PECH Payments Ltd (Subsidiary — holds PSSP license)
+├── PECH Terminal Services Ltd (Subsidiary — holds PTSP license, when justified)
+└── Future subsidiaries as needed
+```
+
+> The parent company (PECH Group Holdings Ltd) is a technology company that owns the platform, hardware IP, and brand. Payment and terminal licenses are held by dedicated subsidiaries to isolate regulatory risk and meet CBN single-purpose entity requirements.
+
+### 15.3 Governance
 
 | Position | Responsibility |
 |----------|---------------|
@@ -957,7 +1019,7 @@ PECH is modeled after **Alibaba Group's layered architecture**, adapted for Afri
 | **CTO** | Architecture authority, technical hiring, security |
 | **Advisory Board** | Regulatory, finance, market access (3-5 advisors) |
 
-### 15.3 Investor Protection
+### 15.4 Investor Protection
 
 - Monthly financial reporting
 - Board seat for lead investor (optional)
@@ -971,18 +1033,19 @@ PECH is modeled after **Alibaba Group's layered architecture**, adapted for Afri
 
 ### 16.1 Company-Level KPIs (Monthly Board Review)
 
-| KPI | Month 6 Target | Month 12 Target | Month 18 Target |
-|-----|----------------|-----------------|-----------------|
-| Active Merchants (ERP) | 200 | 1,500 | 3,000 |
-| IoT Devices Deployed | 50 | 300 | 800 |
-| Markets Digitized | 1 | 3 | 5 |
-| Spoke Stations Active | 2 | 10 | 20 |
-| Monthly Revenue (₦) | 1.5M | 9.0M | 14.0M |
-| Payment GMV (₦/month) | 20M | 150M | 500M |
-| Team Size | 12 | 25 | 35 |
-| Device Sell-Through Rate | 70% | 80% | 85% |
-| Customer Churn (monthly) | <15% | <10% | <8% |
-| System Uptime | 95% | 99% | 99.5% |
+| KPI | Month 6 | Month 12 | Month 18 | Month 24 |
+|-----|---------|----------|----------|----------|
+| Active Merchants (ERP) | 200 | 1,500 | 3,000 | 5,000 |
+| IoT Devices Deployed | 50 | 300 | 800 | 1,500 |
+| Markets Digitized | 1 | 3 | 5 | 8 |
+| Spoke Stations Active | 2 | 10 | 20 | 30 |
+| Monthly Revenue (₦) | 1.5M | 10.2M | 16.4M | 21.3M |
+| Payment GMV (₦/month) | 20M | 150M | 500M | 1B+ |
+| Team Size | 9 | 18 | 25 | 30 |
+| Device Sell-Through Rate | 70% | 80% | 85% | 90% |
+| Customer Churn (monthly) | <15% | <10% | <8% | <5% |
+| System Uptime | 95% | 99% | 99.5% | 99.9% |
+| PSSP License | — | — | Obtained | Active |
 
 ### 16.2 Role-Specific KPIs
 
@@ -1000,60 +1063,68 @@ PECH is modeled after **Alibaba Group's layered architecture**, adapted for Afri
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
-│           ₦250,000,000 CAPITAL DEPLOYMENT                       │
+│           ₦250,000,000 CAPITAL DEPLOYMENT (24 MONTHS)           │
 │                   PECH Group Holdings Ltd                        │
 ├─────────────────────────────────────────────────────────────────┤
 │                                                                 │
-│  PEOPLE (28.0%)           ₦70,000,000                          │
-│  ├─ Engineering Team         ₦32,000,000                       │
-│  ├─ Operations & Support     ₦18,000,000                       │
-│  ├─ Field Agents             ₦10,000,000                       │
-│  └─ Contractors (UI/UX etc)  ₦10,000,000                       │
+│  HARDWARE — 25 SKUs (30.0%)  ₦75,000,000                      │
+│  ├─ Commerce (POS, Tablets, Kiosks)   ₦22,000,000             │
+│  ├─ IoT & Energy Devices              ₦13,000,000             │
+│  ├─ Smart Water Controllers            ₦8,000,000             │
+│  ├─ Smart Home (Switches, Cameras)     ₦6,000,000             │
+│  ├─ Solar Products (Street Lights, Fans) ₦8,000,000           │
+│  ├─ Learning Tablets + LED Displays    ₦6,000,000             │
+│  ├─ Energy Storage Systems             ₦5,000,000             │
+│  └─ SONCAP Certification (amortized)  ₦4,500,000             │
+│  └─ Shipping + Import                 ₦2,500,000             │
 │                                                                 │
-│  HARDWARE — 23 SKUs (30.0%) ₦75,000,000                       │
-│  ├─ Commerce (POS, Tablets, Kiosks)  ₦24,000,000              │
-│  ├─ IoT & Energy Devices            ₦15,000,000              │
-│  ├─ Smart Water Controllers          ₦9,000,000              │
-│  ├─ Smart Home (Switches, Cameras)   ₦7,000,000              │
-│  ├─ Learning Tablets + LED Displays  ₦7,000,000              │
-│  ├─ Energy Storage Systems           ₦5,500,000              │
-│  └─ Shipping + Import + SONCAP      ₦7,500,000              │
+│  PEOPLE (28.0%)              ₦70,000,000                       │
+│  ├─ Engineering Team            ₦32,000,000                    │
+│  ├─ Operations & Support        ₦18,000,000                    │
+│  ├─ Field Agents                ₦10,000,000                    │
+│  └─ Contractors (UI/UX etc)    ₦10,000,000                    │
 │                                                                 │
-│  CONTINGENCY & FX (8.4%)   ₦21,000,000                        │
-│  └─ FX hedging, emergency, expanded product line buffer       │
+│  TECHNOLOGY (11.2%)          ₦28,000,000                       │
+│  ├─ Cloud Infrastructure (24mo)  ₦19,200,000                  │
+│  └─ AI Tools & Subscriptions     ₦9,600,000                   │
 │                                                                 │
-│  TECHNOLOGY (9.6%)        ₦24,000,000                          │
-│  ├─ Cloud Infrastructure       ₦17,100,000                    │
-│  └─ AI Tools & Subscriptions   ₦7,200,000                     │
+│  OPERATIONS (8.0%)           ₦20,000,000                       │
+│  ├─ Office Rent (24mo × ₦500K)  ₦12,000,000                  │
+│  ├─ Equipment & Furniture        ₦3,000,000                   │
+│  ├─ Utilities & Misc             ₦3,000,000                   │
+│  └─ Product Display Shelves      ₦2,000,000                   │
 │                                                                 │
-│  MARKETING (8.8%)         ₦22,000,000                          │
-│  ├─ Digital Marketing          ₦8,000,000                     │
-│  ├─ Field Marketing & Events   ₦7,000,000                     │
-│  ├─ Brand & Content            ₦4,000,000                     │
-│  └─ Demo Stations & Workshops  ₦3,000,000                     │
+│  CONTINGENCY & FX (7.2%)    ₦18,000,000                       │
+│  └─ FX hedging, emergency, expanded product line buffer        │
 │                                                                 │
-│  OPERATIONS (6.4%)        ₦16,000,000                          │
-│  ├─ Office Rent (18 months)    ₦9,000,000                     │
-│  ├─ Equipment & Furniture      ₦4,000,000                     │
-│  └─ Utilities & Misc           ₦3,000,000                     │
+│  MARKETING (6.0%)            ₦15,000,000                       │
+│  ├─ Digital Marketing             ₦5,000,000                  │
+│  ├─ Field Marketing & Events      ₦4,000,000                  │
+│  ├─ Brand & Content               ₦3,000,000                  │
+│  └─ Demo Stations & Workshops     ₦3,000,000                  │
 │                                                                 │
-│  LOGISTICS SETUP (4.8%)   ₦12,000,000                          │
-│  ├─ Spoke Station Equipment    ₦8,000,000                     │
-│  └─ Hub Setup & Branding       ₦4,000,000                     │
+│  LOGISTICS SETUP (4.8%)     ₦12,000,000                       │
+│  ├─ Spoke Station Equipment       ₦8,000,000                  │
+│  └─ Hub Setup & Branding          ₦4,000,000                  │
 │                                                                 │
-│  COMPLIANCE (4.0%)        ₦10,000,000                          │
-│  ├─ SONCAP (3 shipments)       ₦4,500,000                     │
-│  ├─ Legal Retainer (18mo)      ₦1,800,000                     │
-│  ├─ Licenses & Permits         ₦2,550,000                     │
-│  └─ Buffer                     ₦1,150,000                     │
+│  COMPLIANCE (4.8%)           ₦12,000,000                       │
+│  ├─ SONCAP (3 shipments)          ₦4,500,000                  │
+│  ├─ Legal Consulting (₦1M/yr)     ₦2,000,000                  │
+│  ├─ Accountant Consulting (₦500K/yr) ₦1,000,000               │
+│  ├─ Licenses & Permits             ₦2,500,000                 │
+│  ├─ Trademark (1 class @ ₦100K)    ₦100,000                   │
+│  └─ Buffer                          ₦1,900,000                │
 │                                                                 │
-│  [!] PSSP/PTSP (NEXT TRANCHE — NOT IN THIS BUDGET)            │
+│  [!] PSSP (AFTER MONTH 9 — FROM BUSINESS TRACTION)            │
 │  ├─ PSSP: Capital + Escrow     ₦205,000,000                   │
+│  └─ PCI DSS Certification       ₦5,000,000                    │
+│                                                                 │
+│  [!] FUTURE — WHEN JUSTIFIED                                   │
 │  ├─ PTSP: Capital + Escrow     ₦201,000,000                   │
-│  └─ PCI DSS + Trademarks       ₦7,000,000                    │
+│  └─ MMO: Capital + Escrow      ₦4,001,000,000                 │
 │                                                                 │
 ├─────────────────────────────────────────────────────────────────┤
-│  TOTAL: ₦250,000,000                                           │
+│  TOTAL (FROM ₦250M): ₦250,000,000                             │
 └─────────────────────────────────────────────────────────────────┘
 ```
 

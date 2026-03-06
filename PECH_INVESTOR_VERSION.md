@@ -1,12 +1,12 @@
 # PECH: Africa's Commerce & Infrastructure Operating System
-## ₦250M Capital Deployment Plan — 18-Month Operational Roadmap
+## ₦250M Capital Deployment Plan — 24-Month Operational Roadmap
 
 ---
 
 **Prepared by:** PECH Group Holdings Ltd
 **Date:** March 2026
 **Capital Requirement:** ₦250,000,000 (Two Hundred and Fifty Million Naira)
-**Deployment Period:** 18 Months (March 2026 — August 2027)
+**Deployment Period:** 24 Months (March 2026 — February 2028)
 **Confidentiality:** This document is strictly confidential
 
 ---
@@ -18,7 +18,7 @@
 3. [PECH Ecosystem Overview](#3-pech-ecosystem-overview)
 4. [Ecosystem Architecture Diagram](#4-ecosystem-architecture-diagram)
 5. [Platform Breakdown & Build Strategy](#5-platform-breakdown--build-strategy)
-6. [Phased Execution Roadmap (18 Months)](#6-phased-execution-roadmap-18-months)
+6. [Phased Execution Roadmap (24 Months)](#6-phased-execution-roadmap-24-months)
 7. [Capital Deployment Plan](#7-capital-deployment-plan)
 8. [Human Capital & Hiring Plan](#8-human-capital--hiring-plan)
 9. [Technology & AI Tools Budget](#9-technology--ai-tools-budget)
@@ -55,7 +55,7 @@ PECH is a **technology and platform infrastructure enabler for people**. We buil
 ### Designed for Africa, Powered by PECH
 All PECH products are **designed specifically for African conditions** — wide voltage tolerance (140–280V), heat resistance, dust/water protection, and offline capability. Every product is **progressively integrated across PECH's entire ecosystem**: the IoT platform powers device intelligence, the ERP connects business operations, the Marketplace enables discovery and sales, Logistics handles delivery, and Payments processes transactions. A PECH smart switch is not just a switch — it's a node in Africa's commerce and infrastructure operating system.
 
-This plan details the deployment of **₦250,000,000** in secured capital across the first **18 months** of simultaneous lean platform launches, targeting **Nigeria first** with a clear path to West African expansion. Additional capital will be injected by the investor as the business gains traction.
+This plan details the deployment of **₦250,000,000** in secured capital across the first **24 months** of simultaneous lean platform launches, targeting **Nigeria first** with a clear path to West African expansion. After Month 9, as the business gains traction through hardware sales and software product revenue, additional capital will be deployed to secure the PSSP license and accelerate growth.
 
 ### Why PECH Will Win
 
@@ -67,16 +67,17 @@ This plan details the deployment of **₦250,000,000** in secured capital across
 | **Founder Advantage** | Founder directly sources hardware from China (Shenzhen) |
 | **No Single-Point Competition** | No African company combines all 6 layers |
 
-### Key Targets (18 Months)
+### Key Targets (24 Months)
 
 | Metric | Target |
 |--------|--------|
-| Active Merchants (ERP) | 1,500–3,000 |
-| IoT Devices Deployed | 500–1,000 |
-| Markets Digitized | 3–5 major markets |
-| Monthly Recurring Revenue | ₦8M–₦15M by Month 18 |
+| Active Merchants (ERP) | 3,000–5,000 |
+| IoT Devices Deployed | 800–1,500 |
+| Markets Digitized | 5–8 major markets |
+| Monthly Recurring Revenue | ₦15M–₦25M by Month 24 |
 | Team Size | 25–35 people |
-| Payment Volume (GMV) | ₦500M+ cumulative |
+| Payment Volume (GMV) | ₦1B+ cumulative |
+| PSSP License | Obtained (Month 9+) |
 
 ---
 
@@ -229,8 +230,8 @@ PECH is modeled after **Alibaba Group's layered architecture**, adapted for Afri
 |--------|--------|
 | **Purpose** | Process payments across ALL PECH platforms |
 | **Strategy Phase 1** | Partner with Paystack/Flutterwave (no license needed) |
-| **Strategy Phase 2** | Obtain PSSP license from CBN (Month 12-18) |
-| **Strategy Phase 3** | PTSP license for POS terminal operations (post-18 months) |
+| **Strategy Phase 2** | Obtain PSSP license from CBN (Month 9+) |
+| **Strategy Phase 3** | PTSP license for POS terminal operations (partner or post-24 months) |
 | **Revenue Model** | Transaction fees (0.5-1.5% per transaction) |
 
 ### 5.6 Smart Water Controllers
@@ -292,9 +293,9 @@ PECH is modeled after **Alibaba Group's layered architecture**, adapted for Afri
 
 ---
 
-## 6. Phased Execution Roadmap (18 Months)
+## 6. Phased Execution Roadmap (24 Months)
 
-![18-Month Phased Roadmap](proposal_images/phase_roadmap.png)
+![24-Month Phased Roadmap](proposal_images/phase_roadmap.png)
 
 ### Phase 1: Foundation (Months 0–3) — "Build the Engine"
 
