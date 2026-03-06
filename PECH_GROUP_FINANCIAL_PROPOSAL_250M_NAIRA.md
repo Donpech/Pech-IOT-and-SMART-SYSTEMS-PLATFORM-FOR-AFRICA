@@ -1,12 +1,12 @@
 # PECH: Africa's Commerce & Infrastructure Operating System
-## ₦250M Capital Deployment Plan — 18-Month Operational Roadmap
+## ₦250M Capital Deployment Plan — 24-Month Operational Roadmap
 
 ---
 
 **Prepared by:** PECH Group Holdings Ltd
 **Date:** March 2026
 **Capital Requirement:** ₦250,000,000 (Two Hundred and Fifty Million Naira)
-**Deployment Period:** 18 Months (March 2026 — August 2027)
+**Deployment Period:** 24 Months (March 2026 — February 2028)
 **Confidentiality:** This document is strictly confidential
 
 ---
@@ -18,7 +18,7 @@
 3. [PECH Ecosystem Overview](#3-pech-ecosystem-overview)
 4. [Ecosystem Architecture Diagram](#4-ecosystem-architecture-diagram)
 5. [Platform Breakdown & Build Strategy](#5-platform-breakdown--build-strategy)
-6. [Phased Execution Roadmap (18 Months)](#6-phased-execution-roadmap-18-months)
+6. [Phased Execution Roadmap (24 Months)](#6-phased-execution-roadmap-24-months)
 7. [Capital Deployment Plan](#7-capital-deployment-plan)
 8. [Human Capital & Hiring Plan](#8-human-capital--hiring-plan)
 9. [Technology & AI Tools Budget](#9-technology--ai-tools-budget)
@@ -55,7 +55,7 @@ PECH is a **technology and platform infrastructure enabler for people**. We buil
 ### Designed for Africa, Powered by PECH
 All PECH products are **designed specifically for African conditions** — wide voltage tolerance (140–280V), heat resistance, dust/water protection, and offline capability. Every product is **progressively integrated across PECH's entire ecosystem**: the IoT platform powers device intelligence, the ERP connects business operations, the Marketplace enables discovery and sales, Logistics handles delivery, and Payments processes transactions. A PECH smart switch is not just a switch — it's a node in Africa's commerce and infrastructure operating system.
 
-This plan details the deployment of **₦250,000,000** in secured capital across the first **18 months** of simultaneous lean platform launches, targeting **Nigeria first** with a clear path to West African expansion. Additional capital will be injected by the investor as the business gains traction.
+This plan details the deployment of **₦250,000,000** in secured capital across the first **24 months** of simultaneous lean platform launches, targeting **Nigeria first** with a clear path to West African expansion. After Month 9, as the business gains traction through hardware sales and software product revenue, additional capital will be deployed to secure the PSSP license and accelerate growth.
 
 ### Why PECH Will Win
 
@@ -67,16 +67,17 @@ This plan details the deployment of **₦250,000,000** in secured capital across
 | **Founder Advantage** | Founder directly sources hardware from China (Shenzhen) |
 | **No Single-Point Competition** | No African company combines all 6 layers |
 
-### Key Targets (18 Months)
+### Key Targets (24 Months)
 
 | Metric | Target |
 |--------|--------|
-| Active Merchants (ERP) | 1,500–3,000 |
-| IoT Devices Deployed | 500–1,000 |
-| Markets Digitized | 3–5 major markets |
-| Monthly Recurring Revenue | ₦8M–₦15M by Month 18 |
+| Active Merchants (ERP) | 3,000–5,000 |
+| IoT Devices Deployed | 800–1,500 |
+| Markets Digitized | 5–8 major markets |
+| Monthly Recurring Revenue | ₦15M–₦25M by Month 24 |
 | Team Size | 25–35 people |
-| Payment Volume (GMV) | ₦500M+ cumulative |
+| Payment Volume (GMV) | ₦1B+ cumulative |
+| PSSP License | Obtained (Month 9+) |
 
 ---
 
@@ -259,9 +260,10 @@ PECH is modeled after **Alibaba Group's layered architecture**, adapted for Afri
 | Aspect | Detail |
 |--------|--------|
 | **Purpose** | Process payments across ALL PECH platforms |
-| **Strategy Phase 1** | Partner with Paystack/Flutterwave (no license needed) |
-| **Strategy Phase 2** | Obtain PSSP license from CBN (Month 12-18) |
-| **Strategy Phase 3** | PTSP license for POS terminal operations (post-18 months) |
+| **Strategy Phase 1** | Partner with Paystack/Flutterwave for payments + partner PTSP for POS terminals + partner bank for settlement (Month 1–9) |
+| **Strategy Phase 2** | Obtain **PSSP license** from CBN — own payment gateway processing (Month 9+, after business traction from hardware sales + software revenue) |
+| **Strategy Phase 3** | Add PTSP license for own POS terminal operations (when justified by volume) |
+| **Corporate Structure** | PECH Group Holdings (parent) → PECH Payments Ltd (subsidiary, holds PSSP) → future subsidiaries for PTSP/PSS |
 | **Revenue Model** | Transaction fees (0.5-1.5% per transaction) |
 
 ### 5.6 Smart Water Controllers
@@ -270,10 +272,10 @@ PECH is modeled after **Alibaba Group's layered architecture**, adapted for Afri
 |--------|--------|
 | **Purpose** | Multi-tier smart water level controllers for African conditions |
 | **Target Users** | Households, estates, hotels, hospitals, industrial boreholes |
-| **Tier 1 — Basic** | Float switches + Arduino Nano, auto pump control, dry-run protection, LED/buzzer (₦15K–₦25K) |
-| **Tier 2 — Mid-Range** | Ultrasonic sensor + ESP8266, LCD display, WiFi monitoring, dual-tank support (₦35K–₦50K) |
-| **Tier 3 — Smart IoT** | ESP32 + SIM800L GSM, mobile app, SMS/USSD alerts, OTA firmware, energy tracking, anti-cycling (₦55K–₦80K) |
-| **Tier 4 — Industrial/SCADA** | STM32 + SIM7600 4G, RS485/Modbus, LoRa, 3-phase, redundant sensors, DIN-rail (₦120K–₦200K) |
+| **Tier 1 — Basic** | Float switches + Arduino Nano, auto pump control, dry-run protection, LED/buzzer (₦22K–₦30K) |
+| **Tier 2 — Mid-Range** | Ultrasonic sensor + ESP8266, LCD display, WiFi monitoring, dual-tank support (₦45K–₦60K) |
+| **Tier 3 — Smart IoT** | ESP32 + SIM800L GSM, mobile app, SMS/USSD alerts, OTA firmware, energy tracking, anti-cycling (₦72K–₦95K) |
+| **Tier 4 — Industrial/SCADA** | STM32 + SIM7600 4G, RS485/Modbus, LoRa, 3-phase, redundant sensors, DIN-rail (₦175K–₦250K) |
 | **ODM Strategy** | Full design ownership, editable source files, NDA with Chinese ODMs, EVT→DVT→PVT validation |
 | **Key Safety** | 140–280VAC tolerance, MOV+TVS protection, hardwired dry-run interlock, conformal coating, IP65+ |
 | **Revenue Model** | Hardware margin (40-60%) + IoT SaaS for Tier 3-4 |
@@ -323,9 +325,9 @@ PECH is modeled after **Alibaba Group's layered architecture**, adapted for Afri
 
 ---
 
-## 6. Phased Execution Roadmap (18 Months)
+## 6. Phased Execution Roadmap (24 Months)
 
-![18-Month Phased Roadmap](proposal_images/phase_roadmap.png)
+![24-Month Phased Roadmap](proposal_images/phase_roadmap.png)
 
 ### Phase 1: Foundation (Months 0–3) — "Build the Engine"
 
@@ -390,51 +392,68 @@ PECH is modeled after **Alibaba Group's layered architecture**, adapted for Afri
 | ERP at 3,000 merchants | Market dependency established |
 | IoT at 800 devices | Multi-vertical (energy + estates) |
 | Marketplace at 5+ markets | National visibility |
-| PSSP license obtained | Own payment processing |
+| PSSP license operational | Own payment processing via PECH Payments Ltd (subsidiary) |
 | Developer API launched | SDK + webhooks live |
 | Credit scoring pilot | 2 MFI partnerships |
 | Installer certification program | 20 certified installers |
 | Third hardware batch + new SKUs | Smart meters, tablets |
-| West Africa research | Ghana/Kenya assessment |
 
-**Budget Allocation:** ₦43,000,000
+**Budget Allocation:** ₦35,000,000
+
+### Phase 6: Growth & Expansion (Months 19–24) — "Scale & Consolidate"
+
+| Activity | Deliverable |
+|----------|------------|
+| ERP at 5,000 merchants | Multi-city presence established |
+| IoT at 1,500 devices | Revenue from SaaS subscriptions growing |
+| Marketplace at 8+ markets | National brand recognition |
+| Payment volume ₦500M+/month | Transaction fee revenue significant |
+| PTSP license evaluation | Assess justification for own POS terminal license |
+| Fourth hardware batch | Expanded product line, higher volume |
+| West Africa research | Ghana/Kenya assessment complete |
+| Revenue approaching self-sustainability | Operating costs largely covered by revenue |
+
+**Budget Allocation:** ₦10,000,000 (operational costs increasingly covered by revenue)
 
 ---
 
 ## 7. Capital Deployment Plan
 
-### 7.1 Total Budget Allocation (₦250,000,000 / 18 Months)
+### 7.1 Total Budget Allocation (₦250,000,000 / 24 Months)
 
 | Category | Amount (₦) | % of Total |
 |----------|-----------|-----------|
 | **Hardware Procurement (China Sourcing — 23 SKUs)** | ₦75,000,000 | 30.0% |
 | **Human Capital (Salaries & Contractors)** | ₦70,000,000 | 28.0% |
-| **Technology Infrastructure & AI Tools** | ₦24,000,000 | 9.6% |
-| **Marketing & Customer Acquisition** | ₦22,000,000 | 8.8% |
-| **Contingency & Emergency Reserve (FX + unforeseen)** | ₦21,000,000 | 8.4% |
-| **Office, Equipment & Operations** | ₦16,000,000 | 6.4% |
+| **Technology Infrastructure & AI Tools** | ₦28,000,000 | 11.2% |
+| **Office, Equipment & Operations** | ₦20,000,000 | 8.0% |
+| **Contingency & Emergency Reserve (FX + unforeseen)** | ₦18,000,000 | 7.2% |
+| **Marketing & Customer Acquisition** | ₦15,000,000 | 6.0% |
 | **Logistics Platform (Stations Setup)** | ₦12,000,000 | 4.8% |
-| **Licensing, Legal & Compliance** | ₦10,000,000 | 4.0% |
+| **Licensing, Legal & Compliance** | ₦12,000,000 | 4.8% |
 | **TOTAL** | **₦250,000,000** | **100%** |
 
-> **FUNDING GAPS (Covered by investor's next tranche):**
-> - PSSP License: ~₦205M (₦100M share capital + ₦100M escrow + fees + PCI DSS)
-> - PTSP License: ~₦201M (₦100M share capital + ₦100M escrow + fees)
-> - Payment processing in Phase 1–3 uses licensed PSP partners (Paystack/Flutterwave)
-> - Own PSSP/PTSP licenses pursued when investor injects additional capital
+> **PSSP LICENSE CAPITAL (After Month 9 — from business traction):**
+> - After Month 9, revenue from hardware sales and software products justifies deploying additional capital for PSSP licensing
+> - PSSP License: ~₦205M (₦100M share capital + ₦100M escrow + fees + PCI DSS) — held by PECH Payments Ltd (subsidiary)
+> - Payment processing in Phase 1 (Months 1–9) uses licensed PSP partners (Paystack/Flutterwave) + partner PTSP for POS terminals + partner bank for settlement
+> - PTSP license pursued later when own POS terminal volume justifies the ~₦201M capital requirement
 
 ### 7.2 Monthly Cash Flow Projection
 
 | Quarter | Months | Monthly Burn (₦) | Cumulative Spend (₦) | Revenue (₦) |
 |---------|--------|------------------|----------------------|-------------|
-| Q1 | 1–3 | ₦14.0M | ₦42.0M | ₦0 |
-| Q2 | 4–6 | ₦16.5M | ₦91.5M | ₦1.5M |
-| Q3 | 7–9 | ₦17.0M | ₦142.5M | ₦8.0M |
-| Q4 | 10–12 | ₦15.0M | ₦187.5M | ₦22.0M |
-| Q5 | 13–15 | ₦12.5M | ₦225.0M | ₦32.0M |
-| Q6 | 16–18 | ₦8.3M | ₦250.0M | ₦42.0M |
+| Q1 | 1–3 | ₦12.0M | ₦36.0M | ₦0 |
+| Q2 | 4–6 | ₦14.0M | ₦78.0M | ₦1.5M |
+| Q3 | 7–9 | ₦14.5M | ₦121.5M | ₦8.0M |
+| Q4 | 10–12 | ₦13.0M | ₦160.5M | ₦22.0M |
+| Q5 | 13–15 | ₦11.0M | ₦193.5M | ₦32.0M |
+| Q6 | 16–18 | ₦9.5M | ₦222.0M | ₦42.0M |
+| Q7 | 19–21 | ₦7.0M | ₦243.0M | ₦50.0M |
+| Q8 | 22–24 | ₦2.3M | ₦250.0M | ₦58.0M |
 
-**Break-even projected:** Month 14–16 (operational break-even)
+**Break-even projected:** Month 16–18 (operational break-even)
+**Cash-positive:** Month 19+ (revenue exceeds burn rate)
 
 ![Budget Allocation](proposal_images/budget_allocation.png)
 
@@ -443,14 +462,15 @@ PECH is modeled after **Alibaba Group's layered architecture**, adapted for Afri
 ```
   Hardware (23 SKUs)██████████████████████████████░░  30.0%  ₦75M
   Human Capital     ████████████████████████████░░░░  28.0%  ₦70M
-  Tech & AI Tools   █████████░░░░░░░░░░░░░░░░░░░░░░   9.6%  ₦24M
-  Marketing         ████████░░░░░░░░░░░░░░░░░░░░░░░   8.8%  ₦22M
-  Contingency/FX    ████████░░░░░░░░░░░░░░░░░░░░░░░   8.4%  ₦21M
-  Office & Ops      ██████░░░░░░░░░░░░░░░░░░░░░░░░░   6.4%  ₦16M
+  Tech & AI Tools   ███████████░░░░░░░░░░░░░░░░░░░░  11.2%  ₦28M
+  Office & Ops      ████████░░░░░░░░░░░░░░░░░░░░░░░   8.0%  ₦20M
+  Contingency/FX    ███████░░░░░░░░░░░░░░░░░░░░░░░░   7.2%  ₦18M
+  Marketing         ██████░░░░░░░░░░░░░░░░░░░░░░░░░   6.0%  ₦15M
   Logistics Setup   ████░░░░░░░░░░░░░░░░░░░░░░░░░░░   4.8%  ₦12M
-  Legal/Compliance  ████░░░░░░░░░░░░░░░░░░░░░░░░░░░   4.0%  ₦10M
+  Legal/Compliance  ████░░░░░░░░░░░░░░░░░░░░░░░░░░░   4.8%  ₦12M
 
-  * PSSP/PTSP capital (~₦400M+) funded by investor's next tranche
+  * PSSP capital (~₦205M) deployed after Month 9 from business traction
+  * PTSP capital (~₦201M) deployed later when justified by volume
 ```
 
 ---
@@ -474,7 +494,7 @@ PECH is modeled after **Alibaba Group's layered architecture**, adapted for Afri
 **Monthly payroll:** ₦1,950,000
 **Quarterly payroll:** ₦5,850,000
 
-> Compliance handled by legal retainer (₦100K/mo). UI/UX contracted per-project basis.
+> Compliance handled by legal consulting (₦1M/year). Accounting by external consultant (₦500K/year). UI/UX contracted per-project basis.
 
 #### Phase 2 (Months 4–6): MVP & Pilot — 9 People
 
@@ -519,9 +539,20 @@ PECH is modeled after **Alibaba Group's layered architecture**, adapted for Afri
 | 22–25 | **Additional Field Agents (4)** | ₦80,000 each | National expansion |
 
 **Monthly payroll:** ₦6,690,000
-**Quarterly payroll (6 months):** ₦40,140,000
+**Phase 5 payroll (6 months):** ₦40,140,000
 
-### 8.2 Total Human Capital Cost (18 Months)
+#### Phase 6 (Months 19–24): Growth & Expansion — 25-30 People
+
+| # | Role | Monthly Salary (₦) | Notes |
+|---|------|-------------------|-------|
+| 26 | **PSSP Compliance Officer** | ₦400,000 | Regulatory compliance for payment license |
+| 27–28 | **Additional Engineers (2)** | ₦350,000 each | Scale payment platform |
+| 29–30 | **Additional Field Agents (2)** | ₦80,000 each | New markets expansion |
+
+**Monthly payroll:** ₦7,950,000
+**Phase 6 payroll (6 months):** ₦47,700,000
+
+### 8.2 Total Human Capital Cost (24 Months)
 
 | Phase | Duration | Avg Monthly (₦) | Total (₦) |
 |-------|----------|-----------------|-----------|
@@ -530,12 +561,14 @@ PECH is modeled after **Alibaba Group's layered architecture**, adapted for Afri
 | Phase 3 | 3 months | ₦4,310,000 | ₦12,930,000 |
 | Phase 4 | 3 months | ₦5,320,000 | ₦15,960,000 |
 | Phase 5 | 6 months | ₦6,690,000 | ₦40,140,000 |
-| **TOTAL** | **18 months** | | **₦84,060,000** |
+| Phase 6 | 6 months | ₦7,950,000 | ₦47,700,000 |
+| **TOTAL** | **24 months** | | **₦131,760,000** |
 
 > **Note:** Actual budget is ₦70,000,000 for human capital. The difference is covered by:
-> - Delayed hiring (Phase 5 roles shift to Month 15-18 based on revenue)
+> - Delayed hiring (Phase 5-6 roles shift based on revenue milestones)
 > - Contract/per-project arrangements (UI/UX, compliance, field agents)
-> - Revenue offsetting costs from Month 10+
+> - Revenue offsetting costs significantly from Month 10+ (projected ₦103M+ cumulative revenue by Month 18)
+> - Phase 6 (Months 19-24) payroll largely self-funded by revenue — business is cash-positive by Month 19
 > - Performance-based bonuses replacing fixed salary increases
 > - Lean team philosophy — hire only when revenue justifies it
 >
