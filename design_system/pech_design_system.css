@@ -1,0 +1,749 @@
+/* ============================================================
+   PECH Group Holdings Ltd — Design System
+   Version: 1.0
+   Brand Colors: Sky Blue #00BFFF | Orange #F5A623
+   ============================================================ */
+
+/* --- Google Fonts Import --- */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Open+Sans:wght@300;400;500;600;700&display=swap');
+
+/* ============================================================
+   1. CSS CUSTOM PROPERTIES (Design Tokens)
+   ============================================================ */
+:root {
+  /* Brand Colors */
+  --pech-sky-blue: #00BFFF;
+  --pech-orange: #F5A623;
+  --pech-dark-blue: #0099CC;
+  --pech-dark-orange: #E08A00;
+  --pech-dark-bg: #1B2838;
+  --pech-white: #FFFFFF;
+
+  /* Extended Palette */
+  --pech-blue-light: #E8F8FF;
+  --pech-blue-hover: #D4F1FF;
+  --pech-orange-light: #FFF8E8;
+  --pech-orange-hover: #FFF0D0;
+  --pech-text-primary: #2C3E50;
+  --pech-text-secondary: #666666;
+  --pech-text-muted: #999999;
+  --pech-border-light: #B0D4E8;
+  --pech-border-default: #DEE2E6;
+  --pech-bg-subtle: #F8FAFB;
+  --pech-success: #28A745;
+  --pech-danger: #DC3545;
+  --pech-warning: #FFC107;
+  --pech-info: #17A2B8;
+
+  /* Gradients */
+  --pech-gradient-blue: linear-gradient(135deg, #00BFFF, #0099CC);
+  --pech-gradient-orange: linear-gradient(135deg, #F5A623, #E08A00);
+  --pech-gradient-brand: linear-gradient(135deg, #00BFFF, #F5A623);
+  --pech-gradient-dark: linear-gradient(135deg, #1B2838, #2C3E50);
+
+  /* Typography */
+  --pech-font-heading: 'Montserrat', 'Segoe UI', Arial, sans-serif;
+  --pech-font-body: 'Open Sans', 'Segoe UI', Arial, sans-serif;
+  --pech-font-mono: 'Courier New', 'Fira Code', monospace;
+
+  /* Font Sizes */
+  --pech-text-xs: 0.75rem;
+  --pech-text-sm: 0.875rem;
+  --pech-text-base: 1rem;
+  --pech-text-lg: 1.125rem;
+  --pech-text-xl: 1.25rem;
+  --pech-text-2xl: 1.5rem;
+  --pech-text-3xl: 1.875rem;
+  --pech-text-4xl: 2.25rem;
+
+  /* Spacing */
+  --pech-space-1: 0.25rem;
+  --pech-space-2: 0.5rem;
+  --pech-space-3: 0.75rem;
+  --pech-space-4: 1rem;
+  --pech-space-5: 1.5rem;
+  --pech-space-6: 2rem;
+  --pech-space-8: 3rem;
+  --pech-space-10: 4rem;
+
+  /* Border Radius */
+  --pech-radius-sm: 4px;
+  --pech-radius-md: 8px;
+  --pech-radius-lg: 12px;
+  --pech-radius-xl: 16px;
+  --pech-radius-full: 50%;
+
+  /* Shadows */
+  --pech-shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.1);
+  --pech-shadow-md: 0 4px 12px rgba(0, 0, 0, 0.1);
+  --pech-shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.12);
+  --pech-shadow-blue: 0 4px 14px rgba(0, 191, 255, 0.25);
+  --pech-shadow-orange: 0 4px 14px rgba(245, 166, 35, 0.25);
+
+  /* Transitions */
+  --pech-transition: all 0.2s ease;
+}
+
+/* ============================================================
+   2. BASE / RESET
+   ============================================================ */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--pech-font-body);
+  font-size: var(--pech-text-base);
+  color: var(--pech-text-primary);
+  line-height: 1.6;
+  background-color: var(--pech-white);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ============================================================
+   3. TYPOGRAPHY
+   ============================================================ */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--pech-font-heading);
+  line-height: 1.3;
+  margin-bottom: var(--pech-space-3);
+}
+
+h1 {
+  font-size: var(--pech-text-4xl);
+  font-weight: 800;
+  color: var(--pech-sky-blue);
+  border-bottom: 3px solid var(--pech-orange);
+  padding-bottom: var(--pech-space-2);
+}
+
+h2 {
+  font-size: var(--pech-text-3xl);
+  font-weight: 700;
+  color: var(--pech-dark-blue);
+  border-left: 4px solid var(--pech-orange);
+  padding-left: var(--pech-space-3);
+}
+
+h3 {
+  font-size: var(--pech-text-2xl);
+  font-weight: 600;
+  color: var(--pech-sky-blue);
+}
+
+h4 {
+  font-size: var(--pech-text-xl);
+  font-weight: 600;
+  color: var(--pech-dark-orange);
+}
+
+h5 {
+  font-size: var(--pech-text-lg);
+  font-weight: 600;
+  color: var(--pech-text-primary);
+}
+
+h6 {
+  font-size: var(--pech-text-base);
+  font-weight: 600;
+  color: var(--pech-text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+p {
+  margin-bottom: var(--pech-space-4);
+}
+
+a {
+  color: var(--pech-sky-blue);
+  text-decoration: none;
+  transition: var(--pech-transition);
+}
+
+a:hover {
+  color: var(--pech-dark-blue);
+  text-decoration: underline;
+}
+
+small {
+  font-size: var(--pech-text-sm);
+  color: var(--pech-text-muted);
+}
+
+hr {
+  border: none;
+  border-top: 2px solid var(--pech-orange);
+  margin: var(--pech-space-6) 0;
+}
+
+blockquote {
+  border-left: 4px solid var(--pech-orange);
+  background-color: var(--pech-orange-light);
+  padding: var(--pech-space-3) var(--pech-space-4);
+  margin: var(--pech-space-4) 0;
+  font-size: var(--pech-text-sm);
+  color: var(--pech-text-primary);
+  border-radius: 0 var(--pech-radius-sm) var(--pech-radius-sm) 0;
+}
+
+code {
+  font-family: var(--pech-font-mono);
+  background-color: var(--pech-dark-bg);
+  color: var(--pech-sky-blue);
+  padding: 2px 6px;
+  border-radius: var(--pech-radius-sm);
+  font-size: var(--pech-text-sm);
+}
+
+pre {
+  font-family: var(--pech-font-mono);
+  background-color: var(--pech-dark-bg);
+  color: var(--pech-sky-blue);
+  padding: var(--pech-space-4);
+  border-radius: var(--pech-radius-md);
+  border: 1px solid var(--pech-orange);
+  overflow-x: auto;
+  font-size: var(--pech-text-sm);
+}
+
+/* ============================================================
+   4. BUTTONS
+   ============================================================ */
+.pech-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--pech-space-2);
+  font-family: var(--pech-font-heading);
+  font-weight: 600;
+  font-size: var(--pech-text-sm);
+  padding: 10px 24px;
+  border: 2px solid transparent;
+  border-radius: var(--pech-radius-md);
+  cursor: pointer;
+  transition: var(--pech-transition);
+  text-decoration: none;
+  letter-spacing: 0.5px;
+}
+
+.pech-btn-primary {
+  background: var(--pech-gradient-blue);
+  color: var(--pech-white);
+  border-color: var(--pech-sky-blue);
+}
+
+.pech-btn-primary:hover {
+  box-shadow: var(--pech-shadow-blue);
+  transform: translateY(-1px);
+}
+
+.pech-btn-secondary {
+  background: var(--pech-gradient-orange);
+  color: var(--pech-white);
+  border-color: var(--pech-orange);
+}
+
+.pech-btn-secondary:hover {
+  box-shadow: var(--pech-shadow-orange);
+  transform: translateY(-1px);
+}
+
+.pech-btn-outline {
+  background: transparent;
+  color: var(--pech-sky-blue);
+  border-color: var(--pech-sky-blue);
+}
+
+.pech-btn-outline:hover {
+  background: var(--pech-sky-blue);
+  color: var(--pech-white);
+}
+
+.pech-btn-dark {
+  background: var(--pech-gradient-dark);
+  color: var(--pech-white);
+  border-color: var(--pech-dark-bg);
+}
+
+.pech-btn-dark:hover {
+  box-shadow: var(--pech-shadow-lg);
+  transform: translateY(-1px);
+}
+
+.pech-btn-sm {
+  font-size: var(--pech-text-xs);
+  padding: 6px 16px;
+}
+
+.pech-btn-lg {
+  font-size: var(--pech-text-base);
+  padding: 14px 32px;
+}
+
+/* ============================================================
+   5. CARDS
+   ============================================================ */
+.pech-card {
+  background: var(--pech-white);
+  border: 1px solid var(--pech-border-default);
+  border-radius: var(--pech-radius-lg);
+  padding: var(--pech-space-5);
+  box-shadow: var(--pech-shadow-sm);
+  transition: var(--pech-transition);
+}
+
+.pech-card:hover {
+  box-shadow: var(--pech-shadow-md);
+  transform: translateY(-2px);
+}
+
+.pech-card-header {
+  border-bottom: 2px solid var(--pech-blue-light);
+  padding-bottom: var(--pech-space-3);
+  margin-bottom: var(--pech-space-4);
+}
+
+.pech-card-blue {
+  border-top: 4px solid var(--pech-sky-blue);
+}
+
+.pech-card-orange {
+  border-top: 4px solid var(--pech-orange);
+}
+
+.pech-card-gradient {
+  border-top: 4px solid transparent;
+  border-image: var(--pech-gradient-brand) 1;
+}
+
+/* ============================================================
+   6. TABLES
+   ============================================================ */
+.pech-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: var(--pech-space-4) 0;
+  font-size: var(--pech-text-sm);
+}
+
+.pech-table thead tr,
+.pech-table tr:first-child {
+  background: var(--pech-gradient-blue);
+  color: var(--pech-white);
+  font-weight: 600;
+}
+
+.pech-table th,
+.pech-table td {
+  border: 1px solid var(--pech-border-light);
+  padding: 10px 14px;
+  text-align: left;
+}
+
+.pech-table th {
+  background: var(--pech-gradient-blue);
+  color: var(--pech-white);
+  font-family: var(--pech-font-heading);
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+/* Ensure bold/link text stays white on blue header backgrounds */
+.pech-table th strong, .pech-table thead tr strong,
+.pech-table th a, .pech-table thead tr a,
+.pech-table th em, .pech-table thead tr em,
+th strong, thead strong, thead a {
+  color: var(--pech-white);
+}
+
+.pech-table tbody tr:nth-child(even) {
+  background-color: var(--pech-blue-light);
+}
+
+.pech-table tbody tr:nth-child(odd) {
+  background-color: var(--pech-white);
+}
+
+.pech-table tbody tr:hover {
+  background-color: var(--pech-blue-hover);
+}
+
+.pech-table-orange thead tr,
+.pech-table-orange th {
+  background: var(--pech-gradient-orange);
+}
+
+.pech-table-orange tbody tr:nth-child(even) {
+  background-color: var(--pech-orange-light);
+}
+
+.pech-table-orange tbody tr:hover {
+  background-color: var(--pech-orange-hover);
+}
+
+/* ============================================================
+   7. BADGES & TAGS
+   ============================================================ */
+.pech-badge {
+  display: inline-block;
+  font-family: var(--pech-font-heading);
+  font-size: var(--pech-text-xs);
+  font-weight: 600;
+  padding: 3px 10px;
+  border-radius: 20px;
+  letter-spacing: 0.5px;
+}
+
+.pech-badge-blue {
+  background-color: var(--pech-blue-light);
+  color: var(--pech-dark-blue);
+}
+
+.pech-badge-orange {
+  background-color: var(--pech-orange-light);
+  color: var(--pech-dark-orange);
+}
+
+.pech-badge-dark {
+  background-color: var(--pech-dark-bg);
+  color: var(--pech-white);
+}
+
+.pech-badge-success {
+  background-color: #E8F5E9;
+  color: var(--pech-success);
+}
+
+.pech-badge-danger {
+  background-color: #FFEBEE;
+  color: var(--pech-danger);
+}
+
+/* ============================================================
+   8. ALERTS
+   ============================================================ */
+.pech-alert {
+  padding: var(--pech-space-3) var(--pech-space-4);
+  border-radius: var(--pech-radius-md);
+  margin: var(--pech-space-4) 0;
+  font-size: var(--pech-text-sm);
+  border-left: 4px solid;
+}
+
+.pech-alert-info {
+  background-color: var(--pech-blue-light);
+  border-color: var(--pech-sky-blue);
+  color: var(--pech-dark-blue);
+}
+
+.pech-alert-warning {
+  background-color: var(--pech-orange-light);
+  border-color: var(--pech-orange);
+  color: var(--pech-dark-orange);
+}
+
+.pech-alert-success {
+  background-color: #E8F5E9;
+  border-color: var(--pech-success);
+  color: #1B5E20;
+}
+
+.pech-alert-danger {
+  background-color: #FFEBEE;
+  border-color: var(--pech-danger);
+  color: #B71C1C;
+}
+
+/* ============================================================
+   9. FORM FIELDS
+   ============================================================ */
+.pech-input,
+.pech-select,
+.pech-textarea {
+  font-family: var(--pech-font-body);
+  font-size: var(--pech-text-sm);
+  padding: 10px 14px;
+  border: 2px solid var(--pech-border-default);
+  border-radius: var(--pech-radius-md);
+  width: 100%;
+  transition: var(--pech-transition);
+  color: var(--pech-text-primary);
+  background: var(--pech-white);
+}
+
+.pech-input:focus,
+.pech-select:focus,
+.pech-textarea:focus {
+  outline: none;
+  border-color: var(--pech-sky-blue);
+  box-shadow: 0 0 0 3px rgba(0, 191, 255, 0.15);
+}
+
+.pech-label {
+  display: block;
+  font-family: var(--pech-font-heading);
+  font-weight: 600;
+  font-size: var(--pech-text-sm);
+  color: var(--pech-text-primary);
+  margin-bottom: var(--pech-space-1);
+}
+
+.pech-form-group {
+  margin-bottom: var(--pech-space-4);
+}
+
+/* ============================================================
+   10. DOCUMENT HEADER / FOOTER
+   ============================================================ */
+.pech-doc-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--pech-space-4) var(--pech-space-5);
+  background: var(--pech-white);
+  border-bottom: 4px solid transparent;
+  border-image: var(--pech-gradient-brand) 1;
+}
+
+.pech-doc-header-logo {
+  height: 50px;
+  width: auto;
+}
+
+.pech-doc-header-info {
+  text-align: right;
+  font-size: var(--pech-text-sm);
+  color: var(--pech-text-secondary);
+}
+
+.pech-doc-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--pech-space-3) var(--pech-space-5);
+  background-color: var(--pech-dark-bg);
+  color: rgba(255, 255, 255, 0.6);
+  font-size: var(--pech-text-xs);
+}
+
+.pech-doc-footer a {
+  color: var(--pech-sky-blue);
+}
+
+/* ============================================================
+   11. SIGNATURE BLOCK
+   ============================================================ */
+.pech-signature-block {
+  display: inline-block;
+  min-width: 250px;
+  margin-top: var(--pech-space-8);
+  padding-top: var(--pech-space-4);
+}
+
+.pech-signature-line {
+  border-top: 2px solid var(--pech-text-primary);
+  margin-bottom: var(--pech-space-2);
+}
+
+.pech-signature-name {
+  font-family: var(--pech-font-heading);
+  font-weight: 700;
+  font-size: var(--pech-text-base);
+  color: var(--pech-text-primary);
+}
+
+.pech-signature-title {
+  font-size: var(--pech-text-sm);
+  color: var(--pech-text-secondary);
+}
+
+.pech-signature-date {
+  font-size: var(--pech-text-xs);
+  color: var(--pech-text-muted);
+  margin-top: var(--pech-space-1);
+}
+
+/* ============================================================
+   12. UTILITY CLASSES
+   ============================================================ */
+
+/* Text Colors */
+.text-blue { color: var(--pech-sky-blue); }
+.text-dark-blue { color: var(--pech-dark-blue); }
+.text-orange { color: var(--pech-orange); }
+.text-dark-orange { color: var(--pech-dark-orange); }
+.text-dark { color: var(--pech-dark-bg); }
+.text-white { color: var(--pech-white); }
+.text-muted { color: var(--pech-text-muted); }
+.text-primary { color: var(--pech-text-primary); }
+
+/* Background Colors */
+.bg-blue { background-color: var(--pech-sky-blue); }
+.bg-blue-light { background-color: var(--pech-blue-light); }
+.bg-orange { background-color: var(--pech-orange); }
+.bg-orange-light { background-color: var(--pech-orange-light); }
+.bg-dark { background-color: var(--pech-dark-bg); color: var(--pech-white); }
+.bg-white { background-color: var(--pech-white); }
+.bg-subtle { background-color: var(--pech-bg-subtle); }
+
+/* Background Gradients */
+.bg-gradient-blue { background: var(--pech-gradient-blue); color: var(--pech-white); }
+.bg-gradient-orange { background: var(--pech-gradient-orange); color: var(--pech-white); }
+.bg-gradient-brand { background: var(--pech-gradient-brand); color: var(--pech-white); }
+.bg-gradient-dark { background: var(--pech-gradient-dark); color: var(--pech-white); }
+
+/* Borders */
+.border-blue { border: 2px solid var(--pech-sky-blue); }
+.border-orange { border: 2px solid var(--pech-orange); }
+.border-gradient { border: 2px solid transparent; border-image: var(--pech-gradient-brand) 1; }
+
+/* Font Family */
+.font-heading { font-family: var(--pech-font-heading); }
+.font-body { font-family: var(--pech-font-body); }
+.font-mono { font-family: var(--pech-font-mono); }
+
+/* Font Weight */
+.fw-light { font-weight: 300; }
+.fw-normal { font-weight: 400; }
+.fw-medium { font-weight: 500; }
+.fw-semibold { font-weight: 600; }
+.fw-bold { font-weight: 700; }
+.fw-extra-bold { font-weight: 800; }
+
+/* Text Alignment */
+.text-left { text-align: left; }
+.text-center { text-align: center; }
+.text-right { text-align: right; }
+
+/* Spacing */
+.mt-1 { margin-top: var(--pech-space-1); }
+.mt-2 { margin-top: var(--pech-space-2); }
+.mt-4 { margin-top: var(--pech-space-4); }
+.mt-6 { margin-top: var(--pech-space-6); }
+.mb-1 { margin-bottom: var(--pech-space-1); }
+.mb-2 { margin-bottom: var(--pech-space-2); }
+.mb-4 { margin-bottom: var(--pech-space-4); }
+.mb-6 { margin-bottom: var(--pech-space-6); }
+.p-2 { padding: var(--pech-space-2); }
+.p-4 { padding: var(--pech-space-4); }
+.p-6 { padding: var(--pech-space-6); }
+
+/* Display */
+.flex { display: flex; }
+.flex-col { flex-direction: column; }
+.items-center { align-items: center; }
+.justify-between { justify-content: space-between; }
+.justify-center { justify-content: center; }
+.gap-2 { gap: var(--pech-space-2); }
+.gap-4 { gap: var(--pech-space-4); }
+
+/* Width */
+.w-full { width: 100%; }
+.w-half { width: 50%; }
+
+/* ============================================================
+   13. PRINT STYLES
+   ============================================================ */
+@media print {
+  body {
+    font-size: 11pt;
+    color: #000;
+    background: #fff;
+  }
+
+  .pech-btn,
+  .no-print {
+    display: none !important;
+  }
+
+  .pech-card {
+    box-shadow: none;
+    border: 1px solid #ccc;
+    break-inside: avoid;
+  }
+
+  .pech-table {
+    font-size: 9pt;
+  }
+
+  .pech-table th {
+    background: #0099CC !important;
+    color: #fff !important;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  .pech-table tbody tr:nth-child(even) {
+    background-color: #f0f0f0 !important;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  .pech-doc-header {
+    border-bottom: 3px solid #0099CC;
+  }
+
+  .pech-doc-footer {
+    background: #f5f5f5 !important;
+    color: #333 !important;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  h1, h2, h3 {
+    break-after: avoid;
+  }
+
+  .page-break {
+    break-before: always;
+  }
+
+  a {
+    color: #0099CC;
+  }
+
+  a[href]::after {
+    content: " (" attr(href) ")";
+    font-size: 9pt;
+    color: #999;
+  }
+}
+
+/* ============================================================
+   14. RESPONSIVE (for screen viewing)
+   ============================================================ */
+@media (max-width: 768px) {
+  :root {
+    --pech-text-4xl: 1.75rem;
+    --pech-text-3xl: 1.5rem;
+    --pech-text-2xl: 1.25rem;
+  }
+
+  .pech-doc-header {
+    flex-direction: column;
+    text-align: center;
+    gap: var(--pech-space-2);
+  }
+
+  .pech-doc-header-info {
+    text-align: center;
+  }
+
+  .pech-doc-footer {
+    flex-direction: column;
+    text-align: center;
+    gap: var(--pech-space-2);
+  }
+
+  .pech-table {
+    font-size: var(--pech-text-xs);
+  }
+
+  .pech-table th,
+  .pech-table td {
+    padding: 6px 8px;
+  }
+}

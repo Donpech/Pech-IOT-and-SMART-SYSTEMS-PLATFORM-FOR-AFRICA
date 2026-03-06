@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" width="300" height="300">
+  <defs>
+    <linearGradient id="wmGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#00BFFF"/>
+      <stop offset="100%" style="stop-color:#F5A623"/>
+    </linearGradient>
+  </defs>
+  <!-- Large hexagon watermark at low opacity -->
+  <g opacity="0.06">
+    <polygon points="150,20 260,57.5 260,132.5 150,170 40,132.5 40,57.5" fill="url(#wmGrad)" stroke="none"/>
+    <circle cx="150" cy="95" r="30" fill="none" stroke="#00BFFF" stroke-width="4"/>
+    <line x1="150" y1="56" x2="150" y2="68" stroke="#00BFFF" stroke-width="3" stroke-linecap="round"/>
+    <line x1="150" y1="122" x2="150" y2="134" stroke="#00BFFF" stroke-width="3" stroke-linecap="round"/>
+    <line x1="111" y1="95" x2="123" y2="95" stroke="#00BFFF" stroke-width="3" stroke-linecap="round"/>
+    <line x1="177" y1="95" x2="189" y2="95" stroke="#00BFFF" stroke-width="3" stroke-linecap="round"/>
+    <text x="150" y="220" text-anchor="middle" font-family="'Montserrat', 'Segoe UI', Arial, sans-serif" font-weight="800" font-size="48" fill="#0099CC" letter-spacing="6">PECH</text>
+    <text x="150" y="250" text-anchor="middle" font-family="'Open Sans', Arial, sans-serif" font-weight="400" font-size="12" fill="#0099CC" letter-spacing="3">GROUP HOLDINGS LTD</text>
+  </g>
+</svg>

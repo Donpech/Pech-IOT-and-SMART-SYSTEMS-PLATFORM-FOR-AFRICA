@@ -75,6 +75,13 @@ strong {
     color: #0099CC;
 }
 
+/* Ensure bold/link/italic text stays white on blue gradient header rows */
+th strong, thead tr strong, table tr:first-child td strong,
+th a, thead tr a, table tr:first-child td a,
+th em, thead tr em, table tr:first-child td em {
+    color: #FFFFFF;
+}
+
 blockquote {
     border-left: 4px solid #F5A623;
     background-color: #FFF8E8;
