@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PECH Design System — Component Reference</title>
+  <link rel="stylesheet" href="pech_design_system.css">
+  <style>
+    .ds-section { max-width: 960px; margin: 0 auto; padding: 2rem 1.5rem; }
+    .ds-demo { background: #F8FAFB; border: 1px dashed #DEE2E6; border-radius: 8px; padding: 1.5rem; margin: 1rem 0 2rem; }
+    .ds-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; }
+    .ds-swatch { height: 80px; border-radius: 8px; display: flex; align-items: flex-end; padding: 8px 12px; font-size: 12px; font-weight: 600; }
+    .ds-label { font-family: var(--pech-font-mono); font-size: 0.75rem; color: var(--pech-text-muted); margin-bottom: 0.25rem; }
+    .ds-divider { border: none; border-top: 1px solid var(--pech-border-default); margin: 3rem 0 2rem; }
+    .ds-hero { background: var(--pech-dark-bg); color: white; padding: 3rem 1.5rem; text-align: center; }
+    .ds-hero h1 { color: white; border-bottom: 3px solid var(--pech-orange); display: inline-block; }
+    .ds-hero p { color: rgba(255,255,255,0.6); max-width: 600px; margin: 1rem auto 0; }
+    .ds-inline { display: flex; flex-wrap: wrap; gap: 0.75rem; align-items: center; }
+  </style>
+</head>
+<body>
+
+<!-- Hero -->
+<div class="ds-hero">
+  <h1>PECH Design System</h1>
+  <p>Living style guide and component reference for PECH Group Holdings Ltd. All components use brand colors and are print-ready.</p>
+</div>
+
+<div class="ds-section">
+
+  <!-- ===== COLORS ===== -->
+  <h2>Colors</h2>
+  <p>Brand color palette with CSS custom properties.</p>
+  <div class="ds-demo">
+    <div class="ds-grid">
+      <div>
+        <div class="ds-swatch" style="background:#00BFFF; color:#fff;">Sky Blue</div>
+        <div class="ds-label">--pech-sky-blue: #00BFFF</div>
+      </div>
+      <div>
+        <div class="ds-swatch" style="background:#F5A623; color:#fff;">Orange</div>
+        <div class="ds-label">--pech-orange: #F5A623</div>
+      </div>
+      <div>
+        <div class="ds-swatch" style="background:#0099CC; color:#fff;">Dark Blue</div>
+        <div class="ds-label">--pech-dark-blue: #0099CC</div>
+      </div>
+      <div>
+        <div class="ds-swatch" style="background:#E08A00; color:#fff;">Dark Orange</div>
+        <div class="ds-label">--pech-dark-orange: #E08A00</div>
+      </div>
+      <div>
+        <div class="ds-swatch" style="background:#1B2838; color:#fff;">Dark Navy</div>
+        <div class="ds-label">--pech-dark-bg: #1B2838</div>
+      </div>
+      <div>
+        <div class="ds-swatch" style="background:#FFFFFF; color:#333; border:1px solid #DEE2E6;">White</div>
+        <div class="ds-label">--pech-white: #FFFFFF</div>
+      </div>
+    </div>
+  </div>
+
+  <hr class="ds-divider">
+
+  <!-- ===== TYPOGRAPHY ===== -->
+  <h2>Typography</h2>
+  <p>Headings use <strong>Montserrat</strong>, body text uses <strong>Open Sans</strong>.</p>
+  <div class="ds-demo">
+    <h1>Heading 1 — Sky Blue + Orange Underline</h1>
+    <h2>Heading 2 — Dark Blue + Left Border</h2>
+    <h3>Heading 3 — Sky Blue</h3>
+    <h4>Heading 4 — Dark Orange</h4>
+    <h5>Heading 5 — Default Dark</h5>
+    <h6>Heading 6 — Uppercase Muted</h6>
+    <p>Body text in Open Sans. PECH Group Holdings Ltd delivers <strong>reliable technology infrastructure</strong> across Africa. This is a <a href="#">link example</a> with Sky Blue color.</p>
+    <blockquote>This is a blockquote with an orange left border and warm background, used for important callouts and notes.</blockquote>
+    <p>Inline <code>code</code> uses Dark Background with Sky Blue text. Below is a code block:</p>
+    <pre>const pech = {
+  brand: "PECH Group Holdings Ltd",
+  colors: { blue: "#00BFFF", orange: "#F5A623" }
+};</pre>
+  </div>
+
+  <hr class="ds-divider">
+
+  <!-- ===== BUTTONS ===== -->
+  <h2>Buttons</h2>
+  <p>Button variants with gradient backgrounds and hover effects.</p>
+  <div class="ds-demo">
+    <div class="ds-inline" style="margin-bottom: 1rem;">
+      <button class="pech-btn pech-btn-primary">Primary Blue</button>
+      <button class="pech-btn pech-btn-secondary">Secondary Orange</button>
+      <button class="pech-btn pech-btn-outline">Outline</button>
+      <button class="pech-btn pech-btn-dark">Dark</button>
+    </div>
+    <div class="ds-label">Sizes:</div>
+    <div class="ds-inline">
+      <button class="pech-btn pech-btn-primary pech-btn-sm">Small</button>
+      <button class="pech-btn pech-btn-primary">Default</button>
+      <button class="pech-btn pech-btn-primary pech-btn-lg">Large</button>
+    </div>
+  </div>
+
+  <hr class="ds-divider">
+
+  <!-- ===== CARDS ===== -->
+  <h2>Cards</h2>
+  <p>Card containers with colored top borders.</p>
+  <div class="ds-demo">
+    <div class="ds-grid" style="grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));">
+      <div class="pech-card pech-card-blue">
+        <div class="pech-card-header"><h4>Blue Card</h4></div>
+        <p style="font-size:0.875rem;">Card with Sky Blue top border. Great for informational content panels.</p>
+        <button class="pech-btn pech-btn-primary pech-btn-sm">Action</button>
+      </div>
+      <div class="pech-card pech-card-orange">
+        <div class="pech-card-header"><h4>Orange Card</h4></div>
+        <p style="font-size:0.875rem;">Card with Orange accent top border. Perfect for highlights and featured content.</p>
+        <button class="pech-btn pech-btn-secondary pech-btn-sm">Action</button>
+      </div>
+      <div class="pech-card pech-card-gradient">
+        <div class="pech-card-header"><h4>Gradient Card</h4></div>
+        <p style="font-size:0.875rem;">Card with brand gradient top border. Use for premium or standout sections.</p>
+        <button class="pech-btn pech-btn-outline pech-btn-sm">Action</button>
+      </div>
+    </div>
+  </div>
+
+  <hr class="ds-divider">
+
+  <!-- ===== TABLE ===== -->
+  <h2>Tables</h2>
+  <p>Branded tables with gradient headers and alternating rows.</p>
+  <div class="ds-demo">
+    <h4>Blue Table (Default)</h4>
+    <table class="pech-table">
+      <thead>
+        <tr><th>Product</th><th>Category</th><th>Price (NGN)</th><th>Status</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>PECH Solar Panel 400W</td><td>Solar Energy</td><td>185,000</td><td><span class="pech-badge pech-badge-success">In Stock</span></td></tr>
+        <tr><td>PECH Inverter 5kVA</td><td>Power Systems</td><td>450,000</td><td><span class="pech-badge pech-badge-success">In Stock</span></td></tr>
+        <tr><td>PECH Battery 200Ah</td><td>Storage</td><td>320,000</td><td><span class="pech-badge pech-badge-danger">Out of Stock</span></td></tr>
+        <tr><td>PECH IoT Sensor Kit</td><td>IoT Devices</td><td>75,000</td><td><span class="pech-badge pech-badge-orange">Pre-Order</span></td></tr>
+      </tbody>
+    </table>
+
+    <h4 style="margin-top:2rem;">Orange Table Variant</h4>
+    <table class="pech-table pech-table-orange">
+      <thead>
+        <tr><th>Metric</th><th>Q1</th><th>Q2</th><th>Q3</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Revenue</td><td>12.5M</td><td>18.2M</td><td>24.1M</td></tr>
+        <tr><td>Installations</td><td>45</td><td>78</td><td>112</td></tr>
+        <tr><td>Customer Satisfaction</td><td>94%</td><td>96%</td><td>97%</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <hr class="ds-divider">
+
+  <!-- ===== BADGES ===== -->
+  <h2>Badges</h2>
+  <p>Inline status indicators and tags.</p>
+  <div class="ds-demo">
+    <div class="ds-inline">
+      <span class="pech-badge pech-badge-blue">Blue</span>
+      <span class="pech-badge pech-badge-orange">Orange</span>
+      <span class="pech-badge pech-badge-dark">Dark</span>
+      <span class="pech-badge pech-badge-success">Success</span>
+      <span class="pech-badge pech-badge-danger">Danger</span>
+    </div>
+  </div>
+
+  <hr class="ds-divider">
+
+  <!-- ===== ALERTS ===== -->
+  <h2>Alerts</h2>
+  <p>Contextual notification messages.</p>
+  <div class="ds-demo">
+    <div class="pech-alert pech-alert-info"><strong>Info:</strong> Solar panel installation scheduled for Monday 10th March 2026.</div>
+    <div class="pech-alert pech-alert-warning"><strong>Warning:</strong> Battery charge below 20%. Please connect to grid power.</div>
+    <div class="pech-alert pech-alert-success"><strong>Success:</strong> Payment of NGN 450,000 received. Invoice #PECH-2026-0142 confirmed.</div>
+    <div class="pech-alert pech-alert-danger"><strong>Error:</strong> Connection to IoT gateway lost. Check network settings.</div>
+  </div>
+
+  <hr class="ds-divider">
+
+  <!-- ===== FORMS ===== -->
+  <h2>Form Fields</h2>
+  <p>Input controls with branded focus states.</p>
+  <div class="ds-demo">
+    <div style="max-width:480px;">
+      <div class="pech-form-group">
+        <label class="pech-label">Full Name</label>
+        <input type="text" class="pech-input" placeholder="Enter your full name">
+      </div>
+      <div class="pech-form-group">
+        <label class="pech-label">Department</label>
+        <select class="pech-select">
+          <option>Select department...</option>
+          <option>Engineering</option>
+          <option>Sales &amp; Marketing</option>
+          <option>Operations</option>
+          <option>Finance</option>
+        </select>
+      </div>
+      <div class="pech-form-group">
+        <label class="pech-label">Notes</label>
+        <textarea class="pech-textarea" rows="3" placeholder="Additional notes..."></textarea>
+      </div>
+      <button class="pech-btn pech-btn-primary">Submit</button>
+    </div>
+  </div>
+
+  <hr class="ds-divider">
+
+  <!-- ===== DOCUMENT HEADER / FOOTER ===== -->
+  <h2>Document Header &amp; Footer</h2>
+  <p>Reusable branded header and footer for documents.</p>
+  <div class="ds-demo" style="padding:0; overflow:hidden; border-radius:8px;">
+    <div class="pech-doc-header">
+      <div>
+        <svg width="160" height="50" viewBox="0 0 400 120">
+          <defs><linearGradient id="demoGrad" x1="0%" y1="0%" x2="0%" y2="100%"><stop offset="0%" style="stop-color:#00BFFF"/><stop offset="100%" style="stop-color:#F5A623"/></linearGradient></defs>
+          <polygon points="40,5 70,20 70,50 40,65 10,50 10,20" fill="url(#demoGrad)"/>
+          <circle cx="40" cy="35" r="9" fill="none" stroke="#fff" stroke-width="2"/>
+          <text x="85" y="42" font-family="Montserrat,Arial,sans-serif" font-weight="800" font-size="28" fill="#00BFFF" letter-spacing="3">PECH</text>
+          <text x="87" y="58" font-family="Open Sans,Arial,sans-serif" font-size="8" fill="#0099CC" letter-spacing="2">GROUP HOLDINGS LTD</text>
+        </svg>
+      </div>
+      <div class="pech-doc-header-info">
+        <strong style="color:var(--pech-dark-blue);">PECH Group Holdings Ltd</strong><br>
+        Lagos, Nigeria<br>
+        info@pechgroup.com
+      </div>
+    </div>
+    <div style="padding:2rem; text-align:center; color:var(--pech-text-muted); font-size:0.875rem;">
+      [ Document content area ]
+    </div>
+    <div class="pech-doc-footer">
+      <span>PECH Group Holdings Ltd | RC: 1234567</span>
+      <span>Confidential</span>
+      <span>Page 1 of 1</span>
+    </div>
+  </div>
+
+  <hr class="ds-divider">
+
+  <!-- ===== SIGNATURE BLOCK ===== -->
+  <h2>Signature Block</h2>
+  <p>Standard signature area for contracts and official documents.</p>
+  <div class="ds-demo">
+    <div style="display:flex; gap:4rem; flex-wrap:wrap;">
+      <div class="pech-signature-block">
+        <div class="pech-signature-line"></div>
+        <div class="pech-signature-name">John Doe</div>
+        <div class="pech-signature-title">Managing Director</div>
+        <div class="pech-signature-date">Date: _______________</div>
+      </div>
+      <div class="pech-signature-block">
+        <div class="pech-signature-line"></div>
+        <div class="pech-signature-name">Jane Smith</div>
+        <div class="pech-signature-title">Head of Operations</div>
+        <div class="pech-signature-date">Date: _______________</div>
+      </div>
+    </div>
+  </div>
+
+  <hr class="ds-divider">
+
+  <!-- ===== UTILITIES ===== -->
+  <h2>Utility Classes</h2>
+  <p>Quick-use classes for backgrounds, text colors, and gradients.</p>
+  <div class="ds-demo">
+    <h4>Background Gradients</h4>
+    <div class="ds-grid" style="margin-top:1rem;">
+      <div class="bg-gradient-blue p-4" style="border-radius:8px; text-align:center; font-weight:600;">.bg-gradient-blue</div>
+      <div class="bg-gradient-orange p-4" style="border-radius:8px; text-align:center; font-weight:600;">.bg-gradient-orange</div>
+      <div class="bg-gradient-brand p-4" style="border-radius:8px; text-align:center; font-weight:600;">.bg-gradient-brand</div>
+      <div class="bg-gradient-dark p-4" style="border-radius:8px; text-align:center; font-weight:600;">.bg-gradient-dark</div>
+    </div>
+  </div>
+
+</div>
+
+<!-- Footer -->
+<div style="background:var(--pech-dark-bg); color:rgba(255,255,255,0.5); text-align:center; padding:2rem; font-size:0.75rem;">
+  PECH Design System v1.0 | PECH Group Holdings Ltd | Lagos, Nigeria
+</div>
+
+</body>
+</html>

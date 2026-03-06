@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <linearGradient id="hexGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#00BFFF"/>
+      <stop offset="100%" style="stop-color:#F5A623"/>
+    </linearGradient>
+    <linearGradient id="ringGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00BFFF"/>
+      <stop offset="50%" style="stop-color:#F5A623"/>
+      <stop offset="100%" style="stop-color:#00BFFF"/>
+    </linearGradient>
+    <radialGradient id="bgGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#243447"/>
+      <stop offset="100%" style="stop-color:#1B2838"/>
+    </radialGradient>
+  </defs>
+  <!-- Dark background -->
+  <rect width="400" height="400" fill="url(#bgGrad)" rx="12"/>
+  <!-- Gradient ring -->
+  <circle cx="200" cy="175" r="130" fill="none" stroke="url(#ringGrad)" stroke-width="4" opacity="0.6"/>
+  <!-- Hexagonal Icon (large) -->
+  <polygon points="200,65 270,100 270,170 200,205 130,170 130,100" fill="url(#hexGrad)" stroke="none"/>
+  <!-- Inner hexagon highlight -->
+  <polygon points="200,82 258,108 258,162 200,188 142,162 142,108" fill="#FFFFFF" opacity="0.15"/>
+  <!-- Solar/Energy symbol -->
+  <circle cx="200" cy="135" r="25" fill="none" stroke="#FFFFFF" stroke-width="3.5"/>
+  <line x1="200" y1="102" x2="200" y2="112" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+  <line x1="200" y1="158" x2="200" y2="168" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+  <line x1="167" y1="135" x2="177" y2="135" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+  <line x1="223" y1="135" x2="233" y2="135" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+  <line x1="176.7" y1="111.7" x2="183.8" y2="118.8" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+  <line x1="216.2" y1="151.2" x2="223.3" y2="158.3" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+  <line x1="223.3" y1="111.7" x2="216.2" y2="118.8" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+  <line x1="183.8" y1="151.2" x2="176.7" y2="158.3" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+  <!-- PECH Text -->
+  <text x="200" y="270" text-anchor="middle" font-family="'Montserrat', 'Segoe UI', Arial, sans-serif" font-weight="800" font-size="60" fill="#FFFFFF" letter-spacing="8">PECH</text>
+  <!-- Gradient bar -->
+  <rect x="110" y="285" width="180" height="3" rx="1.5" fill="url(#hexGrad)"/>
+  <!-- Tagline -->
+  <text x="200" y="310" text-anchor="middle" font-family="'Open Sans', 'Segoe UI', Arial, sans-serif" font-weight="400" font-size="13" fill="rgba(255,255,255,0.6)" letter-spacing="3">GROUP HOLDINGS LTD</text>
+  <!-- Sub-tagline -->
+  <text x="200" y="335" text-anchor="middle" font-family="'Open Sans', 'Segoe UI', Arial, sans-serif" font-weight="300" font-size="10" fill="rgba(255,255,255,0.4)" letter-spacing="1.5">Technology &amp; Platform Infrastructure Enablers</text>
+</svg>
