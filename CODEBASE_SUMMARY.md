@@ -255,6 +255,30 @@ Additional conversations covering: hardware product catalog design, manufacturin
 
 ---
 
+## AI Strategy Documentation (`ai_strategy/`)
+
+Comprehensive AI ecosystem implementation docs — created by merging, fact-checking, and correcting two ChatGPT conversations:
+
+| File | Description |
+|------|-------------|
+| `README.md` | Directory index and quick-start guide |
+| `PECH_ECOSYSTEM_COMPREHENSIVE_GUIDE.md` | Master document — 17 sections covering all 10 verticals, AI models, platforms, hardware, team, budget |
+| `PECH_AI_MODEL_CATALOG.md` | 50+ models across 15 categories with license verification, VRAM requirements, comparisons |
+| `PECH_OPEN_SOURCE_PLATFORM_STACK.md` | 25+ platforms (Keycloak, Medusa, ERPNext, Fineract, etc.) with license corrections |
+| `PECH_AI_HARDWARE_AND_SETUP_GUIDE.md` | Hardware BOM, China sourcing, Nigeria import duties, server room setup, software install |
+| `PECH_AI_ARCHITECTURE_GUIDE.md` | 5-layer architecture, 78 microservices, RAG pipeline, API gateway, security/NDPA |
+| `images/` | 7 SVG infographics (ecosystem, model stack, pipeline, infrastructure, team, roadmap, logistics) |
+
+**Key corrections from ChatGPT conversations:**
+- Metabase (AGPL) → Apache Superset (Apache-2.0)
+- n8n (Sustainable Use License) → Apache Airflow (Apache-2.0)
+- YOLOv8 (AGPL) → RT-DETR PaddlePaddle (Apache-2.0)
+- Nigerian salaries corrected from $2-4K/mo to ₦400K-₦1M/mo
+- Hardware costs include 25-35% Nigeria import duties
+- Supporting infrastructure budgeted (power, cooling, internet — missed by ChatGPT)
+
+---
+
 ## Summary
 
 This repository represents a **comprehensive business and technical blueprint** for building Africa's first vertically-integrated Infrastructure Operating System + Commerce Operating System — combining:
@@ -263,7 +287,8 @@ This repository represents a **comprehensive business and technical blueprint** 
 2. **Software Platform** — Multi-tenant cloud + self-host + sovereign cloud nodes
 3. **16 Industry Verticals** — Energy, surveillance, estates, fintech, agriculture, logistics, etc.
 4. **Commerce Ecosystem** — Alibaba-inspired ERP + marketplace + payments + logistics
-5. **AI Intelligence Layer** — Predictive maintenance, load forecasting, credit scoring
-6. **Open API & Developer Economy** — White-label, SDKs, webhooks, marketplace
+5. **AI Intelligence Layer** — Self-hosted LLMs (Qwen2.5, Whisper, PaddleOCR), RAG pipelines, ML models (XGBoost, Prophet, LightFM), 78-microservice architecture
+6. **Open API & Developer Economy** — White-label, SDKs, webhooks, marketplace via Apache APISIX gateway
+7. **37 Team Roles** — 27 original + 10 new AI/platform roles with Nigerian salary ranges
 
 **Target:** Nigeria first → West Africa → East & Southern Africa → Pan-African dominance over 15 years.
