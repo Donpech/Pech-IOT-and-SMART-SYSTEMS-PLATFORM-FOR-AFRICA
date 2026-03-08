@@ -46,6 +46,7 @@
 - **Yiwu-Style Marketplace** — Digital twin of Nigeria's physical wholesale markets
 - **Spoke-and-Hub Logistics** — Cainiao-inspired parcel management platform
 - **Payments Infrastructure** — PSSP/PTSP-licensed payment processing across all platforms
+- **AI Platform Services** — Self-hosted LLMs (Qwen2.5), RAG chatbots, Vision AI, OCR, TTS/STT, accounting AI
 - **Advertising & LED Displays** — Digital signage and advertising infrastructure (Phase 2)
 - **Self-Service Kiosks** — Multi-purpose payment and information kiosks
 
@@ -62,10 +63,11 @@ This plan details the deployment of **₦250,000,000** in secured capital across
 | Competitive Edge | Description |
 |-----------------|-------------|
 | **Ecosystem Lock-In** | Free ERP creates daily dependency; hardware deepens it |
+| **AI-Native Platform** | Self-hosted LLMs, RAG chatbots, Vision AI, OCR — all open-source (Apache-2.0/MIT) |
 | **African-Optimized** | Offline-first, power-resilient, multi-network design |
-| **Data Moat** | Transaction + energy + logistics data enables credit scoring |
+| **Data Moat** | Transaction + energy + logistics data enables credit scoring + AI training |
 | **Founder Advantage** | Founder directly sources hardware from China (Shenzhen) |
-| **No Single-Point Competition** | No African company combines all 6 layers |
+| **No Single-Point Competition** | No African company combines all 6 layers + AI |
 
 ### Key Targets (24 Months)
 
@@ -75,7 +77,7 @@ This plan details the deployment of **₦250,000,000** in secured capital across
 | IoT Devices Deployed | 800–1,500 |
 | Markets Digitized | 5–8 major markets |
 | Monthly Recurring Revenue | ₦15M–₦25M by Month 24 |
-| Team Size | 25–35 people |
+| Team Size | 30–37 people |
 | Payment Volume (GMV) | ₦1B+ cumulative |
 | PSSP License | Obtained (Month 9+) |
 
@@ -195,14 +197,15 @@ PECH is modeled after **Alibaba Group's layered architecture**, adapted for Afri
 │  Node.js / Go • PostgreSQL • TimescaleDB • Redis     │
 │  ThingsBoard (Apache 2.0) • Keycloak (Auth)          │
 ├─────────────────────────────────────────────────────┤
-│                   AI ENGINE                          │
-│  PyTorch • XGBoost • MLflow • FastAPI • Feast        │
+│                   AI ENGINE (Self-Hosted)             │
+│  Qwen2.5 LLM • Whisper STT • PaddleOCR • RT-DETR    │
+│  Ollama/vLLM • LangChain • Qdrant • XGBoost • MLflow│
 ├─────────────────────────────────────────────────────┤
 │               FRONTEND & MOBILE                      │
 │  React (Web) • Flutter (Mobile) • Leaflet (Maps)     │
 ├─────────────────────────────────────────────────────┤
 │              INFRASTRUCTURE & DEVOPS                 │
-│  Docker • k3s (Kubernetes) • Traefik • GitHub Actions│
+│  Docker • k3s (Kubernetes) • Apache APISIX • GitHub  │
 │  Pech Cloud (Nigeria) • Self-Host Option             │
 └─────────────────────────────────────────────────────┘
 ```
@@ -529,28 +532,36 @@ PECH is modeled after **Alibaba Group's layered architecture**, adapted for Afri
 **Monthly payroll:** ₦5,320,000
 **Quarterly payroll:** ₦15,960,000
 
-#### Phase 5 (Months 13–18): Ecosystem Maturity — 22-25 People
+#### Phase 5 (Months 13–18): Ecosystem Maturity — 25-30 People
 
 | # | Role | Monthly Salary (₦) | Notes |
 |---|------|-------------------|-------|
-| 19 | **Senior Data Engineer** | ₦500,000 | AI/ML pipeline |
-| 20 | **Business Development Lead** | ₦400,000 | Enterprise + partnerships |
-| 21 | **Regional Field Coordinator** | ₦150,000 | Abuja expansion |
-| 22–25 | **Additional Field Agents (4)** | ₦80,000 each | National expansion |
+| 19 | **AI/ML Engineer** | ₦600,000–₦1,000,000 | LLM deployment, RAG pipelines, fine-tuning |
+| 20 | **AI Data Engineer** | ₦400,000–₦600,000 | Data pipelines, vector databases, embeddings |
+| 21 | **API/Platform Engineer** | ₦450,000–₦700,000 | APISIX gateway, microservice architecture |
+| 22 | **Business Development Lead** | ₦400,000 | Enterprise + partnerships |
+| 23 | **Technical Writer** | ₦250,000–₦400,000 | API docs, user guides |
+| 24 | **Regional Field Coordinator** | ₦150,000 | Abuja expansion |
+| 25–28 | **Additional Field Agents (4)** | ₦80,000 each | National expansion |
 
-**Monthly payroll:** ₦6,690,000
-**Phase 5 payroll (6 months):** ₦40,140,000
+**Monthly payroll:** ₦8,270,000–₦10,620,000
+**Phase 5 payroll (6 months):** ₦49,620,000–₦63,720,000
 
-#### Phase 6 (Months 19–24): Growth & Expansion — 25-30 People
+#### Phase 6 (Months 19–24): Growth & Expansion — 30-37 People
 
 | # | Role | Monthly Salary (₦) | Notes |
 |---|------|-------------------|-------|
-| 26 | **PSSP Compliance Officer** | ₦400,000 | Regulatory compliance for payment license |
-| 27–28 | **Additional Engineers (2)** | ₦350,000 each | Scale payment platform |
-| 29–30 | **Additional Field Agents (2)** | ₦80,000 each | New markets expansion |
+| 29 | **MLOps Engineer** | ₦500,000–₦800,000 | vLLM serving, model monitoring, scaling |
+| 30 | **AI Product Manager** | ₦500,000–₦800,000 | AI feature roadmap across verticals |
+| 31 | **PSSP Compliance Officer** | ₦400,000 | Regulatory compliance for payment license |
+| 32 | **Developer Advocate** | ₦400,000–₦600,000 | API ecosystem, SDK support |
+| 33 | **Installer Training Manager** | ₦350,000–₦500,000 | Installer certification, AI training |
+| 34 | **Fintech Ops/Agent Network Manager** | ₦400,000–₦600,000 | Agent network, compliance |
+| 35–36 | **Additional Engineers (2)** | ₦350,000 each | Scale payment platform |
+| 37 | **AI/ML Intern** | ₦80,000–₦120,000 | Support AI team |
 
-**Monthly payroll:** ₦7,950,000
-**Phase 6 payroll (6 months):** ₦47,700,000
+**Monthly payroll:** ₦11,250,000–₦14,590,000
+**Phase 6 payroll (6 months):** ₦67,500,000–₦87,540,000
 
 ### 8.2 Total Human Capital Cost (24 Months)
 
@@ -597,7 +608,37 @@ PECH is modeled after **Alibaba Group's layered architecture**, adapted for Afri
 
 **24-Month Infrastructure Total:** ₦19,200,000
 
-### 9.2 AI & Development Tools
+### 9.2 AI GPU Infrastructure (Self-Hosted)
+
+PECH deploys self-hosted AI models on RTX 4090 GPU servers in Lagos, running open-source models only (Apache-2.0/MIT licenses) that can be rebranded and deployed without restriction.
+
+| Item | Cost (₦) | Notes |
+|------|---------|-------|
+| **Starter AI Server** (RTX 4090 24GB, Ryzen 9 7950X, 128GB DDR5, 5TB NVMe) | ₦5,700,000–₦7,700,000 | Landed Lagos from China (incl. 25-35% import duties + 7.5% VAT) |
+| UPS (3kVA online) | ₦800,000–₦1,200,000 | Power backup for GPU server |
+| Server Room AC (2HP inverter) | ₦650,000–₦1,000,000 | Cooling for 24/7 operation |
+| Rack + Cabling + Network Switch | ₦300,000–₦600,000 | Server room setup |
+| Dedicated Internet (100Mbps fiber) | ₦130,000–₦250,000/month | For model API serving |
+| Cloud GPU (RunPod/Vast.ai) | ₦200,000–₦500,000/month | Burst capacity for large models |
+| **Total AI Infra (One-Time)** | **₦7,450,000–₦10,500,000** | |
+| **Total AI Infra (Monthly)** | **₦330,000–₦750,000** | Internet + cloud GPU |
+
+> **AI Models Deployed (All Open-Source, License-Safe):**
+> - **Primary LLM:** Qwen2.5-7B/14B (Apache-2.0) — chatbots, RAG, content generation
+> - **Code:** Qwen2.5-Coder (Apache-2.0) — developer tools, code review
+> - **Speech-to-Text:** Whisper (MIT) — voice commands, transcription
+> - **Text-to-Speech:** Piper TTS (MIT) — voice responses, accessibility
+> - **Vision:** Qwen2-VL (Apache-2.0) — product image analysis, solar panel inspection
+> - **OCR:** PaddleOCR (Apache-2.0) — invoice/receipt scanning, document digitization
+> - **Embeddings:** MiniLM-L6 (MIT) — semantic search, RAG pipeline
+> - **Object Detection:** RT-DETR (Apache-2.0) — defect detection, security cameras
+> - **ML:** XGBoost (Apache-2.0), LightGBM (MIT) — fraud detection, credit scoring, pricing
+> - **Vector Database:** Qdrant (Apache-2.0) — RAG knowledge store
+> - **Model Serving:** Ollama (Phase 1) → vLLM (Phase 2/3)
+>
+> See `ai_strategy/PECH_AI_MODEL_CATALOG.md` for full catalog of 50+ models.
+
+### 9.3 AI & Development Tools
 
 | Tool | Monthly Cost (₦) | Purpose |
 |------|-----------------|---------|
@@ -613,13 +654,17 @@ PECH is modeled after **Alibaba Group's layered architecture**, adapted for Afri
 **Monthly AI/Tools:** ₦400,000
 **24-Month Tools Total:** ₦9,600,000
 
-### 9.3 Total Technology Budget
+### 9.4 Total Technology Budget
 
 | Category | 24-Month Total (₦) |
 |----------|-------------------|
-| Cloud Infrastructure | ₦19,200,000 |
+| Cloud Infrastructure | ₦14,200,000 |
+| AI GPU Infrastructure (one-time) | ₦7,450,000–₦10,500,000 |
+| AI GPU Infrastructure (24mo recurring) | ₦7,920,000–₦18,000,000 |
 | AI & Development Tools | ₦9,600,000 |
-| **TOTAL** | **₦28,800,000** |
+| **TOTAL** | **₦28,000,000** |
+
+> **Note:** The ₦28M technology budget is allocated to prioritize AI infrastructure. Cloud hosting costs are reduced by self-hosting AI models and core databases on the GPU server, which also runs PostgreSQL, Redis, and Qdrant. The AI server doubles as a general-purpose compute server, reducing cloud dependency. Cloud GPU bursting is used only for fine-tuning and overflow capacity.
 
 ---
 
@@ -1041,7 +1086,7 @@ PECH Group Holdings Ltd (Parent — Technology Company)
 | Spoke Stations Active | 2 | 10 | 20 | 30 |
 | Monthly Revenue (₦) | 1.5M | 10.2M | 16.4M | 21.3M |
 | Payment GMV (₦/month) | 20M | 150M | 500M | 1B+ |
-| Team Size | 9 | 18 | 25 | 30 |
+| Team Size | 9 | 18 | 30 | 37 |
 | Device Sell-Through Rate | 70% | 80% | 85% | 90% |
 | Customer Churn (monthly) | <15% | <10% | <8% | <5% |
 | System Uptime | 95% | 99% | 99.5% | 99.9% |
@@ -1136,16 +1181,34 @@ PECH Group Holdings Ltd (Parent — Technology Company)
 
 | Technology | License | Commercial Use | Role in PECH |
 |------------|---------|---------------|--------------|
-| ThingsBoard | Apache 2.0 | Yes — rebrand OK | IoT platform base |
-| ERPNext | GPL v3 | Yes (with compliance) | ERP base (fork) |
+| **AI & ML** | | | |
+| Qwen2.5 (LLM) | Apache 2.0 | Yes — rebrand OK | Primary language model |
+| Whisper (STT) | MIT | Yes | Speech-to-text |
+| Piper TTS | MIT | Yes | Text-to-speech |
+| PaddleOCR | Apache 2.0 | Yes | Invoice/document OCR |
+| RT-DETR | Apache 2.0 | Yes | Object detection (replaces YOLOv8 AGPL) |
+| Qwen2-VL | Apache 2.0 | Yes | Vision/image analysis |
+| Ollama / vLLM | MIT / Apache 2.0 | Yes | Model serving |
+| LangChain | MIT | Yes | RAG framework |
+| Qdrant | Apache 2.0 | Yes | Vector database |
+| XGBoost | Apache 2.0 | Yes | Fraud detection, credit scoring |
+| MLflow | Apache 2.0 | Yes | ML experiment tracking |
+| Apache Superset | Apache 2.0 | Yes | BI/Analytics (replaces Metabase AGPL) |
+| Apache Airflow | Apache 2.0 | Yes | Workflow automation (replaces n8n) |
+| **Platforms** | | | |
+| ThingsBoard CE | Apache 2.0 | Yes — rebrand OK | IoT platform base |
+| ERPNext | MIT | Yes | ERP base (core is MIT) |
+| Medusa | MIT | Yes | Marketplace/commerce |
+| Apache Fineract | Apache 2.0 | Yes | Fintech core banking |
+| Chatwoot | MIT | Yes | Customer support |
+| Keycloak | Apache 2.0 | Yes | Authentication/identity |
+| Apache APISIX | Apache 2.0 | Yes | API gateway (replaces Traefik) |
+| **Infrastructure** | | | |
 | EMQX | Apache 2.0 | Yes | MQTT messaging |
 | NanoMQ | MIT | Yes | Edge MQTT broker |
-| Apache Kafka | Apache 2.0 | Yes | Event streaming |
-| Keycloak | Apache 2.0 | Yes | Authentication |
+| NATS / Apache Kafka | Apache 2.0 | Yes | Event streaming |
 | React | MIT | Yes | Web dashboards |
 | Flutter | BSD | Yes | Mobile apps |
-| MLflow | Apache 2.0 | Yes | ML experiment tracking |
-| Traefik | MIT | Yes | API gateway |
 | k3s | Apache 2.0 | Yes | Lightweight Kubernetes |
 | Leaflet | BSD-2 | Yes | Map visualization |
 
