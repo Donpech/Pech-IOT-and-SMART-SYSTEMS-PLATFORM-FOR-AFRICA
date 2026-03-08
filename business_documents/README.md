@@ -2,7 +2,7 @@
 
 ## Overview
 
-This directory contains **21 professional business document templates** for PECH Group Holdings Ltd. All documents are formatted in Markdown with consistent branding, Nigerian legal context, and comprehensive form fields.
+This directory contains **25 professional business document templates** for PECH Group Holdings Ltd. All documents are formatted in Markdown with consistent branding, Nigerian legal context, and comprehensive form fields.
 
 ---
 
@@ -54,6 +54,9 @@ This directory contains **21 professional business document templates** for PECH
 | 20 | Incident Report Form | `PECH_INCIDENT_REPORT_FORM.md` | Workplace incident documentation |
 | 21 | Visitor Log | `PECH_VISITOR_LOG.md` | Visitor registration and tracking |
 | 22 | Asset Register Form | `PECH_ASSET_REGISTER_FORM.md` | Company asset tracking |
+| 23 | Job Requirements Handbook | `PECH_JOB_REQUIREMENTS_HANDBOOK.md` | All 24 role job postings for HR recruitment |
+| 24 | Candidate Application Form | `PECH_CANDIDATE_APPLICATION_FORM.md` | Comprehensive candidate information form (also available as .xlsx and .docx) |
+| 25 | Interview Process & Checklist | `PECH_INTERVIEW_PROCESS_AND_CHECKLIST.md` | Interview rounds, scorecards, grading system, and candidate evaluation |
 
 ---
 
@@ -72,6 +75,21 @@ All documents follow these standards:
 
 ---
 
+### Related Contract Documents (in `/contracts/`)
+
+| Document | File | Purpose |
+|---|---|---|
+| Schedule B Templates | `PECH_SCHEDULE_B_TEMPLATES.md` | Pre-filled job descriptions & KPIs for all 20 roles — attach to employment contracts |
+
+### Export Scripts (in `/scripts/`)
+
+| Script | Purpose |
+|---|---|
+| `generate_application_form.py` | Generates Excel (.xlsx) and Word (.docx) versions of the Candidate Application Form with PECH branding |
+| `export_hr_docs.sh` | Converts all HR Markdown documents to PDF and Word using pandoc |
+
+---
+
 ## Usage
 
 1. Copy the relevant template
@@ -79,6 +97,20 @@ All documents follow these standards:
 3. Convert to PDF, Word, or print format as needed
 4. Ensure all reference numbers follow the sequential numbering system
 5. Obtain required signatures per the approval chain
+
+### Generating Excel/Word Application Forms
+
+```bash
+# Install Python dependencies
+pip install openpyxl python-docx
+
+# Generate Excel and Word versions of the application form
+python scripts/generate_application_form.py
+
+# Export all HR documents to PDF and Word
+chmod +x scripts/export_hr_docs.sh
+./scripts/export_hr_docs.sh
+```
 
 ---
 
