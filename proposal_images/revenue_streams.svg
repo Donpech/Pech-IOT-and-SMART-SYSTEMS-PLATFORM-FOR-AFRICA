@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" font-family="Arial, Helvetica, sans-serif">
+  <rect width="900" height="520" fill="#1B2838" rx="12"/>
+  <text x="450" y="35" text-anchor="middle" fill="#FFF" font-size="22" font-weight="bold">Revenue Streams &amp; Business Model</text>
+  <text x="450" y="55" text-anchor="middle" fill="#00BFFF" font-size="12">9 Revenue Streams — Targeting ₦15-25M MRR by Month 24</text>
+
+  <!-- Revenue stream boxes -->
+  <!-- Row 1 -->
+  <rect x="30" y="75" width="270" height="115" rx="8" fill="#0D2137" stroke="#00BFFF" stroke-width="1.5"/>
+  <rect x="30" y="75" width="270" height="25" rx="8" fill="#0099CC"/>
+  <text x="165" y="92" text-anchor="middle" fill="#FFF" font-size="10" font-weight="bold">1. HARDWARE SALES (40% of revenue)</text>
+  <text x="45" y="115" fill="#FFF" font-size="9">25 SKUs: switches, solar, cameras, kiosks</text>
+  <text x="45" y="132" fill="#FFF" font-size="9">Margin: 35-55% · Direct + marketplace sales</text>
+  <text x="45" y="149" fill="#F5A623" font-size="9" font-weight="bold">₦75M initial stock · ₦6-10M/mo by Mo 12</text>
+  <text x="45" y="166" fill="#00BFFF" font-size="8">AI: Vision AI quality control, demand forecasting</text>
+  <text x="45" y="180" fill="#FFF" font-size="8">One-time + recurring (consumables, upgrades)</text>
+
+  <rect x="315" y="75" width="270" height="115" rx="8" fill="#0D2137" stroke="#00BFFF" stroke-width="1.5"/>
+  <rect x="315" y="75" width="270" height="25" rx="8" fill="#0099CC"/>
+  <text x="450" y="92" text-anchor="middle" fill="#FFF" font-size="10" font-weight="bold">2. PLATFORM SUBSCRIPTIONS (20%)</text>
+  <text x="330" y="115" fill="#FFF" font-size="9">ERP premium tiers · IoT dashboard pro</text>
+  <text x="330" y="132" fill="#FFF" font-size="9">Free tier drives adoption → paid conversion</text>
+  <text x="330" y="149" fill="#F5A623" font-size="9" font-weight="bold">₦5K-₦50K/mo per merchant</text>
+  <text x="330" y="166" fill="#00BFFF" font-size="8">AI: Smart inventory, predictive analytics</text>
+  <text x="330" y="180" fill="#FFF" font-size="8">Monthly recurring · Target: 3-5K merchants</text>
+
+  <rect x="600" y="75" width="270" height="115" rx="8" fill="#0D2137" stroke="#F5A623" stroke-width="1.5"/>
+  <rect x="600" y="75" width="270" height="25" rx="8" fill="#E08A00"/>
+  <text x="735" y="92" text-anchor="middle" fill="#FFF" font-size="10" font-weight="bold">3. PAYMENT PROCESSING (15%)</text>
+  <text x="615" y="115" fill="#FFF" font-size="9">PSSP transaction fees: 0.5-1.5%</text>
+  <text x="615" y="132" fill="#FFF" font-size="9">POS, USSD, bank transfer, cards</text>
+  <text x="615" y="149" fill="#F5A623" font-size="9" font-weight="bold">Starts Mo 12+ · ₦3-5M/mo by Mo 24</text>
+  <text x="615" y="166" fill="#00BFFF" font-size="8">AI: Fraud detection (XGBoost), risk scoring</text>
+  <text x="615" y="180" fill="#FFF" font-size="8">Per-transaction · High-margin · Scale play</text>
+
+  <!-- Row 2 -->
+  <rect x="30" y="205" width="270" height="115" rx="8" fill="#0D2137" stroke="#00BFFF" stroke-width="1.5"/>
+  <rect x="30" y="205" width="270" height="25" rx="8" fill="#0099CC"/>
+  <text x="165" y="222" text-anchor="middle" fill="#FFF" font-size="10" font-weight="bold">4. AI SERVICES (10%)</text>
+  <text x="45" y="245" fill="#FFF" font-size="9">Accounting AI · Tax filing · Audit prep</text>
+  <text x="45" y="262" fill="#FFF" font-size="9">RAG chatbot · Document OCR · Translation</text>
+  <text x="45" y="279" fill="#F5A623" font-size="9" font-weight="bold">₦10K-₦100K/mo per subscriber</text>
+  <text x="45" y="296" fill="#00BFFF" font-size="8">Qwen2.5 + PaddleOCR + Whisper</text>
+  <text x="45" y="310" fill="#FFF" font-size="8">SaaS subscription · Standalone + embedded</text>
+
+  <rect x="315" y="205" width="270" height="115" rx="8" fill="#0D2137" stroke="#0099CC" stroke-width="1.5"/>
+  <rect x="315" y="205" width="270" height="25" rx="8" fill="#0099CC"/>
+  <text x="450" y="222" text-anchor="middle" fill="#FFF" font-size="10" font-weight="bold">5. MARKETPLACE FEES (5%)</text>
+  <text x="330" y="245" fill="#FFF" font-size="9">Commission: 3-8% per transaction</text>
+  <text x="330" y="262" fill="#FFF" font-size="9">Listing fees · Featured placement</text>
+  <text x="330" y="279" fill="#F5A623" font-size="9" font-weight="bold">Volume play · ₦1-3M/mo by Mo 18</text>
+  <text x="330" y="296" fill="#00BFFF" font-size="8">AI: Product recommendations (LightFM)</text>
+  <text x="330" y="310" fill="#FFF" font-size="8">Per-transaction + subscription tiers</text>
+
+  <rect x="600" y="205" width="270" height="115" rx="8" fill="#0D2137" stroke="#0099CC" stroke-width="1.5"/>
+  <rect x="600" y="205" width="270" height="25" rx="8" fill="#0099CC"/>
+  <text x="735" y="222" text-anchor="middle" fill="#FFF" font-size="10" font-weight="bold">6. LOGISTICS (4%)</text>
+  <text x="615" y="245" fill="#FFF" font-size="9">Delivery fees: ₦500-₦3,000 per order</text>
+  <text x="615" y="262" fill="#FFF" font-size="9">Hub-spoke network · Last-mile</text>
+  <text x="615" y="279" fill="#F5A623" font-size="9" font-weight="bold">₦500K-₦2M/mo by Mo 18</text>
+  <text x="615" y="296" fill="#00BFFF" font-size="8">AI: Route optimization (OSRM + ML)</text>
+  <text x="615" y="310" fill="#FFF" font-size="8">Per-delivery · Partners + own fleet</text>
+
+  <!-- Row 3 (smaller) -->
+  <rect x="30" y="335" width="270" height="70" rx="8" fill="#0D2137" stroke="#0099CC" stroke-width="1"/>
+  <text x="45" y="355" fill="#00BFFF" font-size="10" font-weight="bold">7. INSTALLATION SERVICES (3%)</text>
+  <text x="45" y="372" fill="#FFF" font-size="9">Solar + IoT certified installations</text>
+  <text x="45" y="389" fill="#F5A623" font-size="9">₦20K-₦150K per installation</text>
+
+  <rect x="315" y="335" width="270" height="70" rx="8" fill="#0D2137" stroke="#0099CC" stroke-width="1"/>
+  <text x="330" y="355" fill="#00BFFF" font-size="10" font-weight="bold">8. ADVERTISING (2%)</text>
+  <text x="330" y="372" fill="#FFF" font-size="9">LED display network · Digital signage</text>
+  <text x="330" y="389" fill="#F5A623" font-size="9">₦50K-₦500K/mo per screen</text>
+
+  <rect x="600" y="335" width="270" height="70" rx="8" fill="#0D2137" stroke="#0099CC" stroke-width="1"/>
+  <text x="615" y="355" fill="#00BFFF" font-size="10" font-weight="bold">9. ENTERPRISE / CUSTOM (1%)</text>
+  <text x="615" y="372" fill="#FFF" font-size="9">Estate mgmt · Custom integrations</text>
+  <text x="615" y="389" fill="#F5A623" font-size="9">₦500K-₦5M per project</text>
+
+  <!-- Summary bar -->
+  <rect x="30" y="420" width="840" height="80" rx="8" fill="#0D2137" stroke="#F5A623" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <text x="50" y="445" fill="#F5A623" font-size="12" font-weight="bold">REVENUE PROJECTION (Month 24)</text>
+  <text x="50" y="465" fill="#FFF" font-size="10">Hardware: ₦10M + SaaS: ₦5M + Payments: ₦4M + AI Services: ₦2.5M + Marketplace: ₦2M + Others: ₦1.5M</text>
+  <text x="50" y="485" fill="#00BFFF" font-size="12" font-weight="bold">Target MRR: ₦15-25M/month</text>
+  <text x="500" y="485" fill="#F5A623" font-size="12" font-weight="bold">Annual Run Rate: ₦180-300M</text>
+</svg>

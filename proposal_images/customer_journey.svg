@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 480" font-family="Arial, Helvetica, sans-serif">
+  <rect width="900" height="480" fill="#1B2838" rx="12"/>
+  <text x="450" y="35" text-anchor="middle" fill="#FFF" font-size="22" font-weight="bold">Customer Journey &amp; Ecosystem Lock-In Flywheel</text>
+  <text x="450" y="55" text-anchor="middle" fill="#00BFFF" font-size="12">Every Touchpoint Deepens Platform Dependency</text>
+
+  <!-- Flywheel circle -->
+  <circle cx="450" cy="250" r="155" fill="none" stroke="#0099CC" stroke-width="1.5" stroke-dasharray="8,4"/>
+  <circle cx="450" cy="250" r="55" fill="#3A2A10" stroke="#F5A623" stroke-width="2"/>
+  <text x="450" y="243" text-anchor="middle" fill="#F5A623" font-size="12" font-weight="bold">PECH</text>
+  <text x="450" y="258" text-anchor="middle" fill="#F5A623" font-size="10" font-weight="bold">DATA</text>
+  <text x="450" y="270" text-anchor="middle" fill="#FFF" font-size="7">AI Training Loop</text>
+
+  <!-- Stage 1: Discovery (top) -->
+  <rect x="375" y="70" width="150" height="50" rx="8" fill="#0D2137" stroke="#00BFFF" stroke-width="1.5"/>
+  <text x="450" y="92" text-anchor="middle" fill="#00BFFF" font-size="10" font-weight="bold">1. DISCOVERY</text>
+  <text x="450" y="108" text-anchor="middle" fill="#FFF" font-size="8">Market visit · Word of mouth</text>
+  <line x1="450" y1="120" x2="450" y2="140" stroke="#00BFFF" stroke-width="1"/>
+  <polygon points="445,140 450,148 455,140" fill="#00BFFF"/>
+
+  <!-- Stage 2: Free ERP (top-right) -->
+  <rect x="620" y="105" width="150" height="50" rx="8" fill="#0D2137" stroke="#00BFFF" stroke-width="1.5"/>
+  <text x="695" y="127" text-anchor="middle" fill="#00BFFF" font-size="10" font-weight="bold">2. FREE ERP</text>
+  <text x="695" y="143" text-anchor="middle" fill="#FFF" font-size="8">Daily use → dependency</text>
+  <line x1="620" y1="145" x2="560" y2="200" stroke="#00BFFF" stroke-width="1"/>
+
+  <!-- Stage 3: Hardware Purchase (right) -->
+  <rect x="650" y="210" width="150" height="50" rx="8" fill="#0D2137" stroke="#F5A623" stroke-width="1.5"/>
+  <text x="725" y="232" text-anchor="middle" fill="#F5A623" font-size="10" font-weight="bold">3. HARDWARE</text>
+  <text x="725" y="248" text-anchor="middle" fill="#FFF" font-size="8">Smart switch → solar</text>
+  <line x1="650" y1="250" x2="560" y2="255" stroke="#F5A623" stroke-width="1"/>
+
+  <!-- Stage 4: IoT Data (bottom-right) -->
+  <rect x="620" y="315" width="150" height="50" rx="8" fill="#0D2137" stroke="#F5A623" stroke-width="1.5"/>
+  <text x="695" y="337" text-anchor="middle" fill="#F5A623" font-size="10" font-weight="bold">4. IoT DATA</text>
+  <text x="695" y="353" text-anchor="middle" fill="#FFF" font-size="8">Energy · Water · Security</text>
+  <line x1="620" y1="340" x2="560" y2="290" stroke="#F5A623" stroke-width="1"/>
+
+  <!-- Stage 5: Payments (bottom) -->
+  <rect x="375" y="375" width="150" height="50" rx="8" fill="#0D2137" stroke="#E08A00" stroke-width="1.5"/>
+  <text x="450" y="397" text-anchor="middle" fill="#E08A00" font-size="10" font-weight="bold">5. PAYMENTS</text>
+  <text x="450" y="413" text-anchor="middle" fill="#FFF" font-size="8">PSSP · POS · USSD</text>
+  <line x1="450" y1="375" x2="450" y2="360" stroke="#E08A00" stroke-width="1"/>
+
+  <!-- Stage 6: Marketplace (bottom-left) -->
+  <rect x="130" y="315" width="150" height="50" rx="8" fill="#0D2137" stroke="#0099CC" stroke-width="1.5"/>
+  <text x="205" y="337" text-anchor="middle" fill="#00BFFF" font-size="10" font-weight="bold">6. MARKETPLACE</text>
+  <text x="205" y="353" text-anchor="middle" fill="#FFF" font-size="8">Buy &amp; sell on platform</text>
+  <line x1="280" y1="335" x2="345" y2="290" stroke="#0099CC" stroke-width="1"/>
+
+  <!-- Stage 7: Logistics (left) -->
+  <rect x="100" y="210" width="150" height="50" rx="8" fill="#0D2137" stroke="#0099CC" stroke-width="1.5"/>
+  <text x="175" y="232" text-anchor="middle" fill="#00BFFF" font-size="10" font-weight="bold">7. LOGISTICS</text>
+  <text x="175" y="248" text-anchor="middle" fill="#FFF" font-size="8">Hub-spoke delivery</text>
+  <line x1="250" y1="240" x2="345" y2="245" stroke="#0099CC" stroke-width="1"/>
+
+  <!-- Stage 8: AI Services (top-left) -->
+  <rect x="130" y="105" width="150" height="50" rx="8" fill="#0D2137" stroke="#F5A623" stroke-width="2"/>
+  <text x="205" y="127" text-anchor="middle" fill="#F5A623" font-size="10" font-weight="bold">8. AI SERVICES</text>
+  <text x="205" y="143" text-anchor="middle" fill="#FFF" font-size="8">Chatbot · Accounting · Tax</text>
+  <line x1="280" y1="140" x2="345" y2="200" stroke="#F5A623" stroke-width="1"/>
+
+  <!-- Lock-in metrics -->
+  <rect x="30" y="435" width="260" height="30" rx="5" fill="#0D2137" stroke="#00BFFF" stroke-width="1"/>
+  <text x="160" y="455" text-anchor="middle" fill="#00BFFF" font-size="10" font-weight="bold">Avg. 3.2 touchpoints per user</text>
+
+  <rect x="320" y="435" width="260" height="30" rx="5" fill="#0D2137" stroke="#F5A623" stroke-width="1"/>
+  <text x="450" y="455" text-anchor="middle" fill="#F5A623" font-size="10" font-weight="bold">Switching cost: HIGH after ERP+IoT</text>
+
+  <rect x="610" y="435" width="260" height="30" rx="5" fill="#0D2137" stroke="#E08A00" stroke-width="1"/>
+  <text x="740" y="455" text-anchor="middle" fill="#E08A00" font-size="10" font-weight="bold">LTV increases 4x with payments</text>
+</svg>

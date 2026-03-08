@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" font-family="Arial, Helvetica, sans-serif">
+  <rect width="900" height="560" fill="#1B2838" rx="12"/>
+  <text x="450" y="35" text-anchor="middle" fill="#FFF" font-size="22" font-weight="bold">PECH Hardware Product Portfolio — 25 SKUs</text>
+  <text x="450" y="55" text-anchor="middle" fill="#00BFFF" font-size="12">Sourced from China (Shenzhen) · African-Optimized · 140-280V Tolerance</text>
+
+  <!-- Category 1: Smart Switches & Electrical -->
+  <rect x="30" y="75" width="260" height="200" rx="8" fill="#0D2137" stroke="#00BFFF" stroke-width="1.5"/>
+  <rect x="30" y="75" width="260" height="28" rx="8" fill="#0099CC"/>
+  <text x="160" y="94" text-anchor="middle" fill="#FFF" font-size="11" font-weight="bold">SMART SWITCHES &amp; ELECTRICAL</text>
+  <text x="45" y="125" fill="#FFF" font-size="9">1. Premium Socket (non-smart)</text>
+  <text x="230" y="125" fill="#F5A623" font-size="9" text-anchor="end">₦1,500</text>
+  <text x="45" y="142" fill="#FFF" font-size="9">2. Premium Switch (non-smart)</text>
+  <text x="230" y="142" fill="#F5A623" font-size="9" text-anchor="end">₦2,000</text>
+  <text x="45" y="159" fill="#FFF" font-size="9">3. Smart Switch (WiFi/Zigbee)</text>
+  <text x="230" y="159" fill="#F5A623" font-size="9" text-anchor="end">₦8,000</text>
+  <text x="45" y="176" fill="#FFF" font-size="9">4. Smart Socket (WiFi)</text>
+  <text x="230" y="176" fill="#F5A623" font-size="9" text-anchor="end">₦6,000</text>
+  <text x="45" y="193" fill="#FFF" font-size="9">5. Smart Dimmer</text>
+  <text x="230" y="193" fill="#F5A623" font-size="9" text-anchor="end">₦10,000</text>
+  <text x="45" y="210" fill="#FFF" font-size="9">6. Smart Power Strip</text>
+  <text x="230" y="210" fill="#F5A623" font-size="9" text-anchor="end">₦12,000</text>
+  <text x="45" y="227" fill="#FFF" font-size="9">7. Smart Circuit Breaker</text>
+  <text x="230" y="227" fill="#F5A623" font-size="9" text-anchor="end">₦15,000</text>
+  <text x="45" y="255" fill="#00BFFF" font-size="9" font-weight="bold">7 SKUs · Margin: 40-55%</text>
+
+  <!-- Category 2: Water Controllers -->
+  <rect x="320" y="75" width="260" height="200" rx="8" fill="#0D2137" stroke="#00BFFF" stroke-width="1.5"/>
+  <rect x="320" y="75" width="260" height="28" rx="8" fill="#0099CC"/>
+  <text x="450" y="94" text-anchor="middle" fill="#FFF" font-size="11" font-weight="bold">WATER &amp; SECURITY</text>
+  <text x="335" y="125" fill="#FFF" font-size="9">8. Basic Water Controller</text>
+  <text x="520" y="125" fill="#F5A623" font-size="9" text-anchor="end">₦5,000</text>
+  <text x="335" y="142" fill="#FFF" font-size="9">9. IoT Water Controller</text>
+  <text x="520" y="142" fill="#F5A623" font-size="9" text-anchor="end">₦15,000</text>
+  <text x="335" y="159" fill="#FFF" font-size="9">10. Industrial Water/SCADA</text>
+  <text x="520" y="159" fill="#F5A623" font-size="9" text-anchor="end">₦45,000</text>
+  <text x="335" y="176" fill="#FFF" font-size="9">11. Indoor Camera (WiFi)</text>
+  <text x="520" y="176" fill="#F5A623" font-size="9" text-anchor="end">₦12,000</text>
+  <text x="335" y="193" fill="#FFF" font-size="9">12. Outdoor PTZ Camera</text>
+  <text x="520" y="193" fill="#F5A623" font-size="9" text-anchor="end">₦25,000</text>
+  <text x="335" y="210" fill="#FFF" font-size="9">13. Motion Sensor</text>
+  <text x="520" y="210" fill="#F5A623" font-size="9" text-anchor="end">₦4,000</text>
+  <text x="335" y="227" fill="#FFF" font-size="9">14. Door/Window Sensor</text>
+  <text x="520" y="227" fill="#F5A623" font-size="9" text-anchor="end">₦3,500</text>
+  <text x="335" y="255" fill="#00BFFF" font-size="9" font-weight="bold">7 SKUs · Margin: 45-60%</text>
+
+  <!-- Category 3: Solar & Energy -->
+  <rect x="610" y="75" width="260" height="200" rx="8" fill="#0D2137" stroke="#F5A623" stroke-width="1.5"/>
+  <rect x="610" y="75" width="260" height="28" rx="8" fill="#E08A00"/>
+  <text x="740" y="94" text-anchor="middle" fill="#FFF" font-size="11" font-weight="bold">SOLAR &amp; ENERGY</text>
+  <text x="625" y="125" fill="#FFF" font-size="9">15. Solar Home Kit (1kW)</text>
+  <text x="810" y="125" fill="#F5A623" font-size="9" text-anchor="end">₦120,000</text>
+  <text x="625" y="142" fill="#FFF" font-size="9">16. Solar System (3kW)</text>
+  <text x="810" y="142" fill="#F5A623" font-size="9" text-anchor="end">₦350,000</text>
+  <text x="625" y="159" fill="#FFF" font-size="9">17. Solar System (5kW)</text>
+  <text x="810" y="159" fill="#F5A623" font-size="9" text-anchor="end">₦550,000</text>
+  <text x="625" y="176" fill="#FFF" font-size="9">18. Commercial (10-50kW)</text>
+  <text x="810" y="176" fill="#F5A623" font-size="9" text-anchor="end">₦1.2-6M</text>
+  <text x="625" y="193" fill="#FFF" font-size="9">19. Energy Storage (5kWh)</text>
+  <text x="810" y="193" fill="#F5A623" font-size="9" text-anchor="end">₦450,000</text>
+  <text x="625" y="210" fill="#FFF" font-size="9">20. Smart Energy Monitor</text>
+  <text x="810" y="210" fill="#F5A623" font-size="9" text-anchor="end">₦18,000</text>
+  <text x="625" y="255" fill="#F5A623" font-size="9" font-weight="bold">6 SKUs · Margin: 25-35%</text>
+
+  <!-- Category 4: Systems & Kiosks -->
+  <rect x="30" y="295" width="410" height="140" rx="8" fill="#0D2137" stroke="#0099CC" stroke-width="1.5"/>
+  <rect x="30" y="295" width="410" height="28" rx="8" fill="#0099CC"/>
+  <text x="235" y="314" text-anchor="middle" fill="#FFF" font-size="11" font-weight="bold">SYSTEMS, KIOSKS &amp; TABLETS</text>
+  <text x="45" y="345" fill="#FFF" font-size="9">21. Estate Management System</text>
+  <text x="300" y="345" fill="#F5A623" font-size="9" text-anchor="end">₦350,000</text>
+  <text x="45" y="362" fill="#FFF" font-size="9">22. Self-Service Kiosk</text>
+  <text x="300" y="362" fill="#F5A623" font-size="9" text-anchor="end">₦200,000</text>
+  <text x="45" y="379" fill="#FFF" font-size="9">23. Learning Tablet (10")</text>
+  <text x="300" y="379" fill="#F5A623" font-size="9" text-anchor="end">₦45,000</text>
+  <text x="45" y="396" fill="#FFF" font-size="9">24. LED Display Panel (Indoor)</text>
+  <text x="300" y="396" fill="#F5A623" font-size="9" text-anchor="end">₦150,000</text>
+  <text x="45" y="413" fill="#FFF" font-size="9">25. LED Display Panel (Outdoor)</text>
+  <text x="300" y="413" fill="#F5A623" font-size="9" text-anchor="end">₦350,000</text>
+  <text x="350" y="345" fill="#00BFFF" font-size="9" font-weight="bold">5 SKUs</text>
+  <text x="350" y="362" fill="#00BFFF" font-size="9" font-weight="bold">Margin:</text>
+  <text x="350" y="379" fill="#00BFFF" font-size="9" font-weight="bold">35-50%</text>
+
+  <!-- Sourcing info -->
+  <rect x="460" y="295" width="410" height="140" rx="8" fill="#0D2137" stroke="#E08A00" stroke-width="1.5"/>
+  <rect x="460" y="295" width="410" height="28" rx="8" fill="#E08A00"/>
+  <text x="665" y="314" text-anchor="middle" fill="#FFF" font-size="11" font-weight="bold">SOURCING &amp; SUPPLY CHAIN</text>
+  <text x="475" y="345" fill="#F5A623" font-size="9" font-weight="bold">Factory Direct (Shenzhen, China)</text>
+  <text x="475" y="365" fill="#FFF" font-size="9">OEM/ODM partners for white-label products</text>
+  <text x="475" y="380" fill="#FFF" font-size="9">All products PECH-branded at factory</text>
+  <text x="475" y="400" fill="#F5A623" font-size="9" font-weight="bold">Import Costs (Lagos)</text>
+  <text x="475" y="415" fill="#FFF" font-size="9">CET: 25-35% · VAT: 7.5% · Shipping: $150-$800</text>
+  <text x="475" y="430" fill="#FFF" font-size="9">Total landed: +42.5% on China ex-works price</text>
+
+  <!-- Bottom summary -->
+  <rect x="30" y="455" width="840" height="85" rx="8" fill="#0D2137" stroke="#F5A623" stroke-width="1" stroke-dasharray="4,3"/>
+  <text x="50" y="478" fill="#F5A623" font-size="12" font-weight="bold">PORTFOLIO SUMMARY</text>
+  <text x="50" y="498" fill="#FFF" font-size="10">25 SKUs across 4 categories · Price range ₦1,500 — ₦6,000,000 · Average margin 35-50%</text>
+  <text x="50" y="515" fill="#FFF" font-size="10">Hardware budget: ₦75M (30% of ₦250M) · Initial stock: 500-2,000 units per SKU</text>
+  <text x="50" y="532" fill="#00BFFF" font-size="10">Every device connects to PECH IoT platform (ThingsBoard) · AI-powered monitoring via Qwen2.5 + Vision AI</text>
+</svg>

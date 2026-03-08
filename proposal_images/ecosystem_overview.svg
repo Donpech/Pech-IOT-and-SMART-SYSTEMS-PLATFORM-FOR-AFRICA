@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 550" font-family="Arial, Helvetica, sans-serif">
+  <rect width="900" height="550" fill="#1B2838" rx="12"/>
+  <text x="450" y="35" text-anchor="middle" fill="#FFF" font-size="22" font-weight="bold">PECH Ecosystem Overview</text>
+  <text x="450" y="55" text-anchor="middle" fill="#00BFFF" font-size="12">10 Verticals Connected Through Unified AI Core</text>
+
+  <!-- Central AI Core hexagon -->
+  <polygon points="450,160 510,190 510,250 450,280 390,250 390,190" fill="#3A2A10" stroke="#F5A623" stroke-width="2.5"/>
+  <text x="450" y="210" text-anchor="middle" fill="#F5A623" font-size="14" font-weight="bold">AI CORE</text>
+  <text x="450" y="228" text-anchor="middle" fill="#FFF" font-size="9">Qwen2.5 · Whisper</text>
+  <text x="450" y="242" text-anchor="middle" fill="#FFF" font-size="9">LangChain · Qdrant</text>
+  <text x="450" y="256" text-anchor="middle" fill="#FFF" font-size="8">RTX 4090 Self-Hosted</text>
+
+  <!-- Vertical boxes arranged around the core -->
+  <!-- Top row -->
+  <rect x="55" y="90" width="140" height="65" rx="8" fill="#0D2137" stroke="#00BFFF" stroke-width="1.5"/>
+  <text x="125" y="112" text-anchor="middle" fill="#00BFFF" font-size="10" font-weight="bold">IoT &amp; Smart Home</text>
+  <text x="125" y="128" text-anchor="middle" fill="#FFF" font-size="8">ThingsBoard · MQTT</text>
+  <text x="125" y="143" text-anchor="middle" fill="#FFF" font-size="8">25 SKUs · Device Mgmt</text>
+  <line x1="195" y1="130" x2="390" y2="195" stroke="#00BFFF" stroke-width="0.8" stroke-dasharray="3,3"/>
+
+  <rect x="230" y="75" width="140" height="65" rx="8" fill="#0D2137" stroke="#00BFFF" stroke-width="1.5"/>
+  <text x="300" y="97" text-anchor="middle" fill="#00BFFF" font-size="10" font-weight="bold">Marketplace</text>
+  <text x="300" y="113" text-anchor="middle" fill="#FFF" font-size="8">Medusa · B2B/B2C</text>
+  <text x="300" y="128" text-anchor="middle" fill="#FFF" font-size="8">Yiwu-Style Digital</text>
+  <line x1="370" y1="120" x2="420" y2="180" stroke="#00BFFF" stroke-width="0.8" stroke-dasharray="3,3"/>
+
+  <rect x="530" y="75" width="140" height="65" rx="8" fill="#0D2137" stroke="#00BFFF" stroke-width="1.5"/>
+  <text x="600" y="97" text-anchor="middle" fill="#00BFFF" font-size="10" font-weight="bold">ERP (Free)</text>
+  <text x="600" y="113" text-anchor="middle" fill="#FFF" font-size="8">ERPNext · Inventory</text>
+  <text x="600" y="128" text-anchor="middle" fill="#FFF" font-size="8">SME Lock-In</text>
+  <line x1="530" y1="120" x2="480" y2="180" stroke="#00BFFF" stroke-width="0.8" stroke-dasharray="3,3"/>
+
+  <rect x="705" y="90" width="140" height="65" rx="8" fill="#0D2137" stroke="#00BFFF" stroke-width="1.5"/>
+  <text x="775" y="112" text-anchor="middle" fill="#00BFFF" font-size="10" font-weight="bold">Solar Energy</text>
+  <text x="775" y="128" text-anchor="middle" fill="#FFF" font-size="8">PECH Solar · Monitoring</text>
+  <text x="775" y="143" text-anchor="middle" fill="#FFF" font-size="8">5kW-50kW Systems</text>
+  <line x1="705" y1="130" x2="510" y2="200" stroke="#00BFFF" stroke-width="0.8" stroke-dasharray="3,3"/>
+
+  <!-- Middle row (left & right) -->
+  <rect x="30" y="195" width="140" height="65" rx="8" fill="#0D2137" stroke="#F5A623" stroke-width="1.5"/>
+  <text x="100" y="217" text-anchor="middle" fill="#F5A623" font-size="10" font-weight="bold">Payments (PSSP)</text>
+  <text x="100" y="233" text-anchor="middle" fill="#FFF" font-size="8">Fineract · POS/USSD</text>
+  <text x="100" y="248" text-anchor="middle" fill="#FFF" font-size="8">₦205M License</text>
+  <line x1="170" y1="228" x2="390" y2="220" stroke="#F5A623" stroke-width="0.8" stroke-dasharray="3,3"/>
+
+  <rect x="730" y="195" width="140" height="65" rx="8" fill="#0D2137" stroke="#F5A623" stroke-width="1.5"/>
+  <text x="800" y="217" text-anchor="middle" fill="#F5A623" font-size="10" font-weight="bold">Logistics</text>
+  <text x="800" y="233" text-anchor="middle" fill="#FFF" font-size="8">OSRM · Hub-Spoke</text>
+  <text x="800" y="248" text-anchor="middle" fill="#FFF" font-size="8">Last-Mile Delivery</text>
+  <line x1="730" y1="228" x2="510" y2="220" stroke="#F5A623" stroke-width="0.8" stroke-dasharray="3,3"/>
+
+  <!-- Bottom row -->
+  <rect x="55" y="300" width="140" height="65" rx="8" fill="#0D2137" stroke="#0099CC" stroke-width="1.5"/>
+  <text x="125" y="322" text-anchor="middle" fill="#00BFFF" font-size="10" font-weight="bold">Accounting AI</text>
+  <text x="125" y="338" text-anchor="middle" fill="#FFF" font-size="8">Tax · Audit · Invoicing</text>
+  <text x="125" y="353" text-anchor="middle" fill="#FFF" font-size="8">Subscription Tiers</text>
+  <line x1="195" y1="320" x2="390" y2="255" stroke="#0099CC" stroke-width="0.8" stroke-dasharray="3,3"/>
+
+  <rect x="230" y="315" width="140" height="65" rx="8" fill="#0D2137" stroke="#0099CC" stroke-width="1.5"/>
+  <text x="300" y="337" text-anchor="middle" fill="#00BFFF" font-size="10" font-weight="bold">HR &amp; Recruitment</text>
+  <text x="300" y="353" text-anchor="middle" fill="#FFF" font-size="8">Resume AI · Scoring</text>
+  <text x="300" y="368" text-anchor="middle" fill="#FFF" font-size="8">Talent Marketplace</text>
+  <line x1="370" y1="335" x2="420" y2="270" stroke="#0099CC" stroke-width="0.8" stroke-dasharray="3,3"/>
+
+  <rect x="530" y="315" width="140" height="65" rx="8" fill="#0D2137" stroke="#0099CC" stroke-width="1.5"/>
+  <text x="600" y="337" text-anchor="middle" fill="#00BFFF" font-size="10" font-weight="bold">Real Estate</text>
+  <text x="600" y="353" text-anchor="middle" fill="#FFF" font-size="8">Estate Mgmt · Access</text>
+  <text x="600" y="368" text-anchor="middle" fill="#FFF" font-size="8">Smart Property</text>
+  <line x1="530" y1="335" x2="480" y2="270" stroke="#0099CC" stroke-width="0.8" stroke-dasharray="3,3"/>
+
+  <rect x="705" y="300" width="140" height="65" rx="8" fill="#0D2137" stroke="#0099CC" stroke-width="1.5"/>
+  <text x="775" y="322" text-anchor="middle" fill="#00BFFF" font-size="10" font-weight="bold">Advertising</text>
+  <text x="775" y="338" text-anchor="middle" fill="#FFF" font-size="8">LED Displays · Digital</text>
+  <text x="775" y="353" text-anchor="middle" fill="#FFF" font-size="8">Signage Platform</text>
+  <line x1="705" y1="320" x2="510" y2="255" stroke="#0099CC" stroke-width="0.8" stroke-dasharray="3,3"/>
+
+  <!-- Data flow description -->
+  <rect x="40" y="400" width="820" height="50" rx="8" fill="#0D2137" stroke="#F5A623" stroke-width="1"/>
+  <text x="60" y="422" fill="#F5A623" font-size="11" font-weight="bold">SHARED SERVICES:</text>
+  <text x="190" y="422" fill="#FFF" font-size="10">Keycloak (Auth) · Apache APISIX (Gateway) · Chatwoot (Support) · Superset (BI) · Airflow (Workflows)</text>
+  <text x="60" y="440" fill="#00BFFF" font-size="10">Every vertical feeds data back to AI Core → smarter recommendations, fraud detection, dynamic pricing, predictive maintenance</text>
+
+  <!-- Bottom stats -->
+  <rect x="40" y="465" width="195" height="65" rx="8" fill="#0D2137" stroke="#00BFFF" stroke-width="1"/>
+  <text x="137" y="490" text-anchor="middle" fill="#F5A623" font-size="22" font-weight="bold">10</text>
+  <text x="137" y="515" text-anchor="middle" fill="#FFF" font-size="11">Business Verticals</text>
+
+  <rect x="250" y="465" width="195" height="65" rx="8" fill="#0D2137" stroke="#00BFFF" stroke-width="1"/>
+  <text x="347" y="490" text-anchor="middle" fill="#F5A623" font-size="22" font-weight="bold">78</text>
+  <text x="347" y="515" text-anchor="middle" fill="#FFF" font-size="11">Microservices</text>
+
+  <rect x="460" y="465" width="195" height="65" rx="8" fill="#0D2137" stroke="#00BFFF" stroke-width="1"/>
+  <text x="557" y="490" text-anchor="middle" fill="#F5A623" font-size="22" font-weight="bold">25+</text>
+  <text x="557" y="515" text-anchor="middle" fill="#FFF" font-size="11">Open-Source Tools</text>
+
+  <rect x="670" y="465" width="195" height="65" rx="8" fill="#0D2137" stroke="#00BFFF" stroke-width="1"/>
+  <text x="767" y="490" text-anchor="middle" fill="#F5A623" font-size="22" font-weight="bold">50+</text>
+  <text x="767" y="515" text-anchor="middle" fill="#FFF" font-size="11">AI Models Deployed</text>
+</svg>
