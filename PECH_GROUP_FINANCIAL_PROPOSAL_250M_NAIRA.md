@@ -614,14 +614,15 @@ PECH deploys self-hosted AI models on RTX 4090 GPU servers in Lagos, running ope
 
 | Item | Cost (₦) | Notes |
 |------|---------|-------|
-| **Starter AI Server** (RTX 4090 24GB, Ryzen 9 7950X, 128GB DDR5, 5TB NVMe) | ₦5,700,000–₦7,700,000 | Landed Lagos from China (incl. 25-35% import duties + 7.5% VAT) |
-| UPS (3kVA online) | ₦800,000–₦1,200,000 | Power backup for GPU server |
+| **TRX50 AI Workstation — Phase 1** (RTX 4090 24GB, Threadripper 7960X, ASUS TRX50-SAGE, 128GB ECC RDIMM, 5TB NVMe, Seasonic TX-1600) | ₦8,200,000–₦11,000,000 | Landed Lagos from China (incl. 25-35% import duties + 7.5% VAT). Zero-waste platform — same box scales to Phase 3 |
+| UPS (3kVA online) | ₦800,000–₦1,200,000 | Power backup for GPU server (sized for 2 GPUs) |
 | Server Room AC (2HP inverter) | ₦650,000–₦1,000,000 | Cooling for 24/7 operation |
-| Rack + Cabling + Network Switch | ₦300,000–₦600,000 | Server room setup |
+| Rack + Cabling + Network Switch | ₦300,000–₦600,000 | Server room setup (4U rackmount ready) |
 | Dedicated Internet (100Mbps fiber) | ₦130,000–₦250,000/month | For model API serving |
 | Cloud GPU (RunPod/Vast.ai) | ₦200,000–₦500,000/month | Burst capacity for large models |
-| **Total AI Infra (One-Time)** | **₦7,450,000–₦10,500,000** | |
+| **Total AI Infra (One-Time)** | **₦9,950,000–₦13,800,000** | |
 | **Total AI Infra (Monthly)** | **₦330,000–₦750,000** | Internet + cloud GPU |
+| **Phase 2 Upgrade** (add 2nd RTX 4090, +128GB RAM, +4TB NVMe) | ₦4,100,000–₦5,300,000 | Months 7-12; same workstation, just add components. Saves ₦4.4M-₦6.4M vs buying separate production server |
 
 > **AI Models Deployed (All Open-Source, License-Safe):**
 > - **Primary LLM:** Qwen2.5-7B/14B (Apache-2.0) — chatbots, RAG, content generation
@@ -659,12 +660,13 @@ PECH deploys self-hosted AI models on RTX 4090 GPU servers in Lagos, running ope
 | Category | 24-Month Total (₦) |
 |----------|-------------------|
 | Cloud Infrastructure | ₦14,200,000 |
-| AI GPU Infrastructure (one-time) | ₦7,450,000–₦10,500,000 |
+| AI GPU Infrastructure — Phase 1 (one-time) | ₦9,950,000–₦13,800,000 |
+| AI GPU Infrastructure — Phase 2 upgrade (one-time) | ₦4,100,000–₦5,300,000 |
 | AI GPU Infrastructure (24mo recurring) | ₦7,920,000–₦18,000,000 |
 | AI & Development Tools | ₦9,600,000 |
 | **TOTAL** | **₦28,000,000** |
 
-> **Note:** The ₦28M technology budget is allocated to prioritize AI infrastructure. Cloud hosting costs are reduced by self-hosting AI models and core databases on the GPU server, which also runs PostgreSQL, Redis, and Qdrant. The AI server doubles as a general-purpose compute server, reducing cloud dependency. Cloud GPU bursting is used only for fine-tuning and overflow capacity.
+> **Note:** The ₦28M technology budget prioritizes AI infrastructure via a **zero-waste single-platform approach**: the TRX50 Workstation bought in Phase 1 scales to Phase 3 by adding components (2nd GPU, RAM, storage) — never replacing the base system. This saves ₦4.4M-₦6.4M vs the old approach of buying a cheap starter server then replacing it with a production box. Cloud hosting costs are further reduced by self-hosting AI models and core databases on the same GPU server (PostgreSQL, Redis, Qdrant). Cloud GPU bursting is used only for fine-tuning and overflow capacity.
 
 ---
 
