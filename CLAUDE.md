@@ -60,7 +60,8 @@ PECH is building an **AI-native platform** — all models self-hosted on RTX 409
 
 ### Architecture
 - 78 microservices across 12 domains
-- 3-phase deployment: Crawl (Ollama) → Walk (vLLM + cloud) → Run (GPU cluster)
+- 3-phase deployment: Crawl (TRX50 + Ollama) → Walk (add 2nd GPU + vLLM) → Run (co-locate + scale)
+- Zero-waste single-platform: TRX50 Workstation from Day 1, add components, never replace
 - Event streaming: NATS (Phase 1) → Apache Kafka (Phase 3)
 - Database: PostgreSQL + Redis + Qdrant
 - Container: Docker Compose (Phase 1) → K3s (Phase 2) → full K8s (Phase 3)
