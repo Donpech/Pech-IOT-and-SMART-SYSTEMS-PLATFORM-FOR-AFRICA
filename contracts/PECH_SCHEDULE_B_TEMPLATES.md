@@ -56,6 +56,18 @@ Website: [pechgroupholdings.tech](https://pechgroupholdings.tech)
 19. [Support Representative](#19-support-representative)
 20. [Field Agent (Contract)](#20-field-agent-contract)
 
+### AI & Platform Roles (New)
+21. [AI/ML Engineer](#21-aiml-engineer)
+22. [AI Knowledge / Data Engineer](#22-ai-knowledge--data-engineer)
+23. [MLOps Engineer](#23-mlops-engineer)
+24. [API / Platform Engineer](#24-api--platform-engineer)
+25. [AI Product Manager](#25-ai-product-manager)
+26. [Developer Advocate](#26-developer-advocate)
+27. [Technical Writer](#27-technical-writer)
+28. [Installer Training & Network Manager](#28-installer-training--network-manager)
+29. [Fintech Operations / Agent Network Manager](#29-fintech-operations--agent-network-manager)
+30. [AI/ML Engineering Intern](#30-aiml-engineering-intern)
+
 ---
 
 ## 1. CTO / FOUNDING TECHNICAL ARCHITECT
@@ -1014,6 +1026,525 @@ Market Ops Manager → Head of Operations → VP Operations → COO
 ---
 
 **Contractor Signature:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ **Date:** \_\_\_\_/\_\_\_\_/\_\_\_\_\_\_\_\_
+
+**Employer Signature:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ **Date:** \_\_\_\_/\_\_\_\_/\_\_\_\_\_\_\_\_
+
+---
+
+## 21. AI/ML ENGINEER
+
+### SCHEDULE B — JOB DESCRIPTION AND KEY PERFORMANCE INDICATORS
+
+**Attached to Employment Contract dated:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+---
+
+| Field | Details |
+|---|---|
+| **Job Title:** | AI/ML Engineer |
+| **Department:** | Engineering |
+| **Reporting To:** | CTO |
+| **Direct Reports:** | AI/ML Interns |
+| **Location:** | Lagos, Nigeria |
+
+#### Key Responsibilities
+
+1. Deploy and manage self-hosted LLMs (Qwen2.5, Mistral, Phi) using Ollama and vLLM
+2. Build and maintain RAG pipelines using LangChain, Qdrant, and embedding models
+3. Fine-tune models on PECH business data using LoRA/QLoRA
+4. Integrate AI capabilities into microservices (chatbot, OCR, speech, recommendations)
+5. Optimize model inference (quantization, batching, GPU memory management)
+6. Build AI agents using LangGraph for multi-step tasks
+7. Implement fraud detection, dynamic pricing, and predictive maintenance ML models
+8. Monitor model performance, A/B test model versions, and track AI metrics
+
+#### Key Performance Indicators (KPIs)
+
+| # | KPI | Target | Measurement Method | Review Period |
+|---|---|---|---|---|
+| 1 | Model deployment success rate | ≥95% | Deployment logs | Monthly |
+| 2 | AI response latency (P95) | <3 seconds | Prometheus metrics | Weekly |
+| 3 | RAG answer accuracy | ≥85% user satisfaction | User feedback ratings | Monthly |
+| 4 | Model uptime | ≥99% availability | Monitoring dashboard | Monthly |
+| 5 | Fine-tuning cycles completed | ≥1 per quarter | Training logs | Quarterly |
+| 6 | GPU utilization efficiency | ≥60% average | nvidia-smi metrics | Monthly |
+| 7 | AI features shipped | ≥2 per quarter | Sprint tracking | Quarterly |
+
+#### Required Tools & Platforms
+Qwen2.5, Phi-4, Mistral, vLLM, Ollama, LangChain, LangGraph, Qdrant, PyTorch, Transformers, PEFT, XGBoost, Docker, NVIDIA CUDA
+
+#### Growth Path
+AI/ML Engineer → Senior AI/ML Engineer → AI Lead → Head of AI
+
+---
+
+**Employee Signature:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ **Date:** \_\_\_\_/\_\_\_\_/\_\_\_\_\_\_\_\_
+
+**Employer Signature:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ **Date:** \_\_\_\_/\_\_\_\_/\_\_\_\_\_\_\_\_
+
+---
+
+## 22. AI KNOWLEDGE / DATA ENGINEER
+
+### SCHEDULE B — JOB DESCRIPTION AND KEY PERFORMANCE INDICATORS
+
+**Attached to Employment Contract dated:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+---
+
+| Field | Details |
+|---|---|
+| **Job Title:** | AI Knowledge / Data Engineer |
+| **Department:** | Engineering |
+| **Reporting To:** | CTO / AI/ML Engineer |
+| **Direct Reports:** | None |
+| **Location:** | Lagos, Nigeria |
+
+#### Key Responsibilities
+
+1. Build ETL pipelines using Apache Airflow to ingest data from all PECH platforms
+2. Design and maintain the RAG knowledge base (chunking, embedding, indexing)
+3. Manage Qdrant vector database (indexing, filtering, performance)
+4. Create data quality checks and monitoring for AI training data
+5. Build data connectors for ERPNext, Medusa, Chatwoot, ThingsBoard, Fineract
+6. Implement data anonymization and NDPA compliance for AI training data
+7. Support model fine-tuning with curated training datasets
+
+#### Key Performance Indicators (KPIs)
+
+| # | KPI | Target | Measurement Method | Review Period |
+|---|---|---|---|---|
+| 1 | Data pipeline uptime | ≥99% | Airflow monitoring | Monthly |
+| 2 | RAG knowledge freshness | Data indexed within 24h of change | Pipeline logs | Weekly |
+| 3 | Data quality score | ≥95% completeness, ≥90% accuracy | Quality audits | Monthly |
+| 4 | Embedding index size growth | Aligned with data growth plan | Qdrant metrics | Monthly |
+| 5 | Pipeline failure recovery | <2 hour MTTR | Incident logs | Monthly |
+| 6 | NDPA compliance | Zero data protection violations | Compliance audits | Quarterly |
+
+#### Required Tools & Platforms
+Python, PostgreSQL, Apache Airflow, Qdrant, DuckDB, Redis, LangChain, Docker, Sentence Transformers, Pandas, Apache Superset
+
+#### Growth Path
+Data Engineer → Senior Data Engineer → Data Engineering Lead → Head of Data
+
+---
+
+**Employee Signature:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ **Date:** \_\_\_\_/\_\_\_\_/\_\_\_\_\_\_\_\_
+
+**Employer Signature:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ **Date:** \_\_\_\_/\_\_\_\_/\_\_\_\_\_\_\_\_
+
+---
+
+## 23. MLOps ENGINEER
+
+### SCHEDULE B — JOB DESCRIPTION AND KEY PERFORMANCE INDICATORS
+
+**Attached to Employment Contract dated:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+---
+
+| Field | Details |
+|---|---|
+| **Job Title:** | MLOps Engineer |
+| **Department:** | Engineering |
+| **Reporting To:** | CTO |
+| **Direct Reports:** | None |
+| **Location:** | Lagos, Nigeria |
+
+#### Key Responsibilities
+
+1. Manage vLLM production cluster (multi-model serving, load balancing)
+2. Build CI/CD pipelines for model deployment
+3. Monitor model performance (latency, throughput, accuracy drift)
+4. Implement auto-scaling for AI services
+5. Manage GPU resource allocation across models
+6. Set up model versioning, A/B testing, and rollback procedures
+7. Optimize infrastructure costs (cloud GPU vs local)
+8. Maintain K3s deployment for AI workloads
+
+#### Key Performance Indicators (KPIs)
+
+| # | KPI | Target | Measurement Method | Review Period |
+|---|---|---|---|---|
+| 1 | AI service uptime | ≥99.5% | Prometheus/Grafana | Monthly |
+| 2 | Model deployment time | <30 minutes (staging to prod) | CI/CD pipeline logs | Monthly |
+| 3 | Infrastructure cost efficiency | Within budget ±10% | Cost tracking | Monthly |
+| 4 | GPU utilization | ≥65% average across cluster | nvidia-smi metrics | Weekly |
+| 5 | Incident MTTR | <1 hour for P1, <4 hours for P2 | Incident logs | Monthly |
+| 6 | Successful rollbacks | 100% rollback success rate | Deployment logs | Quarterly |
+
+#### Required Tools & Platforms
+vLLM, Ollama, Docker, Kubernetes (K3s), Prometheus, Grafana, NVIDIA CUDA, Woodpecker CI, Harbor, Linux
+
+#### Growth Path
+MLOps Engineer → Senior MLOps → Infrastructure Lead → Head of Platform
+
+---
+
+**Employee Signature:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ **Date:** \_\_\_\_/\_\_\_\_/\_\_\_\_\_\_\_\_
+
+**Employer Signature:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ **Date:** \_\_\_\_/\_\_\_\_/\_\_\_\_\_\_\_\_
+
+---
+
+## 24. API / PLATFORM ENGINEER
+
+### SCHEDULE B — JOB DESCRIPTION AND KEY PERFORMANCE INDICATORS
+
+**Attached to Employment Contract dated:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+---
+
+| Field | Details |
+|---|---|
+| **Job Title:** | API / Platform Engineer |
+| **Department:** | Engineering |
+| **Reporting To:** | CTO |
+| **Direct Reports:** | None |
+| **Location:** | Lagos, Nigeria |
+
+#### Key Responsibilities
+
+1. Design and maintain Apache APISIX gateway (routing, rate limiting, auth)
+2. Build and document public APIs (OpenAPI/Swagger)
+3. Implement API versioning and backward compatibility
+4. Design inter-service communication (REST, gRPC, events)
+5. Build developer portal with documentation and SDK generation
+6. Implement API monetization (tiers, usage metering)
+7. Manage Keycloak integration (OAuth2, API keys, JWT)
+8. Performance optimization (caching, compression, pooling)
+
+#### Key Performance Indicators (KPIs)
+
+| # | KPI | Target | Measurement Method | Review Period |
+|---|---|---|---|---|
+| 1 | API uptime | ≥99.9% | APISIX monitoring | Monthly |
+| 2 | API response time (P95) | <200ms (excluding AI calls) | Prometheus | Weekly |
+| 3 | API documentation coverage | 100% of public endpoints | Documentation audit | Quarterly |
+| 4 | Developer onboarding time | <1 day to first API call | Developer feedback | Quarterly |
+| 5 | Breaking changes | Zero unannounced breaking changes | Version tracking | Quarterly |
+| 6 | External API adoption | Growth targets per quarter | Analytics dashboard | Quarterly |
+
+#### Required Tools & Platforms
+Apache APISIX, Keycloak, Node.js, Python, PostgreSQL, Redis, NATS/Kafka, Docker, OpenAPI/Swagger, Strapi
+
+#### Growth Path
+Platform Engineer → Senior Platform Engineer → Platform Architect → Head of Platform
+
+---
+
+**Employee Signature:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ **Date:** \_\_\_\_/\_\_\_\_/\_\_\_\_\_\_\_\_
+
+**Employer Signature:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ **Date:** \_\_\_\_/\_\_\_\_/\_\_\_\_\_\_\_\_
+
+---
+
+## 25. AI PRODUCT MANAGER
+
+### SCHEDULE B — JOB DESCRIPTION AND KEY PERFORMANCE INDICATORS
+
+**Attached to Employment Contract dated:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+---
+
+| Field | Details |
+|---|---|
+| **Job Title:** | AI Product Manager |
+| **Department:** | Product & Business |
+| **Reporting To:** | CEO |
+| **Direct Reports:** | Developer Advocate, Technical Writer |
+| **Location:** | Lagos, Nigeria |
+
+#### Key Responsibilities
+
+1. Define AI product roadmap across all 10 PECH verticals
+2. Prioritize AI features by user impact, revenue, and feasibility
+3. Design AI subscription tiers (free, basic, pro, enterprise)
+4. Write PRDs for AI features
+5. Analyze AI usage metrics and optimize feature adoption
+6. Research competitor AI features and emerging capabilities
+7. Manage beta programs and user feedback loops
+8. Collaborate with engineering on feasibility and timelines
+
+#### Key Performance Indicators (KPIs)
+
+| # | KPI | Target | Measurement Method | Review Period |
+|---|---|---|---|---|
+| 1 | AI feature adoption | ≥30% of active users try AI features | Analytics | Monthly |
+| 2 | AI subscription revenue | Growth targets per quarter | Revenue reports | Quarterly |
+| 3 | Feature delivery | ≥80% of roadmap delivered on time | Sprint tracking | Quarterly |
+| 4 | User satisfaction (AI) | ≥4.0/5.0 CSAT for AI features | User surveys | Monthly |
+| 5 | Paid conversion rate | ≥5% free-to-paid for AI tiers | Billing analytics | Monthly |
+| 6 | PRD quality | Zero requirements gaps post-launch | Post-mortem reviews | Quarterly |
+
+#### Required Tools & Platforms
+Jira/Linear, Figma, SQL, Apache Superset, Notion, Miro, Google Workspace
+
+#### Growth Path
+AI Product Manager → Senior PM → VP Product → Chief Product Officer
+
+---
+
+**Employee Signature:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ **Date:** \_\_\_\_/\_\_\_\_/\_\_\_\_\_\_\_\_
+
+**Employer Signature:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ **Date:** \_\_\_\_/\_\_\_\_/\_\_\_\_\_\_\_\_
+
+---
+
+## 26. DEVELOPER ADVOCATE
+
+### SCHEDULE B — JOB DESCRIPTION AND KEY PERFORMANCE INDICATORS
+
+**Attached to Employment Contract dated:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+---
+
+| Field | Details |
+|---|---|
+| **Job Title:** | Developer Advocate |
+| **Department:** | Product & Business |
+| **Reporting To:** | AI Product Manager |
+| **Direct Reports:** | None |
+| **Location:** | Lagos, Nigeria |
+
+#### Key Responsibilities
+
+1. Create and maintain API documentation
+2. Build sample applications and integration guides
+3. Write technical blog posts and tutorials
+4. Manage developer community (Discord/Slack, GitHub)
+5. Speak at conferences and meetups
+6. Collect developer feedback for product/engineering
+7. Create and maintain SDKs (JavaScript, Python)
+8. Build and maintain developer portal
+
+#### Key Performance Indicators (KPIs)
+
+| # | KPI | Target | Measurement Method | Review Period |
+|---|---|---|---|---|
+| 1 | Developer registrations | Growth targets per quarter | Portal analytics | Quarterly |
+| 2 | API documentation NPS | ≥8/10 | Developer surveys | Quarterly |
+| 3 | Content output | ≥4 blog posts + 2 tutorials per month | Content tracker | Monthly |
+| 4 | Community engagement | ≥100 active community members | Community metrics | Quarterly |
+| 5 | Conference talks | ≥2 per quarter | Event tracker | Quarterly |
+| 6 | SDK adoption | Growth in SDK downloads | Package manager stats | Monthly |
+
+#### Required Tools & Platforms
+Strapi, Swagger/Redoc, Git/GitHub, Notion, Google Workspace, video tools
+
+#### Growth Path
+Developer Advocate → Senior DevRel → Head of Developer Relations
+
+---
+
+**Employee Signature:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ **Date:** \_\_\_\_/\_\_\_\_/\_\_\_\_\_\_\_\_
+
+**Employer Signature:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ **Date:** \_\_\_\_/\_\_\_\_/\_\_\_\_\_\_\_\_
+
+---
+
+## 27. TECHNICAL WRITER
+
+### SCHEDULE B — JOB DESCRIPTION AND KEY PERFORMANCE INDICATORS
+
+**Attached to Employment Contract dated:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+---
+
+| Field | Details |
+|---|---|
+| **Job Title:** | Technical Writer |
+| **Department:** | Product & Business |
+| **Reporting To:** | AI Product Manager |
+| **Direct Reports:** | None |
+| **Location:** | Lagos, Nigeria |
+
+#### Key Responsibilities
+
+1. Write and maintain API documentation for all PECH services
+2. Create user guides for AI features
+3. Write installation and setup guides for solar products and IoT devices
+4. Create training materials for installer network and field agents
+5. Maintain internal engineering documentation
+6. Edit and proofread all external-facing content
+7. Create video scripts for product tutorials
+8. Manage documentation versioning and release notes
+
+#### Key Performance Indicators (KPIs)
+
+| # | KPI | Target | Measurement Method | Review Period |
+|---|---|---|---|---|
+| 1 | Documentation coverage | 100% of shipped features documented | Documentation audit | Monthly |
+| 2 | Documentation accuracy | <2 error reports per month | Error tracking | Monthly |
+| 3 | Content freshness | Updated within 48h of feature changes | Version tracking | Monthly |
+| 4 | User satisfaction | ≥4.0/5.0 on docs helpfulness | User surveys | Quarterly |
+| 5 | Output volume | ≥8 documents/guides per month | Content tracker | Monthly |
+| 6 | Review turnaround | <24h for review requests | Request tracking | Monthly |
+
+#### Required Tools & Platforms
+Markdown, Git, Strapi, Notion, Google Workspace, Figma (screenshots), Loom (video)
+
+#### Growth Path
+Technical Writer → Senior Writer → Documentation Lead → Head of Content
+
+---
+
+**Employee Signature:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ **Date:** \_\_\_\_/\_\_\_\_/\_\_\_\_\_\_\_\_
+
+**Employer Signature:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ **Date:** \_\_\_\_/\_\_\_\_/\_\_\_\_\_\_\_\_
+
+---
+
+## 28. INSTALLER TRAINING & NETWORK MANAGER
+
+### SCHEDULE B — JOB DESCRIPTION AND KEY PERFORMANCE INDICATORS
+
+**Attached to Employment Contract dated:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+---
+
+| Field | Details |
+|---|---|
+| **Job Title:** | Installer Training & Network Manager |
+| **Department:** | Operations |
+| **Reporting To:** | Market Operations Manager |
+| **Direct Reports:** | Certified installer network |
+| **Location:** | Lagos, Nigeria (Field + Office) |
+
+#### Key Responsibilities
+
+1. Recruit and onboard solar installers across Lagos and expansion cities
+2. Develop installer training curriculum (technical + customer service)
+3. Manage AI-powered training platform (video courses, certifications)
+4. Conduct quality audits of completed installations
+5. Maintain installer performance metrics
+6. Manage certification and re-certification process
+7. Coordinate with solar product team on new product training
+8. Build partnerships with technical schools and vocational centers
+
+#### Key Performance Indicators (KPIs)
+
+| # | KPI | Target | Measurement Method | Review Period |
+|---|---|---|---|---|
+| 1 | Active certified installers | Growth per phase targets | Installer database | Quarterly |
+| 2 | Installation quality score | ≥4.5/5.0 customer rating | Customer feedback | Monthly |
+| 3 | Certification pass rate | ≥80% first attempt | Training platform | Monthly |
+| 4 | Warranty claim rate | <3% of installations | Warranty system | Quarterly |
+| 5 | Training completion | ≥90% of onboarded installers | LMS tracking | Monthly |
+| 6 | Geographic coverage | Active installers in target LGAs | Coverage map | Quarterly |
+
+#### Required Tools & Platforms
+ThingsBoard, Google Workspace, LMS platform, PECH installer app, Google Maps
+
+#### Growth Path
+Training Manager → Head of Installer Operations → VP Operations
+
+---
+
+**Employee Signature:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ **Date:** \_\_\_\_/\_\_\_\_/\_\_\_\_\_\_\_\_
+
+**Employer Signature:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ **Date:** \_\_\_\_/\_\_\_\_/\_\_\_\_\_\_\_\_
+
+---
+
+## 29. FINTECH OPERATIONS / AGENT NETWORK MANAGER
+
+### SCHEDULE B — JOB DESCRIPTION AND KEY PERFORMANCE INDICATORS
+
+**Attached to Employment Contract dated:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+---
+
+| Field | Details |
+|---|---|
+| **Job Title:** | Fintech Operations / Agent Network Manager |
+| **Department:** | Operations |
+| **Reporting To:** | CEO / Payments Product Manager |
+| **Direct Reports:** | Agent network |
+| **Location:** | Lagos, Nigeria |
+
+#### Key Responsibilities
+
+1. Build and manage the agent banking network
+2. Monitor agent performance, liquidity, and fraud indicators
+3. Ensure PSSP and CBN regulatory compliance
+4. Manage KYC/KYB processes for agents and customers
+5. Coordinate with fraud detection team on suspicious transactions
+6. Manage payment gateway integrations (Paystack, Flutterwave)
+7. Handle customer complaints related to payments
+8. Report on fintech metrics (transaction volume, revenue)
+
+#### Key Performance Indicators (KPIs)
+
+| # | KPI | Target | Measurement Method | Review Period |
+|---|---|---|---|---|
+| 1 | Active agents | Growth per phase targets | Agent database | Monthly |
+| 2 | Transaction success rate | ≥99% | Payment system logs | Daily/Weekly |
+| 3 | Fraud incident rate | <0.1% of transactions | Fraud detection system | Monthly |
+| 4 | Agent liquidity compliance | ≥95% agents meet float requirements | Fineract reports | Weekly |
+| 5 | KYC completion rate | 100% of active customers/agents | KYC system | Monthly |
+| 6 | Regulatory compliance | Zero CBN/NDPC violations | Compliance audits | Quarterly |
+| 7 | Customer complaint resolution | <24h average resolution | Chatwoot tickets | Monthly |
+
+#### Required Tools & Platforms
+Apache Fineract, PECH admin dashboard, Paystack/Flutterwave, compliance tools, Chatwoot
+
+#### Growth Path
+Fintech Ops Manager → Head of Fintech Operations → VP Financial Services
+
+---
+
+**Employee Signature:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ **Date:** \_\_\_\_/\_\_\_\_/\_\_\_\_\_\_\_\_
+
+**Employer Signature:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ **Date:** \_\_\_\_/\_\_\_\_/\_\_\_\_\_\_\_\_
+
+---
+
+## 30. AI/ML ENGINEERING INTERN
+
+### SCHEDULE B — JOB DESCRIPTION AND KEY PERFORMANCE INDICATORS
+
+**Attached to Internship Agreement dated:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+---
+
+| Field | Details |
+|---|---|
+| **Job Title:** | AI/ML Engineering Intern |
+| **Department:** | Engineering (AI/ML Team) |
+| **Reporting To:** | AI/ML Engineer |
+| **Direct Reports:** | None |
+| **Location:** | Lagos, Nigeria |
+
+#### Key Responsibilities
+
+1. Assist with data preparation for RAG pipelines and model fine-tuning
+2. Test and evaluate model performance across PECH use cases
+3. Build sample AI features under supervision (chatbot, OCR, recommendations)
+4. Document AI workflows and create testing scripts
+5. Learn Docker, Linux, and GPU infrastructure management
+6. Contribute to AI documentation and code comments
+7. Participate in code reviews and engineering meetings
+
+#### Key Performance Indicators (KPIs)
+
+| # | KPI | Target | Measurement Method | Review Period |
+|---|---|---|---|---|
+| 1 | Learning milestone completion | ≥80% of quarterly learning plan | Mentor evaluation | Monthly |
+| 2 | Task completion | ≥90% of assigned tasks completed on time | Sprint tracking | Bi-weekly |
+| 3 | Documentation contributions | ≥2 docs/guides per month | Content tracker | Monthly |
+| 4 | Code quality | Pass code review on ≥80% of PRs first attempt | GitHub metrics | Monthly |
+| 5 | Attendance & engagement | ≥95% attendance, active participation | Manager feedback | Monthly |
+
+#### Required Tools & Platforms
+Python, PyTorch, Docker, Git, Ollama, LangChain, Qdrant, Linux
+
+#### Growth Path
+AI/ML Intern → Junior AI/ML Engineer → AI/ML Engineer
+
+---
+
+**Intern Signature:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ **Date:** \_\_\_\_/\_\_\_\_/\_\_\_\_\_\_\_\_
 
 **Employer Signature:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ **Date:** \_\_\_\_/\_\_\_\_/\_\_\_\_\_\_\_\_
 

@@ -24,9 +24,9 @@ Website: [pechgroupholdings.tech](https://pechgroupholdings.tech)
 
 PECH Group Holdings Ltd is a Lagos-based technology company building platform infrastructure for Africa. Our ecosystem spans **IoT-enabled solar energy management**, **marketplace platforms**, **logistics networks**, and **financial services (PSSP)** — all designed to solve real problems for African businesses and consumers.
 
-We are scaling from a founding team of 5 to a 30-person organization over 24 months across 6 hiring phases. We are looking for talented, mission-driven individuals who want to build technology that matters.
+We are scaling from a founding team of 5 to a 37-person organization over 24 months across 6 hiring phases. We are looking for talented, mission-driven individuals who want to build technology that matters.
 
-**Our Tech Stack:** React/Next.js, React Native, Node.js, Python, PostgreSQL, MongoDB, Redis, MQTT, ESP32/STM32, AWS/Azure, Docker, CI/CD pipelines, Sentry, and more.
+**Our Tech Stack:** React/Next.js, React Native, Node.js, Python, PostgreSQL, Redis, MQTT, ESP32/STM32, Docker, Kubernetes, CI/CD pipelines, and more. **AI/ML Stack:** Qwen2.5, Whisper, PaddleOCR, vLLM, Ollama, LangChain, LangGraph, Qdrant, PyTorch, XGBoost, Apache APISIX, Keycloak, Apache Fineract, Medusa.js, ThingsBoard, Apache Superset.
 
 **Our Values:**
 - **Reliability** — We ship products that work. No excuses.
@@ -513,6 +513,193 @@ Jest, Cypress, Detox, Postman, k6, Sentry, GitHub Actions, Docker, JavaScript/Ty
 
 ---
 
+### 1.11 AI/ML ENGINEER
+
+| Field | Details |
+|---|---|
+| **Role ID:** | PECH-ENG-AI-001 |
+| **Department:** | Engineering |
+| **Reports To:** | CTO |
+| **Location:** | Lagos, Nigeria (Hybrid) or Remote |
+| **Employment Type:** | Full-Time |
+| **Hiring Phase:** | Phase 2 (Months 5–8) |
+| **Compensation:** | ₦600,000–1,000,000/month |
+
+**About the Role:**
+You will be the core AI/ML engineer responsible for deploying, fine-tuning, and integrating large language models (LLMs) and traditional ML models across all PECH verticals. You will build the AI Core that powers chatbots, recommendations, vision, speech, and predictive analytics across the entire ecosystem.
+
+**Key Responsibilities:**
+1. Deploy and manage self-hosted LLMs (Qwen2.5, Mistral, Phi) using Ollama and vLLM
+2. Build and maintain RAG (Retrieval-Augmented Generation) pipelines using LangChain, Qdrant, and embedding models
+3. Fine-tune models on PECH business data using LoRA/QLoRA (PEFT library)
+4. Integrate AI capabilities into microservices (chatbot, OCR, speech, recommendations)
+5. Optimize model inference (quantization, batching, GPU memory management)
+6. Build AI agents using LangGraph for multi-step tasks (solar design, financial analysis)
+7. Implement fraud detection, dynamic pricing, and predictive maintenance ML models
+8. Monitor model performance, A/B test model versions, and track AI metrics
+
+**Required Qualifications:**
+- B.Sc./M.Sc. in Computer Science, AI/ML, Mathematics, or related field
+- 3+ years of professional ML/AI engineering experience
+- Strong Python skills (PyTorch, Transformers, scikit-learn)
+- Experience deploying LLMs (fine-tuning, quantization, serving)
+- Experience with NLP tasks (text classification, NER, embeddings, RAG)
+- Familiarity with vector databases (Qdrant, Milvus, or similar)
+- Experience with Docker and Linux server administration
+- Understanding of GPU computing (CUDA, VRAM management)
+
+**Preferred Qualifications:**
+- Experience with vLLM, Ollama, or TensorRT for model serving
+- Experience with computer vision (object detection, image classification)
+- Experience with speech models (Whisper, TTS systems)
+- Published papers or open-source ML contributions
+- Experience in African tech or fintech
+
+**PECH Tech Stack Relevant to This Role:**
+Qwen2.5, Phi-4, Mistral, Whisper, PaddleOCR, RT-DETR, vLLM, Ollama, LangChain, LangGraph, Qdrant, PyTorch, Transformers, PEFT, XGBoost, LightGBM, Prophet, Docker, NVIDIA CUDA
+
+---
+
+### 1.12 AI KNOWLEDGE / DATA ENGINEER
+
+| Field | Details |
+|---|---|
+| **Role ID:** | PECH-ENG-AK-001 |
+| **Department:** | Engineering |
+| **Reports To:** | CTO / AI/ML Engineer |
+| **Location:** | Lagos, Nigeria (Hybrid) |
+| **Employment Type:** | Full-Time |
+| **Hiring Phase:** | Phase 2 (Months 5–8) |
+| **Compensation:** | ₦400,000–600,000/month |
+
+**About the Role:**
+You will build and maintain the data pipelines that feed PECH's AI systems. This includes ingesting business data from all verticals (products, support tickets, IoT telemetry, financial records), processing it into embeddings, and storing it in vector databases for RAG retrieval. You ensure the AI has access to accurate, up-to-date knowledge.
+
+**Key Responsibilities:**
+1. Build ETL pipelines using Apache Airflow to ingest data from all PECH platforms
+2. Design and maintain the RAG knowledge base (document chunking, embedding, indexing)
+3. Manage Qdrant vector database (indexing, filtering, performance tuning)
+4. Create data quality checks and monitoring for AI training data
+5. Build data connectors for ERPNext, Medusa, Chatwoot, ThingsBoard, and Fineract
+6. Maintain PostgreSQL database schemas for AI/ML feature stores
+7. Implement data anonymization and NDPA compliance for AI training data
+8. Support model fine-tuning with curated training datasets
+
+**Required Qualifications:**
+- B.Sc. in Computer Science, Data Science, or related field
+- 2+ years of data engineering experience
+- Strong Python and SQL skills
+- Experience with data pipeline tools (Airflow, Prefect, or similar)
+- Experience with PostgreSQL and at least one NoSQL database
+- Familiarity with data modeling and ETL best practices
+- Understanding of embeddings and vector databases (conceptual)
+
+**Preferred Qualifications:**
+- Experience with Apache Airflow specifically
+- Experience with NLP data preparation (tokenization, chunking)
+- Knowledge of Qdrant, ChromaDB, or Milvus
+- Experience with DuckDB for analytics
+- Data governance or compliance experience
+
+**PECH Tech Stack Relevant to This Role:**
+Python, PostgreSQL, Apache Airflow, Qdrant, DuckDB, Redis, LangChain, Docker, Sentence Transformers, Pandas, Apache Superset
+
+---
+
+### 1.13 MLOps ENGINEER
+
+| Field | Details |
+|---|---|
+| **Role ID:** | PECH-ENG-MLOPS-001 |
+| **Department:** | Engineering |
+| **Reports To:** | CTO |
+| **Location:** | Lagos, Nigeria (Hybrid) or Remote |
+| **Employment Type:** | Full-Time |
+| **Hiring Phase:** | Phase 3 (Months 9–14) |
+| **Compensation:** | ₦500,000–800,000/month |
+
+**About the Role:**
+You will own the production infrastructure for PECH's AI models. This includes model serving (vLLM cluster), monitoring, scaling, CI/CD for model deployments, and ensuring high availability of AI services across all 10 verticals.
+
+**Key Responsibilities:**
+1. Manage vLLM production cluster (multi-model serving, load balancing)
+2. Build CI/CD pipelines for model deployment (automated testing, staging, production)
+3. Monitor model performance (latency, throughput, accuracy drift)
+4. Implement auto-scaling for AI services based on demand
+5. Manage GPU resource allocation across models
+6. Set up model versioning, A/B testing, and rollback procedures
+7. Optimize infrastructure costs (cloud GPU vs local, spot instances)
+8. Maintain Kubernetes (K3s) deployment for AI workloads
+
+**Required Qualifications:**
+- B.Sc. in Computer Science, DevOps, or related field
+- 3+ years of DevOps/MLOps experience
+- Strong Docker and Kubernetes experience
+- Experience with GPU-based infrastructure (NVIDIA, CUDA)
+- Linux server administration (Ubuntu)
+- CI/CD pipeline design (GitHub Actions, Woodpecker, Jenkins)
+- Monitoring tools (Prometheus, Grafana)
+- Scripting (Python, Bash)
+
+**Preferred Qualifications:**
+- Experience with vLLM, Triton Inference Server, or TensorRT
+- Experience managing ML model serving at scale
+- Knowledge of NVIDIA Container Toolkit
+- Experience with cloud GPU providers (RunPod, Lambda, AWS)
+- Terraform or Ansible for infrastructure-as-code
+
+**PECH Tech Stack Relevant to This Role:**
+vLLM, Ollama, Docker, Kubernetes (K3s), Prometheus, Grafana, NVIDIA CUDA, GitHub Actions, Woodpecker CI, Harbor, Linux, Python, Bash
+
+---
+
+### 1.14 API / PLATFORM ENGINEER
+
+| Field | Details |
+|---|---|
+| **Role ID:** | PECH-ENG-API-001 |
+| **Department:** | Engineering |
+| **Reports To:** | CTO |
+| **Location:** | Lagos, Nigeria (Hybrid) |
+| **Employment Type:** | Full-Time |
+| **Hiring Phase:** | Phase 2 (Months 5–8) |
+| **Compensation:** | ₦450,000–700,000/month |
+
+**About the Role:**
+You will design and maintain the API gateway (Apache APISIX) and microservice architecture that connects all 78 PECH services. You will build the developer platform that enables external developers to integrate with PECH's ecosystem, including AI APIs, marketplace APIs, and fintech APIs.
+
+**Key Responsibilities:**
+1. Design and maintain the API gateway (Apache APISIX) — routing, rate limiting, auth
+2. Build and document public APIs (OpenAPI/Swagger) for external developers
+3. Implement API versioning, deprecation, and backward compatibility
+4. Design inter-service communication patterns (REST, gRPC, event-driven)
+5. Build developer portal with API documentation and SDK generation
+6. Implement API monetization (subscription tiers, usage metering)
+7. Manage Keycloak integration (OAuth2, API keys, JWT validation)
+8. Performance optimization (caching, compression, connection pooling)
+
+**Required Qualifications:**
+- B.Sc. in Computer Science or related field
+- 3+ years of backend engineering experience
+- Strong Node.js and/or Python skills
+- Experience designing RESTful APIs at scale
+- Experience with API gateways (APISIX, Kong, Traefik, or similar)
+- Knowledge of authentication/authorization (OAuth2, JWT, API keys)
+- Experience with PostgreSQL and Redis
+- Docker and microservice architecture experience
+
+**Preferred Qualifications:**
+- Experience with Apache APISIX specifically
+- Experience building developer platforms or API products
+- gRPC experience
+- Event-driven architecture (Kafka, NATS, RabbitMQ)
+- API documentation tooling (Swagger, Redoc, Stoplight)
+
+**PECH Tech Stack Relevant to This Role:**
+Apache APISIX, Keycloak, Node.js, Python, PostgreSQL, Redis, NATS/Kafka, Docker, Kubernetes, OpenAPI/Swagger, Strapi (developer docs)
+
+---
+
 ## 2. DESIGN DEPARTMENT
 
 ---
@@ -751,6 +938,138 @@ Compliance management systems, Microsoft Office, regulatory portals, audit tools
 
 ---
 
+### 3.5 AI PRODUCT MANAGER
+
+| Field | Details |
+|---|---|
+| **Role ID:** | PECH-BIZ-AIP-001 |
+| **Department:** | Product & Business |
+| **Reports To:** | CEO |
+| **Location:** | Lagos, Nigeria (Hybrid) |
+| **Employment Type:** | Full-Time |
+| **Hiring Phase:** | Phase 3 (Months 9–14) |
+| **Compensation:** | ₦500,000–800,000/month |
+
+**About the Role:**
+You will own the AI product roadmap across all 10 PECH verticals. You define which AI features to build, prioritize based on user impact and revenue potential, and work with the AI engineering team to ship them. You are the bridge between business strategy and AI capability.
+
+**Key Responsibilities:**
+1. Define AI product roadmap across all verticals (solar, marketplace, fintech, logistics)
+2. Prioritize AI features based on user research, revenue impact, and technical feasibility
+3. Design subscription tiers for AI features (free, basic, pro, enterprise)
+4. Write PRDs (Product Requirements Documents) for AI features
+5. Analyze AI usage metrics and optimize feature adoption
+6. Research competitor AI features and emerging model capabilities
+7. Manage AI feature beta programs and user feedback loops
+8. Collaborate with AI engineers on feasibility and timeline estimation
+
+**Required Qualifications:**
+- B.Sc. in Computer Science, Business, or related field
+- 3+ years of product management experience
+- Experience with AI/ML products or data-driven platforms
+- Strong analytical skills (SQL, data analysis)
+- Excellent communication (translate technical AI to business value)
+- Experience with product analytics tools
+
+**Preferred Qualifications:**
+- Experience with LLM-powered products
+- Understanding of RAG, embeddings, and AI model capabilities
+- Experience in African tech or fintech
+- MBA or product management certification
+
+**Tools:**
+Jira/Linear, Figma, SQL, Apache Superset, Notion, Miro
+
+---
+
+### 3.6 DEVELOPER ADVOCATE
+
+| Field | Details |
+|---|---|
+| **Role ID:** | PECH-BIZ-DA2-001 |
+| **Department:** | Product & Business |
+| **Reports To:** | AI Product Manager |
+| **Location:** | Lagos, Nigeria (Hybrid) or Remote |
+| **Employment Type:** | Full-Time |
+| **Hiring Phase:** | Phase 3 (Months 9–14) |
+| **Compensation:** | ₦400,000–600,000/month |
+
+**About the Role:**
+You will be the public face of PECH's developer ecosystem. You create documentation, tutorials, sample code, and SDKs that help external developers integrate with PECH APIs (marketplace, fintech, AI, IoT). You also represent PECH at conferences and developer meetups.
+
+**Key Responsibilities:**
+1. Create and maintain API documentation (OpenAPI/Swagger specs)
+2. Build sample applications and integration guides
+3. Write technical blog posts and tutorials
+4. Manage developer community (Discord/Slack, GitHub discussions)
+5. Speak at tech conferences and meetups (Nigeria and Africa)
+6. Collect developer feedback and relay to product/engineering
+7. Create and maintain SDKs (JavaScript, Python)
+8. Build and maintain developer portal (Strapi-based)
+
+**Required Qualifications:**
+- B.Sc. in Computer Science or related field
+- 2+ years of software development experience
+- Strong writing and communication skills (English)
+- Experience with REST APIs and at least one SDK language (JavaScript/Python)
+- Public speaking experience (meetups, conferences, or YouTube)
+- Active technical blog or GitHub profile
+
+**Preferred Qualifications:**
+- Previous developer relations / advocacy experience
+- Experience with API documentation tools (Swagger, Redoc)
+- Experience in African tech ecosystem
+- Nigerian language proficiency (Yoruba, Hausa, Igbo, or Pidgin)
+
+**Tools:**
+Strapi, Swagger/Redoc, Git/GitHub, Notion, Google Workspace, video editing tools
+
+---
+
+### 3.7 TECHNICAL WRITER
+
+| Field | Details |
+|---|---|
+| **Role ID:** | PECH-BIZ-TW-001 |
+| **Department:** | Product & Business |
+| **Reports To:** | AI Product Manager |
+| **Location:** | Lagos, Nigeria (Hybrid) or Remote |
+| **Employment Type:** | Full-Time |
+| **Hiring Phase:** | Phase 2 (Months 5–8) |
+| **Compensation:** | ₦250,000–400,000/month |
+
+**About the Role:**
+You will create all technical documentation for PECH's platform — API docs, user guides, installation manuals, training materials, and internal engineering docs. You ensure every product, service, and AI feature is well-documented for both internal teams and external users.
+
+**Key Responsibilities:**
+1. Write and maintain API documentation for all PECH services
+2. Create user guides for AI features (chatbot, OCR, voice, image editing)
+3. Write installation and setup guides for solar products and IoT devices
+4. Create training materials for installer network and field agents
+5. Maintain internal engineering documentation (architecture, runbooks)
+6. Edit and proofread all external-facing content
+7. Create video scripts for product tutorials
+8. Manage documentation versioning and release notes
+
+**Required Qualifications:**
+- B.Sc. in English, Communications, Computer Science, or related field
+- 2+ years of technical writing experience
+- Excellent English writing skills (grammar, clarity, structure)
+- Ability to understand and explain technical concepts to non-technical audiences
+- Experience with documentation tools (Markdown, Git, Confluence/Notion)
+- Basic understanding of APIs and software concepts
+
+**Preferred Qualifications:**
+- Experience with docs-as-code workflow (Git, Markdown, CI/CD)
+- Experience documenting APIs (OpenAPI/Swagger)
+- Familiarity with AI/ML concepts
+- Experience in Nigerian tech ecosystem
+
+**Tools:**
+Markdown, Git, Strapi, Notion, Google Workspace, Figma (screenshots), Loom (video)
+
+---
+
 ## 4. OPERATIONS
 
 ---
@@ -966,6 +1285,94 @@ You will be PECH's eyes and ears in the field. You will conduct market surveys, 
 
 ---
 
+### 4.6 INSTALLER TRAINING & NETWORK MANAGER
+
+| Field | Details |
+|---|---|
+| **Role ID:** | PECH-OPS-ITN-001 |
+| **Department:** | Operations |
+| **Reports To:** | Market Operations Manager |
+| **Location:** | Lagos, Nigeria (On-site + Field) |
+| **Employment Type:** | Full-Time |
+| **Hiring Phase:** | Phase 2 (Months 5–8) |
+| **Compensation:** | ₦350,000–500,000/month |
+
+**About the Role:**
+You will build and manage PECH's solar installer network across Nigeria. You recruit, train, certify, and manage independent solar installers who install PECH solar products. You also develop AI-assisted training programs and maintain installer quality standards.
+
+**Key Responsibilities:**
+1. Recruit and onboard solar installers across Lagos and expansion cities
+2. Develop installer training curriculum (technical + customer service)
+3. Manage AI-powered training platform (video courses, assessments, certifications)
+4. Conduct quality audits of completed installations
+5. Maintain installer performance metrics (completion rate, customer ratings, warranty claims)
+6. Manage installer certification and re-certification process
+7. Coordinate with solar product team on new product training
+8. Build partnerships with technical schools and vocational training centers
+
+**Required Qualifications:**
+- B.Sc./HND in Electrical Engineering, Renewable Energy, or related field
+- 3+ years of experience in solar energy installation or training
+- Understanding of solar PV systems (design, installation, troubleshooting)
+- Strong organizational and communication skills
+- Experience managing field teams or training programs
+- Valid driver's license and willingness to travel
+
+**Preferred Qualifications:**
+- NABCEP or equivalent solar certification
+- Experience with e-learning platforms (LMS)
+- Experience in franchise or agent network management
+- Proficiency in multiple Nigerian languages
+
+**Tools:**
+ThingsBoard (installation monitoring), Google Workspace, LMS platform, PECH installer app
+
+---
+
+### 4.7 FINTECH OPERATIONS / AGENT NETWORK MANAGER
+
+| Field | Details |
+|---|---|
+| **Role ID:** | PECH-OPS-FIN-001 |
+| **Department:** | Operations |
+| **Reports To:** | CEO / Payments Product Manager |
+| **Location:** | Lagos, Nigeria (On-site) |
+| **Employment Type:** | Full-Time |
+| **Hiring Phase:** | Phase 2 (Months 5–8) |
+| **Compensation:** | ₦400,000–600,000/month |
+
+**About the Role:**
+You will build and manage PECH's fintech agent banking network (powered by Apache Fineract). You recruit, train, and manage cash-in/cash-out agents, oversee PSSP compliance operations, and ensure smooth fintech operations across all payment channels.
+
+**Key Responsibilities:**
+1. Build and manage the agent banking network (recruit, train, equip agents)
+2. Monitor agent performance, liquidity, and fraud indicators
+3. Ensure PSSP and CBN regulatory compliance for all payment operations
+4. Manage KYC/KYB processes for agents and customers
+5. Coordinate with fraud detection team on suspicious transaction alerts
+6. Manage payment gateway integrations (Paystack, Flutterwave)
+7. Handle customer complaints related to payments and transfers
+8. Report on fintech metrics (transaction volume, agent activity, revenue)
+
+**Required Qualifications:**
+- B.Sc. in Finance, Business Administration, Banking, or related field
+- 3+ years of experience in fintech operations, banking, or agent network management
+- Knowledge of CBN regulations, KYC/AML requirements
+- Experience with mobile money or digital payments platforms
+- Strong analytical skills (Excel, SQL is a plus)
+- Excellent communication and people management skills
+
+**Preferred Qualifications:**
+- Experience with PSSP/PSP licensing and compliance
+- Experience managing agent networks (POS agents, mobile money agents)
+- Knowledge of fraud detection and prevention
+- Experience with Paystack, Flutterwave, or similar payment platforms
+
+**Tools:**
+Apache Fineract (core banking), PECH admin dashboard, Paystack/Flutterwave APIs, compliance management tools
+
+---
+
 ## 5. INTERNSHIP PROGRAMME
 
 ---
@@ -1152,6 +1559,34 @@ You will be PECH's eyes and ears in the field. You will conduct market surveys, 
 - Good communication skills (English + at least one Nigerian language)
 - Basic computer skills (Google Workspace, email)
 - Interest in technology, operations, and African markets
+- Available for minimum 3 months
+
+---
+
+### 5.8 AI/ML ENGINEERING INTERN
+
+| Field | Details |
+|---|---|
+| **Role ID:** | PECH-INT-AI-001 |
+| **Department:** | Engineering (AI/ML Team) |
+| **Reports To:** | AI/ML Engineer |
+| **Duration:** | 3–6 months |
+| **Stipend:** | ₦80,000–120,000/month |
+
+**Learning Objectives:**
+- Learn practical AI/ML engineering (model deployment, not just theory)
+- Assist with data preparation for RAG pipelines and model fine-tuning
+- Help test and evaluate model performance across PECH use cases
+- Learn Docker, Linux, and GPU infrastructure management
+- Build sample AI features under supervision (chatbot, OCR, recommendations)
+- Contribute to AI documentation and testing
+
+**Requirements:**
+- Currently enrolled in or recently graduated from Computer Science, AI/ML, Mathematics, or related programme
+- Basic Python programming skills
+- Interest in AI/ML (coursework, personal projects, or online courses)
+- Familiarity with basic ML concepts (supervised learning, NLP, neural networks)
+- Willingness to learn self-hosted AI infrastructure (not just cloud APIs)
 - Available for minimum 3 months
 
 ---

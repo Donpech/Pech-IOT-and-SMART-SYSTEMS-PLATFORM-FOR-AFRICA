@@ -673,6 +673,132 @@ __________________________________________
 
 ---
 
+#### 5.3.14 AI/ML ENGINEER ASSESSMENT
+
+**Task:** Build a simple RAG (Retrieval-Augmented Generation) pipeline. Given a set of product documents (solar panel specifications), chunk the documents, generate embeddings, store in a vector database, and build a query endpoint that retrieves relevant chunks and generates an answer using an LLM API.
+
+**Provided:** 5 sample product PDF documents, a running Ollama instance with Qwen2.5-7B, a Qdrant instance, and a starter Python project
+
+**Evaluation Criteria:**
+
+| # | Criterion | Weight | Score (1–5) | Notes |
+|---|---|---|---|---|
+| 1 | Document chunking approach (size, overlap, quality) | 15% | | |
+| 2 | Embedding generation (correct model usage, batching) | 15% | | |
+| 3 | Vector database usage (indexing, metadata, filtering) | 15% | | |
+| 4 | RAG pipeline correctness (retrieval → context → generation) | 20% | | |
+| 5 | Code quality & Python best practices | 10% | | |
+| 6 | Error handling & edge cases (empty results, long queries) | 5% | | |
+| 7 | Performance awareness (VRAM, latency, batching) | 10% | | |
+| 8 | Live review: Explain architecture decisions & trade-offs | 10% | | |
+| | **TOTAL** | **100%** | | |
+
+---
+
+#### 5.3.15 AI DATA ENGINEER ASSESSMENT
+
+**Task:** Build an ETL pipeline using Apache Airflow (or equivalent) that: (1) reads product data from a PostgreSQL table, (2) processes and chunks it, (3) generates embeddings, and (4) upserts into Qdrant. The pipeline should handle incremental updates (only new/modified products).
+
+**Provided:** PostgreSQL database with sample product table, Airflow dev environment, Qdrant instance
+
+**Evaluation Criteria:**
+
+| # | Criterion | Weight | Score (1–5) | Notes |
+|---|---|---|---|---|
+| 1 | Pipeline architecture (DAG design, task dependencies) | 20% | | |
+| 2 | Incremental processing (detect new/changed records) | 15% | | |
+| 3 | Data quality checks and validation | 15% | | |
+| 4 | Error handling and retry logic | 15% | | |
+| 5 | SQL proficiency (efficient queries) | 10% | | |
+| 6 | Code quality and documentation | 10% | | |
+| 7 | Monitoring/alerting considerations | 5% | | |
+| 8 | Live review: Explain pipeline design decisions | 10% | | |
+| | **TOTAL** | **100%** | | |
+
+---
+
+#### 5.3.16 MLOps ENGINEER ASSESSMENT
+
+**Task:** Given a running Ollama instance with 2 models, containerize a model serving setup with: (1) Docker Compose config, (2) Prometheus monitoring for GPU metrics, (3) a health-check endpoint, and (4) a deployment script with rollback capability.
+
+**Provided:** Server with GPU access, Ollama installation, Prometheus instance
+
+**Evaluation Criteria:**
+
+| # | Criterion | Weight | Score (1–5) | Notes |
+|---|---|---|---|---|
+| 1 | Docker/containerization best practices | 20% | | |
+| 2 | Monitoring setup (GPU metrics, latency, errors) | 20% | | |
+| 3 | Health checks and auto-restart logic | 15% | | |
+| 4 | Deployment/rollback script quality | 15% | | |
+| 5 | Security considerations (secrets, network) | 10% | | |
+| 6 | Resource management (GPU allocation, memory) | 10% | | |
+| 7 | Live review: Explain infrastructure decisions | 10% | | |
+| | **TOTAL** | **100%** | | |
+
+---
+
+#### 5.3.17 API / PLATFORM ENGINEER ASSESSMENT
+
+**Task:** Build a REST API with: (1) an Apache APISIX route configuration for two downstream services, (2) JWT authentication via Keycloak, (3) rate limiting (different tiers), and (4) API versioning (v1/v2 of the same endpoint).
+
+**Provided:** Running APISIX instance, Keycloak with pre-configured realm, two mock downstream services
+
+**Evaluation Criteria:**
+
+| # | Criterion | Weight | Score (1–5) | Notes |
+|---|---|---|---|---|
+| 1 | APISIX route configuration (correct, clean) | 20% | | |
+| 2 | Authentication implementation (JWT, Keycloak) | 20% | | |
+| 3 | Rate limiting configuration (multi-tier) | 15% | | |
+| 4 | API versioning approach | 10% | | |
+| 5 | Error responses and status codes | 10% | | |
+| 6 | API documentation (OpenAPI spec) | 10% | | |
+| 7 | Code quality and testing | 5% | | |
+| 8 | Live review: Explain design trade-offs | 10% | | |
+| | **TOTAL** | **100%** | | |
+
+---
+
+#### 5.3.18 AI PRODUCT MANAGER ASSESSMENT
+
+**Task:** (Case Study) PECH is launching an AI-powered solar system design tool for customers. Write a 2-page product brief covering: (1) user journey, (2) AI capabilities needed, (3) subscription tier design, (4) MVP scope vs full scope, and (5) success metrics.
+
+**Provided:** PECH ecosystem overview document, competitor analysis brief, sample user personas
+
+**Evaluation Criteria:**
+
+| # | Criterion | Weight | Score (1–5) | Notes |
+|---|---|---|---|---|
+| 1 | User journey clarity and completeness | 20% | | |
+| 2 | AI feature feasibility (realistic, not sci-fi) | 20% | | |
+| 3 | Business model thinking (tiers, pricing, conversion) | 20% | | |
+| 4 | MVP scoping (what to cut, what to keep) | 15% | | |
+| 5 | Success metrics (measurable, relevant) | 15% | | |
+| 6 | Live review: Defend decisions, handle stakeholder pushback | 10% | | |
+| | **TOTAL** | **100%** | | |
+
+---
+
+#### 5.3.19 AI/ML ENGINEERING INTERN ASSESSMENT (SUPERVISED)
+
+**Task:** (45-minute supervised) Using a provided Jupyter notebook: (1) load a CSV dataset of customer support tickets, (2) use a pre-trained sentiment analysis model to classify each ticket, (3) visualize the distribution, and (4) explain what you did and why.
+
+**Provided:** Jupyter notebook with starter code, CSV file, pre-installed libraries
+
+**Evaluation Criteria:**
+
+| # | Criterion | Weight | Score (1–5) | Notes |
+|---|---|---|---|---|
+| 1 | Python proficiency (data loading, pandas) | 25% | | |
+| 2 | Model usage (loading, inference, output parsing) | 25% | | |
+| 3 | Data visualization (clear, labeled chart) | 20% | | |
+| 4 | Communication (explain decisions clearly) | 20% | | |
+| 5 | Curiosity & learning attitude | 10% | | |
+| | **TOTAL** | **100%** | | |
+
+---
+
 ### ROUND 2 TECHNICAL EVALUATOR SUMMARY
 
 *(Complete this section immediately after the technical assessment review)*

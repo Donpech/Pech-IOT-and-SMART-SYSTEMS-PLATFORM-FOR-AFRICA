@@ -1,0 +1,128 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" font-family="Arial, Helvetica, sans-serif">
+  <rect width="900" height="600" fill="#1B2838" rx="12"/>
+  <text x="450" y="35" text-anchor="middle" fill="#FFF" font-size="22" font-weight="bold">PECH Commerce &amp; Infrastructure OS — Architecture</text>
+  <text x="450" y="55" text-anchor="middle" fill="#00BFFF" font-size="12">Vertically-Integrated Platform Stack — All Layers Connected</text>
+
+  <!-- Layer 1: User-Facing Applications -->
+  <rect x="40" y="75" width="820" height="70" rx="8" fill="#0D2137" stroke="#00BFFF" stroke-width="1.5"/>
+  <text x="60" y="95" fill="#00BFFF" font-size="12" font-weight="bold">LAYER 1 — USER-FACING APPLICATIONS</text>
+  <rect x="60" y="105" width="100" height="28" rx="5" fill="#0099CC"/>
+  <text x="110" y="124" text-anchor="middle" fill="#FFF" font-size="9" font-weight="bold">Marketplace</text>
+  <rect x="170" y="105" width="100" height="28" rx="5" fill="#0099CC"/>
+  <text x="220" y="124" text-anchor="middle" fill="#FFF" font-size="9" font-weight="bold">ERP (Free)</text>
+  <rect x="280" y="105" width="100" height="28" rx="5" fill="#0099CC"/>
+  <text x="330" y="124" text-anchor="middle" fill="#FFF" font-size="9" font-weight="bold">IoT Dashboard</text>
+  <rect x="390" y="105" width="100" height="28" rx="5" fill="#0099CC"/>
+  <text x="440" y="124" text-anchor="middle" fill="#FFF" font-size="9" font-weight="bold">Solar Portal</text>
+  <rect x="500" y="105" width="100" height="28" rx="5" fill="#0099CC"/>
+  <text x="550" y="124" text-anchor="middle" fill="#FFF" font-size="9" font-weight="bold">Logistics</text>
+  <rect x="610" y="105" width="100" height="28" rx="5" fill="#0099CC"/>
+  <text x="660" y="124" text-anchor="middle" fill="#FFF" font-size="9" font-weight="bold">Payments</text>
+  <rect x="720" y="105" width="120" height="28" rx="5" fill="#0099CC"/>
+  <text x="780" y="124" text-anchor="middle" fill="#FFF" font-size="9" font-weight="bold">Accounting AI</text>
+
+  <!-- Arrow down -->
+  <polygon points="450,148 445,155 455,155" fill="#F5A623"/>
+
+  <!-- Layer 2: AI Core -->
+  <rect x="40" y="160" width="820" height="95" rx="8" fill="#0D2137" stroke="#F5A623" stroke-width="2"/>
+  <text x="60" y="180" fill="#F5A623" font-size="12" font-weight="bold">LAYER 2 — AI CORE (Self-Hosted, Open-Source Only)</text>
+  <rect x="60" y="190" width="115" height="50" rx="5" fill="#3A2A10" stroke="#F5A623" stroke-width="1"/>
+  <text x="117" y="210" text-anchor="middle" fill="#F5A623" font-size="9" font-weight="bold">LLM Engine</text>
+  <text x="117" y="225" text-anchor="middle" fill="#FFF" font-size="8">Qwen2.5 · Phi-4</text>
+  <text x="117" y="236" text-anchor="middle" fill="#FFF" font-size="7">Ollama → vLLM</text>
+
+  <rect x="185" y="190" width="115" height="50" rx="5" fill="#3A2A10" stroke="#F5A623" stroke-width="1"/>
+  <text x="242" y="210" text-anchor="middle" fill="#F5A623" font-size="9" font-weight="bold">RAG Pipeline</text>
+  <text x="242" y="225" text-anchor="middle" fill="#FFF" font-size="8">LangChain + Qdrant</text>
+  <text x="242" y="236" text-anchor="middle" fill="#FFF" font-size="7">Business-aware AI</text>
+
+  <rect x="310" y="190" width="115" height="50" rx="5" fill="#3A2A10" stroke="#F5A623" stroke-width="1"/>
+  <text x="367" y="210" text-anchor="middle" fill="#F5A623" font-size="9" font-weight="bold">Speech AI</text>
+  <text x="367" y="225" text-anchor="middle" fill="#FFF" font-size="8">Whisper · Piper TTS</text>
+  <text x="367" y="236" text-anchor="middle" fill="#FFF" font-size="7">STT + TTS</text>
+
+  <rect x="435" y="190" width="115" height="50" rx="5" fill="#3A2A10" stroke="#F5A623" stroke-width="1"/>
+  <text x="492" y="210" text-anchor="middle" fill="#F5A623" font-size="9" font-weight="bold">Vision AI</text>
+  <text x="492" y="225" text-anchor="middle" fill="#FFF" font-size="8">Qwen2-VL · RT-DETR</text>
+  <text x="492" y="236" text-anchor="middle" fill="#FFF" font-size="7">OCR · Detection</text>
+
+  <rect x="560" y="190" width="115" height="50" rx="5" fill="#3A2A10" stroke="#F5A623" stroke-width="1"/>
+  <text x="617" y="210" text-anchor="middle" fill="#F5A623" font-size="9" font-weight="bold">ML Models</text>
+  <text x="617" y="225" text-anchor="middle" fill="#FFF" font-size="8">XGBoost · Prophet</text>
+  <text x="617" y="236" text-anchor="middle" fill="#FFF" font-size="7">Fraud · Pricing</text>
+
+  <rect x="685" y="190" width="155" height="50" rx="5" fill="#3A2A10" stroke="#F5A623" stroke-width="1"/>
+  <text x="762" y="210" text-anchor="middle" fill="#F5A623" font-size="9" font-weight="bold">Agent Framework</text>
+  <text x="762" y="225" text-anchor="middle" fill="#FFF" font-size="8">LangGraph Orchestration</text>
+  <text x="762" y="236" text-anchor="middle" fill="#FFF" font-size="7">Multi-step workflows</text>
+
+  <!-- Arrow down -->
+  <polygon points="450,258 445,265 455,265" fill="#F5A623"/>
+
+  <!-- Layer 3: Platform Services -->
+  <rect x="40" y="270" width="820" height="70" rx="8" fill="#0D2137" stroke="#0099CC" stroke-width="1.5"/>
+  <text x="60" y="290" fill="#00BFFF" font-size="12" font-weight="bold">LAYER 3 — PLATFORM SERVICES (Open-Source Stack)</text>
+  <rect x="60" y="300" width="90" height="28" rx="5" fill="#155E75"/>
+  <text x="105" y="318" text-anchor="middle" fill="#FFF" font-size="8" font-weight="bold">Keycloak</text>
+  <rect x="158" y="300" width="90" height="28" rx="5" fill="#155E75"/>
+  <text x="203" y="318" text-anchor="middle" fill="#FFF" font-size="8" font-weight="bold">ERPNext</text>
+  <rect x="256" y="300" width="90" height="28" rx="5" fill="#155E75"/>
+  <text x="301" y="318" text-anchor="middle" fill="#FFF" font-size="8" font-weight="bold">Medusa</text>
+  <rect x="354" y="300" width="90" height="28" rx="5" fill="#155E75"/>
+  <text x="399" y="318" text-anchor="middle" fill="#FFF" font-size="8" font-weight="bold">Fineract</text>
+  <rect x="452" y="300" width="90" height="28" rx="5" fill="#155E75"/>
+  <text x="497" y="318" text-anchor="middle" fill="#FFF" font-size="8" font-weight="bold">ThingsBoard</text>
+  <rect x="550" y="300" width="90" height="28" rx="5" fill="#155E75"/>
+  <text x="595" y="318" text-anchor="middle" fill="#FFF" font-size="8" font-weight="bold">Chatwoot</text>
+  <rect x="648" y="300" width="90" height="28" rx="5" fill="#155E75"/>
+  <text x="693" y="318" text-anchor="middle" fill="#FFF" font-size="8" font-weight="bold">Superset</text>
+  <rect x="746" y="300" width="90" height="28" rx="5" fill="#155E75"/>
+  <text x="791" y="318" text-anchor="middle" fill="#FFF" font-size="8" font-weight="bold">APISIX</text>
+
+  <!-- Arrow down -->
+  <polygon points="450,343 445,350 455,350" fill="#00BFFF"/>
+
+  <!-- Layer 4: Infrastructure -->
+  <rect x="40" y="355" width="820" height="70" rx="8" fill="#0D2137" stroke="#0099CC" stroke-width="1"/>
+  <text x="60" y="375" fill="#00BFFF" font-size="12" font-weight="bold">LAYER 4 — INFRASTRUCTURE</text>
+  <rect x="60" y="385" width="120" height="28" rx="5" fill="#1A6B8A"/>
+  <text x="120" y="403" text-anchor="middle" fill="#FFF" font-size="9">PostgreSQL + Redis</text>
+  <rect x="190" y="385" width="100" height="28" rx="5" fill="#1A6B8A"/>
+  <text x="240" y="403" text-anchor="middle" fill="#FFF" font-size="9">Qdrant VectorDB</text>
+  <rect x="300" y="385" width="120" height="28" rx="5" fill="#1A6B8A"/>
+  <text x="360" y="403" text-anchor="middle" fill="#FFF" font-size="9">NATS → Kafka</text>
+  <rect x="430" y="385" width="120" height="28" rx="5" fill="#1A6B8A"/>
+  <text x="490" y="403" text-anchor="middle" fill="#FFF" font-size="9">Docker → K8s</text>
+  <rect x="560" y="385" width="130" height="28" rx="5" fill="#1A6B8A"/>
+  <text x="625" y="403" text-anchor="middle" fill="#FFF" font-size="9">RTX 4090 GPU Server</text>
+  <rect x="700" y="385" width="140" height="28" rx="5" fill="#1A6B8A"/>
+  <text x="770" y="403" text-anchor="middle" fill="#FFF" font-size="9">Cloud Hybrid (Hetzner)</text>
+
+  <!-- Arrow down -->
+  <polygon points="450,428 445,435 455,435" fill="#00BFFF"/>
+
+  <!-- Layer 5: Hardware & Devices -->
+  <rect x="40" y="440" width="820" height="70" rx="8" fill="#0D2137" stroke="#E08A00" stroke-width="1.5"/>
+  <text x="60" y="460" fill="#E08A00" font-size="12" font-weight="bold">LAYER 5 — HARDWARE &amp; DEVICES (25 SKUs)</text>
+  <rect x="60" y="468" width="110" height="28" rx="5" fill="#E08A00"/>
+  <text x="115" y="486" text-anchor="middle" fill="#FFF" font-size="8" font-weight="bold">Smart Switches</text>
+  <rect x="178" y="468" width="100" height="28" rx="5" fill="#E08A00"/>
+  <text x="228" y="486" text-anchor="middle" fill="#FFF" font-size="8" font-weight="bold">Solar Systems</text>
+  <rect x="286" y="468" width="100" height="28" rx="5" fill="#E08A00"/>
+  <text x="336" y="486" text-anchor="middle" fill="#FFF" font-size="8" font-weight="bold">Water Ctrl</text>
+  <rect x="394" y="468" width="100" height="28" rx="5" fill="#E08A00"/>
+  <text x="444" y="486" text-anchor="middle" fill="#FFF" font-size="8" font-weight="bold">Cameras</text>
+  <rect x="502" y="468" width="100" height="28" rx="5" fill="#E08A00"/>
+  <text x="552" y="486" text-anchor="middle" fill="#FFF" font-size="8" font-weight="bold">Tablets</text>
+  <rect x="610" y="468" width="100" height="28" rx="5" fill="#E08A00"/>
+  <text x="660" y="486" text-anchor="middle" fill="#FFF" font-size="8" font-weight="bold">LED Displays</text>
+  <rect x="718" y="468" width="120" height="28" rx="5" fill="#E08A00"/>
+  <text x="778" y="486" text-anchor="middle" fill="#FFF" font-size="8" font-weight="bold">Kiosks + Estate</text>
+
+  <!-- Connecting side text -->
+  <rect x="40" y="525" width="820" height="55" rx="8" fill="#0D2137" stroke="#F5A623" stroke-width="1" stroke-dasharray="4,3"/>
+  <text x="60" y="548" fill="#F5A623" font-size="11" font-weight="bold">ECOSYSTEM FLYWHEEL:</text>
+  <text x="230" y="548" fill="#FFF" font-size="10">Hardware → IoT Data → AI Models → Platform Intelligence → Better Products → More Users → Data Moat</text>
+  <text x="60" y="568" fill="#00BFFF" font-size="10">All models Apache-2.0 / MIT licensed. Self-hosted in Lagos. No vendor lock-in. Full rebranding rights.</text>
+</svg>

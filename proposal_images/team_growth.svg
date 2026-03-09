@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" font-family="Arial, Helvetica, sans-serif">
+  <rect width="900" height="520" fill="#1B2838" rx="12"/>
+  <text x="450" y="35" text-anchor="middle" fill="#FFF" font-size="22" font-weight="bold">Team Growth &amp; Payroll Plan</text>
+  <text x="450" y="55" text-anchor="middle" fill="#00BFFF" font-size="13">5 → 37 People Over 24 Months — Including AI/ML Team</text>
+
+  <!-- Timeline -->
+  <line x1="60" y1="85" x2="850" y2="85" stroke="#F5A623" stroke-width="2"/>
+  <polygon points="850,80 860,85 850,90" fill="#F5A623"/>
+
+  <!-- Phase boxes -->
+  <!-- Phase 1 -->
+  <rect x="60" y="95" width="120" height="200" rx="8" fill="#0D2137" stroke="#00BFFF" stroke-width="1.5"/>
+  <rect x="60" y="95" width="120" height="30" rx="8" fill="#0099CC"/>
+  <text x="120" y="115" text-anchor="middle" fill="#FFF" font-size="11" font-weight="bold">PHASE 1</text>
+  <text x="120" y="78" text-anchor="middle" fill="#FFF" font-size="9">Mo 0-3</text>
+  <text x="120" y="145" text-anchor="middle" fill="#F5A623" font-size="24" font-weight="bold">5</text>
+  <text x="70" y="170" fill="#FFF" font-size="8">CEO/Founder</text>
+  <text x="70" y="182" fill="#FFF" font-size="8">CTO (₦800K)</text>
+  <text x="70" y="194" fill="#FFF" font-size="8">Full-Stack ×2</text>
+  <text x="70" y="206" fill="#FFF" font-size="8">Market Ops Mgr</text>
+  <text x="70" y="230" fill="#00BFFF" font-size="9" font-weight="bold">₦1.95M/mo</text>
+  <text x="70" y="245" fill="#FFF" font-size="8">₦5.85M total</text>
+
+  <!-- Phase 2 -->
+  <rect x="190" y="95" width="120" height="200" rx="8" fill="#0D2137" stroke="#00BFFF" stroke-width="1.5"/>
+  <rect x="190" y="95" width="120" height="30" rx="8" fill="#0099CC"/>
+  <text x="250" y="115" text-anchor="middle" fill="#FFF" font-size="11" font-weight="bold">PHASE 2</text>
+  <text x="250" y="78" text-anchor="middle" fill="#FFF" font-size="9">Mo 4-6</text>
+  <text x="250" y="145" text-anchor="middle" fill="#F5A623" font-size="24" font-weight="bold">9</text>
+  <text x="200" y="170" fill="#FFF" font-size="8">+ IoT Engineer</text>
+  <text x="200" y="182" fill="#FFF" font-size="8">+ DevOps Eng</text>
+  <text x="200" y="194" fill="#FFF" font-size="8">+ 2 Field Agents</text>
+  <text x="200" y="230" fill="#00BFFF" font-size="9" font-weight="bold">₦3.06M/mo</text>
+  <text x="200" y="245" fill="#FFF" font-size="8">₦9.18M total</text>
+
+  <!-- Phase 3 -->
+  <rect x="320" y="95" width="120" height="200" rx="8" fill="#0D2137" stroke="#00BFFF" stroke-width="1.5"/>
+  <rect x="320" y="95" width="120" height="30" rx="8" fill="#0099CC"/>
+  <text x="380" y="115" text-anchor="middle" fill="#FFF" font-size="11" font-weight="bold">PHASE 3</text>
+  <text x="380" y="78" text-anchor="middle" fill="#FFF" font-size="9">Mo 7-9</text>
+  <text x="380" y="145" text-anchor="middle" fill="#F5A623" font-size="24" font-weight="bold">13</text>
+  <text x="330" y="170" fill="#FFF" font-size="8">+ Payments PM</text>
+  <text x="330" y="182" fill="#FFF" font-size="8">+ Data Analyst</text>
+  <text x="330" y="194" fill="#FFF" font-size="8">+ 2 Support Reps</text>
+  <text x="330" y="230" fill="#00BFFF" font-size="9" font-weight="bold">₦4.31M/mo</text>
+  <text x="330" y="245" fill="#FFF" font-size="8">₦12.93M total</text>
+
+  <!-- Phase 4 -->
+  <rect x="450" y="95" width="120" height="200" rx="8" fill="#0D2137" stroke="#00BFFF" stroke-width="1.5"/>
+  <rect x="450" y="95" width="120" height="30" rx="8" fill="#0099CC"/>
+  <text x="510" y="115" text-anchor="middle" fill="#FFF" font-size="11" font-weight="bold">PHASE 4</text>
+  <text x="510" y="78" text-anchor="middle" fill="#FFF" font-size="9">Mo 10-12</text>
+  <text x="510" y="145" text-anchor="middle" fill="#F5A623" font-size="24" font-weight="bold">18</text>
+  <text x="460" y="170" fill="#FFF" font-size="8">+ Logistics Lead</text>
+  <text x="460" y="182" fill="#FFF" font-size="8">+ 2 Jr Engineers</text>
+  <text x="460" y="194" fill="#FFF" font-size="8">+ 2 Field Agents</text>
+  <text x="460" y="230" fill="#00BFFF" font-size="9" font-weight="bold">₦5.32M/mo</text>
+  <text x="460" y="245" fill="#FFF" font-size="8">₦15.96M total</text>
+
+  <!-- Phase 5 - AI TEAM -->
+  <rect x="580" y="95" width="140" height="200" rx="8" fill="#0D2137" stroke="#F5A623" stroke-width="2"/>
+  <rect x="580" y="95" width="140" height="30" rx="8" fill="#E08A00"/>
+  <text x="650" y="115" text-anchor="middle" fill="#FFF" font-size="11" font-weight="bold">PHASE 5 — AI</text>
+  <text x="650" y="78" text-anchor="middle" fill="#FFF" font-size="9">Mo 13-18</text>
+  <text x="650" y="145" text-anchor="middle" fill="#F5A623" font-size="24" font-weight="bold">28</text>
+  <text x="590" y="168" fill="#F5A623" font-size="8" font-weight="bold">★ AI/ML Engineer</text>
+  <text x="590" y="180" fill="#F5A623" font-size="8" font-weight="bold">★ AI Data Engineer</text>
+  <text x="590" y="192" fill="#F5A623" font-size="8" font-weight="bold">★ API/Platform Eng</text>
+  <text x="590" y="204" fill="#FFF" font-size="8">+ Tech Writer</text>
+  <text x="590" y="216" fill="#FFF" font-size="8">+ BD Lead + 4 Agents</text>
+  <text x="590" y="240" fill="#00BFFF" font-size="9" font-weight="bold">₦8.3–₦10.6M/mo</text>
+  <text x="590" y="255" fill="#FFF" font-size="8">₦50–₦64M total</text>
+
+  <!-- Phase 6 -->
+  <rect x="730" y="95" width="140" height="200" rx="8" fill="#0D2137" stroke="#F5A623" stroke-width="2"/>
+  <rect x="730" y="95" width="140" height="30" rx="8" fill="#E08A00"/>
+  <text x="800" y="115" text-anchor="middle" fill="#FFF" font-size="11" font-weight="bold">PHASE 6 — SCALE</text>
+  <text x="800" y="78" text-anchor="middle" fill="#FFF" font-size="9">Mo 19-24</text>
+  <text x="800" y="145" text-anchor="middle" fill="#F5A623" font-size="24" font-weight="bold">37</text>
+  <text x="740" y="168" fill="#F5A623" font-size="8" font-weight="bold">★ MLOps Engineer</text>
+  <text x="740" y="180" fill="#F5A623" font-size="8" font-weight="bold">★ AI Product Manager</text>
+  <text x="740" y="192" fill="#FFF" font-size="8">+ Dev Advocate</text>
+  <text x="740" y="204" fill="#FFF" font-size="8">+ Installer Mgr</text>
+  <text x="740" y="216" fill="#FFF" font-size="8">+ Fintech Ops + 2 Eng</text>
+  <text x="740" y="228" fill="#FFF" font-size="8">+ AI/ML Intern</text>
+  <text x="740" y="248" fill="#00BFFF" font-size="9" font-weight="bold">₦11.3–₦14.6M/mo</text>
+  <text x="740" y="263" fill="#FFF" font-size="8">₦68–₦88M total</text>
+
+  <!-- Team composition breakdown -->
+  <rect x="60" y="315" width="810" height="90" rx="8" fill="#0D2137" stroke="#0099CC" stroke-width="1"/>
+  <text x="80" y="340" fill="#00BFFF" font-size="13" font-weight="bold">Final Team (37 roles):</text>
+  <text x="80" y="360" fill="#FFF" font-size="10">24 Full-Time</text>
+  <rect x="175" y="348" width="100" height="14" rx="3" fill="#00BFFF"/>
+  <text x="285" y="360" fill="#FFF" font-size="10">5 Contract</text>
+  <rect x="350" y="348" width="40" height="14" rx="3" fill="#F5A623"/>
+  <text x="400" y="360" fill="#FFF" font-size="10">8 Intern</text>
+  <rect x="460" y="348" width="30" height="14" rx="3" fill="#E08A00"/>
+
+  <text x="80" y="390" fill="#F5A623" font-size="11" font-weight="bold">AI/ML Team: 6 roles</text>
+  <text x="280" y="390" fill="#FFF" font-size="10">AI/ML Eng (₦600K–₦1M) · AI Data Eng (₦400–₦600K) · MLOps (₦500–₦800K) · API Eng (₦450–₦700K) · AI PM (₦500–₦800K) · AI Intern (₦80–₦120K)</text>
+
+  <!-- Budget note -->
+  <rect x="60" y="420" width="810" height="80" rx="8" fill="#0D2137" stroke="#E08A00" stroke-width="1" stroke-dasharray="4,3"/>
+  <text x="80" y="445" fill="#E08A00" font-size="12" font-weight="bold">Budget: ₦70M allocated from ₦250M</text>
+  <text x="80" y="465" fill="#FFF" font-size="10">Full payroll cost ₦131M+ over 24mo — difference covered by delayed hiring (revenue milestones gate Phase 5-6),</text>
+  <text x="80" y="480" fill="#FFF" font-size="10">contract arrangements, and Phase 6 payroll self-funded by revenue (cash-positive by Month 19).</text>
+  <text x="80" y="495" fill="#FFF" font-size="10">All salaries benchmarked: Glassdoor, PayScale, Levels.fyi Nigeria (March 2026). On-site Lagos rates.</text>
+</svg>

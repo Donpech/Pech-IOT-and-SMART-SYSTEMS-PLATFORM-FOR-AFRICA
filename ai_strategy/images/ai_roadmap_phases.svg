@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 450" font-family="Arial, Helvetica, sans-serif">
+  <rect width="900" height="450" fill="#1B2838" rx="12"/>
+  <text x="450" y="35" text-anchor="middle" fill="#FFF" font-size="20" font-weight="bold">PECH AI Implementation Roadmap</text>
+  <text x="450" y="55" text-anchor="middle" fill="#00BFFF" font-size="12">24-Month Plan — Crawl → Walk → Run</text>
+
+  <!-- Timeline arrow -->
+  <line x1="50" y1="90" x2="850" y2="90" stroke="#F5A623" stroke-width="3"/>
+  <polygon points="850,85 860,90 850,95" fill="#F5A623"/>
+  <text x="50" y="85" fill="#FFF" font-size="9">Month 1</text>
+  <text x="310" y="85" fill="#FFF" font-size="9">Month 7</text>
+  <text x="570" y="85" fill="#FFF" font-size="9">Month 13</text>
+  <text x="840" y="85" fill="#FFF" font-size="9">Month 24</text>
+
+  <!-- Phase 1 -->
+  <rect x="40" y="105" width="260" height="300" rx="10" fill="#0D2137" stroke="#00BFFF" stroke-width="2"/>
+  <rect x="40" y="105" width="260" height="40" rx="10" fill="#0099CC"/>
+  <text x="170" y="130" text-anchor="middle" fill="#FFF" font-size="14" font-weight="bold">PHASE 1: CRAWL</text>
+
+  <text x="60" y="165" fill="#00BFFF" font-size="10" font-weight="bold">Hardware</text>
+  <text x="60" y="180" fill="#FFF" font-size="9">- Buy Starter Server (RTX 4090)</text>
+  <text x="60" y="195" fill="#FFF" font-size="9">- Setup server room + power</text>
+  <text x="60" y="210" fill="#FFF" font-size="9">- Install Ubuntu + CUDA + Docker</text>
+
+  <text x="60" y="235" fill="#00BFFF" font-size="10" font-weight="bold">AI</text>
+  <text x="60" y="250" fill="#FFF" font-size="9">- Deploy Ollama + Qwen2.5-7B</text>
+  <text x="60" y="265" fill="#FFF" font-size="9">- Setup Qdrant + basic RAG</text>
+  <text x="60" y="280" fill="#FFF" font-size="9">- Whisper (Small) for voice</text>
+  <text x="60" y="295" fill="#FFF" font-size="9">- PaddleOCR for invoices</text>
+
+  <text x="60" y="320" fill="#00BFFF" font-size="10" font-weight="bold">Team</text>
+  <text x="60" y="335" fill="#FFF" font-size="9">- 1x AI/ML Engineer</text>
+  <text x="60" y="350" fill="#FFF" font-size="9">- 2x AI/ML Interns</text>
+
+  <text x="60" y="375" fill="#F5A623" font-size="10" font-weight="bold">Cost: ₦10-14M setup</text>
+  <text x="60" y="390" fill="#F5A623" font-size="9">+ ₦800K-₦1.2M/mo team</text>
+
+  <!-- Phase 2 -->
+  <rect x="320" y="105" width="260" height="300" rx="10" fill="#0D2137" stroke="#F5A623" stroke-width="2"/>
+  <rect x="320" y="105" width="260" height="40" rx="10" fill="#E08A00"/>
+  <text x="450" y="130" text-anchor="middle" fill="#FFF" font-size="14" font-weight="bold">PHASE 2: WALK</text>
+
+  <text x="340" y="165" fill="#F5A623" font-size="10" font-weight="bold">Hardware</text>
+  <text x="340" y="180" fill="#FFF" font-size="9">- Cloud GPU burst (RunPod)</text>
+  <text x="340" y="195" fill="#FFF" font-size="9">- Upgrade models to 14B</text>
+
+  <text x="340" y="220" fill="#F5A623" font-size="10" font-weight="bold">AI</text>
+  <text x="340" y="235" fill="#FFF" font-size="9">- vLLM for production serving</text>
+  <text x="340" y="250" fill="#FFF" font-size="9">- Full RAG across all verticals</text>
+  <text x="340" y="265" fill="#FFF" font-size="9">- AI chatbot (Chatwoot)</text>
+  <text x="340" y="280" fill="#FFF" font-size="9">- Accounting AI subscription</text>
+  <text x="340" y="295" fill="#FFF" font-size="9">- First fine-tuning on PECH data</text>
+  <text x="340" y="310" fill="#FFF" font-size="9">- Image bg removal, voice-to-edit</text>
+
+  <text x="340" y="335" fill="#F5A623" font-size="10" font-weight="bold">Team: +5 hires</text>
+  <text x="340" y="350" fill="#FFF" font-size="9">Data Eng, API Eng, Writer,</text>
+  <text x="340" y="365" fill="#FFF" font-size="9">Installer Mgr, Fintech Ops</text>
+
+  <text x="340" y="390" fill="#F5A623" font-size="10" font-weight="bold">Cost: ₦3-4M/mo team+cloud</text>
+
+  <!-- Phase 3 -->
+  <rect x="600" y="105" width="260" height="300" rx="10" fill="#0D2137" stroke="#00BFFF" stroke-width="2"/>
+  <rect x="600" y="105" width="260" height="40" rx="10" fill="#0099CC"/>
+  <text x="730" y="130" text-anchor="middle" fill="#FFF" font-size="14" font-weight="bold">PHASE 3: RUN</text>
+
+  <text x="620" y="165" fill="#00BFFF" font-size="10" font-weight="bold">Hardware</text>
+  <text x="620" y="180" fill="#FFF" font-size="9">- Production Cluster (2x 4090)</text>
+  <text x="620" y="195" fill="#FFF" font-size="9">- Co-location (MainOne)</text>
+  <text x="620" y="210" fill="#FFF" font-size="9">- Qwen2.5-72B for premium</text>
+
+  <text x="620" y="235" fill="#00BFFF" font-size="10" font-weight="bold">AI</text>
+  <text x="620" y="250" fill="#FFF" font-size="9">- vLLM cluster + load balancing</text>
+  <text x="620" y="265" fill="#FFF" font-size="9">- Custom fine-tuned PECH models</text>
+  <text x="620" y="280" fill="#FFF" font-size="9">- AI agent framework (LangGraph)</text>
+  <text x="620" y="295" fill="#FFF" font-size="9">- Developer platform + public APIs</text>
+  <text x="620" y="310" fill="#FFF" font-size="9">- A/B testing model versions</text>
+
+  <text x="620" y="335" fill="#00BFFF" font-size="10" font-weight="bold">Team: +4 hires (12 total)</text>
+  <text x="620" y="350" fill="#FFF" font-size="9">AI Eng #2, MLOps, AI PM,</text>
+  <text x="620" y="365" fill="#FFF" font-size="9">Developer Advocate</text>
+
+  <text x="620" y="390" fill="#00BFFF" font-size="10" font-weight="bold">Cost: ₦5-7M/mo team+infra</text>
+
+  <text x="450" y="438" text-anchor="middle" fill="#666" font-size="10">PECH Group Holdings Ltd — AI Roadmap 2026-2028 — Lagos, Nigeria</text>
+</svg>

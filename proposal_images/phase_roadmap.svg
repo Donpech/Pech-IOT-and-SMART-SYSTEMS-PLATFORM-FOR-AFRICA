@@ -1,0 +1,140 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" font-family="Arial, Helvetica, sans-serif">
+  <rect width="900" height="520" fill="#1B2838" rx="12"/>
+  <text x="450" y="35" text-anchor="middle" fill="#FFF" font-size="22" font-weight="bold">24-Month Phased Execution Roadmap</text>
+  <text x="450" y="55" text-anchor="middle" fill="#00BFFF" font-size="12">March 2026 — February 2028 | 6 Phases | ₦250M Capital Deployment</text>
+
+  <!-- Timeline line -->
+  <line x1="60" y1="80" x2="850" y2="80" stroke="#F5A623" stroke-width="2"/>
+  <polygon points="850,75 860,80 850,85" fill="#F5A623"/>
+
+  <!-- Phase 1 -->
+  <circle cx="100" cy="80" r="8" fill="#00BFFF"/>
+  <text x="100" y="73" text-anchor="middle" fill="#FFF" font-size="9">Mo 0</text>
+  <rect x="55" y="95" width="125" height="155" rx="8" fill="#0D2137" stroke="#00BFFF" stroke-width="1.5"/>
+  <rect x="55" y="95" width="125" height="25" rx="8" fill="#0099CC"/>
+  <text x="117" y="112" text-anchor="middle" fill="#FFF" font-size="10" font-weight="bold">PHASE 1: FOUNDATION</text>
+  <text x="117" y="130" text-anchor="middle" fill="#F5A623" font-size="9">Months 0-3</text>
+  <text x="65" y="148" fill="#FFF" font-size="8">Company setup + legal</text>
+  <text x="65" y="161" fill="#FFF" font-size="8">Core team (5 people)</text>
+  <text x="65" y="174" fill="#FFF" font-size="8">ERP MVP (ERPNext)</text>
+  <text x="65" y="187" fill="#FFF" font-size="8">IoT platform (ThingsBoard)</text>
+  <text x="65" y="200" fill="#FFF" font-size="8">First 25 SKUs sourced</text>
+  <text x="65" y="213" fill="#FFF" font-size="8">Ollama AI deployment</text>
+  <text x="65" y="233" fill="#00BFFF" font-size="9" font-weight="bold">₦15M deployed</text>
+
+  <!-- Phase 2 -->
+  <circle cx="230" cy="80" r="8" fill="#00BFFF"/>
+  <text x="230" y="73" text-anchor="middle" fill="#FFF" font-size="9">Mo 4</text>
+  <rect x="190" y="95" width="125" height="155" rx="8" fill="#0D2137" stroke="#00BFFF" stroke-width="1.5"/>
+  <rect x="190" y="95" width="125" height="25" rx="8" fill="#0099CC"/>
+  <text x="252" y="112" text-anchor="middle" fill="#FFF" font-size="10" font-weight="bold">PHASE 2: LAUNCH</text>
+  <text x="252" y="130" text-anchor="middle" fill="#F5A623" font-size="9">Months 4-6</text>
+  <text x="200" y="148" fill="#FFF" font-size="8">Market pilot (2 markets)</text>
+  <text x="200" y="161" fill="#FFF" font-size="8">Marketplace live (Medusa)</text>
+  <text x="200" y="174" fill="#FFF" font-size="8">Logistics setup</text>
+  <text x="200" y="187" fill="#FFF" font-size="8">Hardware sales begin</text>
+  <text x="200" y="200" fill="#FFF" font-size="8">Team grows to 9</text>
+  <text x="200" y="213" fill="#FFF" font-size="8">RAG chatbot live</text>
+  <text x="200" y="233" fill="#00BFFF" font-size="9" font-weight="bold">₦45M cumulative</text>
+
+  <!-- Phase 3 -->
+  <circle cx="365" cy="80" r="8" fill="#00BFFF"/>
+  <text x="365" y="73" text-anchor="middle" fill="#FFF" font-size="9">Mo 7</text>
+  <rect x="325" y="95" width="125" height="155" rx="8" fill="#0D2137" stroke="#00BFFF" stroke-width="1.5"/>
+  <rect x="325" y="95" width="125" height="25" rx="8" fill="#0099CC"/>
+  <text x="387" y="112" text-anchor="middle" fill="#FFF" font-size="10" font-weight="bold">PHASE 3: GROWTH</text>
+  <text x="387" y="130" text-anchor="middle" fill="#F5A623" font-size="9">Months 7-9</text>
+  <text x="335" y="148" fill="#FFF" font-size="8">5 markets digitized</text>
+  <text x="335" y="161" fill="#FFF" font-size="8">Payment integration</text>
+  <text x="335" y="174" fill="#FFF" font-size="8">Accounting AI beta</text>
+  <text x="335" y="187" fill="#FFF" font-size="8">Solar installations</text>
+  <text x="335" y="200" fill="#FFF" font-size="8">Team grows to 13</text>
+  <text x="335" y="213" fill="#FFF" font-size="8">Vision AI + OCR live</text>
+  <text x="335" y="233" fill="#00BFFF" font-size="9" font-weight="bold">₦95M cumulative</text>
+
+  <!-- Phase 4 -->
+  <circle cx="500" cy="80" r="8" fill="#F5A623"/>
+  <text x="500" y="73" text-anchor="middle" fill="#FFF" font-size="9">Mo 10</text>
+  <rect x="460" y="95" width="125" height="155" rx="8" fill="#0D2137" stroke="#F5A623" stroke-width="1.5"/>
+  <rect x="460" y="95" width="125" height="25" rx="8" fill="#E08A00"/>
+  <text x="522" y="112" text-anchor="middle" fill="#FFF" font-size="10" font-weight="bold">PHASE 4: SCALE</text>
+  <text x="522" y="130" text-anchor="middle" fill="#F5A623" font-size="9">Months 10-12</text>
+  <text x="470" y="148" fill="#FFF" font-size="8">Revenue ₦5-8M/mo</text>
+  <text x="470" y="161" fill="#FFF" font-size="8">PSSP license prep</text>
+  <text x="470" y="174" fill="#FFF" font-size="8">Installer network</text>
+  <text x="470" y="187" fill="#FFF" font-size="8">8 markets active</text>
+  <text x="470" y="200" fill="#FFF" font-size="8">Team grows to 18</text>
+  <text x="470" y="213" fill="#FFF" font-size="8">vLLM migration</text>
+  <text x="470" y="233" fill="#00BFFF" font-size="9" font-weight="bold">₦155M cumulative</text>
+
+  <!-- Phase 5 -->
+  <circle cx="635" cy="80" r="8" fill="#F5A623"/>
+  <text x="635" y="73" text-anchor="middle" fill="#FFF" font-size="9">Mo 13</text>
+  <rect x="595" y="95" width="125" height="155" rx="8" fill="#0D2137" stroke="#F5A623" stroke-width="2"/>
+  <rect x="595" y="95" width="125" height="25" rx="8" fill="#E08A00"/>
+  <text x="657" y="112" text-anchor="middle" fill="#FFF" font-size="10" font-weight="bold">PHASE 5: AI</text>
+  <text x="657" y="130" text-anchor="middle" fill="#F5A623" font-size="9">Months 13-18</text>
+  <text x="605" y="148" fill="#F5A623" font-size="8">★ AI team hired</text>
+  <text x="605" y="161" fill="#FFF" font-size="8">Fine-tuned models</text>
+  <text x="605" y="174" fill="#FFF" font-size="8">PSSP license secured</text>
+  <text x="605" y="187" fill="#FFF" font-size="8">Enterprise sales</text>
+  <text x="605" y="200" fill="#FFF" font-size="8">Team grows to 28</text>
+  <text x="605" y="213" fill="#FFF" font-size="8">GPU cluster expansion</text>
+  <text x="605" y="233" fill="#00BFFF" font-size="9" font-weight="bold">₦220M cumulative</text>
+
+  <!-- Phase 6 -->
+  <circle cx="770" cy="80" r="8" fill="#F5A623"/>
+  <text x="770" y="73" text-anchor="middle" fill="#FFF" font-size="9">Mo 19</text>
+  <rect x="730" y="95" width="125" height="155" rx="8" fill="#0D2137" stroke="#F5A623" stroke-width="2"/>
+  <rect x="730" y="95" width="125" height="25" rx="8" fill="#E08A00"/>
+  <text x="792" y="112" text-anchor="middle" fill="#FFF" font-size="10" font-weight="bold">PHASE 6: EXPAND</text>
+  <text x="792" y="130" text-anchor="middle" fill="#F5A623" font-size="9">Months 19-24</text>
+  <text x="740" y="148" fill="#F5A623" font-size="8">★ MLOps + AI PM</text>
+  <text x="740" y="161" fill="#FFF" font-size="8">₦15-25M MRR</text>
+  <text x="740" y="174" fill="#FFF" font-size="8">West Africa expansion</text>
+  <text x="740" y="187" fill="#FFF" font-size="8">PTSP license</text>
+  <text x="740" y="200" fill="#FFF" font-size="8">Team reaches 37</text>
+  <text x="740" y="213" fill="#FFF" font-size="8">Cash-flow positive</text>
+  <text x="740" y="233" fill="#00BFFF" font-size="9" font-weight="bold">₦250M deployed</text>
+
+  <!-- Key Milestones bar -->
+  <rect x="40" y="270" width="820" height="60" rx="8" fill="#0D2137" stroke="#0099CC" stroke-width="1"/>
+  <text x="60" y="292" fill="#00BFFF" font-size="11" font-weight="bold">KEY MILESTONES</text>
+  <circle cx="70" cy="310" r="5" fill="#00BFFF"/>
+  <text x="82" y="314" fill="#FFF" font-size="9">Mo 3: MVP Live</text>
+  <circle cx="210" cy="310" r="5" fill="#00BFFF"/>
+  <text x="222" y="314" fill="#FFF" font-size="9">Mo 6: First Revenue</text>
+  <circle cx="380" cy="310" r="5" fill="#F5A623"/>
+  <text x="392" y="314" fill="#FFF" font-size="9">Mo 9: ₦5M MRR</text>
+  <circle cx="530" cy="310" r="5" fill="#F5A623"/>
+  <text x="542" y="314" fill="#FFF" font-size="9">Mo 12: PSSP Filing</text>
+  <circle cx="690" cy="310" r="5" fill="#E08A00"/>
+  <text x="702" y="314" fill="#FFF" font-size="9">Mo 19: Cash Positive</text>
+
+  <!-- AI Timeline -->
+  <rect x="40" y="345" width="820" height="55" rx="8" fill="#0D2137" stroke="#F5A623" stroke-width="1.5"/>
+  <text x="60" y="367" fill="#F5A623" font-size="11" font-weight="bold">AI DEPLOYMENT TRACK</text>
+  <rect x="60" y="377" width="130" height="14" rx="3" fill="#3A2A10" stroke="#F5A623" stroke-width="0.5"/>
+  <text x="125" y="388" text-anchor="middle" fill="#F5A623" font-size="8">CRAWL: Ollama</text>
+  <rect x="200" y="377" width="250" height="14" rx="3" fill="#3A2A10" stroke="#F5A623" stroke-width="0.5"/>
+  <text x="325" y="388" text-anchor="middle" fill="#F5A623" font-size="8">WALK: vLLM + Cloud GPU + Fine-tuning</text>
+  <rect x="460" y="377" width="380" height="14" rx="3" fill="#3A2A10" stroke="#F5A623" stroke-width="0.5"/>
+  <text x="650" y="388" text-anchor="middle" fill="#F5A623" font-size="8">RUN: GPU Cluster + Proprietary Models + Multi-GPU vLLM</text>
+
+  <!-- Budget deployment bar -->
+  <rect x="40" y="415" width="820" height="90" rx="8" fill="#0D2137" stroke="#E08A00" stroke-width="1" stroke-dasharray="4,3"/>
+  <text x="60" y="437" fill="#E08A00" font-size="11" font-weight="bold">CAPITAL DEPLOYMENT (₦250M)</text>
+  <!-- Stacked bar -->
+  <rect x="60" y="448" width="246" height="18" rx="3" fill="#00BFFF"/>
+  <text x="183" y="461" text-anchor="middle" fill="#FFF" font-size="8" font-weight="bold">Hardware ₦75M (30%)</text>
+  <rect x="306" y="448" width="230" height="18" rx="3" fill="#0099CC"/>
+  <text x="421" y="461" text-anchor="middle" fill="#FFF" font-size="8" font-weight="bold">Human Capital ₦70M (28%)</text>
+  <rect x="536" y="448" width="92" height="18" rx="3" fill="#F5A623"/>
+  <text x="582" y="461" text-anchor="middle" fill="#FFF" font-size="8" font-weight="bold">Tech ₦28M</text>
+  <rect x="628" y="448" width="66" height="18" rx="3" fill="#E08A00"/>
+  <text x="661" y="461" text-anchor="middle" fill="#FFF" font-size="7" font-weight="bold">Office ₦20M</text>
+  <rect x="694" y="448" width="166" height="18" rx="3" fill="#1A6B8A"/>
+  <text x="777" y="461" text-anchor="middle" fill="#FFF" font-size="7" font-weight="bold">Mktg+Logistics+Legal+FX ₦57M</text>
+
+  <text x="60" y="490" fill="#FFF" font-size="10">After Month 9: PSSP ~₦205M (₦100M capital + ₦100M escrow) funded from business traction</text>
+</svg>

@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 700" font-family="Arial, Helvetica, sans-serif">
+  <defs>
+    <linearGradient id="brandGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#00BFFF"/>
+      <stop offset="100%" style="stop-color:#F5A623"/>
+    </linearGradient>
+    <filter id="shadow">
+      <feDropShadow dx="2" dy="2" stdDeviation="3" flood-color="#000" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="700" fill="#1B2838" rx="12"/>
+
+  <!-- Title -->
+  <text x="450" y="40" text-anchor="middle" fill="#FFFFFF" font-size="22" font-weight="bold">PECH GROUP HOLDINGS LTD</text>
+  <text x="450" y="65" text-anchor="middle" fill="#00BFFF" font-size="16">AI-Native Ecosystem Architecture</text>
+
+  <!-- Central AI Core Hexagon -->
+  <polygon points="450,200 510,235 510,305 450,340 390,305 390,235" fill="url(#brandGrad)" filter="url(#shadow)"/>
+  <text x="450" y="265" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="bold">AI CORE</text>
+  <text x="450" y="282" text-anchor="middle" fill="#FFFFFF" font-size="9">Qwen2.5 | Whisper</text>
+  <text x="450" y="295" text-anchor="middle" fill="#FFFFFF" font-size="9">RAG | Vision | ML</text>
+
+  <!-- 10 Verticals as connected nodes around the hexagon -->
+  <!-- Top row -->
+  <rect x="100" y="100" width="130" height="55" rx="8" fill="#0099CC" filter="url(#shadow)"/>
+  <text x="165" y="123" text-anchor="middle" fill="#FFF" font-size="11" font-weight="bold">Solar Energy</text>
+  <text x="165" y="140" text-anchor="middle" fill="#FFF" font-size="9">IoT + Inspection AI</text>
+  <line x1="230" y1="127" x2="390" y2="235" stroke="#00BFFF" stroke-width="1.5" opacity="0.6"/>
+
+  <rect x="380" y="90" width="140" height="55" rx="8" fill="#0099CC" filter="url(#shadow)"/>
+  <text x="450" y="113" text-anchor="middle" fill="#FFF" font-size="11" font-weight="bold">Marketplace</text>
+  <text x="450" y="130" text-anchor="middle" fill="#FFF" font-size="9">Medusa + Recommendations</text>
+  <line x1="450" y1="145" x2="450" y2="200" stroke="#00BFFF" stroke-width="1.5" opacity="0.6"/>
+
+  <rect x="670" y="100" width="130" height="55" rx="8" fill="#0099CC" filter="url(#shadow)"/>
+  <text x="735" y="123" text-anchor="middle" fill="#FFF" font-size="11" font-weight="bold">Fintech / PSSP</text>
+  <text x="735" y="140" text-anchor="middle" fill="#FFF" font-size="9">Fineract + Fraud AI</text>
+  <line x1="670" y1="127" x2="510" y2="235" stroke="#00BFFF" stroke-width="1.5" opacity="0.6"/>
+
+  <!-- Middle row (left and right) -->
+  <rect x="50" y="240" width="130" height="55" rx="8" fill="#E08A00" filter="url(#shadow)"/>
+  <text x="115" y="263" text-anchor="middle" fill="#FFF" font-size="11" font-weight="bold">Logistics</text>
+  <text x="115" y="280" text-anchor="middle" fill="#FFF" font-size="9">OSRM + Route AI</text>
+  <line x1="180" y1="267" x2="390" y2="270" stroke="#F5A623" stroke-width="1.5" opacity="0.6"/>
+
+  <rect x="720" y="240" width="130" height="55" rx="8" fill="#E08A00" filter="url(#shadow)"/>
+  <text x="785" y="263" text-anchor="middle" fill="#FFF" font-size="11" font-weight="bold">Real Estate</text>
+  <text x="785" y="280" text-anchor="middle" fill="#FFF" font-size="9">Valuation + Vision AI</text>
+  <line x1="720" y1="267" x2="510" y2="270" stroke="#F5A623" stroke-width="1.5" opacity="0.6"/>
+
+  <!-- Bottom row -->
+  <rect x="60" y="380" width="130" height="55" rx="8" fill="#0099CC" filter="url(#shadow)"/>
+  <text x="125" y="403" text-anchor="middle" fill="#FFF" font-size="11" font-weight="bold">Procurement</text>
+  <text x="125" y="420" text-anchor="middle" fill="#FFF" font-size="9">OpenProcurement + AI</text>
+  <line x1="190" y1="407" x2="390" y2="305" stroke="#00BFFF" stroke-width="1.5" opacity="0.6"/>
+
+  <rect x="260" y="380" width="130" height="55" rx="8" fill="#E08A00" filter="url(#shadow)"/>
+  <text x="325" y="403" text-anchor="middle" fill="#FFF" font-size="11" font-weight="bold">IoT Platform</text>
+  <text x="325" y="420" text-anchor="middle" fill="#FFF" font-size="9">ThingsBoard + Alerts</text>
+  <line x1="325" y1="380" x2="420" y2="340" stroke="#F5A623" stroke-width="1.5" opacity="0.6"/>
+
+  <rect x="510" y="380" width="130" height="55" rx="8" fill="#0099CC" filter="url(#shadow)"/>
+  <text x="575" y="403" text-anchor="middle" fill="#FFF" font-size="11" font-weight="bold">Accounting AI</text>
+  <text x="575" y="420" text-anchor="middle" fill="#FFF" font-size="9">ERPNext + OCR + Tax</text>
+  <line x1="575" y1="380" x2="480" y2="340" stroke="#00BFFF" stroke-width="1.5" opacity="0.6"/>
+
+  <rect x="710" y="380" width="130" height="55" rx="8" fill="#E08A00" filter="url(#shadow)"/>
+  <text x="775" y="403" text-anchor="middle" fill="#FFF" font-size="11" font-weight="bold">Support</text>
+  <text x="775" y="420" text-anchor="middle" fill="#FFF" font-size="9">Chatwoot + Chatbot</text>
+  <line x1="710" y1="407" x2="510" y2="305" stroke="#F5A623" stroke-width="1.5" opacity="0.6"/>
+
+  <!-- Developer Platform (bottom center) -->
+  <rect x="350" y="470" width="200" height="55" rx="8" fill="#0099CC" filter="url(#shadow)"/>
+  <text x="450" y="493" text-anchor="middle" fill="#FFF" font-size="11" font-weight="bold">Developer Platform</text>
+  <text x="450" y="510" text-anchor="middle" fill="#FFF" font-size="9">APIs + SDKs + APISIX Gateway</text>
+  <line x1="450" y1="470" x2="450" y2="340" stroke="#00BFFF" stroke-width="1.5" opacity="0.6"/>
+
+  <!-- Infrastructure layer -->
+  <rect x="100" y="570" width="700" height="80" rx="10" fill="#0D1B2A" stroke="#00BFFF" stroke-width="1"/>
+  <text x="450" y="595" text-anchor="middle" fill="#00BFFF" font-size="13" font-weight="bold">INFRASTRUCTURE LAYER</text>
+  <text x="180" y="620" text-anchor="middle" fill="#FFF" font-size="10">PostgreSQL</text>
+  <text x="300" y="620" text-anchor="middle" fill="#FFF" font-size="10">Qdrant</text>
+  <text x="400" y="620" text-anchor="middle" fill="#FFF" font-size="10">Redis</text>
+  <text x="500" y="620" text-anchor="middle" fill="#FFF" font-size="10">NATS/Kafka</text>
+  <text x="620" y="620" text-anchor="middle" fill="#FFF" font-size="10">Docker/K3s</text>
+  <text x="730" y="620" text-anchor="middle" fill="#FFF" font-size="10">Prometheus</text>
+  <text x="450" y="640" text-anchor="middle" fill="#F5A623" font-size="10">Self-Hosted | Lagos, Nigeria | RTX 4090 GPU Cluster</text>
+
+  <!-- Footer -->
+  <text x="450" y="685" text-anchor="middle" fill="#666" font-size="10">PECH Group Holdings Ltd — AI-Native Ecosystem — Confidential</text>
+</svg>

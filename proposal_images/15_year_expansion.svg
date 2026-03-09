@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 550" font-family="Arial, Helvetica, sans-serif">
+  <rect width="900" height="550" fill="#1B2838" rx="12"/>
+  <text x="450" y="35" text-anchor="middle" fill="#FFF" font-size="22" font-weight="bold">15-Year Vertical Expansion Blueprint</text>
+  <text x="450" y="55" text-anchor="middle" fill="#00BFFF" font-size="12">From IoT Startup → Africa's Commerce &amp; Infrastructure OS</text>
+
+  <!-- Timeline arrow -->
+  <line x1="40" y1="85" x2="870" y2="85" stroke="#F5A623" stroke-width="2"/>
+  <polygon points="870,80 880,85 870,90" fill="#F5A623"/>
+
+  <!-- Year markers -->
+  <text x="120" y="78" text-anchor="middle" fill="#FFF" font-size="9">Year 1-2</text>
+  <text x="310" y="78" text-anchor="middle" fill="#FFF" font-size="9">Year 3-5</text>
+  <text x="530" y="78" text-anchor="middle" fill="#FFF" font-size="9">Year 6-10</text>
+  <text x="740" y="78" text-anchor="middle" fill="#FFF" font-size="9">Year 11-15</text>
+  <circle cx="120" cy="85" r="6" fill="#00BFFF"/>
+  <circle cx="310" cy="85" r="6" fill="#F5A623"/>
+  <circle cx="530" cy="85" r="6" fill="#E08A00"/>
+  <circle cx="740" cy="85" r="6" fill="#F5A623"/>
+
+  <!-- Phase 1: Foundation (Year 1-2) -->
+  <rect x="30" y="100" width="175" height="280" rx="8" fill="#0D2137" stroke="#00BFFF" stroke-width="1.5"/>
+  <rect x="30" y="100" width="175" height="28" rx="8" fill="#0099CC"/>
+  <text x="117" y="119" text-anchor="middle" fill="#FFF" font-size="10" font-weight="bold">FOUNDATION</text>
+  <text x="45" y="145" fill="#00BFFF" font-size="9" font-weight="bold">Core Verticals:</text>
+  <text x="45" y="162" fill="#FFF" font-size="8">IoT &amp; Smart Home</text>
+  <text x="45" y="177" fill="#FFF" font-size="8">Smart Electrical</text>
+  <text x="45" y="192" fill="#FFF" font-size="8">Solar Energy</text>
+  <text x="45" y="207" fill="#FFF" font-size="8">Free ERP (Merchant Lock-In)</text>
+  <text x="45" y="222" fill="#FFF" font-size="8">Digital Marketplace</text>
+  <text x="45" y="237" fill="#FFF" font-size="8">Basic Logistics</text>
+  <text x="45" y="257" fill="#F5A623" font-size="9" font-weight="bold">AI Capabilities:</text>
+  <text x="45" y="272" fill="#FFF" font-size="8">RAG Chatbot (Qwen2.5)</text>
+  <text x="45" y="287" fill="#FFF" font-size="8">OCR (PaddleOCR)</text>
+  <text x="45" y="302" fill="#FFF" font-size="8">Voice AI (Whisper/Piper)</text>
+  <text x="45" y="322" fill="#00BFFF" font-size="9" font-weight="bold">Nigeria · 37 people</text>
+  <text x="45" y="340" fill="#00BFFF" font-size="9" font-weight="bold">₦15-25M MRR</text>
+  <text x="45" y="360" fill="#FFF" font-size="8">₦250M capital deployed</text>
+
+  <!-- Phase 2: Growth (Year 3-5) -->
+  <rect x="220" y="100" width="175" height="280" rx="8" fill="#0D2137" stroke="#F5A623" stroke-width="1.5"/>
+  <rect x="220" y="100" width="175" height="28" rx="8" fill="#E08A00"/>
+  <text x="307" y="119" text-anchor="middle" fill="#FFF" font-size="10" font-weight="bold">GROWTH</text>
+  <text x="235" y="145" fill="#F5A623" font-size="9" font-weight="bold">New Verticals:</text>
+  <text x="235" y="162" fill="#FFF" font-size="8">Payments (PSSP + PTSP)</text>
+  <text x="235" y="177" fill="#FFF" font-size="8">Accounting/Tax AI SaaS</text>
+  <text x="235" y="192" fill="#FFF" font-size="8">HR/Recruitment AI</text>
+  <text x="235" y="207" fill="#FFF" font-size="8">Real Estate/Estate Mgmt</text>
+  <text x="235" y="222" fill="#FFF" font-size="8">Digital Advertising (LED)</text>
+  <text x="235" y="237" fill="#FFF" font-size="8">Self-Service Kiosks</text>
+  <text x="235" y="257" fill="#F5A623" font-size="9" font-weight="bold">AI Capabilities:</text>
+  <text x="235" y="272" fill="#FFF" font-size="8">Fine-tuned domain models</text>
+  <text x="235" y="287" fill="#FFF" font-size="8">Vision AI (product/QC)</text>
+  <text x="235" y="302" fill="#FFF" font-size="8">Fraud detection (XGBoost)</text>
+  <text x="235" y="317" fill="#FFF" font-size="8">Dynamic pricing (ML)</text>
+  <text x="235" y="340" fill="#00BFFF" font-size="9" font-weight="bold">West Africa · 100+ people</text>
+  <text x="235" y="358" fill="#00BFFF" font-size="9" font-weight="bold">₦100M+ MRR</text>
+
+  <!-- Phase 3: Dominance (Year 6-10) -->
+  <rect x="410" y="100" width="185" height="280" rx="8" fill="#0D2137" stroke="#F5A623" stroke-width="2"/>
+  <rect x="410" y="100" width="185" height="28" rx="8" fill="#E08A00"/>
+  <text x="502" y="119" text-anchor="middle" fill="#FFF" font-size="10" font-weight="bold">DOMINANCE</text>
+  <text x="425" y="145" fill="#F5A623" font-size="9" font-weight="bold">Platform Expansion:</text>
+  <text x="425" y="162" fill="#FFF" font-size="8">PECH Bank (Digital Banking)</text>
+  <text x="425" y="177" fill="#FFF" font-size="8">Insurance Platform</text>
+  <text x="425" y="192" fill="#FFF" font-size="8">Supply Chain Finance</text>
+  <text x="425" y="207" fill="#FFF" font-size="8">Industrial IoT (SCADA)</text>
+  <text x="425" y="222" fill="#FFF" font-size="8">Smart City Infrastructure</text>
+  <text x="425" y="237" fill="#FFF" font-size="8">EdTech Platform</text>
+  <text x="425" y="257" fill="#F5A623" font-size="9" font-weight="bold">AI Capabilities:</text>
+  <text x="425" y="272" fill="#FFF" font-size="8">Proprietary foundation models</text>
+  <text x="425" y="287" fill="#FFF" font-size="8">Multi-GPU training cluster</text>
+  <text x="425" y="302" fill="#FFF" font-size="8">AI-as-a-Service (B2B)</text>
+  <text x="425" y="317" fill="#FFF" font-size="8">Autonomous agents</text>
+  <text x="425" y="340" fill="#00BFFF" font-size="9" font-weight="bold">Pan-Africa · 500+ people</text>
+  <text x="425" y="358" fill="#00BFFF" font-size="9" font-weight="bold">₦1B+ MRR</text>
+
+  <!-- Phase 4: Global (Year 11-15) -->
+  <rect x="610" y="100" width="265" height="280" rx="8" fill="#0D2137" stroke="#F5A623" stroke-width="2"/>
+  <rect x="610" y="100" width="265" height="28" rx="8" fill="#E08A00"/>
+  <text x="742" y="119" text-anchor="middle" fill="#FFF" font-size="10" font-weight="bold">GLOBAL INFRASTRUCTURE</text>
+  <text x="625" y="145" fill="#F5A623" font-size="9" font-weight="bold">Vision:</text>
+  <text x="625" y="162" fill="#FFF" font-size="8">Africa's AWS — compute + commerce + finance</text>
+  <text x="625" y="177" fill="#FFF" font-size="8">PECH Cloud (AI infrastructure for Africa)</text>
+  <text x="625" y="192" fill="#FFF" font-size="8">Cross-border payments network</text>
+  <text x="625" y="207" fill="#FFF" font-size="8">Continental logistics backbone</text>
+  <text x="625" y="222" fill="#FFF" font-size="8">Smart city operating system</text>
+  <text x="625" y="242" fill="#F5A623" font-size="9" font-weight="bold">AI Capabilities:</text>
+  <text x="625" y="257" fill="#FFF" font-size="8">African language LLMs (Yoruba, Hausa, Swahili)</text>
+  <text x="625" y="272" fill="#FFF" font-size="8">Satellite + drone integration</text>
+  <text x="625" y="287" fill="#FFF" font-size="8">Autonomous supply chain</text>
+  <text x="625" y="302" fill="#FFF" font-size="8">Predictive infrastructure mgmt</text>
+  <text x="625" y="322" fill="#00BFFF" font-size="9" font-weight="bold">Global · 2,000+ people</text>
+  <text x="625" y="340" fill="#00BFFF" font-size="9" font-weight="bold">IPO candidate · $1B+ valuation</text>
+  <text x="625" y="358" fill="#FFF" font-size="8">Comparable: Alibaba (Yr 15: $25B revenue)</text>
+
+  <!-- Growth metrics bar -->
+  <rect x="30" y="400" width="845" height="55" rx="8" fill="#0D2137" stroke="#00BFFF" stroke-width="1"/>
+  <text x="50" y="422" fill="#00BFFF" font-size="11" font-weight="bold">GROWTH TRAJECTORY</text>
+  <rect x="50" y="432" width="60" height="14" rx="3" fill="#00BFFF"/>
+  <text x="120" y="443" fill="#FFF" font-size="9">Yr 2: ₦300M ARR</text>
+  <rect x="230" y="432" width="120" height="14" rx="3" fill="#F5A623"/>
+  <text x="360" y="443" fill="#FFF" font-size="9">Yr 5: ₦1.2B ARR</text>
+  <rect x="460" y="432" width="200" height="14" rx="3" fill="#E08A00"/>
+  <text x="670" y="443" fill="#FFF" font-size="9">Yr 10: ₦12B+ ARR</text>
+  <rect x="770" y="432" width="100" height="14" rx="3" fill="#F5A623"/>
+
+  <!-- Bottom vision statement -->
+  <rect x="30" y="470" width="845" height="60" rx="8" fill="#0D2137" stroke="#F5A623" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <text x="450" y="495" text-anchor="middle" fill="#F5A623" font-size="13" font-weight="bold">VISION: Technology and Platform Infrastructure Enablers for People</text>
+  <text x="450" y="518" text-anchor="middle" fill="#FFF" font-size="10">From a ₦250M startup to Africa's commerce operating system — powered by self-hosted AI, open-source tools, and African-optimized hardware</text>
+</svg>

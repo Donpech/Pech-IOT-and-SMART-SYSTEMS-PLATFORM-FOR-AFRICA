@@ -15,16 +15,19 @@ PECH Group Holdings Ltd is a Nigerian technology company building IoT and smart 
 **Core Products & Services:**
 - IoT Devices & Smart Home Systems
 - Solar Energy Solutions (PECH Solar)
+- AI-Powered Platform Services (RAG Chatbots, Vision AI, OCR, TTS/STT)
 - Platform Subscriptions & SaaS
 - Digital Marketplace
+- Fintech / Payment Services (PSSP)
 - Logistics & Delivery Services
+- Accounting & Tax AI (Subscription Product)
 - Enterprise/Custom Solutions
 
 ---
 
 ## Repository Overview
 
-This repository contains the official contract templates, legal agreements, and policy documents for PECH Group Holdings Ltd. All documents are designed to comply with Nigerian law and are formatted as Markdown files for easy version control, collaboration, and export.
+This repository contains the official contract templates, legal agreements, policy documents, business documents, financial proposals, and AI strategy documentation for PECH Group Holdings Ltd. All documents are designed to comply with Nigerian law and are formatted as Markdown files for easy version control, collaboration, and export.
 
 ---
 
@@ -147,24 +150,68 @@ The PECH logo uses a **blue-to-orange gradient** (top to bottom) on a hexagonal 
 
 ---
 
+## AI Strategy & Ecosystem
+
+PECH is building an **AI-native ecosystem** — self-hosted, open-source models only (Apache-2.0 / MIT licensed) that can be rebranded and deployed without restriction.
+
+| Document | Description |
+|----------|-------------|
+| [`ai_strategy/README.md`](ai_strategy/README.md) | Directory index and overview |
+| [`PECH_ECOSYSTEM_COMPREHENSIVE_GUIDE.md`](ai_strategy/PECH_ECOSYSTEM_COMPREHENSIVE_GUIDE.md) | Master reference — all 10 verticals, AI models, platforms, hardware, team, budget |
+| [`PECH_AI_MODEL_CATALOG.md`](ai_strategy/PECH_AI_MODEL_CATALOG.md) | 50+ models across 15 categories with comparisons and recommendations |
+| [`PECH_OPEN_SOURCE_PLATFORM_STACK.md`](ai_strategy/PECH_OPEN_SOURCE_PLATFORM_STACK.md) | 25+ open-source tools with links, licenses, and integration maps |
+| [`PECH_AI_HARDWARE_AND_SETUP_GUIDE.md`](ai_strategy/PECH_AI_HARDWARE_AND_SETUP_GUIDE.md) | Hardware BOM, China sourcing, Nigeria import, server room setup |
+| [`PECH_AI_ARCHITECTURE_GUIDE.md`](ai_strategy/PECH_AI_ARCHITECTURE_GUIDE.md) | 78-microservice architecture, RAG pipeline, API gateway, deployment |
+
+**Key Technology Stack:**
+- **LLMs:** Qwen2.5 (Apache-2.0), Phi-4 (MIT), Mistral 7B (Apache-2.0)
+- **Model Serving:** Ollama (Phase 1) → vLLM (Phase 2/3)
+- **Vector DB:** Qdrant (Apache-2.0)
+- **RAG:** LangChain + LangGraph
+- **API Gateway:** Apache APISIX (Apache-2.0)
+- **Platforms:** ERPNext, Medusa, Fineract, ThingsBoard, Chatwoot, Keycloak
+- **Hardware:** RTX 4090 GPU cluster, self-hosted in Lagos
+
+**SVG Infographics** (in `ai_strategy/images/`):
+- AI Ecosystem Architecture, Model Stack, Data Pipeline, Infrastructure, Team Structure, Roadmap Phases, Logistics Hub-and-Spoke
+
+---
+
 ## Repository Structure
 
 ```
 Pech-IOT-and-SMART-SYSTEMS-PLATFORM-FOR-AFRICA/
 ├── README.md                          # This file
 ├── CLAUDE.md                          # Project guidelines for AI assistants
-└── contracts/
-    ├── PECH_FULL_TIME_EMPLOYMENT_CONTRACT.md
-    ├── PECH_CONTRACT_WORKER_AGREEMENT.md
-    ├── PECH_INTERNSHIP_AGREEMENT.md
-    ├── PECH_NON_DISCLOSURE_AGREEMENT.md
-    ├── PECH_MEDIA_AND_PUBLIC_COMMUNICATIONS_POLICY.md
-    ├── PECH_API_DEVELOPER_AGREEMENT.md
-    ├── PECH_INSTALLER_AGREEMENT.md
-    ├── PECH_GUARANTOR_FORM.md
-    ├── PECH_HACKATHON_RULES_AND_GUIDELINES.md
-    ├── PECH_COMMISSION_MARKETER_AGREEMENT.md
-    └── PECH_OFFICE_MARKETER_AGREEMENT.md
+├── CODEBASE_SUMMARY.md               # Full codebase overview
+├── PECH_GROUP_FINANCIAL_PROPOSAL_250M_NAIRA.md
+├── contracts/
+│   ├── PECH_FULL_TIME_EMPLOYMENT_CONTRACT.md
+│   ├── PECH_CONTRACT_WORKER_AGREEMENT.md
+│   ├── PECH_INTERNSHIP_AGREEMENT.md
+│   ├── PECH_NON_DISCLOSURE_AGREEMENT.md
+│   ├── PECH_MEDIA_AND_PUBLIC_COMMUNICATIONS_POLICY.md
+│   ├── PECH_API_DEVELOPER_AGREEMENT.md
+│   ├── PECH_INSTALLER_AGREEMENT.md
+│   ├── PECH_GUARANTOR_FORM.md
+│   ├── PECH_HACKATHON_RULES_AND_GUIDELINES.md
+│   ├── PECH_COMMISSION_MARKETER_AGREEMENT.md
+│   ├── PECH_OFFICE_MARKETER_AGREEMENT.md
+│   └── PECH_SCHEDULE_B_TEMPLATES.md
+├── business_documents/
+│   ├── PECH_JOB_REQUIREMENTS_HANDBOOK.md
+│   └── PECH_INTERVIEW_PROCESS_AND_CHECKLIST.md
+├── ai_strategy/
+│   ├── README.md
+│   ├── PECH_ECOSYSTEM_COMPREHENSIVE_GUIDE.md
+│   ├── PECH_AI_MODEL_CATALOG.md
+│   ├── PECH_OPEN_SOURCE_PLATFORM_STACK.md
+│   ├── PECH_AI_HARDWARE_AND_SETUP_GUIDE.md
+│   ├── PECH_AI_ARCHITECTURE_GUIDE.md
+│   └── images/  (7 SVG infographics)
+├── design_system/
+│   └── pech_design_system.css
+└── proposal_images/  (SVG visuals for financial proposal)
 ```
 
 ---

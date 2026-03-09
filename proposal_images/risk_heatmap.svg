@@ -1,0 +1,136 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" font-family="Arial, Helvetica, sans-serif">
+  <rect width="900" height="520" fill="#1B2838" rx="12"/>
+  <text x="450" y="35" text-anchor="middle" fill="#FFF" font-size="22" font-weight="bold">Risk Assessment Heat Map</text>
+  <text x="450" y="55" text-anchor="middle" fill="#00BFFF" font-size="12">Likelihood vs Impact — Key Business Risks &amp; Mitigations</text>
+
+  <!-- Grid -->
+  <rect x="120" y="75" width="480" height="360" fill="none" stroke="#0099CC" stroke-width="1"/>
+
+  <!-- Y-axis (Impact) -->
+  <text x="60" y="240" fill="#FFF" font-size="13" font-weight="bold" text-anchor="middle" transform="rotate(-90,60,240)">IMPACT</text>
+  <text x="110" y="100" fill="#FFF" font-size="9" text-anchor="end">Critical</text>
+  <text x="110" y="172" fill="#FFF" font-size="9" text-anchor="end">High</text>
+  <text x="110" y="244" fill="#FFF" font-size="9" text-anchor="end">Medium</text>
+  <text x="110" y="316" fill="#FFF" font-size="9" text-anchor="end">Low</text>
+  <text x="110" y="388" fill="#FFF" font-size="9" text-anchor="end">Minimal</text>
+
+  <!-- X-axis (Likelihood) -->
+  <text x="360" y="455" fill="#FFF" font-size="13" font-weight="bold" text-anchor="middle">LIKELIHOOD</text>
+  <text x="168" y="445" fill="#FFF" font-size="9" text-anchor="middle">Rare</text>
+  <text x="264" y="445" fill="#FFF" font-size="9" text-anchor="middle">Unlikely</text>
+  <text x="360" y="445" fill="#FFF" font-size="9" text-anchor="middle">Possible</text>
+  <text x="456" y="445" fill="#FFF" font-size="9" text-anchor="middle">Likely</text>
+  <text x="552" y="445" fill="#FFF" font-size="9" text-anchor="middle">Almost Certain</text>
+
+  <!-- Grid lines -->
+  <line x1="216" y1="75" x2="216" y2="435" stroke="#0099CC" stroke-width="0.3"/>
+  <line x1="312" y1="75" x2="312" y2="435" stroke="#0099CC" stroke-width="0.3"/>
+  <line x1="408" y1="75" x2="408" y2="435" stroke="#0099CC" stroke-width="0.3"/>
+  <line x1="504" y1="75" x2="504" y2="435" stroke="#0099CC" stroke-width="0.3"/>
+  <line x1="120" y1="147" x2="600" y2="147" stroke="#0099CC" stroke-width="0.3"/>
+  <line x1="120" y1="219" x2="600" y2="219" stroke="#0099CC" stroke-width="0.3"/>
+  <line x1="120" y1="291" x2="600" y2="291" stroke="#0099CC" stroke-width="0.3"/>
+  <line x1="120" y1="363" x2="600" y2="363" stroke="#0099CC" stroke-width="0.3"/>
+
+  <!-- Heat zones (background colors) -->
+  <!-- Critical+Likely/Certain = Red -->
+  <rect x="408" y="75" width="192" height="72" fill="#8B0000" fill-opacity="0.3"/>
+  <!-- Critical+Possible = Orange -->
+  <rect x="312" y="75" width="96" height="72" fill="#E08A00" fill-opacity="0.3"/>
+  <!-- High+Likely/Certain = Orange -->
+  <rect x="408" y="147" width="192" height="72" fill="#E08A00" fill-opacity="0.3"/>
+  <!-- High+Possible = Yellow zone -->
+  <rect x="312" y="147" width="96" height="72" fill="#F5A623" fill-opacity="0.2"/>
+
+  <!-- Risk dots with labels -->
+  <!-- R1: FX Volatility - Likely, High -->
+  <circle cx="456" cy="170" r="16" fill="#E08A00" fill-opacity="0.8" stroke="#FFF" stroke-width="1"/>
+  <text x="456" y="175" text-anchor="middle" fill="#FFF" font-size="10" font-weight="bold">R1</text>
+
+  <!-- R2: Power Instability - Almost Certain, Medium -->
+  <circle cx="552" cy="244" r="16" fill="#F5A623" fill-opacity="0.8" stroke="#FFF" stroke-width="1"/>
+  <text x="552" y="249" text-anchor="middle" fill="#FFF" font-size="10" font-weight="bold">R2</text>
+
+  <!-- R3: PSSP License Delay - Possible, Critical -->
+  <circle cx="360" cy="100" r="16" fill="#E08A00" fill-opacity="0.8" stroke="#FFF" stroke-width="1"/>
+  <text x="360" y="105" text-anchor="middle" fill="#FFF" font-size="10" font-weight="bold">R3</text>
+
+  <!-- R4: Talent Shortage - Possible, High -->
+  <circle cx="360" cy="170" r="16" fill="#F5A623" fill-opacity="0.8" stroke="#FFF" stroke-width="1"/>
+  <text x="360" y="175" text-anchor="middle" fill="#FFF" font-size="10" font-weight="bold">R4</text>
+
+  <!-- R5: Competition - Likely, Medium -->
+  <circle cx="456" cy="244" r="16" fill="#F5A623" fill-opacity="0.6" stroke="#FFF" stroke-width="1"/>
+  <text x="456" y="249" text-anchor="middle" fill="#FFF" font-size="10" font-weight="bold">R5</text>
+
+  <!-- R6: Hardware Import Delays - Possible, Medium -->
+  <circle cx="360" cy="244" r="16" fill="#0099CC" fill-opacity="0.6" stroke="#FFF" stroke-width="1"/>
+  <text x="360" y="249" text-anchor="middle" fill="#FFF" font-size="10" font-weight="bold">R6</text>
+
+  <!-- R7: Cybersecurity - Unlikely, Critical -->
+  <circle cx="264" cy="100" r="16" fill="#F5A623" fill-opacity="0.5" stroke="#FFF" stroke-width="1"/>
+  <text x="264" y="105" text-anchor="middle" fill="#FFF" font-size="10" font-weight="bold">R7</text>
+
+  <!-- R8: Regulatory Changes - Unlikely, High -->
+  <circle cx="264" cy="170" r="16" fill="#0099CC" fill-opacity="0.5" stroke="#FFF" stroke-width="1"/>
+  <text x="264" y="175" text-anchor="middle" fill="#FFF" font-size="10" font-weight="bold">R8</text>
+
+  <!-- R9: AI Model Licensing - Rare, High -->
+  <circle cx="168" cy="170" r="16" fill="#00BFFF" fill-opacity="0.3" stroke="#FFF" stroke-width="1"/>
+  <text x="168" y="175" text-anchor="middle" fill="#FFF" font-size="10" font-weight="bold">R9</text>
+
+  <!-- Legend table -->
+  <rect x="630" y="75" width="250" height="360" rx="8" fill="#0D2137" stroke="#0099CC" stroke-width="1"/>
+  <text x="650" y="98" fill="#00BFFF" font-size="11" font-weight="bold">RISK REGISTER</text>
+
+  <circle cx="650" cy="120" r="8" fill="#E08A00" fill-opacity="0.8"/>
+  <text x="650" y="124" text-anchor="middle" fill="#FFF" font-size="8" font-weight="bold">R1</text>
+  <text x="668" y="118" fill="#FFF" font-size="8" font-weight="bold">FX Volatility</text>
+  <text x="668" y="130" fill="#FFF" font-size="7">₦18M contingency + LC pricing</text>
+
+  <circle cx="650" cy="155" r="8" fill="#F5A623" fill-opacity="0.8"/>
+  <text x="650" y="159" text-anchor="middle" fill="#FFF" font-size="8" font-weight="bold">R2</text>
+  <text x="668" y="153" fill="#FFF" font-size="8" font-weight="bold">Power Instability</text>
+  <text x="668" y="165" fill="#FFF" font-size="7">UPS + solar + cloud hybrid</text>
+
+  <circle cx="650" cy="190" r="8" fill="#E08A00" fill-opacity="0.8"/>
+  <text x="650" y="194" text-anchor="middle" fill="#FFF" font-size="8" font-weight="bold">R3</text>
+  <text x="668" y="188" fill="#FFF" font-size="8" font-weight="bold">PSSP License Delay</text>
+  <text x="668" y="200" fill="#FFF" font-size="7">Gate Phase 5 on revenue milestones</text>
+
+  <circle cx="650" cy="225" r="8" fill="#F5A623" fill-opacity="0.8"/>
+  <text x="650" y="229" text-anchor="middle" fill="#FFF" font-size="8" font-weight="bold">R4</text>
+  <text x="668" y="223" fill="#FFF" font-size="8" font-weight="bold">AI Talent Shortage</text>
+  <text x="668" y="235" fill="#FFF" font-size="7">Remote hires + intern pipeline</text>
+
+  <circle cx="650" cy="260" r="8" fill="#F5A623" fill-opacity="0.6"/>
+  <text x="650" y="264" text-anchor="middle" fill="#FFF" font-size="8" font-weight="bold">R5</text>
+  <text x="668" y="258" fill="#FFF" font-size="8" font-weight="bold">Competition</text>
+  <text x="668" y="270" fill="#FFF" font-size="7">Ecosystem lock-in + free ERP moat</text>
+
+  <circle cx="650" cy="295" r="8" fill="#0099CC" fill-opacity="0.6"/>
+  <text x="650" y="299" text-anchor="middle" fill="#FFF" font-size="8" font-weight="bold">R6</text>
+  <text x="668" y="293" fill="#FFF" font-size="8" font-weight="bold">Import Delays</text>
+  <text x="668" y="305" fill="#FFF" font-size="7">Buffer stock + multiple suppliers</text>
+
+  <circle cx="650" cy="330" r="8" fill="#F5A623" fill-opacity="0.5"/>
+  <text x="650" y="334" text-anchor="middle" fill="#FFF" font-size="8" font-weight="bold">R7</text>
+  <text x="668" y="328" fill="#FFF" font-size="8" font-weight="bold">Cybersecurity</text>
+  <text x="668" y="340" fill="#FFF" font-size="7">Keycloak + NDPA + ISO 27001</text>
+
+  <circle cx="650" cy="365" r="8" fill="#0099CC" fill-opacity="0.5"/>
+  <text x="650" y="369" text-anchor="middle" fill="#FFF" font-size="8" font-weight="bold">R8</text>
+  <text x="668" y="363" fill="#FFF" font-size="8" font-weight="bold">Regulatory Changes</text>
+  <text x="668" y="375" fill="#FFF" font-size="7">Legal counsel + compliance team</text>
+
+  <circle cx="650" cy="400" r="8" fill="#00BFFF" fill-opacity="0.3"/>
+  <text x="650" y="404" text-anchor="middle" fill="#FFF" font-size="8" font-weight="bold">R9</text>
+  <text x="668" y="398" fill="#FFF" font-size="8" font-weight="bold">AI License Issues</text>
+  <text x="668" y="410" fill="#FFF" font-size="7">Apache-2.0/MIT only policy</text>
+
+  <!-- Bottom note -->
+  <rect x="30" y="460" width="840" height="45" rx="8" fill="#0D2137" stroke="#E08A00" stroke-width="1" stroke-dasharray="4,3"/>
+  <text x="50" y="480" fill="#E08A00" font-size="10" font-weight="bold">OVERALL RISK RATING: MODERATE</text>
+  <text x="310" y="480" fill="#FFF" font-size="10">₦18M contingency fund (7.2% of budget) · Phased deployment reduces capital-at-risk</text>
+  <text x="50" y="496" fill="#00BFFF" font-size="10">Key mitigant: Revenue milestones gate each phase — no money deployed without traction proof</text>
+</svg>
