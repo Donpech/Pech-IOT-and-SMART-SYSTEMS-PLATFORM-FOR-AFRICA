@@ -108,7 +108,7 @@ This plan details the deployment of **₦250,000,000** in secured capital across
 
 ## 3. PECH Ecosystem Overview
 
-![PECH Commerce OS Architecture](proposal_images/commerce_os_architecture.png)
+![PECH Commerce OS Architecture](proposal_images/commerce_os_architecture.svg)
 
 PECH is modeled after **Alibaba Group's layered architecture**, adapted for African realities:
 
@@ -330,7 +330,7 @@ PECH is modeled after **Alibaba Group's layered architecture**, adapted for Afri
 
 ## 6. Phased Execution Roadmap (24 Months)
 
-![24-Month Phased Roadmap](proposal_images/phase_roadmap.png)
+![24-Month Phased Roadmap](proposal_images/phase_roadmap.svg)
 
 ### Phase 1: Foundation (Months 0–3) — "Build the Engine"
 
@@ -458,7 +458,7 @@ PECH is modeled after **Alibaba Group's layered architecture**, adapted for Afri
 **Break-even projected:** Month 16–18 (operational break-even)
 **Cash-positive:** Month 19+ (revenue exceeds burn rate)
 
-![Budget Allocation](proposal_images/budget_allocation.png)
+![Budget Allocation](proposal_images/budget_allocation.svg)
 
 ### 7.3 Budget Allocation Visual
 
@@ -480,7 +480,7 @@ PECH is modeled after **Alibaba Group's layered architecture**, adapted for Afri
 
 ## 8. Human Capital & Hiring Plan
 
-![Team Growth & Payroll](proposal_images/team_growth.png)
+![Team Growth & Payroll](proposal_images/team_growth.svg)
 
 ### 8.1 Phase-by-Phase Hiring
 
@@ -670,7 +670,7 @@ PECH deploys self-hosted AI models on RTX 4090 GPU servers in Lagos, running ope
 
 ## 10. Hardware & Device Strategy
 
-![Hardware Product Portfolio — 25 SKUs](proposal_images/product_portfolio.png)
+![Hardware Product Portfolio — 25 SKUs](proposal_images/product_portfolio.svg)
 
 ### 10.1 Hardware Product Line
 
@@ -794,7 +794,7 @@ PECH deploys self-hosted AI models on RTX 4090 GPU servers in Lagos, running ope
 
 ## 11. Licensing, Compliance & Regulatory
 
-![Regulatory & Compliance Timeline](proposal_images/compliance_timeline.png)
+![Regulatory & Compliance Timeline](proposal_images/compliance_timeline.svg)
 
 ### 11.1 Corporate Structure
 
@@ -903,9 +903,9 @@ After Month 9, revenue from hardware sales and software products justifies deplo
 
 ## 12. Marketing & Customer Acquisition
 
-![Nigeria Market Entry Strategy](proposal_images/market_entry_map.png)
+![Nigeria Market Entry Strategy](proposal_images/market_entry_map.svg)
 
-![Customer Journey & Lock-In Flywheel](proposal_images/customer_journey.png)
+![Customer Journey & Lock-In Flywheel](proposal_images/customer_journey.svg)
 
 ### 12.1 Marketing Strategy
 
@@ -942,7 +942,7 @@ After Month 9, revenue from hardware sales and software products justifies deplo
 
 ## 13. Revenue Model & Financial Projections
 
-![Revenue Streams Breakdown](proposal_images/revenue_streams.png)
+![Revenue Streams Breakdown](proposal_images/revenue_streams.svg)
 
 ### 13.1 Revenue Streams
 
@@ -986,7 +986,7 @@ After Month 9, revenue from hardware sales and software products justifies deplo
 | 24 | 8.0 | 4.0 | 5.0 | 2.5 | 1.8 | **21.3** |
 | **TOTAL** | **95.3** | **43.6** | **56.4** | **25.2** | **18.1** | **₦243.6M** |
 
-![Revenue vs Expenses](proposal_images/revenue_projection.png)
+![Revenue vs Expenses](proposal_images/revenue_projection.svg)
 
 ### 13.3 Path to Profitability
 
@@ -1010,7 +1010,7 @@ After Month 9, revenue from hardware sales and software products justifies deplo
 
 ## 14. Risk Analysis & Mitigation
 
-![Risk Assessment Heat Map](proposal_images/risk_heatmap.png)
+![Risk Assessment Heat Map](proposal_images/risk_heatmap.svg)
 
 | # | Risk | Impact | Probability | Mitigation |
 |---|------|--------|-------------|------------|
@@ -1224,7 +1224,7 @@ PECH Group Holdings Ltd (Parent — Technology Company)
 
 ### C. 15-Year Vertical Expansion Blueprint
 
-![15-Year Expansion Blueprint](proposal_images/15_year_expansion.png)
+![15-Year Expansion Blueprint](proposal_images/15_year_expansion.svg)
 
 | Phase | Years | Geography | Verticals Added | Key Milestones |
 |-------|-------|-----------|----------------|----------------|

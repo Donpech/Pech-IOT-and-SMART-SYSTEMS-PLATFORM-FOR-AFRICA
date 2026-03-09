@@ -566,7 +566,7 @@ User Query → LLM retrieves relevant docs → AI Response
 | Import duty (35% CET) | | $865-$1,075 | — |
 | VAT (7.5%) | | $185-$230 | — |
 | Clearing agent | | $100-$200 | — |
-| **Total landed Lagos** | | | **$3,770-$4,875 (~₦5.7M-₦7.3M)** |
+| **Total landed Lagos** | | | **$3,770-$5,100 (~₦5.7M-₦7.7M)** |
 
 ### Production AI Cluster (Run 5-7 models, handle traffic)
 - 2x RTX 4090, Threadripper 7960X, 256GB RAM, 10TB storage
@@ -596,19 +596,19 @@ User Query → LLM retrieves relevant docs → AI Response
 |------|--------------|----------------|
 | UPS | 3kVA online UPS (APC/Vertiv) | ₦800K-₦1.2M |
 | Solar backup | 5kVA hybrid inverter + batteries (use VS Solar!) | ₦2M-₦3.5M |
-| Server room AC | 2HP split unit (dedicated) | ₦400K-₦700K |
+| Server room AC | 2HP inverter split unit (dedicated) | ₦650K-₦1M |
 | Rack + cabling | 12U-42U rack + network cables | ₦300K-₦600K |
 | Internet | 100Mbps fiber (MainOne/MTN) | ₦100K-₦200K/month |
 | Firewall/router | Mikrotik/Ubiquiti edge | ₦150K-₦300K |
-| **Total infrastructure** | | **₦3.75M-₦6.5M one-time + ₦100-200K/month** |
+| **Total infrastructure** | | **₦3.9M-₦6.6M one-time + ₦100-200K/month** |
 
 ### Complete Setup Cost Summary
 
 | Setup Level | Hardware (Landed) | Infrastructure | Total One-Time | Monthly |
 |-------------|------------------|----------------|----------------|---------|
-| **Starter** | ₦5.7M-₦7.3M | ₦3.75M-₦6.5M | **₦9.5M-₦13.8M** | ₦100-200K |
-| **Production** | ₦12.6M-₦15.9M | ₦3.75M-₦6.5M | **₦16.4M-₦22.4M** | ₦150-250K |
-| **Hybrid (own+cloud)** | ₦5.7M-₦7.3M | ₦3.75M-₦6.5M | **₦9.5M-₦13.8M** | ₦200-500K |
+| **Starter** | ₦5.7M-₦7.7M | ₦3.9M-₦6.6M | **₦9.6M-₦14.3M** | ₦100-200K |
+| **Production** | ₦12.6M-₦15.9M | ₦3.9M-₦6.6M | **₦16.5M-₦22.5M** | ₦150-250K |
+| **Hybrid (own+cloud)** | ₦5.7M-₦7.7M | ₦3.9M-₦6.6M | **₦9.6M-₦14.3M** | ₦200-500K |
 
 **Recommendation:** Start with Starter + cloud GPU (Vast.ai, RunPod at $0.50-$2/hr). Graduate to Production when revenue justifies.
 
