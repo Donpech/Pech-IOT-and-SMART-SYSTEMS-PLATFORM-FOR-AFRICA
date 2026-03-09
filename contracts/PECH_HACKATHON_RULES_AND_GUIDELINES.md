@@ -300,7 +300,7 @@ By registering for the PECH Hackathon, I confirm that:
 ---
 
 **PECH Group Holdings Ltd**
-*Technology & Platform Infrastructure Enablers for Africa*
+*Technology & Infrastructure Enablers for Africa*
 *Build on Africa's Commerce OS*
 
 ---

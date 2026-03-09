@@ -1,6 +1,6 @@
 # PECH Group Holdings Ltd
 
-**Technology and Platform Infrastructure Enablers for People**
+**Technology and Infrastructure Enablers for People**
 
 Lagos, Nigeria | [pechgroupholdings.tech](https://pechgroupholdings.tech)
 
@@ -10,7 +10,7 @@ Lagos, Nigeria | [pechgroupholdings.tech](https://pechgroupholdings.tech)
 
 PECH Group Holdings Ltd is a Nigerian technology company building IoT and smart systems infrastructure for Africa. Our platform connects IoT devices, smart home systems, solar energy solutions, logistics services, and a digital marketplace — all designed to deliver reliable, quality technology at a good price.
 
-**Our Mission:** To be technology and platform infrastructure enablers for people across Africa.
+**Our Mission:** To be technology and infrastructure enablers for people across Africa.
 
 **Core Products & Services:**
 - IoT Devices & Smart Home Systems

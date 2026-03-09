@@ -1,6 +1,6 @@
 # PECH GROUP HOLDINGS LTD
 
-**Technology and Platform Infrastructure Enablers for People**
+**Technology and Infrastructure Enablers for People**
 
 Lagos, Nigeria | [pechgroupholdings.tech](https://pechgroupholdings.tech)
 
@@ -70,7 +70,7 @@ The Employer and the Employee are hereinafter collectively referred to as the **
 
 **WHEREAS:**
 
-(A) The Employer is engaged in the business of technology and platform infrastructure solutions, including but not limited to IoT devices, smart systems, solar solutions, digital marketplace platforms, and enterprise technology services across Africa;
+(A) The Employer is engaged in the business of technology and infrastructure solutions, including but not limited to IoT devices, smart systems, solar solutions, digital marketplace platforms, and enterprise technology services across Africa;
 
 (B) The Employer wishes to engage the Employee as an Office Marketer to promote, market, and sell the Employer's products and services from the Employer's office premises in Lagos, Nigeria;
 

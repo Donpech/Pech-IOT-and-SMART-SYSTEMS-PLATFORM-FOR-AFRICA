@@ -22,7 +22,7 @@ Website: [pechgroupholdings.tech](https://pechgroupholdings.tech)
 
 ## ABOUT PECH GROUP HOLDINGS LTD
 
-PECH Group Holdings Ltd is a Lagos-based technology company building platform infrastructure for Africa. Our ecosystem spans **IoT-enabled solar energy management**, **marketplace platforms**, **logistics networks**, and **financial services (PSSP)** — all designed to solve real problems for African businesses and consumers.
+PECH Group Holdings Ltd is a Lagos-based technology company building technology infrastructure for Africa. Our ecosystem spans **IoT-enabled solar energy management**, **marketplace platforms**, **logistics networks**, and **financial services (PSSP)** — all designed to solve real problems for African businesses and consumers.
 
 We are scaling from a founding team of 5 to a 37-person organization over 24 months across 6 hiring phases. We are looking for talented, mission-driven individuals who want to build technology that matters.
 
@@ -1633,4 +1633,4 @@ All full-time employees are entitled to:
 
 *This document is the property of PECH Group Holdings Ltd. Unauthorized reproduction is prohibited.*
 
-**PECH Group Holdings Ltd** — *Technology & Platform Infrastructure Enablers for People*
+**PECH Group Holdings Ltd** — *Technology & Infrastructure Enablers for People*

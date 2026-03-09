@@ -68,4 +68,4 @@ This directory contains **12 comprehensive brand identity templates** for PECH G
 
 ---
 
-**PECH Group Holdings Ltd** — *Technology & Platform Infrastructure Enablers for People*
+**PECH Group Holdings Ltd** — *Technology & Infrastructure Enablers for People*

@@ -273,7 +273,7 @@ What are your thoughts? Share below 👇
 │  Gradient: Dark (#1B2838) → Sky Blue (#00BFFF)                │
 │                                                                 │
 │  [LOGO]  PECH GROUP HOLDINGS LTD                               │
-│          Technology & Platform Infrastructure Enablers for People │
+│          Technology & Infrastructure Enablers for People │
 │                                                                 │
 │          [IoT/Solar imagery montage, semi-transparent]         │
 └─────────────────────────────────────────────────────────────────┘
@@ -292,4 +292,4 @@ What are your thoughts? Share below 👇
 
 ---
 
-**PECH Group Holdings Ltd** — *Technology & Platform Infrastructure Enablers for People*
+**PECH Group Holdings Ltd** — *Technology & Infrastructure Enablers for People*

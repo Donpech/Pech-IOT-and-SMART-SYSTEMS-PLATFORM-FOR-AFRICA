@@ -28,7 +28,7 @@
 | **Material:** | Brushed stainless steel backplate with acrylic overlay |
 | **Logo:** | 3D acrylic, full-color gradient, 300mm, center-mounted |
 | **Company Name:** | Laser-cut stainless steel letters, mounted on standoffs |
-| **Tagline:** | "Technology & Platform Infrastructure Enablers for People" |
+| **Tagline:** | "Technology & Infrastructure Enablers for People" |
 | **Tagline Material:** | Vinyl lettering, Dark Blue (#0099CC) |
 | **Lighting:** | LED halo backlight behind logo and letters |
 | **Accent:** | Orange (#F5A623) acrylic strip below company name, 3mm thick |
@@ -47,7 +47,7 @@
 │  ═══════════════════════════════════════════════════════    │
 │  Orange acrylic accent strip                                │
 │                                                             │
-│  Technology & Platform Infrastructure Enablers for People  │
+│  Technology & Infrastructure Enablers for People  │
 │  (Vinyl, Dark Blue)                                        │
 │                                                             │
 └─────────────────────────────────────────────────────────────┘
@@ -260,4 +260,4 @@
 
 ---
 
-**PECH Group Holdings Ltd** — *Technology & Platform Infrastructure Enablers for People*
+**PECH Group Holdings Ltd** — *Technology & Infrastructure Enablers for People*

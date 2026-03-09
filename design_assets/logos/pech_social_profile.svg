@@ -39,5 +39,5 @@
   <!-- Tagline -->
   <text x="200" y="310" text-anchor="middle" font-family="'Open Sans', 'Segoe UI', Arial, sans-serif" font-weight="400" font-size="13" fill="rgba(255,255,255,0.6)" letter-spacing="3">GROUP HOLDINGS LTD</text>
   <!-- Sub-tagline -->
-  <text x="200" y="335" text-anchor="middle" font-family="'Open Sans', 'Segoe UI', Arial, sans-serif" font-weight="300" font-size="10" fill="rgba(255,255,255,0.4)" letter-spacing="1.5">Technology &amp; Platform Infrastructure Enablers</text>
+  <text x="200" y="335" text-anchor="middle" font-family="'Open Sans', 'Segoe UI', Arial, sans-serif" font-weight="300" font-size="10" fill="rgba(255,255,255,0.4)" letter-spacing="1.5">Technology &amp; Infrastructure Enablers</text>
 </svg>

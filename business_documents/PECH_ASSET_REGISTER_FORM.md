@@ -128,4 +128,4 @@ Website: [pechgroupholdings.tech](https://pechgroupholdings.tech)
 
 *This document is the property of PECH Group Holdings Ltd. Unauthorized reproduction is prohibited.*
 
-**PECH Group Holdings Ltd** — *Technology & Platform Infrastructure Enablers for People*
+**PECH Group Holdings Ltd** — *Technology & Infrastructure Enablers for People*

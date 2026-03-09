@@ -177,4 +177,4 @@ __________________________________________
 
 *This Certificate confirms the successful completion of installation. It does not relieve PECH Group Holdings Ltd of warranty obligations as specified above.*
 
-**PECH Group Holdings Ltd** — *Technology & Platform Infrastructure Enablers for People*
+**PECH Group Holdings Ltd** — *Technology & Infrastructure Enablers for People*

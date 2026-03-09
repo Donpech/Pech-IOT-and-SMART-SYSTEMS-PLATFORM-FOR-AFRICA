@@ -51,7 +51,7 @@
 - **Self-Service Kiosks** — Multi-purpose payment and information kiosks
 
 ### Our Mission
-PECH is a **technology and platform infrastructure enabler for people**. We build the digital backbone that African businesses, homes, and communities run on. Every product we ship — from a ₦1,500 premium socket to a ₦350,000 estate system — represents **reliability, quality, and good price for your money**. We sell high-end products AND equally good affordable products, but **never bad products**. Quality is our brand promise.
+PECH is a **technology and infrastructure enabler for people**. We build the digital backbone that African businesses, homes, and communities run on. Every product we ship — from a ₦1,500 premium socket to a ₦350,000 estate system — represents **reliability, quality, and good price for your money**. We sell high-end products AND equally good affordable products, but **never bad products**. Quality is our brand promise.
 
 ### Designed for Africa, Powered by PECH
 All PECH products are **designed specifically for African conditions** — wide voltage tolerance (140–280V), heat resistance, dust/water protection, and offline capability. Every product is **progressively integrated across PECH's entire ecosystem**: the IoT platform powers device intelligence, the ERP connects business operations, the Marketplace enables discovery and sales, Logistics handles delivery, and Payments processes transactions. A PECH smart switch is not just a switch — it's a node in Africa's commerce and infrastructure operating system.
@@ -1243,7 +1243,7 @@ PECH Group Holdings Ltd (Parent — Technology Company)
 
 **PECH Group Holdings Ltd**
 Lagos, Nigeria
-[Contact details to be inserted]
+Pechenergysolutions@gmail.com | [pechgroupholdings.tech](https://pechgroupholdings.tech)
 
 ---
 

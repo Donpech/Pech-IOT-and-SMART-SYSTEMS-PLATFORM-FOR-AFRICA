@@ -10,7 +10,7 @@
 ┌─────────────────────────────────────────────────────────────────────────┐
 │                                                                         │
 │  [PECH LOGO]              PECH GROUP HOLDINGS LTD                      │
-│  (Hexagonal)              Technology & Platform Infrastructure          │
+│  (Hexagonal)              Technology & Infrastructure          │
 │  60x60px                  Enablers for People                          │
 │                                                                         │
 │  ─────────────────────────────────────────────────────────────────────  │
@@ -83,7 +83,7 @@ _________________________
 │                                                                         │
 │  PECH Group Holdings Ltd | RC Number: [XXXXXXX] | TIN: [XXXXXXXXXX]   │
 │  Registered Office: Lagos, Nigeria                                     │
-│  "Technology & Platform Infrastructure Enablers for People"            │
+│  "Technology & Infrastructure Enablers for People"            │
 │                                                                         │
 └─────────────────────────────────────────────────────────────────────────┘
 ```
@@ -133,4 +133,4 @@ _________________________
 
 ---
 
-**PECH Group Holdings Ltd** — *Technology & Platform Infrastructure Enablers for People*
+**PECH Group Holdings Ltd** — *Technology & Infrastructure Enablers for People*

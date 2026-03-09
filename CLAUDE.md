@@ -16,7 +16,7 @@ The logo uses a **blue-to-orange gradient** (top to bottom) on a hexagonal icon 
 ## Company Info
 - **Full Name:** PECH Group Holdings Ltd
 - **Location:** Lagos, Nigeria
-- **Mission:** Technology and platform infrastructure enablers for people
+- **Mission:** Technology and infrastructure enablers for people
 - **Brand Philosophy:** Reliability, quality, and good price for your money — no bad products
 - **Team Size:** 37 roles (24 FT + 5 contract + 8 intern)
 - **Budget:** ₦250M (~$160K USD) total proposal

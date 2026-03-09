@@ -60,7 +60,7 @@
 │                                                             │
 │  ─────────────────────────────────────────────────────────  │
 │  PECH Group Holdings Ltd | RC: XXXXXXX | TIN: XXXXXXXXXX  │
-│  "Technology & Platform Infrastructure Enablers for People" │
+│  "Technology & Infrastructure Enablers for People" │
 │ ██████████████████████████████████████████████████████████  │  Orange (#F5A623) footer bar
 └─────────────────────────────────────────────────────────────┘
 ```
@@ -107,4 +107,4 @@
 
 ---
 
-**PECH Group Holdings Ltd** — *Technology & Platform Infrastructure Enablers for People*
+**PECH Group Holdings Ltd** — *Technology & Infrastructure Enablers for People*
