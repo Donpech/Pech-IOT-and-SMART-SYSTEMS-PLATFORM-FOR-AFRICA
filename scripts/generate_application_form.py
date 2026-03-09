@@ -56,6 +56,7 @@ PECH_ORANGE = "F5A623"
 PECH_DARK_BLUE = "0099CC"
 PECH_DARK_BG = "1B2838"
 WHITE = "FFFFFF"
+FOOTER_TAGLINE = "PECH Group Holdings Ltd — Technology & Infrastructure Enablers for People"
 LIGHT_GRAY = "F5F5F5"
 BORDER_GRAY = "CCCCCC"
 
@@ -382,7 +383,7 @@ def create_excel():
     row += 2
     ws.merge_cells(f"A{row}:E{row}")
     cell = ws[f"A{row}"]
-    cell.value = "PECH Group Holdings Ltd — Technology & Infrastructure Enablers for People"
+    cell.value = FOOTER_TAGLINE
     cell.font = Font(name="Calibri", size=8, italic=True, color="999999")
     cell.alignment = Alignment(horizontal="center")
 
@@ -691,7 +692,7 @@ def create_word():
     doc.add_paragraph("_" * 80)
     p = doc.add_paragraph()
     p.alignment = WD_ALIGN_PARAGRAPH.CENTER
-    run = p.add_run("PECH Group Holdings Ltd — Technology & Infrastructure Enablers for People")
+    run = p.add_run(FOOTER_TAGLINE)
     run.font.size = Pt(8)
     run.font.italic = True
     run.font.color.rgb = RGBColor(0x99, 0x99, 0x99)

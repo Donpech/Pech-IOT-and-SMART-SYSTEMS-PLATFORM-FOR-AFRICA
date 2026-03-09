@@ -51,15 +51,17 @@ The PECH ecosystem spans **10 interconnected business verticals**, all powered b
 
 ## Infographics
 
-| # | Image | Description |
-|---|-------|-------------|
-| 1 | [images/ai_ecosystem_architecture.svg](images/ai_ecosystem_architecture.svg) | 10 verticals connected to AI Core |
-| 2 | [images/ai_model_stack.svg](images/ai_model_stack.svg) | Model deployment map with license badges |
-| 3 | [images/ai_data_pipeline.svg](images/ai_data_pipeline.svg) | RAG pipeline flow diagram |
-| 4 | [images/ai_infrastructure_diagram.svg](images/ai_infrastructure_diagram.svg) | Hardware + cloud architecture with costs |
-| 5 | [images/ai_team_structure.svg](images/ai_team_structure.svg) | AI team org chart |
-| 6 | [images/ai_roadmap_phases.svg](images/ai_roadmap_phases.svg) | 3-phase implementation timeline |
-| 7 | [images/ai_hub_spoke_logistics.svg](images/ai_hub_spoke_logistics.svg) | Logistics network map |
+Each image is available in both SVG (source/editable) and PNG (rendered for markdown/PDF export) formats.
+
+| # | SVG (source) | PNG (rendered) | Description |
+|---|-------------|----------------|-------------|
+| 1 | [ai_ecosystem_architecture.svg](images/ai_ecosystem_architecture.svg) | [.png](images/ai_ecosystem_architecture.png) | 10 verticals connected to AI Core |
+| 2 | [ai_model_stack.svg](images/ai_model_stack.svg) | [.png](images/ai_model_stack.png) | Model deployment map with license badges |
+| 3 | [ai_data_pipeline.svg](images/ai_data_pipeline.svg) | [.png](images/ai_data_pipeline.png) | RAG pipeline flow diagram |
+| 4 | [ai_infrastructure_diagram.svg](images/ai_infrastructure_diagram.svg) | [.png](images/ai_infrastructure_diagram.png) | Hardware + cloud architecture with costs |
+| 5 | [ai_team_structure.svg](images/ai_team_structure.svg) | [.png](images/ai_team_structure.png) | AI team org chart |
+| 6 | [ai_roadmap_phases.svg](images/ai_roadmap_phases.svg) | [.png](images/ai_roadmap_phases.png) | 3-phase implementation timeline |
+| 7 | [ai_hub_spoke_logistics.svg](images/ai_hub_spoke_logistics.svg) | [.png](images/ai_hub_spoke_logistics.png) | Logistics network map |
 
 ---
 
@@ -69,7 +71,7 @@ The PECH ecosystem spans **10 interconnected business verticals**, all powered b
 |----------|--------|-----------|
 | **License policy** | Only Apache-2.0 and MIT models/tools | PECH needs to rebrand, modify, and close-source derivatives |
 | **Phase 1 approach** | RAG + Ollama (no training) | Start fast, feed business data daily, fine-tune later |
-| **Hardware strategy** | Starter server + cloud GPU | ₦9.5M-₦13.8M one-time, scale when revenue justifies |
+| **Hardware strategy** | TRX50 workstation + cloud GPU overflow | ₦12.1M-₦17.6M one-time (Phase 1), zero-waste upgrade path |
 | **Infrastructure** | Self-hosted + solar backup | Use VS Solar products for power redundancy |
 | **Analytics** | Apache Superset (not Metabase) | Metabase is AGPL — can't close-source modifications |
 | **Workflow automation** | Apache Airflow (not n8n) | n8n's Sustainable Use License restricts resale |
