@@ -241,7 +241,7 @@ Additional conversations covering: hardware product catalog design, manufacturin
 | **IoT Platforms** | ThingsBoard (Apache 2.0), IoTSharp, SiteWhere |
 | **AI/ML** | PyTorch, XGBoost, MLflow, Feast, Evidently |
 | **Frontend** | React, React Native, Flutter |
-| **DevOps** | Docker, Kubernetes (k3s), Terraform, GitHub Actions, Traefik |
+| **DevOps** | Docker, Kubernetes (k3s), Terraform, GitHub Actions, Apache APISIX |
 | **Auth** | Keycloak, Ory Hydra (OAuth2/JWT/RBAC) |
 | **Firmware** | Mongoose OS (Apache 2.0), Apache Mynewt |
 | **Analytics** | Apache Superset, Grafana |

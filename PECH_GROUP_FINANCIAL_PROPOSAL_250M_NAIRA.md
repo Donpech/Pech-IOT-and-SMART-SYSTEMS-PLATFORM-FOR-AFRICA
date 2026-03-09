@@ -108,7 +108,7 @@ This plan details the deployment of **₦250,000,000** in secured capital across
 
 ## 3. PECH Ecosystem Overview
 
-![PECH Commerce OS Architecture](proposal_images/commerce_os_architecture.svg)
+![PECH Commerce OS Architecture](proposal_images/commerce_os_architecture.png)
 
 PECH is modeled after **Alibaba Group's layered architecture**, adapted for African realities:
 
@@ -330,7 +330,7 @@ PECH is modeled after **Alibaba Group's layered architecture**, adapted for Afri
 
 ## 6. Phased Execution Roadmap (24 Months)
 
-![24-Month Phased Roadmap](proposal_images/phase_roadmap.svg)
+![24-Month Phased Roadmap](proposal_images/phase_roadmap.png)
 
 ### Phase 1: Foundation (Months 0–3) — "Build the Engine"
 
@@ -458,7 +458,7 @@ PECH is modeled after **Alibaba Group's layered architecture**, adapted for Afri
 **Break-even projected:** Month 16–18 (operational break-even)
 **Cash-positive:** Month 19+ (revenue exceeds burn rate)
 
-![Budget Allocation](proposal_images/budget_allocation.svg)
+![Budget Allocation](proposal_images/budget_allocation.png)
 
 ### 7.3 Budget Allocation Visual
 
@@ -480,7 +480,7 @@ PECH is modeled after **Alibaba Group's layered architecture**, adapted for Afri
 
 ## 8. Human Capital & Hiring Plan
 
-![Team Growth & Payroll](proposal_images/team_growth.svg)
+![Team Growth & Payroll](proposal_images/team_growth.png)
 
 ### 8.1 Phase-by-Phase Hiring
 
@@ -659,12 +659,14 @@ PECH deploys self-hosted AI models on RTX 4090 GPU servers in Lagos, running ope
 
 | Category | 24-Month Total (₦) |
 |----------|-------------------|
-| Cloud Infrastructure | ₦14,200,000 |
-| AI GPU Infrastructure — Phase 1 (one-time) | ₦9,950,000–₦13,800,000 |
-| AI GPU Infrastructure — Phase 2 upgrade (one-time) | ₦4,100,000–₦5,300,000 |
-| AI GPU Infrastructure (24mo recurring) | ₦7,920,000–₦18,000,000 |
+| Cloud Infrastructure | ₦18,400,000 |
+| AI GPU Infrastructure — Phase 1 (one-time)* | ₦9,950,000–₦13,800,000 |
+| AI GPU Infrastructure — Phase 2 upgrade (one-time)* | ₦4,100,000–₦5,300,000 |
+| AI GPU Infrastructure (24mo recurring)* | ₦7,920,000–₦18,000,000 |
 | AI & Development Tools | ₦9,600,000 |
-| **TOTAL** | **₦28,000,000** |
+| **TOTAL (Cloud + Tools)** | **₦28,000,000** |
+
+> *GPU infrastructure costs are budgeted under Hardware Procurement (₦75M) in Section 9.2, shown here for cross-reference only.
 
 > **Note:** The ₦28M technology budget prioritizes AI infrastructure via a **zero-waste single-platform approach**: the TRX50 Workstation bought in Phase 1 scales to Phase 3 by adding components (2nd GPU, RAM, storage) — never replacing the base system. This saves ₦4.4M-₦6.4M vs the old approach of buying a cheap starter server then replacing it with a production box. Cloud hosting costs are further reduced by self-hosting AI models and core databases on the same GPU server (PostgreSQL, Redis, Qdrant). Cloud GPU bursting is used only for fine-tuning and overflow capacity.
 
@@ -672,7 +674,7 @@ PECH deploys self-hosted AI models on RTX 4090 GPU servers in Lagos, running ope
 
 ## 10. Hardware & Device Strategy
 
-![Hardware Product Portfolio — 25 SKUs](proposal_images/product_portfolio.svg)
+![Hardware Product Portfolio — 25 SKUs](proposal_images/product_portfolio.png)
 
 ### 10.1 Hardware Product Line
 
@@ -796,7 +798,7 @@ PECH deploys self-hosted AI models on RTX 4090 GPU servers in Lagos, running ope
 
 ## 11. Licensing, Compliance & Regulatory
 
-![Regulatory & Compliance Timeline](proposal_images/compliance_timeline.svg)
+![Regulatory & Compliance Timeline](proposal_images/compliance_timeline.png)
 
 ### 11.1 Corporate Structure
 
@@ -905,9 +907,9 @@ After Month 9, revenue from hardware sales and software products justifies deplo
 
 ## 12. Marketing & Customer Acquisition
 
-![Nigeria Market Entry Strategy](proposal_images/market_entry_map.svg)
+![Nigeria Market Entry Strategy](proposal_images/market_entry_map.png)
 
-![Customer Journey & Lock-In Flywheel](proposal_images/customer_journey.svg)
+![Customer Journey & Lock-In Flywheel](proposal_images/customer_journey.png)
 
 ### 12.1 Marketing Strategy
 
@@ -944,7 +946,7 @@ After Month 9, revenue from hardware sales and software products justifies deplo
 
 ## 13. Revenue Model & Financial Projections
 
-![Revenue Streams Breakdown](proposal_images/revenue_streams.svg)
+![Revenue Streams Breakdown](proposal_images/revenue_streams.png)
 
 ### 13.1 Revenue Streams
 
@@ -988,7 +990,7 @@ After Month 9, revenue from hardware sales and software products justifies deplo
 | 24 | 8.0 | 4.0 | 5.0 | 2.5 | 1.8 | **21.3** |
 | **TOTAL** | **95.3** | **43.6** | **56.4** | **25.2** | **18.1** | **₦243.6M** |
 
-![Revenue vs Expenses](proposal_images/revenue_projection.svg)
+![Revenue vs Expenses](proposal_images/revenue_projection.png)
 
 ### 13.3 Path to Profitability
 
@@ -1012,7 +1014,7 @@ After Month 9, revenue from hardware sales and software products justifies deplo
 
 ## 14. Risk Analysis & Mitigation
 
-![Risk Assessment Heat Map](proposal_images/risk_heatmap.svg)
+![Risk Assessment Heat Map](proposal_images/risk_heatmap.png)
 
 | # | Risk | Impact | Probability | Mitigation |
 |---|------|--------|-------------|------------|
@@ -1132,7 +1134,7 @@ PECH Group Holdings Ltd (Parent — Technology Company)
 │  └─ Contractors (UI/UX etc)    ₦10,000,000                    │
 │                                                                 │
 │  TECHNOLOGY (11.2%)          ₦28,000,000                       │
-│  ├─ Cloud Infrastructure (24mo)  ₦19,200,000                  │
+│  ├─ Cloud Infrastructure (24mo)  ₦18,400,000                  │
 │  └─ AI Tools & Subscriptions     ₦9,600,000                   │
 │                                                                 │
 │  OPERATIONS (8.0%)           ₦20,000,000                       │
@@ -1226,7 +1228,7 @@ PECH Group Holdings Ltd (Parent — Technology Company)
 
 ### C. 15-Year Vertical Expansion Blueprint
 
-![15-Year Expansion Blueprint](proposal_images/15_year_expansion.svg)
+![15-Year Expansion Blueprint](proposal_images/15_year_expansion.png)
 
 | Phase | Years | Geography | Verticals Added | Key Milestones |
 |-------|-------|-----------|----------------|----------------|

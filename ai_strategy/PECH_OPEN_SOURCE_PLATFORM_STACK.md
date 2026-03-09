@@ -608,7 +608,7 @@ PECH only uses platform tools with **Apache-2.0, MIT, or BSD** licenses. This al
 |------|---------|----------|------|
 | **Docker** | Apache-2.0 (Engine) | Container runtime | [github.com/moby/moby](https://github.com/moby/moby) |
 | **Kubernetes (K8s)** | Apache-2.0 | Container orchestration (Phase 2+) | [github.com/kubernetes/kubernetes](https://github.com/kubernetes/kubernetes) |
-| **K3s** | Apache-2.0 | Lightweight Kubernetes (Phase 1) | [github.com/k3s-io/k3s](https://github.com/k3s-io/k3s) |
+| **K3s** | Apache-2.0 | Lightweight Kubernetes (Phase 2) | [github.com/k3s-io/k3s](https://github.com/k3s-io/k3s) |
 | **Portainer** | Zlib | Docker management UI | [github.com/portainer/portainer](https://github.com/portainer/portainer) |
 
 **Deployment Path:**

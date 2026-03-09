@@ -52,7 +52,7 @@ PECH Group Holdings Ltd is building an **AI-native digital infrastructure platfo
 - **Nigeria-optimized** — power backup, import-duty-aware budgets, local infrastructure
 - **Phase-based deployment** — start lean, scale with revenue
 
-**The platform comprises ~78 microservices** across 11 domains, powered by ~20-25 open-source systems and 15+ AI/ML models, serving customers, merchants, installers, agents, and developers through a unified identity and data layer.
+**The platform comprises ~78 microservices** across 12 domains, powered by ~20-25 open-source systems and 15+ AI/ML models, serving customers, merchants, installers, agents, and developers through a unified identity and data layer.
 
 ---
 
