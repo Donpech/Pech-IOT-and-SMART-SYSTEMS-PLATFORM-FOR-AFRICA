@@ -14,23 +14,23 @@
   <rect x="220" y="130" width="392" height="28" rx="5" fill="#0099CC"/>
   <text x="622" y="149" fill="#F5A623" font-size="13" font-weight="bold">₦70M — 28.0%</text>
 
-  <!-- Tech & AI 11.2% -->
-  <text x="30" y="185" fill="#FFF" font-size="12" font-weight="bold">Tech & AI Infrastructure</text>
+  <!-- Tech &amp; AI 11.2% -->
+  <text x="30" y="185" fill="#FFF" font-size="12" font-weight="bold">Tech &amp; AI Infrastructure</text>
   <rect x="220" y="170" width="157" height="28" rx="5" fill="#F5A623"/>
   <text x="387" y="189" fill="#FFF" font-size="13" font-weight="bold">₦28M — 11.2%</text>
 
   <!-- Office & Ops 8% -->
-  <text x="30" y="225" fill="#FFF" font-size="12" font-weight="bold">Office & Operations</text>
+  <text x="30" y="225" fill="#FFF" font-size="12" font-weight="bold">Office &amp; Operations</text>
   <rect x="220" y="210" width="112" height="28" rx="5" fill="#E08A00"/>
   <text x="342" y="229" fill="#FFF" font-size="13" font-weight="bold">₦20M — 8.0%</text>
 
   <!-- Contingency 7.2% -->
-  <text x="30" y="265" fill="#FFF" font-size="12" font-weight="bold">Contingency & FX</text>
+  <text x="30" y="265" fill="#FFF" font-size="12" font-weight="bold">Contingency &amp; FX</text>
   <rect x="220" y="250" width="101" height="28" rx="5" fill="#3A7CA5"/>
   <text x="331" y="269" fill="#FFF" font-size="13" font-weight="bold">₦18M — 7.2%</text>
 
   <!-- Marketing 6% -->
-  <text x="30" y="305" fill="#FFF" font-size="12" font-weight="bold">Marketing & CAC</text>
+  <text x="30" y="305" fill="#FFF" font-size="12" font-weight="bold">Marketing &amp; CAC</text>
   <rect x="220" y="290" width="84" height="28" rx="5" fill="#2E86AB"/>
   <text x="314" y="309" fill="#FFF" font-size="13" font-weight="bold">₦15M — 6.0%</text>
 
@@ -40,15 +40,15 @@
   <text x="297" y="349" fill="#FFF" font-size="13" font-weight="bold">₦12M — 4.8%</text>
 
   <!-- Compliance 4.8% -->
-  <text x="30" y="385" fill="#FFF" font-size="12" font-weight="bold">Legal & Compliance</text>
+  <text x="30" y="385" fill="#FFF" font-size="12" font-weight="bold">Legal &amp; Compliance</text>
   <rect x="220" y="370" width="67" height="28" rx="5" fill="#155E75"/>
   <text x="297" y="389" fill="#FFF" font-size="13" font-weight="bold">₦12M — 4.8%</text>
 
   <!-- Tech breakdown callout -->
   <rect x="520" y="155" width="360" height="145" rx="8" fill="#0D2137" stroke="#F5A623" stroke-width="1.5"/>
   <text x="530" y="175" fill="#F5A623" font-size="11" font-weight="bold">TECHNOLOGY ₦28M BREAKDOWN:</text>
-  <text x="540" y="195" fill="#FFF" font-size="10">AI GPU Server (RTX 4090, landed)</text>
-  <text x="810" y="195" fill="#00BFFF" font-size="10" text-anchor="end">₦7.5M–₦10.5M</text>
+  <text x="540" y="195" fill="#FFF" font-size="10">TRX50 AI Workstation (RTX 4090, landed)</text>
+  <text x="810" y="195" fill="#00BFFF" font-size="10" text-anchor="end">₦8.2M–₦11M</text>
   <text x="540" y="212" fill="#FFF" font-size="10">Cloud Infrastructure (24mo)</text>
   <text x="810" y="212" fill="#00BFFF" font-size="10" text-anchor="end">₦14.2M</text>
   <text x="540" y="229" fill="#FFF" font-size="10">Cloud GPU bursting (24mo)</text>

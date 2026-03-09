@@ -13,7 +13,7 @@
 
 ## Our Mission
 
-PECH is a **technology and platform infrastructure enabler for people**. We build the digital backbone that African businesses, homes, and communities run on.
+PECH is a **technology and infrastructure enabler for people**. We build the digital backbone that African businesses, homes, and communities run on.
 
 Every product we ship represents **reliability, quality, and good price for your money**. We sell high-end products AND equally good affordable products, but **never bad products**. Quality is our brand promise.
 
@@ -176,7 +176,7 @@ All PECH products are **designed for Africa** — wide voltage tolerance, heat r
 
 **PECH Group Holdings Ltd**
 Lagos, Nigeria
-[Contact details to be inserted]
+Pechenergysolutions@gmail.com | [pechgroupholdings.tech](https://pechgroupholdings.tech)
 
 ---
 

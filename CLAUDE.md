@@ -16,7 +16,7 @@ The logo uses a **blue-to-orange gradient** (top to bottom) on a hexagonal icon 
 ## Company Info
 - **Full Name:** PECH Group Holdings Ltd
 - **Location:** Lagos, Nigeria
-- **Mission:** Technology and platform infrastructure enablers for people
+- **Mission:** Technology and infrastructure enablers for people
 - **Brand Philosophy:** Reliability, quality, and good price for your money — no bad products
 - **Team Size:** 37 roles (24 FT + 5 contract + 8 intern)
 - **Budget:** ₦250M (~$160K USD) total proposal
@@ -60,7 +60,8 @@ PECH is building an **AI-native platform** — all models self-hosted on RTX 409
 
 ### Architecture
 - 78 microservices across 12 domains
-- 3-phase deployment: Crawl (Ollama) → Walk (vLLM + cloud) → Run (GPU cluster)
+- 3-phase deployment: Crawl (TRX50 + Ollama) → Walk (add 2nd GPU + vLLM) → Run (co-locate + scale)
+- Zero-waste single-platform: TRX50 Workstation from Day 1, add components, never replace
 - Event streaming: NATS (Phase 1) → Apache Kafka (Phase 3)
 - Database: PostgreSQL + Redis + Qdrant
 - Container: Docker Compose (Phase 1) → K3s (Phase 2) → full K8s (Phase 3)

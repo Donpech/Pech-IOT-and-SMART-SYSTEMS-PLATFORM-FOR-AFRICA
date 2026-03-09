@@ -25,7 +25,7 @@
 | **Material:** | 100% combed cotton, 180gsm |
 | **Logo Placement (Front):** | Left chest, 80mm wide, screen print or embroidered |
 | **Logo Placement (Back):** | Center, 250mm wide, full-color screen print |
-| **Tagline (Back):** | "Technology & Platform Infrastructure Enablers for People" |
+| **Tagline (Back):** | "Technology & Infrastructure Enablers for People" |
 | **Sleeve Detail:** | Optional small logo on right sleeve, 40mm |
 
 ---
@@ -195,4 +195,4 @@
 
 ---
 
-**PECH Group Holdings Ltd** — *Technology & Platform Infrastructure Enablers for People*
+**PECH Group Holdings Ltd** — *Technology & Infrastructure Enablers for People*

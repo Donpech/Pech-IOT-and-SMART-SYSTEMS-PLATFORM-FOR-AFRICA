@@ -1,6 +1,6 @@
 # PECH GROUP HOLDINGS LTD
 
-**Technology and Platform Infrastructure Enablers for People**
+**Technology and Infrastructure Enablers for People**
 
 Lagos, Nigeria | [pechgroupholdings.tech](https://pechgroupholdings.tech)
 

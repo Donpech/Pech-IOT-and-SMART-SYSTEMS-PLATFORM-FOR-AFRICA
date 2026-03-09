@@ -52,7 +52,7 @@ PECH Group Holdings Ltd is building an **AI-native digital infrastructure platfo
 - **Nigeria-optimized** — power backup, import-duty-aware budgets, local infrastructure
 - **Phase-based deployment** — start lean, scale with revenue
 
-**The platform comprises ~78 microservices** across 11 domains, powered by ~20-25 open-source systems and 15+ AI/ML models, serving customers, merchants, installers, agents, and developers through a unified identity and data layer.
+**The platform comprises ~78 microservices** across 12 domains, powered by ~20-25 open-source systems and 15+ AI/ML models, serving customers, merchants, installers, agents, and developers through a unified identity and data layer.
 
 ---
 
@@ -548,34 +548,32 @@ User Query → LLM retrieves relevant docs → AI Response
 
 ## 11. HARDWARE INFRASTRUCTURE — CHINA SOURCING & NIGERIA COSTS
 
-### Starter AI Server (Run 2-3 models simultaneously)
+### Phase 1: TRX50 AI Workstation (Zero-Waste Single Platform)
 
-| Component | Specification | China Price | Landed Lagos |
-|-----------|--------------|------------|-------------|
-| GPU | RTX 4090 24GB | $1,200-$1,400 | — |
-| CPU | Ryzen 9 7950X (16C/32T) | $380-$450 | — |
-| Motherboard | X670E (PCIe 5.0) | $180-$250 | — |
-| RAM | 128GB DDR5 (4x32GB) | $220-$280 | — |
-| Storage (OS) | 1TB NVMe Gen4 | $50-$70 | — |
-| Storage (Data) | 4TB NVMe Gen4 | $200-$280 | — |
-| PSU | 1000W 80+ Gold | $100-$140 | — |
-| Case | Full-tower (good airflow) | $80-$120 | — |
-| Cooling | Noctua NH-D15 / AIO | $60-$80 | — |
-| **Hardware subtotal** | | **$2,470-$3,070** | — |
-| Shipping (sea freight) | 30-45 days | $150-$300 | — |
-| Import duty (35% CET) | | $865-$1,075 | — |
-| VAT (7.5%) | | $185-$230 | — |
-| Clearing agent | | $100-$200 | — |
-| **Total landed Lagos** | | | **$3,770-$5,100 (~₦5.7M-₦7.7M)** |
+| Component | Specification | China Price |
+|-----------|--------------|------------|
+| GPU | RTX 4090 24GB | $1,200-$1,400 |
+| CPU | Threadripper 7960X (24C/48T, sTR5) | $830-$1,100 |
+| Motherboard | ASUS Pro WS TRX50-SAGE WiFi (3× PCIe 5.0 x16, 8 DIMM) | $550-$700 |
+| RAM | 128GB DDR5-5600 ECC RDIMM (4×32GB) | $280-$400 |
+| Storage (OS) | 1TB Samsung 990 Pro NVMe | $50-$70 |
+| Storage (Data) | 4TB Samsung 990 Pro NVMe | $200-$280 |
+| PSU | Seasonic PRIME TX-1600 80+ Titanium | $350-$450 |
+| Case | 4U Rackmount chassis | $120-$180 |
+| Cooling | Noctua NH-U14S TR5-SP6 | $80-$110 |
+| Fans | 3× 140mm Noctua NF-A14 | $30-$45 |
+| **Hardware subtotal** | | **$3,690-$4,735** |
+| Shipping + duties + clearing | ~35% markup | |
+| **Total landed Lagos** | | **₦8.2M-₦11M** |
 
-### Production AI Cluster (Run 5-7 models, handle traffic)
-- 2x RTX 4090, Threadripper 7960X, 256GB RAM, 10TB storage
-- **Total landed Lagos:** ~$8,400-$10,600 (~₦12.6M-₦15.9M)
+### Phase 2: Add GPU + RAM + Storage (Upgrade, NOT Replacement)
+- 2nd RTX 4090 ($1,200-$1,400) + 128GB ECC RDIMM ($280-$400) + 4TB NVMe ($200-$280)
+- **Total landed Lagos:** ₦4.1M-₦5.3M (additions only — every Phase 1 component kept)
 
 ### RTX 5090 Option (32GB VRAM, future-proof)
 - 32GB vs 24GB = run larger models without quantization
 - China price: $1,800-$2,200/card
-- Adds ~$600 to Starter, ~$1,200 to Production
+- Substitute for Phase 2 GPU if available at time of upgrade
 
 ### Where to Buy from China
 | Source | Best For | Payment |
@@ -602,15 +600,15 @@ User Query → LLM retrieves relevant docs → AI Response
 | Firewall/router | Mikrotik/Ubiquiti edge | ₦150K-₦300K |
 | **Total infrastructure** | | **₦3.9M-₦6.6M one-time + ₦100-200K/month** |
 
-### Complete Setup Cost Summary
+### Complete Setup Cost Summary (Zero-Waste Approach)
 
 | Setup Level | Hardware (Landed) | Infrastructure | Total One-Time | Monthly |
 |-------------|------------------|----------------|----------------|---------|
-| **Starter** | ₦5.7M-₦7.7M | ₦3.9M-₦6.6M | **₦9.6M-₦14.3M** | ₦100-200K |
-| **Production** | ₦12.6M-₦15.9M | ₦3.9M-₦6.6M | **₦16.5M-₦22.5M** | ₦150-250K |
-| **Hybrid (own+cloud)** | ₦5.7M-₦7.7M | ₦3.9M-₦6.6M | **₦9.6M-₦14.3M** | ₦200-500K |
+| **Phase 1 (TRX50 + 1 GPU)** | ₦8.2M-₦11M | ₦3.9M-₦6.6M | **₦12.1M-₦17.6M** | ₦200-500K |
+| **Phase 1 + 2 (add 2nd GPU)** | ₦12.3M-₦16.3M | ₦3.9M-₦6.6M (no additional) | **₦16.2M-₦22.9M** | ₦200-500K |
+| **Phase 3 (co-locate)** | Same hardware | ₦100-250K/month (co-lo replaces power costs) | **₦0 additional one-time** | ₦300-750K |
 
-**Recommendation:** Start with Starter + cloud GPU (Vast.ai, RunPod at $0.50-$2/hr). Graduate to Production when revenue justifies.
+**Recommendation:** Start with TRX50 Workstation + cloud GPU for overflow (Phase 1). Add 2nd GPU when revenue justifies (Phase 2). Co-locate for production reliability (Phase 3). **Zero components wasted across all phases.**
 
 ---
 

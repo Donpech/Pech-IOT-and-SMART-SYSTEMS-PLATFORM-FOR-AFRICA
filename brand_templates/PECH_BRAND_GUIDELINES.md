@@ -7,7 +7,7 @@
 ## 1. BRAND OVERVIEW
 
 ### Mission
-Technology and platform infrastructure enablers for people.
+Technology and infrastructure enablers for people.
 
 ### Brand Philosophy
 Reliability, quality, and good price for your money — no bad products.
@@ -212,6 +212,6 @@ font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 
 ---
 
-**PECH Group Holdings Ltd** — *Technology & Platform Infrastructure Enablers for People*
+**PECH Group Holdings Ltd** — *Technology & Infrastructure Enablers for People*
 
 *This Brand Guidelines document is effective as of March 2026. All marketing, communications, and design work produced for or by PECH Group Holdings Ltd must comply with these guidelines. For questions or approval of special applications, contact the Marketing Department.*

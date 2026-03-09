@@ -63,7 +63,7 @@
 │                                                         │
 │           PECH GROUP HOLDINGS LTD                      │
 │                                                         │
-│   "Technology & Platform Infrastructure                │
+│   "Technology & Infrastructure                │
 │         Enablers for People"                           │
 │                                                         │
 │              [QR CODE]                                 │
@@ -126,4 +126,4 @@
 
 ---
 
-**PECH Group Holdings Ltd** — *Technology & Platform Infrastructure Enablers for People*
+**PECH Group Holdings Ltd** — *Technology & Infrastructure Enablers for People*

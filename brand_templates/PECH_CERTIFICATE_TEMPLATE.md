@@ -142,4 +142,4 @@
 
 ---
 
-**PECH Group Holdings Ltd** — *Technology & Platform Infrastructure Enablers for People*
+**PECH Group Holdings Ltd** — *Technology & Infrastructure Enablers for People*

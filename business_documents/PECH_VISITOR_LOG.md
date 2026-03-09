@@ -131,4 +131,4 @@ I, the undersigned visitor, hereby declare and agree to the following:
 
 *This document is the property of PECH Group Holdings Ltd.*
 
-**PECH Group Holdings Ltd** — *Technology & Platform Infrastructure Enablers for People*
+**PECH Group Holdings Ltd** — *Technology & Infrastructure Enablers for People*

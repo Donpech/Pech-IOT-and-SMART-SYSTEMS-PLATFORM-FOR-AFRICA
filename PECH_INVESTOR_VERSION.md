@@ -50,7 +50,7 @@
 - **Self-Service Kiosks** — Multi-purpose payment and information kiosks
 
 ### Our Mission
-PECH is a **technology and platform infrastructure enabler for people**. We build the digital backbone that African businesses, homes, and communities run on. Every product we ship — from a ₦1,500 premium socket to a ₦350,000 estate system — represents **reliability, quality, and good price for your money**. We sell high-end products AND equally good affordable products, but **never bad products**. Quality is our brand promise.
+PECH is a **technology and infrastructure enabler for people**. We build the digital backbone that African businesses, homes, and communities run on. Every product we ship — from a ₦1,500 premium socket to a ₦350,000 estate system — represents **reliability, quality, and good price for your money**. We sell high-end products AND equally good affordable products, but **never bad products**. Quality is our brand promise.
 
 ### Designed for Africa, Powered by PECH
 All PECH products are **designed specifically for African conditions** — wide voltage tolerance (140–280V), heat resistance, dust/water protection, and offline capability. Every product is **progressively integrated across PECH's entire ecosystem**: the IoT platform powers device intelligence, the ERP connects business operations, the Marketplace enables discovery and sales, Logistics handles delivery, and Payments processes transactions. A PECH smart switch is not just a switch — it's a node in Africa's commerce and infrastructure operating system.
@@ -558,9 +558,9 @@ PECH is modeled after **Alibaba Group's layered architecture**, adapted for Afri
 
 | Category | 24-Month Total (₦) | Description |
 |----------|-------------------|-------------|
-| Cloud Infrastructure | ₦19,200,000 | Hosting, databases, IoT messaging, storage, domains |
+| Cloud Infrastructure | ₦18,400,000 | Hosting, databases, IoT messaging, storage, domains |
 | AI & Development Tools | ₦9,600,000 | AI-assisted development, design tools, monitoring, team collaboration |
-| **TOTAL** | **₦28,800,000** | |
+| **TOTAL** | **₦28,000,000** | |
 
 ---
 
@@ -1012,7 +1012,7 @@ After Month 9, revenue from hardware sales and software products justifies deplo
 │  └─ FX hedging, emergency, expanded product line buffer       │
 │                                                                 │
 │  TECHNOLOGY (11.2%)       ₦28,000,000                          │
-│  ├─ Cloud Infrastructure       ₦19,200,000                    │
+│  ├─ Cloud Infrastructure       ₦18,400,000                    │
 │  └─ AI Tools & Subscriptions   ₦9,600,000                     │
 │                                                                 │
 │  MARKETING (6.0%)         ₦15,000,000                          │
@@ -1072,7 +1072,7 @@ After Month 9, revenue from hardware sales and software products justifies deplo
 
 **PECH Group Holdings Ltd**
 Lagos, Nigeria
-[Contact details to be inserted]
+Pechenergysolutions@gmail.com | [pechgroupholdings.tech](https://pechgroupholdings.tech)
 
 ---
 

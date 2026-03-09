@@ -114,4 +114,4 @@ chmod +x scripts/export_hr_docs.sh
 
 ---
 
-**PECH Group Holdings Ltd** — *Technology & Platform Infrastructure Enablers for People*
+**PECH Group Holdings Ltd** — *Technology & Infrastructure Enablers for People*

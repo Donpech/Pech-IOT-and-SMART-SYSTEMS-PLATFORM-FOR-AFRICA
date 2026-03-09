@@ -164,4 +164,4 @@ I/We accept the quotation as detailed above and agree to the terms and condition
 
 *We look forward to the opportunity to serve you. For any clarifications, please do not hesitate to contact us.*
 
-**PECH Group Holdings Ltd** — *Technology & Platform Infrastructure Enablers for People*
+**PECH Group Holdings Ltd** — *Technology & Infrastructure Enablers for People*

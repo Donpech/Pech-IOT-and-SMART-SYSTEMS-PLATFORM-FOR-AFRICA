@@ -106,6 +106,6 @@
 
   <!-- Bottom vision statement -->
   <rect x="30" y="470" width="845" height="60" rx="8" fill="#0D2137" stroke="#F5A623" stroke-width="1.5" stroke-dasharray="4,3"/>
-  <text x="450" y="495" text-anchor="middle" fill="#F5A623" font-size="13" font-weight="bold">VISION: Technology and Platform Infrastructure Enablers for People</text>
+  <text x="450" y="495" text-anchor="middle" fill="#F5A623" font-size="13" font-weight="bold">VISION: Technology and Infrastructure Enablers for People</text>
   <text x="450" y="518" text-anchor="middle" fill="#FFF" font-size="10">From a ₦250M startup to Africa's commerce operating system — powered by self-hosted AI, open-source tools, and African-optimized hardware</text>
 </svg>
