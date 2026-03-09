@@ -79,3 +79,8 @@ PECH is building an **AI-native platform** — all models self-hosted on RTX 409
 - `ai_strategy/PECH_AI_MODEL_CATALOG.md` — all model details
 - `ai_strategy/PECH_AI_ARCHITECTURE_GUIDE.md` — technical architecture
 - `PECH_GROUP_FINANCIAL_PROPOSAL_250M_NAIRA.md` — budget context
+
+### Industry Research
+- `ai_strategy/NIGERIA_AFRICA_AUTOMATION_SMART_SYSTEMS_INDUSTRY_RESEARCH.md` — Automation & Smart Systems sector analysis
+- Use `/industry-research [INDUSTRY] [COUNTRY/REGION]` slash command to generate new industry research reports
+- Research template at `.claude/commands/industry-research.md` — auto-adapts to any industry with 16+ mandatory sections + adaptive sections based on industry type
