@@ -601,7 +601,7 @@ A standalone AI-powered accounting tool that accountants and businesses subscrib
 
 ```
 ┌─────────────────────────────────────┐
-│         STARTER SERVER               │
+│    TRX50 WORKSTATION (Phase 1)       │
 │                                      │
 │  Docker Compose                      │
 │  ├── ollama (GPU)                   │
@@ -627,7 +627,7 @@ A standalone AI-powered accounting tool that accountants and businesses subscrib
 ┌────────────────────────────────────────────┐
 │              K3s CLUSTER                    │
 │                                             │
-│  Node 1 (GPU server)                        │
+│  Node 1 (TRX50 Workstation — upgraded)       │
 │  ├── AI workloads (Ollama/vLLM, Whisper)   │
 │  ├── Qdrant                                │
 │  └── GPU-dependent services                │
