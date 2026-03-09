@@ -117,7 +117,7 @@ The old approach (buy a cheap AM5 starter, then replace with a TRX50 production 
 |-----------|------------|-------------|
 | **PSU** | Seasonic PRIME TX-1600 (NOT generic 1600W) | 80+ Titanium = 94% efficiency, 12-year warranty, ATX 3.1 native GPU power connector. No adapter cables needed for RTX 4090 |
 | **Cooler** | Noctua NH-U14S TR5-SP6 (NOT AIO liquid) | Air coolers have zero pump failure risk. Critical in Lagos heat (28-35°C ambient). Noctua has 6-year warranty |
-| **Motherboard** | ASUS Pro WS TRX50-SAGE (NOT consumer boards) | Workstation-class VRM (16+2 phase), 10Gbe LAN, IPMI remote management, validated for 24/7 operation |
+| **Motherboard** | ASUS Pro WS TRX50-SAGE (NOT consumer boards) | Workstation-class VRM (16+2 phase), 10GbE LAN, IPMI remote management, validated for 24/7 operation |
 | **RAM** | Samsung or SK Hynix ECC RDIMM (NOT third-party) | Threadripper is picky about RAM compatibility. Samsung/SK Hynix have the highest compatibility rates with TRX50 |
 | **Case** | Rosewill RSV-L4500U or Chenbro RM41300 | Hot-swap bays, dual 120mm rear fans, tool-less rails. Standard co-lo form factor |
 
