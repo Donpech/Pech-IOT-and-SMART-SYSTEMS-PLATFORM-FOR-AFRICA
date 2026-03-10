@@ -1,3 +1,6 @@
+<div style="border:3px solid; border-image:linear-gradient(180deg,#00BFFF,#0099CC 30%,#F5A623 70%,#E08A00) 1; padding:24px 28px; box-shadow:inset 0 0 12px rgba(0,191,255,0.06),inset 0 0 12px rgba(245,166,35,0.06);">
+<div style="height:5px;background:linear-gradient(90deg,#00BFFF,#0099CC 25%,#F5A623 75%,#E08A00);margin:-24px -28px 20px -28px;"></div>
+
 # PECH GROUP HOLDINGS LTD
 
 ## AI-Native Ecosystem — Comprehensive Implementation Guide
@@ -237,7 +240,7 @@ All tools are verified **Apache-2.0 or MIT** unless noted. Tools with license is
 
 ### License Replacements Made
 
-| Original (ChatGPT Suggested) | Problem | Replacement | Why |
+| Original Tool | Problem | Replacement | Why |
 |-------------------------------|---------|-------------|-----|
 | Metabase | AGPL-3.0 — must share modified source | **Apache Superset** | Same BI capabilities, Apache-2.0 |
 | n8n | Sustainable Use License — can't resell | **Apache Airflow** | Full workflow automation, no restrictions |
@@ -588,7 +591,7 @@ User Query → LLM retrieves relevant docs → AI Response
 
 ## 12. SUPPORTING INFRASTRUCTURE
 
-**ChatGPT missed this entirely — critical for Nigeria.**
+**Critical infrastructure requirements for Nigeria — essential for reliable operations.**
 
 | Item | Specification | Cost (Nigeria) |
 |------|--------------|----------------|
@@ -614,7 +617,7 @@ User Query → LLM retrieves relevant docs → AI Response
 
 ## 13. AI TEAM STRUCTURE & NIGERIAN SALARY RANGES
 
-**ChatGPT's salary estimates were wrong** — they quoted US dollars ($2,000-$4,000/month) which doesn't reflect Nigerian market. Below are real Lagos tech market ranges.
+**Salary ranges below reflect the actual Lagos tech market** — calibrated in Naira, not US dollar equivalents.
 
 ### AI Team Roles
 
@@ -743,3 +746,6 @@ This fits within the ₦250M total budget (₦28M tech + portion of ₦70M salar
 ---
 
 *This document consolidates and fact-checks two strategic planning conversations (5,748 lines total) into a single actionable reference for PECH Group Holdings Ltd. All prices, licenses, and specifications have been verified for the Nigerian market as of March 2026.*
+
+<div style="height:5px;background:linear-gradient(90deg,#E08A00,#F5A623 25%,#0099CC 75%,#00BFFF);margin:20px -28px -24px -28px;"></div>
+</div>

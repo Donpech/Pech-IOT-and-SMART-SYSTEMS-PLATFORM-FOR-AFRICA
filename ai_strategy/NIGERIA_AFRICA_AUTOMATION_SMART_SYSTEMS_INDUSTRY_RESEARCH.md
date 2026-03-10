@@ -1,3 +1,6 @@
+<div style="border:3px solid; border-image:linear-gradient(180deg,#00BFFF,#0099CC 30%,#F5A623 70%,#E08A00) 1; padding:24px 28px; box-shadow:inset 0 0 12px rgba(0,191,255,0.06),inset 0 0 12px rgba(245,166,35,0.06);">
+<div style="height:5px;background:linear-gradient(90deg,#00BFFF,#0099CC 25%,#F5A623 75%,#E08A00);margin:-24px -28px 20px -28px;"></div>
+
 # Nigeria & Africa Automation and Smart Systems Industry Research
 
 > **Research Date:** March 9, 2026 *(auto-generated — regenerate with `/industry-research automation and smart systems Nigeria`)*
@@ -621,3 +624,6 @@ This is PECH's opportunity. The platform architecture (ThingsBoard + AI + Fintec
 ---
 
 *This research was compiled for PECH Group Holdings Ltd strategic planning. Data sourced from multiple market research firms, news sources, and industry reports. All figures should be validated with primary research before investment decisions.*
+
+<div style="height:5px;background:linear-gradient(90deg,#E08A00,#F5A623 25%,#0099CC 75%,#00BFFF);margin:20px -28px -24px -28px;"></div>
+</div>

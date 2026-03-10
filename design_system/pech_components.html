@@ -270,6 +270,48 @@
 
   <hr class="ds-divider">
 
+  <!-- ===== RIBBON BORDER ===== -->
+  <h2>Ribbon Border</h2>
+  <p>Decorative gradient border frame using PECH brand colors. Wraps entire documents with a polished, branded edge.</p>
+  <div class="ds-demo">
+
+    <h4>Full Ribbon Border (4 sides + corners)</h4>
+    <div class="pech-ribbon-border" style="min-height: auto; margin-bottom: 2rem;">
+      <span class="pech-ribbon-corner-tr"></span>
+      <span class="pech-ribbon-corner-bl"></span>
+      <span class="pech-ribbon-corner-br"></span>
+      <h3 style="margin-top:0;">Document Title</h3>
+      <p style="margin-bottom:0; font-size:0.875rem;">This content is wrapped in a <code>.pech-ribbon-border</code> container with gradient borders on all 4 sides and colored corner accents (Sky Blue, Dark Blue, Orange, Dark Orange).</p>
+    </div>
+
+    <h4>Inline Document Ribbon (for Markdown)</h4>
+    <div class="pech-doc-ribbon">
+      <div class="pech-ribbon-top-bar"></div>
+      <h3 style="margin-top:0;">Markdown Document Title</h3>
+      <p style="margin-bottom:0; font-size:0.875rem;">This is the <code>.pech-doc-ribbon</code> variant designed for embedding in Markdown files. Features gradient side borders with top/bottom ribbon bars.</p>
+      <div class="pech-ribbon-bottom-bar"></div>
+    </div>
+
+    <h4 style="margin-top:2rem;">Top &amp; Bottom Ribbon Bars (standalone)</h4>
+    <div class="pech-ribbon-top"></div>
+    <div style="padding: 1rem; text-align:center; font-size:0.875rem; color: var(--pech-text-secondary);">Content between ribbon bars</div>
+    <div class="pech-ribbon-bottom"></div>
+  </div>
+
+  <div class="ds-demo" style="margin-top:1rem;">
+    <h4>Usage in Markdown Files</h4>
+    <pre>&lt;!-- Add at the TOP of any .md file --&gt;
+&lt;div style="border:3px solid; border-image:linear-gradient(180deg,#00BFFF,#0099CC 30%,#F5A623 70%,#E08A00) 1; padding:24px 28px; box-shadow:inset 0 0 12px rgba(0,191,255,0.06),inset 0 0 12px rgba(245,166,35,0.06);"&gt;
+&lt;div style="height:5px;background:linear-gradient(90deg,#00BFFF,#0099CC 25%,#F5A623 75%,#E08A00);margin:-24px -28px 20px -28px;"&gt;&lt;/div&gt;
+
+... your document content ...
+
+&lt;div style="height:5px;background:linear-gradient(90deg,#E08A00,#F5A623 25%,#0099CC 75%,#00BFFF);margin:20px -28px -24px -28px;"&gt;&lt;/div&gt;
+&lt;/div&gt;</pre>
+  </div>
+
+  <hr class="ds-divider">
+
   <!-- ===== UTILITIES ===== -->
   <h2>Utility Classes</h2>
   <p>Quick-use classes for backgrounds, text colors, and gradients.</p>

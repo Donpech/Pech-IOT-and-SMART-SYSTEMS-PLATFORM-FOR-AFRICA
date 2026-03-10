@@ -131,6 +131,19 @@ table tr:first-child td {
     font-weight: bold;
 }
 
+/* ============================================================
+   DECORATIVE RIBBON BORDER (for proposal documents)
+   ============================================================ */
+.pech-doc-ribbon,
+div[style*="border-image:linear-gradient"] {
+    box-shadow: inset 0 0 12px rgba(0, 191, 255, 0.06),
+                inset 0 0 12px rgba(245, 166, 35, 0.06);
+}
+
+div[style*="border-image:linear-gradient"] h1:first-of-type {
+    margin-top: 0;
+}
+
 /* Page break hints for PDF */
 h2 {
     page-break-before: auto;

@@ -1,3 +1,6 @@
+<div style="border:3px solid; border-image:linear-gradient(180deg,#00BFFF,#0099CC 30%,#F5A623 70%,#E08A00) 1; padding:24px 28px; box-shadow:inset 0 0 12px rgba(0,191,255,0.06),inset 0 0 12px rgba(245,166,35,0.06);">
+<div style="height:5px;background:linear-gradient(90deg,#00BFFF,#0099CC 25%,#F5A623 75%,#E08A00);margin:-24px -28px 20px -28px;"></div>
+
 # PECH GROUP HOLDINGS LTD
 
 ## AI Hardware & Setup Guide — Procurement, Installation, Configuration
@@ -373,7 +376,7 @@ Note: Office power + cooling costs (₦150K-₦250K/month) are **eliminated** wh
 
 ### Power Infrastructure That Scales (Sized for Phase 2 from Day 1)
 
-Both ChatGPT conversations assumed hardware "just works" once purchased. In Lagos, Nigeria, you need significant supporting infrastructure. **All infrastructure below is sized for 2× RTX 4090 (Phase 2) from Day 1** — so Phase 2 requires zero power infrastructure upgrades:
+In Lagos, Nigeria, hardware requires significant supporting infrastructure to operate reliably. **All infrastructure below is sized for 2× RTX 4090 (Phase 2) from Day 1** — so Phase 2 requires zero power infrastructure upgrades:
 
 ### Power Infrastructure
 
@@ -822,3 +825,6 @@ ollama list
 ---
 
 *This document is confidential to PECH Group Holdings Ltd. Last updated: March 2026.*
+
+<div style="height:5px;background:linear-gradient(90deg,#E08A00,#F5A623 25%,#0099CC 75%,#00BFFF);margin:20px -28px -24px -28px;"></div>
+</div>
