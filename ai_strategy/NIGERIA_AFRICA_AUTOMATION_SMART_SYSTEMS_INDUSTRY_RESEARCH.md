@@ -1,6 +1,6 @@
 # Nigeria & Africa Automation and Smart Systems Industry Research
 
-> **Research Date:** March 9, 2026
+> **Research Date:** March 9, 2026 *(auto-generated — regenerate with `/industry-research automation and smart systems Nigeria`)*
 > **Prepared for:** PECH Group Holdings Ltd
 > **Research Scope:** Nigeria (primary), Africa (secondary), Global (context)
 
@@ -218,7 +218,7 @@ Nigeria represents the **single largest market** in West Africa for automation a
 | **% of Build Cost** | Contractors/Developers | Works for new construction only | 3/5 |
 
 ### 6.3 What's Missing in Pricing
-- **No rent-to-own models** — common in mobile phones but absent in smart home
+- **No rent-to-own models** — common in mobile phones but absent in the smart home space
 - **No micro-financing partnerships** — fintech integration could unlock mass market
 - **No SME-specific pricing** — 40M small businesses ignored
 - **No community/estate pricing** — bulk deals for housing developments could reduce per-unit costs dramatically
@@ -450,7 +450,7 @@ Nigeria has an estimated **60M+ generators** in use. Each household/business spe
 | **No PAYG smart home model** | Apply M-KOPA model to smart home devices | Smart home companies come from luxury mindset | PECH understands fintech (Apache Fineract) |
 | **No generator automation at scale** | Sell smart generator controller as entry product | Western companies don't understand generator culture | PECH is Nigerian, knows the pain |
 | **No rural/secondary city coverage** | Expand beyond Lagos/Abuja | Expensive to serve, low perceived value | Agent network model (like OPay) |
-| **No vernacular UI/USSD interface** | Build Yoruba/Hausa/Igbo interfaces | Global products English-only | PECH building multilingual AI (Whisper, TTS) |
+| **No vernacular UI/USSD interface** | Build Yoruba/Hausa/Igbo interfaces | Global products are English-only | PECH building multilingual AI (Whisper, TTS) |
 | **No SME-focused IoT package** | Power monitoring + security for shops/warehouses | Seen as consumer-only market | PECH has Medusa + ERPNext for commerce |
 | **No data-driven agriculture IoT** | Soil + weather + irrigation for farmers | Agritech and IoT are separate silos | PECH has AI models for forecasting |
 | **No local manufacturing/assembly** | Assemble IoT devices in Lagos | Import-only model = high costs | PECH can import components, assemble locally |

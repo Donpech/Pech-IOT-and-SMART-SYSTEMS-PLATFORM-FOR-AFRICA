@@ -198,15 +198,17 @@ Use the naming pattern:
 - `SOLAR_ENERGY_AFRICA_INDUSTRY_RESEARCH.md`
 - `SMART_HOME_NIGERIA_INDUSTRY_RESEARCH.md`
 
+> **Note on dates:** The research date in the report header reflects when the report was generated. Reports should be regenerated periodically to stay current. Re-run this command to produce an updated report.
+
 ## Research Quality Requirements
 
-1. **Recency:** Always search for 2025-2026 data first. Reject data older than 2023 unless no newer data exists.
+1. **Recency:** Always search for the latest data available. Reject data older than 2023 unless no newer data exists.
 2. **Specificity:** Always try to find Nigeria-specific data before defaulting to Africa or global.
 3. **Quantification:** Include numbers, percentages, and monetary values wherever possible.
 4. **Attribution:** Cite sources for every data point.
 5. **Actionability:** Every section should include "So what?" implications for PECH.
 6. **Honesty:** If data is uncertain or estimated, say so explicitly.
-7. **Comprehensiveness:** Minimum 5 web searches per major section.
+7. **Comprehensiveness:** Conduct multiple web searches per major section to ensure thorough coverage. The number of searches depends on the tool environment and data availability — aim for breadth over a fixed count.
 
 ## Self-Updating Protocol
 
