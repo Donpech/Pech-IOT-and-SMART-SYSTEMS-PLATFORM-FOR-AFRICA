@@ -7,20 +7,21 @@
 
 ### CONFIDENTIAL
 
----
+<div style="height:4px;background:linear-gradient(90deg,#00BFFF,#0099CC 25%,#F5A623 75%,#E08A00);border-radius:2px;margin:16px 0;"></div>
 
 **PECH Group Holdings Ltd**
 Lagos, Nigeria
 Website: [pechgroupholdings.tech](https://pechgroupholdings.tech)
 
----
+<div style="height:4px;background:linear-gradient(90deg,#00BFFF,#0099CC 25%,#F5A623 75%,#E08A00);border-radius:2px;margin:16px 0;"></div>
 
 > **Document Reference:** PECH-HR-CAF-2026-001
-> **Form Version:** 1.0
+> **Form Version:** 1.0 | **Date Issued:** 10th March, 2026
+> **Effective Year:** 2026
 >
 > **Instructions:** Please complete ALL sections of this form in full. Incomplete applications will not be processed. Attach supporting documents as indicated. All information provided will be treated as confidential in accordance with the Nigeria Data Protection Act (NDPA) 2023.
 
----
+<div style="height:4px;background:linear-gradient(90deg,#00BFFF,#0099CC 25%,#F5A623 75%,#E08A00);border-radius:2px;margin:16px 0;"></div>
 
 ## SECTION 1: PERSONAL INFORMATION
 
@@ -30,13 +31,13 @@ Website: [pechgroupholdings.tech](https://pechgroupholdings.tech)
 | **First Name:** | __________________________________________ |
 | **Middle Name:** | __________________________________________ |
 | **Date of Birth:** | ______ / ______ / __________ (DD/MM/YYYY) |
-| **Gender:** | [ ] Male  [ ] Female  [ ] Prefer not to say |
-| **Marital Status:** | [ ] Single  [ ] Married  [ ] Divorced  [ ] Widowed |
+| **Gender:** | ( ) Male  ( ) Female  ( ) Prefer not to say |
+| **Marital Status:** | ( ) Single  ( ) Married  ( ) Divorced  ( ) Widowed |
 | **Nationality:** | __________________________________________ |
 | **State of Origin:** | __________________________________________ |
 | **Local Government Area (LGA):** | __________________________________________ |
 
----
+<div style="height:4px;background:linear-gradient(90deg,#00BFFF,#0099CC 25%,#F5A623 75%,#E08A00);border-radius:2px;margin:16px 0;"></div>
 
 ### Contact Details
 
@@ -51,14 +52,14 @@ Website: [pechgroupholdings.tech](https://pechgroupholdings.tech)
 | **City:** | __________________________________________ |
 | **State:** | __________________________________________ |
 
----
+<div style="height:4px;background:linear-gradient(90deg,#00BFFF,#0099CC 25%,#F5A623 75%,#E08A00);border-radius:2px;margin:16px 0;"></div>
 
 ### Identification
 
 | Field | Details |
 |---|---|
 | **National Identification Number (NIN):** | __________________________________________ |
-| **Other ID Type (if applicable):** | [ ] International Passport  [ ] Driver's License  [ ] Voter's Card |
+| **Other ID Type (if applicable):** | ( ) International Passport  ( ) Driver's License  ( ) Voter's Card |
 | **ID Number:** | __________________________________________ |
 | **ID Expiry Date:** | ______ / ______ / __________ (DD/MM/YYYY) |
 
@@ -72,7 +73,7 @@ Website: [pechgroupholdings.tech](https://pechgroupholdings.tech)
 | |
 | |
 
----
+<div style="height:4px;background:linear-gradient(90deg,#00BFFF,#0099CC 25%,#F5A623 75%,#E08A00);border-radius:2px;margin:16px 0;"></div>
 
 ## SECTION 2: POSITION APPLIED FOR
 
@@ -80,25 +81,25 @@ Website: [pechgroupholdings.tech](https://pechgroupholdings.tech)
 |---|---|
 | **Position / Job Title:** | __________________________________________ |
 | **Role ID (if known):** | __________________________________________ |
-| **Department:** | [ ] Engineering  [ ] Design  [ ] Product & Business  [ ] Operations  [ ] Internship |
-| **Employment Type:** | [ ] Full-Time  [ ] Contract  [ ] Internship |
+| **Department:** | ( ) Engineering  ( ) Design  ( ) Product & Business  ( ) Operations  ( ) Internship |
+| **Employment Type:** | ( ) Full-Time  ( ) Contract  ( ) Internship |
 | **Expected Monthly Salary (₦):** | __________________________________________ |
 | **Available Start Date:** | ______ / ______ / __________ (DD/MM/YYYY) |
 | **Notice Period (if currently employed):** | __________________________________________ |
 
----
+<div style="height:4px;background:linear-gradient(90deg,#00BFFF,#0099CC 25%,#F5A623 75%,#E08A00);border-radius:2px;margin:16px 0;"></div>
 
 ### How Did You Hear About This Position?
 
-- [ ] PECH Website
-- [ ] LinkedIn
-- [ ] Job Board (specify): __________________________________________
-- [ ] Referral by PECH Employee (name): __________________________________________
-- [ ] University/School Career Centre
-- [ ] Social Media (specify): __________________________________________
-- [ ] Other: __________________________________________
+- ( ) PECH Website
+- ( ) LinkedIn
+- ( ) Job Board (specify): __________________________________________
+- ( ) Referral by PECH Employee (name): __________________________________________
+- ( ) University/School Career Centre
+- ( ) Social Media (specify): __________________________________________
+- ( ) Other: __________________________________________
 
----
+<div style="height:4px;background:linear-gradient(90deg,#00BFFF,#0099CC 25%,#F5A623 75%,#E08A00);border-radius:2px;margin:16px 0;"></div>
 
 ## SECTION 3: EDUCATIONAL BACKGROUND
 
@@ -140,7 +141,7 @@ Website: [pechgroupholdings.tech](https://pechgroupholdings.tech)
 | 1 | | | |
 | 2 | | | |
 
----
+<div style="height:4px;background:linear-gradient(90deg,#00BFFF,#0099CC 25%,#F5A623 75%,#E08A00);border-radius:2px;margin:16px 0;"></div>
 
 ## SECTION 4: WORK EXPERIENCE
 
@@ -153,9 +154,9 @@ Website: [pechgroupholdings.tech](https://pechgroupholdings.tech)
 | **Company / Organisation Name:** | __________________________________________ |
 | **Industry / Sector:** | __________________________________________ |
 | **Your Job Title:** | __________________________________________ |
-| **Employment Type:** | [ ] Full-Time  [ ] Part-Time  [ ] Contract  [ ] Internship |
+| **Employment Type:** | ( ) Full-Time  ( ) Part-Time  ( ) Contract  ( ) Internship |
 | **Start Date:** | ______ / ______ / __________ (DD/MM/YYYY) |
-| **End Date:** | ______ / ______ / __________ (DD/MM/YYYY) or [ ] Still Employed |
+| **End Date:** | ______ / ______ / __________ (DD/MM/YYYY) or ( ) Still Employed |
 | **Monthly Salary (₦):** | __________________________________________ |
 | **Supervisor's Name:** | __________________________________________ |
 | **Supervisor's Phone:** | __________________________________________ |
@@ -176,7 +177,7 @@ __________________________________________
 
 __________________________________________
 
----
+<div style="height:4px;background:linear-gradient(90deg,#00BFFF,#0099CC 25%,#F5A623 75%,#E08A00);border-radius:2px;margin:16px 0;"></div>
 
 ### Position 2
 
@@ -185,7 +186,7 @@ __________________________________________
 | **Company / Organisation Name:** | __________________________________________ |
 | **Industry / Sector:** | __________________________________________ |
 | **Your Job Title:** | __________________________________________ |
-| **Employment Type:** | [ ] Full-Time  [ ] Part-Time  [ ] Contract  [ ] Internship |
+| **Employment Type:** | ( ) Full-Time  ( ) Part-Time  ( ) Contract  ( ) Internship |
 | **Start Date:** | ______ / ______ / __________ (DD/MM/YYYY) |
 | **End Date:** | ______ / ______ / __________ (DD/MM/YYYY) |
 | **Monthly Salary (₦):** | __________________________________________ |
@@ -201,7 +202,7 @@ __________________________________________
 4. __________________________________________
 5. __________________________________________
 
----
+<div style="height:4px;background:linear-gradient(90deg,#00BFFF,#0099CC 25%,#F5A623 75%,#E08A00);border-radius:2px;margin:16px 0;"></div>
 
 ### Position 3
 
@@ -209,7 +210,7 @@ __________________________________________
 |---|---|
 | **Company / Organisation Name:** | __________________________________________ |
 | **Your Job Title:** | __________________________________________ |
-| **Employment Type:** | [ ] Full-Time  [ ] Part-Time  [ ] Contract  [ ] Internship |
+| **Employment Type:** | ( ) Full-Time  ( ) Part-Time  ( ) Contract  ( ) Internship |
 | **Start Date:** | ______ / ______ / __________ (DD/MM/YYYY) |
 | **End Date:** | ______ / ______ / __________ (DD/MM/YYYY) |
 | **Supervisor's Name:** | __________________________________________ |
@@ -222,7 +223,7 @@ __________________________________________
 2. __________________________________________
 3. __________________________________________
 
----
+<div style="height:4px;background:linear-gradient(90deg,#00BFFF,#0099CC 25%,#F5A623 75%,#E08A00);border-radius:2px;margin:16px 0;"></div>
 
 ## SECTION 5: TECHNICAL SKILLS & COMPETENCIES
 
@@ -232,16 +233,16 @@ __________________________________________
 
 | # | Skill / Technology | Proficiency Level | Years of Experience |
 |---|---|---|---|
-| 1 | | [ ] Beginner  [ ] Intermediate  [ ] Advanced  [ ] Expert | |
-| 2 | | [ ] Beginner  [ ] Intermediate  [ ] Advanced  [ ] Expert | |
-| 3 | | [ ] Beginner  [ ] Intermediate  [ ] Advanced  [ ] Expert | |
-| 4 | | [ ] Beginner  [ ] Intermediate  [ ] Advanced  [ ] Expert | |
-| 5 | | [ ] Beginner  [ ] Intermediate  [ ] Advanced  [ ] Expert | |
-| 6 | | [ ] Beginner  [ ] Intermediate  [ ] Advanced  [ ] Expert | |
-| 7 | | [ ] Beginner  [ ] Intermediate  [ ] Advanced  [ ] Expert | |
-| 8 | | [ ] Beginner  [ ] Intermediate  [ ] Advanced  [ ] Expert | |
-| 9 | | [ ] Beginner  [ ] Intermediate  [ ] Advanced  [ ] Expert | |
-| 10 | | [ ] Beginner  [ ] Intermediate  [ ] Advanced  [ ] Expert | |
+| 1 | | ( ) Beginner  ( ) Intermediate  ( ) Advanced  ( ) Expert | |
+| 2 | | ( ) Beginner  ( ) Intermediate  ( ) Advanced  ( ) Expert | |
+| 3 | | ( ) Beginner  ( ) Intermediate  ( ) Advanced  ( ) Expert | |
+| 4 | | ( ) Beginner  ( ) Intermediate  ( ) Advanced  ( ) Expert | |
+| 5 | | ( ) Beginner  ( ) Intermediate  ( ) Advanced  ( ) Expert | |
+| 6 | | ( ) Beginner  ( ) Intermediate  ( ) Advanced  ( ) Expert | |
+| 7 | | ( ) Beginner  ( ) Intermediate  ( ) Advanced  ( ) Expert | |
+| 8 | | ( ) Beginner  ( ) Intermediate  ( ) Advanced  ( ) Expert | |
+| 9 | | ( ) Beginner  ( ) Intermediate  ( ) Advanced  ( ) Expert | |
+| 10 | | ( ) Beginner  ( ) Intermediate  ( ) Advanced  ( ) Expert | |
 
 ### Online Profiles & Portfolio
 
@@ -278,33 +279,33 @@ __________________________________________
 | **Brief Description:** | __________________________________________ |
 | **Link (if available):** | __________________________________________ |
 
----
+<div style="height:4px;background:linear-gradient(90deg,#00BFFF,#0099CC 25%,#F5A623 75%,#E08A00);border-radius:2px;margin:16px 0;"></div>
 
 ### 5B: General Competencies (All Applicants)
 
 | Competency | Self-Rating (1=Basic, 5=Expert) |
 |---|---|
-| Communication (Written) | [ ] 1  [ ] 2  [ ] 3  [ ] 4  [ ] 5 |
-| Communication (Verbal) | [ ] 1  [ ] 2  [ ] 3  [ ] 4  [ ] 5 |
-| Teamwork & Collaboration | [ ] 1  [ ] 2  [ ] 3  [ ] 4  [ ] 5 |
-| Problem Solving | [ ] 1  [ ] 2  [ ] 3  [ ] 4  [ ] 5 |
-| Time Management | [ ] 1  [ ] 2  [ ] 3  [ ] 4  [ ] 5 |
-| Adaptability | [ ] 1  [ ] 2  [ ] 3  [ ] 4  [ ] 5 |
-| Leadership | [ ] 1  [ ] 2  [ ] 3  [ ] 4  [ ] 5 |
-| Microsoft Office / Google Workspace | [ ] 1  [ ] 2  [ ] 3  [ ] 4  [ ] 5 |
+| Communication (Written) | ( ) 1  ( ) 2  ( ) 3  ( ) 4  ( ) 5 |
+| Communication (Verbal) | ( ) 1  ( ) 2  ( ) 3  ( ) 4  ( ) 5 |
+| Teamwork & Collaboration | ( ) 1  ( ) 2  ( ) 3  ( ) 4  ( ) 5 |
+| Problem Solving | ( ) 1  ( ) 2  ( ) 3  ( ) 4  ( ) 5 |
+| Time Management | ( ) 1  ( ) 2  ( ) 3  ( ) 4  ( ) 5 |
+| Adaptability | ( ) 1  ( ) 2  ( ) 3  ( ) 4  ( ) 5 |
+| Leadership | ( ) 1  ( ) 2  ( ) 3  ( ) 4  ( ) 5 |
+| Microsoft Office / Google Workspace | ( ) 1  ( ) 2  ( ) 3  ( ) 4  ( ) 5 |
 
 ### Languages Spoken
 
 | Language | Proficiency |
 |---|---|
-| English | [ ] Basic  [ ] Conversational  [ ] Fluent  [ ] Native |
-| Yoruba | [ ] Basic  [ ] Conversational  [ ] Fluent  [ ] Native  [ ] N/A |
-| Igbo | [ ] Basic  [ ] Conversational  [ ] Fluent  [ ] Native  [ ] N/A |
-| Hausa | [ ] Basic  [ ] Conversational  [ ] Fluent  [ ] Native  [ ] N/A |
-| Pidgin English | [ ] Basic  [ ] Conversational  [ ] Fluent  [ ] Native  [ ] N/A |
-| Other: ____________ | [ ] Basic  [ ] Conversational  [ ] Fluent  [ ] Native |
+| English | ( ) Basic  ( ) Conversational  ( ) Fluent  ( ) Native |
+| Yoruba | ( ) Basic  ( ) Conversational  ( ) Fluent  ( ) Native  ( ) N/A |
+| Igbo | ( ) Basic  ( ) Conversational  ( ) Fluent  ( ) Native  ( ) N/A |
+| Hausa | ( ) Basic  ( ) Conversational  ( ) Fluent  ( ) Native  ( ) N/A |
+| Pidgin English | ( ) Basic  ( ) Conversational  ( ) Fluent  ( ) Native  ( ) N/A |
+| Other: ____________ | ( ) Basic  ( ) Conversational  ( ) Fluent  ( ) Native |
 
----
+<div style="height:4px;background:linear-gradient(90deg,#00BFFF,#0099CC 25%,#F5A623 75%,#E08A00);border-radius:2px;margin:16px 0;"></div>
 
 ## SECTION 6: REFERENCES
 
@@ -345,7 +346,7 @@ __________________________________________
 | **Phone Number:** | __________________________________________ |
 | **Email Address:** | __________________________________________ |
 
----
+<div style="height:4px;background:linear-gradient(90deg,#00BFFF,#0099CC 25%,#F5A623 75%,#E08A00);border-radius:2px;margin:16px 0;"></div>
 
 ## SECTION 7: GUARANTOR INFORMATION
 
@@ -377,20 +378,20 @@ __________________________________________
 
 > **Note:** Guarantors must be gainfully employed individuals who can confirm the applicant's character and reliability. Full guarantor verification will be conducted upon offer acceptance, in line with PECH Employment Contract Clause 3.4.
 
----
+<div style="height:4px;background:linear-gradient(90deg,#00BFFF,#0099CC 25%,#F5A623 75%,#E08A00);border-radius:2px;margin:16px 0;"></div>
 
 ## SECTION 8: HEALTH & EMERGENCY INFORMATION
 
 | Field | Details |
 |---|---|
-| **Blood Group:** | [ ] A+  [ ] A-  [ ] B+  [ ] B-  [ ] AB+  [ ] AB-  [ ] O+  [ ] O- |
-| **Genotype:** | [ ] AA  [ ] AS  [ ] SS  [ ] AC  [ ] SC |
-| **Do you have any medical conditions the company should be aware of?** | [ ] Yes  [ ] No |
+| **Blood Group:** | ( ) A+  ( ) A-  ( ) B+  ( ) B-  ( ) AB+  ( ) AB-  ( ) O+  ( ) O- |
+| **Genotype:** | ( ) AA  ( ) AS  ( ) SS  ( ) AC  ( ) SC |
+| **Do you have any medical conditions the company should be aware of?** | ( ) Yes  ( ) No |
 | **If yes, please specify:** | __________________________________________ |
 | | __________________________________________ |
-| **Do you have any disability that may require workplace accommodation?** | [ ] Yes  [ ] No |
+| **Do you have any disability that may require workplace accommodation?** | ( ) Yes  ( ) No |
 | **If yes, please specify accommodation needed:** | __________________________________________ |
-| **Are you currently on any medication?** | [ ] Yes  [ ] No |
+| **Are you currently on any medication?** | ( ) Yes  ( ) No |
 
 ### Emergency Contact
 
@@ -402,7 +403,7 @@ __________________________________________
 | **Phone Number (Secondary):** | __________________________________________ |
 | **Address:** | __________________________________________ |
 
----
+<div style="height:4px;background:linear-gradient(90deg,#00BFFF,#0099CC 25%,#F5A623 75%,#E08A00);border-radius:2px;margin:16px 0;"></div>
 
 ## SECTION 9: ADDITIONAL INFORMATION & DECLARATIONS
 
@@ -410,23 +411,23 @@ __________________________________________
 
 | # | Question | Answer |
 |---|---|---|
-| 1 | Have you ever been convicted of a criminal offence? | [ ] Yes  [ ] No |
+| 1 | Have you ever been convicted of a criminal offence? | ( ) Yes  ( ) No |
 | | If yes, provide details: | __________________________________________ |
-| 2 | Have you ever been dismissed or terminated from previous employment? | [ ] Yes  [ ] No |
+| 2 | Have you ever been dismissed or terminated from previous employment? | ( ) Yes  ( ) No |
 | | If yes, provide details: | __________________________________________ |
-| 3 | Are you currently involved in any ongoing legal proceedings? | [ ] Yes  [ ] No |
+| 3 | Are you currently involved in any ongoing legal proceedings? | ( ) Yes  ( ) No |
 | | If yes, provide details: | __________________________________________ |
-| 4 | Do you have any relatives currently employed by PECH Group Holdings Ltd? | [ ] Yes  [ ] No |
+| 4 | Do you have any relatives currently employed by PECH Group Holdings Ltd? | ( ) Yes  ( ) No |
 | | If yes, state name and relationship: | __________________________________________ |
-| 5 | Are you currently employed or under contract with any other organisation? | [ ] Yes  [ ] No |
+| 5 | Are you currently employed or under contract with any other organisation? | ( ) Yes  ( ) No |
 | | If yes, state employer and notice period: | __________________________________________ |
-| 6 | Are you willing to relocate within Nigeria if required? | [ ] Yes  [ ] No  [ ] Negotiable |
-| 7 | Are you willing to travel for work (domestic and/or international)? | [ ] Yes  [ ] No  [ ] Domestic Only |
-| 8 | Do you have a valid Nigerian driver's license? | [ ] Yes  [ ] No |
-| 9 | Do you have a valid international passport? | [ ] Yes  [ ] No |
-| 10 | Are you legally authorized to work in Nigeria? | [ ] Yes  [ ] No |
+| 6 | Are you willing to relocate within Nigeria if required? | ( ) Yes  ( ) No  ( ) Negotiable |
+| 7 | Are you willing to travel for work (domestic and/or international)? | ( ) Yes  ( ) No  ( ) Domestic Only |
+| 8 | Do you have a valid Nigerian driver's license? | ( ) Yes  ( ) No |
+| 9 | Do you have a valid international passport? | ( ) Yes  ( ) No |
+| 10 | Are you legally authorized to work in Nigeria? | ( ) Yes  ( ) No |
 
----
+<div style="height:4px;background:linear-gradient(90deg,#00BFFF,#0099CC 25%,#F5A623 75%,#E08A00);border-radius:2px;margin:16px 0;"></div>
 
 ## SECTION 10: DECLARATION & CONSENT
 
@@ -434,7 +435,7 @@ __________________________________________
 
 > I hereby consent to PECH Group Holdings Ltd collecting, storing, and processing my personal data contained in this application form for the purpose of recruitment and employment consideration. I understand that my data will be handled in accordance with the Nigeria Data Protection Act (NDPA) 2023 and the PECH Group Data Protection Policy. I understand that I may withdraw this consent at any time by contacting the HR department in writing.
 
-- [ ] I consent to the processing of my personal data as described above
+- ( ) I consent to the processing of my personal data as described above
 
 ### Declaration of Accuracy
 
@@ -451,7 +452,7 @@ __________________________________________
 | **Applicant's Signature:** | __________________________________________ |
 | **Date:** | ______ / ______ / __________ (DD/MM/YYYY) |
 
----
+<div style="height:4px;background:linear-gradient(90deg,#00BFFF,#0099CC 25%,#F5A623 75%,#E08A00);border-radius:2px;margin:16px 0;"></div>
 
 ## SECTION 11: FOR OFFICE USE ONLY
 
@@ -463,19 +464,19 @@ __________________________________________
 | **Date Application Received:** | ______ / ______ / __________ (DD/MM/YYYY) |
 | **Received By (HR Officer Name):** | __________________________________________ |
 | **Position Applied For Confirmed:** | __________________________________________ |
-| **Application Complete:** | [ ] Yes  [ ] No — Missing: __________________ |
+| **Application Complete:** | ( ) Yes  ( ) No — Missing: __________________ |
 
 ### Document Verification Checklist
 
 | Document | Received | Verified | Verified By | Date |
 |---|---|---|---|---|
-| CV / Resume | [ ] Yes  [ ] No | [ ] Yes  [ ] No | | |
-| Cover Letter | [ ] Yes  [ ] No | [ ] Yes  [ ] No | | |
-| Passport Photograph | [ ] Yes  [ ] No | [ ] Yes  [ ] No | | |
-| Educational Certificates | [ ] Yes  [ ] No | [ ] Yes  [ ] No | | |
-| Professional Certifications | [ ] Yes  [ ] No | [ ] Yes  [ ] No | [ ] N/A | |
-| NIN Verification | [ ] Yes  [ ] No | [ ] Yes  [ ] No | | |
-| Portfolio / GitHub (tech roles) | [ ] Yes  [ ] No | [ ] Yes  [ ] No | [ ] N/A | |
+| CV / Resume | ( ) Yes  ( ) No | ( ) Yes  ( ) No | | |
+| Cover Letter | ( ) Yes  ( ) No | ( ) Yes  ( ) No | | |
+| Passport Photograph | ( ) Yes  ( ) No | ( ) Yes  ( ) No | | |
+| Educational Certificates | ( ) Yes  ( ) No | ( ) Yes  ( ) No | | |
+| Professional Certifications | ( ) Yes  ( ) No | ( ) Yes  ( ) No | ( ) N/A | |
+| NIN Verification | ( ) Yes  ( ) No | ( ) Yes  ( ) No | | |
+| Portfolio / GitHub (tech roles) | ( ) Yes  ( ) No | ( ) Yes  ( ) No | ( ) N/A | |
 
 ### Pre-Screening Summary Notes
 
@@ -503,9 +504,9 @@ __________________________________________
 
 **Recommendation:**
 
-- [ ] **Shortlist for Interview** — Proceed to Round 1
-- [ ] **Waitlist** — Qualified but hold for comparison
-- [ ] **Reject** — Does not meet minimum requirements
+- ( ) **Shortlist for Interview** — Proceed to Round 1
+- ( ) **Waitlist** — Qualified but hold for comparison
+- ( ) **Reject** — Does not meet minimum requirements
 
 **Reason for Recommendation:**
 
@@ -513,13 +514,13 @@ __________________________________________
 
 __________________________________________
 
----
+<div style="height:4px;background:linear-gradient(90deg,#00BFFF,#0099CC 25%,#F5A623 75%,#E08A00);border-radius:2px;margin:16px 0;"></div>
 
 ### Interview Scheduling
 
 | Field | Details |
 |---|---|
-| **Interview Scheduled:** | [ ] Yes  [ ] No |
+| **Interview Scheduled:** | ( ) Yes  ( ) No |
 | **Round 1 Date:** | ______ / ______ / __________ at ______:______ |
 | **Round 1 Interviewer(s):** | __________________________________________ |
 | **Round 2 Date (if applicable):** | ______ / ______ / __________ at ______:______ |
@@ -531,23 +532,23 @@ __________________________________________
 
 | Field | Details |
 |---|---|
-| **Final Status:** | [ ] HIRED  [ ] WAITLISTED  [ ] REJECTED |
-| **Offer Made:** | [ ] Yes  [ ] No |
+| **Final Status:** | ( ) HIRED  ( ) WAITLISTED  ( ) REJECTED |
+| **Offer Made:** | ( ) Yes  ( ) No |
 | **Offer Date:** | ______ / ______ / __________ (DD/MM/YYYY) |
 | **Offered Salary (₦/month):** | __________________________________________ |
-| **Offer Accepted:** | [ ] Yes  [ ] No |
+| **Offer Accepted:** | ( ) Yes  ( ) No |
 | **Start Date Confirmed:** | ______ / ______ / __________ (DD/MM/YYYY) |
 
 ### Approval Chain
 
 | Level | Name | Signature | Date | Decision |
 |---|---|---|---|---|
-| **HR Officer:** | __________________ | __________________ | ____/____/________ | [ ] Approved [ ] Denied |
-| **Hiring Manager:** | __________________ | __________________ | ____/____/________ | [ ] Approved [ ] Denied |
-| **HR Head:** | __________________ | __________________ | ____/____/________ | [ ] Approved [ ] Denied |
-| **MD/CEO (Senior Roles):** | __________________ | __________________ | ____/____/________ | [ ] Approved [ ] Denied |
+| **HR Officer:** | __________________ | __________________ | ____/____/________ | ( ) Approved ( ) Denied |
+| **Hiring Manager:** | __________________ | __________________ | ____/____/________ | ( ) Approved ( ) Denied |
+| **HR Head:** | __________________ | __________________ | ____/____/________ | ( ) Approved ( ) Denied |
+| **MD/CEO (Senior Roles):** | __________________ | __________________ | ____/____/________ | ( ) Approved ( ) Denied |
 
----
+<div style="height:4px;background:linear-gradient(90deg,#00BFFF,#0099CC 25%,#F5A623 75%,#E08A00);border-radius:2px;margin:16px 0;"></div>
 
 > **POLICY NOTES:**
 > - All applications are confidential and will be handled in accordance with the Nigeria Data Protection Act (NDPA) 2023.
@@ -556,7 +557,7 @@ __________________________________________
 > - Submission of this form does not guarantee employment or an interview.
 > - Upon receiving an offer, candidates must complete the following before their start date: (a) Full Guarantor Forms (2), (b) NDA signing, (c) Medical fitness declaration, (d) Original certificate sighting.
 
----
+<div style="height:4px;background:linear-gradient(90deg,#00BFFF,#0099CC 25%,#F5A623 75%,#E08A00);border-radius:2px;margin:16px 0;"></div>
 
 *This document is the property of PECH Group Holdings Ltd. Unauthorized reproduction is prohibited.*
 
