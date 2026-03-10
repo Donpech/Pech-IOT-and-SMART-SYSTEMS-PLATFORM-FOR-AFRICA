@@ -1,21 +1,31 @@
-<p align="center">
-  <img src="design_assets/logos/pech_logo_primary.svg" alt="PECH Group Holdings Logo" width="180"/>
-</p>
+# PECH Group Holdings Ltd
 
-<h1 align="center">PECH Group Holdings Ltd</h1>
+**Technology and Infrastructure Enablers for People**
 
-<p align="center">
-  <strong>Technology and Infrastructure Enablers for People</strong><br/>
-  Lagos, Nigeria &bull; <a href="https://pechgroupholdings.tech">pechgroupholdings.tech</a>
-</p>
+Lagos, Nigeria | [pechgroupholdings.tech](https://pechgroupholdings.tech)
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Location-Lagos%2C%20Nigeria-00BFFF?style=flat-square" alt="Location"/>
-  <img src="https://img.shields.io/badge/Budget-%E2%82%A6250M-F5A623?style=flat-square" alt="Budget"/>
-  <img src="https://img.shields.io/badge/Team-37%20Roles-0099CC?style=flat-square" alt="Team"/>
-  <img src="https://img.shields.io/badge/License-Proprietary-1B2838?style=flat-square" alt="License"/>
-  <img src="https://img.shields.io/badge/AI-Self--Hosted%20%7C%20Open--Source-E08A00?style=flat-square" alt="AI"/>
-</p>
+![Logo](design_assets/logos/pech_logo_primary.svg)
+
+---
+
+## Table of Contents
+
+- [About](#about)
+- [What We Do](#what-we-do)
+- [Key Numbers](#key-numbers)
+- [AI-Native Architecture](#ai-native-architecture)
+- [Repository Overview](#repository-overview)
+- [Contracts](#contracts-12-documents)
+- [Team](#team--37-roles-across-5-departments) *(summary — full details in [Job Requirements Handbook](business_documents/PECH_JOB_REQUIREMENTS_HANDBOOK.md))*
+- [Business Documents](#business-documents-26-forms)
+- [AI Strategy Documentation](#ai-strategy-documentation)
+- [Financial Proposals](#financial-proposals) *(summary — canonical figures in [Executive Summary](PECH_PROPOSAL_EXECUTIVE_SUMMARY.md))*
+- [Brand & Design Assets](#brand--design-assets)
+- [Automation Scripts](#automation-scripts)
+- [Nigerian Legal Compliance](#nigerian-legal-compliance)
+- [How to Use These Templates](#how-to-use-these-templates)
+- [Contributing](#contributing)
+- [Contact](#contact)
 
 ---
 
@@ -49,6 +59,8 @@ PECH Group Holdings Ltd is a Nigerian technology company building Africa's first
 ---
 
 ## Key Numbers
+
+> **Canonical source:** Financial figures are maintained in the [Executive Summary](PECH_PROPOSAL_EXECUTIVE_SUMMARY.md) and [Financial Proposal](PECH_GROUP_FINANCIAL_PROPOSAL_250M_NAIRA.md). The summary below is for quick reference.
 
 | Metric | Value |
 |--------|-------|
@@ -194,80 +206,17 @@ Legal templates compliant with Nigerian labour law, NDPA 2023, and FCCPA 2019.
 
 ## Team — 37 Roles Across 5 Departments
 
-Scaling from 5 to 37 over 24 months across 6 hiring phases. Full role details in the [Job Requirements Handbook](business_documents/PECH_JOB_REQUIREMENTS_HANDBOOK.md).
+Scaling from 5 to 37 over 24 months across 6 hiring phases. Full role descriptions, qualifications, and compensation details are in the [Job Requirements Handbook](business_documents/PECH_JOB_REQUIREMENTS_HANDBOOK.md).
 
-### Engineering (14 roles)
+| Department | Roles | Includes |
+|------------|-------|----------|
+| **Engineering** | 14 | CTO, Full-Stack (Web + Mobile), Frontend, Backend, IoT/Embedded, DevOps, AI/ML, MLOps, Data Engineer, QA, API/Platform |
+| **Design** | 1 | UI/UX Designer |
+| **Product & Business** | 7 | Payments PM, Data Analyst, BD Lead, PSSP Compliance, AI PM, DevRel, Technical Writer |
+| **Operations** | 7 | Market Ops, Logistics, Field Coordinator, Support, Field Agents, Installer Network, Fintech Ops |
+| **Internship Programme** | 8 | Frontend, Backend, IoT, DevOps, UI/UX, Data/Analytics, Business Ops, AI/ML |
 
-| # | Role | Type | Hiring Phase |
-|---|------|------|-------------|
-| 1 | CTO / Founding Technical Architect | Full-Time + Equity | Phase 1 (Mo 1–4) |
-| 2 | Full-Stack Engineer (ERP + Web) | Full-Time | Phase 1 (Mo 1–4) |
-| 3 | Full-Stack Engineer (Mobile) | Full-Time | Phase 1 (Mo 1–4) |
-| 4 | Frontend Developer | Full-Time | Phase 2 (Mo 5–8) |
-| 5 | Backend Developer | Full-Time | Phase 2 (Mo 5–8) |
-| 6 | IoT / Embedded Systems Engineer | Full-Time | Phase 2 (Mo 5–8) |
-| 7 | DevOps Engineer | Full-Time | Phase 2 (Mo 5–8) |
-| 8 | Junior Software Engineer | Full-Time | Phase 4 (Mo 13–16) |
-| 9 | Senior Data Engineer | Full-Time | Phase 5 (Mo 17–20) |
-| 10 | QA / Test Engineer | Full-Time | Phase 4 (Mo 13–16) |
-| 11 | AI/ML Engineer | Full-Time | Phase 2 (Mo 5–8) |
-| 12 | AI Knowledge / Data Engineer | Full-Time | Phase 2 (Mo 5–8) |
-| 13 | MLOps Engineer | Full-Time | Phase 3 (Mo 9–14) |
-| 14 | API / Platform Engineer | Full-Time | Phase 2 (Mo 5–8) |
-
-### Design (1 role)
-
-| # | Role | Type | Hiring Phase |
-|---|------|------|-------------|
-| 15 | UI/UX Designer | Full-Time or Contract | Phase 2 (Mo 5–8) |
-
-### Product & Business (7 roles)
-
-| # | Role | Type | Hiring Phase |
-|---|------|------|-------------|
-| 16 | Payments Product Manager | Full-Time | Phase 3 (Mo 9–12) |
-| 17 | Data Analyst | Full-Time | Phase 3 (Mo 9–12) |
-| 18 | Business Development Lead | Full-Time | Phase 5 (Mo 17–20) |
-| 19 | PSSP Compliance Officer | Full-Time | Phase 6 (Mo 21–24) |
-| 20 | AI Product Manager | Full-Time | Phase 3 (Mo 9–14) |
-| 21 | Developer Advocate | Full-Time | Phase 3 (Mo 9–14) |
-| 22 | Technical Writer | Full-Time | Phase 2 (Mo 5–8) |
-
-### Operations (7 roles)
-
-| # | Role | Type | Hiring Phase |
-|---|------|------|-------------|
-| 23 | Market Operations Manager | Full-Time | Phase 1 (Mo 1–4) |
-| 24 | Logistics Operations Lead | Full-Time | Phase 4 (Mo 13–16) |
-| 25 | Regional Field Coordinator | Full-Time | Phase 5 (Mo 17–20) |
-| 26 | Support Representative | Full-Time | Phase 3 (Mo 9–12) |
-| 27 | Field Agent | Contract (rolling) | Phase 2+ |
-| 28 | Installer Training & Network Manager | Full-Time | Phase 2 (Mo 5–8) |
-| 29 | Fintech Operations / Agent Network Manager | Full-Time | Phase 2 (Mo 5–8) |
-
-### Internship Programme (8 roles)
-
-| # | Role | Department |
-|---|------|-----------|
-| 30 | Frontend Development Intern | Engineering |
-| 31 | Backend Development Intern | Engineering |
-| 32 | IoT / Embedded Systems Intern | Engineering |
-| 33 | DevOps Intern | Engineering |
-| 34 | UI/UX Design Intern | Design |
-| 35 | Data / Analytics Intern | Product & Business |
-| 36 | Business Operations Intern | Operations |
-| 37 | AI/ML Engineering Intern | Engineering |
-
-### Hiring Timeline
-
-| Phase | Months | New Hires | Cumulative |
-|-------|--------|-----------|------------|
-| Phase 1 | 1–4 | 5 | 5 |
-| Phase 2 | 5–8 | 4+ | 9 |
-| Phase 3 | 9–12 | 4+ | 13 |
-| Phase 4 | 13–16 | 5 | 18 |
-| Phase 5 | 17–20 | 4–7 | 22–25 |
-| Phase 6 | 21–24 | 3–5 | 25–30 |
+**Hiring Timeline:** Phase 1 (Mo 1–4): 5 people → Phase 2 (Mo 5–8): 9 → Phase 3 (Mo 9–12): 13 → Phase 4 (Mo 13–16): 18 → Phase 5 (Mo 17–20): 22–25 → Phase 6 (Mo 21–24): 25–30
 
 ---
 
@@ -304,34 +253,11 @@ Comprehensive technical strategy for the PECH AI ecosystem. See [`ai_strategy/RE
 
 | Document | Format | Description |
 |----------|--------|-------------|
-| [Executive Summary](PECH_PROPOSAL_EXECUTIVE_SUMMARY.md) | MD / DOCX / PDF | One-pager for investors |
-| [Full Financial Proposal](PECH_GROUP_FINANCIAL_PROPOSAL_250M_NAIRA.md) | MD / DOCX / PDF | Detailed 24-month ₦250M capital deployment plan |
+| [Executive Summary](PECH_PROPOSAL_EXECUTIVE_SUMMARY.md) | MD / DOCX / PDF | One-pager for investors **(canonical source for key metrics)** |
+| [Full Financial Proposal](PECH_GROUP_FINANCIAL_PROPOSAL_250M_NAIRA.md) | MD / DOCX / PDF | Detailed 24-month ₦250M capital deployment plan **(canonical source for budget breakdown)** |
 | [Investor Version](PECH_INVESTOR_VERSION.md) | MD / DOCX / PDF | Full investor-focused business proposal |
 
-### Budget Allocation
-
-| Category | Amount | % |
-|----------|--------|---|
-| Hardware Procurement | ₦75M | 30% |
-| Human Capital | ₦70M | 28% |
-| Tech Infrastructure & AI | ₦28M | 11.2% |
-| Office & Operations | ₦20M | 8% |
-| Contingency | ₦18M | 7.2% |
-| Marketing & BD | ₦15M | 6% |
-| Logistics Setup | ₦12M | 4.8% |
-| Legal & Compliance | ₦12M | 4.8% |
-
-### 24-Month Targets
-
-| Metric | Target |
-|--------|--------|
-| Active Merchants (ERP) | 5,000 |
-| IoT Devices Deployed | 1,500 |
-| Markets Digitized | 8 |
-| Monthly Revenue (Mo 24) | ₦21.3M |
-| Cumulative Revenue | ₦243.6M |
-| Team Size | 25–30 |
-| Break-even | Month 16–18 |
+For budget allocation, 24-month targets, and financial projections, refer to the canonical documents linked above. Key highlights: ₦250M total capital, 24-month deployment, break-even at Month 16–18, ₦21.3M/month revenue target by Month 24.
 
 ---
 
