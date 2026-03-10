@@ -635,7 +635,7 @@ PECH only uses platform tools with **Apache-2.0, MIT, or BSD** licenses. This al
 
 ## 22. LICENSE REPLACEMENTS SUMMARY
 
-Tools originally recommended by ChatGPT that had license issues, and their PECH-approved replacements:
+Tools originally considered that had license issues, and their PECH-approved replacements:
 
 | Original Tool | Problem License | Replacement | License | Why Better |
 |--------------|----------------|-------------|---------|------------|

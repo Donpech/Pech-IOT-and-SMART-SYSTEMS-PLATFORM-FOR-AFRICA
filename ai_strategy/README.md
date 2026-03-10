@@ -43,7 +43,7 @@ The PECH ecosystem spans **10 interconnected business verticals**, all powered b
 
 | # | Document | Description |
 |---|----------|-------------|
-| 1 | [PECH_ECOSYSTEM_COMPREHENSIVE_GUIDE.md](PECH_ECOSYSTEM_COMPREHENSIVE_GUIDE.md) | **Master reference** — complete ecosystem vision, all AI capabilities, microservice architecture, user-facing AI features, subscription tiers. Merges and fact-checks both ChatGPT strategic conversations |
+| 1 | [PECH_ECOSYSTEM_COMPREHENSIVE_GUIDE.md](PECH_ECOSYSTEM_COMPREHENSIVE_GUIDE.md) | **Master reference** — complete ecosystem vision, all AI capabilities, microservice architecture, user-facing AI features, subscription tiers. Complete ecosystem vision covering all strategic planning conversations |
 | 2 | [PECH_AI_MODEL_CATALOG.md](PECH_AI_MODEL_CATALOG.md) | **Model reference** — every AI/ML model with license verdicts, VRAM requirements, download links, deployment methods. When multiple models can do the same task, all are listed with the recommended best choice |
 | 3 | [PECH_OPEN_SOURCE_PLATFORM_STACK.md](PECH_OPEN_SOURCE_PLATFORM_STACK.md) | **Platform tools reference** — all 25+ open-source platforms (Keycloak, ERPNext, Medusa, Apache Fineract, ThingsBoard, etc.) with links, licenses, alternatives, and integration points |
 | 4 | [PECH_AI_HARDWARE_AND_SETUP_GUIDE.md](PECH_AI_HARDWARE_AND_SETUP_GUIDE.md) | **Hardware procurement & setup** — bill of materials, China sourcing guide, Nigeria import costs, server room setup, power infrastructure, software installation |

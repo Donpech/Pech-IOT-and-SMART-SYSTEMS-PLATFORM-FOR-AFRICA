@@ -237,7 +237,7 @@ All tools are verified **Apache-2.0 or MIT** unless noted. Tools with license is
 
 ### License Replacements Made
 
-| Original (ChatGPT Suggested) | Problem | Replacement | Why |
+| Original Tool | Problem | Replacement | Why |
 |-------------------------------|---------|-------------|-----|
 | Metabase | AGPL-3.0 — must share modified source | **Apache Superset** | Same BI capabilities, Apache-2.0 |
 | n8n | Sustainable Use License — can't resell | **Apache Airflow** | Full workflow automation, no restrictions |
@@ -588,7 +588,7 @@ User Query → LLM retrieves relevant docs → AI Response
 
 ## 12. SUPPORTING INFRASTRUCTURE
 
-**ChatGPT missed this entirely — critical for Nigeria.**
+**Critical infrastructure requirements for Nigeria — essential for reliable operations.**
 
 | Item | Specification | Cost (Nigeria) |
 |------|--------------|----------------|
@@ -614,7 +614,7 @@ User Query → LLM retrieves relevant docs → AI Response
 
 ## 13. AI TEAM STRUCTURE & NIGERIAN SALARY RANGES
 
-**ChatGPT's salary estimates were wrong** — they quoted US dollars ($2,000-$4,000/month) which doesn't reflect Nigerian market. Below are real Lagos tech market ranges.
+**Salary ranges below reflect the actual Lagos tech market** — calibrated in Naira, not US dollar equivalents.
 
 ### AI Team Roles
 

@@ -373,7 +373,7 @@ Note: Office power + cooling costs (₦150K-₦250K/month) are **eliminated** wh
 
 ### Power Infrastructure That Scales (Sized for Phase 2 from Day 1)
 
-Both ChatGPT conversations assumed hardware "just works" once purchased. In Lagos, Nigeria, you need significant supporting infrastructure. **All infrastructure below is sized for 2× RTX 4090 (Phase 2) from Day 1** — so Phase 2 requires zero power infrastructure upgrades:
+In Lagos, Nigeria, hardware requires significant supporting infrastructure to operate reliably. **All infrastructure below is sized for 2× RTX 4090 (Phase 2) from Day 1** — so Phase 2 requires zero power infrastructure upgrades:
 
 ### Power Infrastructure
 
