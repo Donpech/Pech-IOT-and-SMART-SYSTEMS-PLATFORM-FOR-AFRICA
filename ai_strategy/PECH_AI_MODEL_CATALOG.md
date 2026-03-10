@@ -1,3 +1,6 @@
+<div style="border:3px solid; border-image:linear-gradient(180deg,#00BFFF,#0099CC 30%,#F5A623 70%,#E08A00) 1; padding:24px 28px; box-shadow:inset 0 0 12px rgba(0,191,255,0.06),inset 0 0 12px rgba(245,166,35,0.06);">
+<div style="height:5px;background:linear-gradient(90deg,#00BFFF,#0099CC 25%,#F5A623 75%,#E08A00);margin:-24px -28px 20px -28px;"></div>
+
 # PECH GROUP HOLDINGS LTD
 
 ## AI Model Catalog — Complete Reference
@@ -493,3 +496,6 @@ All measurements assume inference only (not training). Q4 = 4-bit quantization v
 ---
 
 *This document is confidential to PECH Group Holdings Ltd. Last updated: March 2026.*
+
+<div style="height:5px;background:linear-gradient(90deg,#E08A00,#F5A623 25%,#0099CC 75%,#00BFFF);margin:20px -28px -24px -28px;"></div>
+</div>

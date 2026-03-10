@@ -1,3 +1,6 @@
+<div style="border:3px solid; border-image:linear-gradient(180deg,#00BFFF,#0099CC 30%,#F5A623 70%,#E08A00) 1; padding:24px 28px; box-shadow:inset 0 0 12px rgba(0,191,255,0.06),inset 0 0 12px rgba(245,166,35,0.06);">
+<div style="height:5px;background:linear-gradient(90deg,#00BFFF,#0099CC 25%,#F5A623 75%,#E08A00);margin:-24px -28px 20px -28px;"></div>
+
 # PECH GROUP HOLDINGS LTD
 
 ## AI-Native Ecosystem — Comprehensive Implementation Guide
@@ -743,3 +746,6 @@ This fits within the ₦250M total budget (₦28M tech + portion of ₦70M salar
 ---
 
 *This document consolidates and fact-checks two strategic planning conversations (5,748 lines total) into a single actionable reference for PECH Group Holdings Ltd. All prices, licenses, and specifications have been verified for the Nigerian market as of March 2026.*
+
+<div style="height:5px;background:linear-gradient(90deg,#E08A00,#F5A623 25%,#0099CC 75%,#00BFFF);margin:20px -28px -24px -28px;"></div>
+</div>
