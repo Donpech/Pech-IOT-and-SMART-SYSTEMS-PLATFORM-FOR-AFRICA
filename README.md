@@ -56,6 +56,7 @@
 - [AI Strategy Documentation](#ai-strategy-documentation)
 - [Financial Proposals](#financial-proposals) *(summary — canonical figures in [Executive Summary](PECH_PROPOSAL_EXECUTIVE_SUMMARY.md))*
 - [Brand & Design Assets](#brand--design-assets)
+- [Excel Spreadsheets](#excel-spreadsheets-40-files)
 - [Automation Scripts](#automation-scripts)
 - [Nigerian Legal Compliance](#nigerian-legal-compliance)
 - [How to Use These Templates](#how-to-use-these-templates)
@@ -167,7 +168,9 @@ All AI is **self-hosted on RTX 4090 GPUs in Lagos** — open-source models only 
 
 ## Repository Overview
 
-This repository contains the complete operational documentation for PECH Group Holdings — contracts, business forms, financial proposals, AI strategy, brand assets, and design system. All documents are Markdown-first for version control and easy export.
+This repository contains the complete operational documentation for PECH Group Holdings — contracts, business forms, financial proposals, AI strategy, brand assets, and design system. All documents are Markdown-first for version control and exported to **PDF, DOCX, and XLSX** formats.
+
+**Every document includes:** PECH logo in header, branded color scheme (#00BFFF / #F5A623), colored gradient dividers, and "PECH GROUP HOLDINGS LTD" watermark throughout.
 
 ### Repository Structure
 
@@ -183,17 +186,18 @@ Pech-IOT-and-SMART-SYSTEMS-PLATFORM-FOR-AFRICA/
 ├── PECH_PROPOSAL_EXECUTIVE_SUMMARY.md           # Executive summary for investors
 ├── proposal_style.css                           # Styling for proposal documents
 │
-├── contracts/                    # 12 legal templates (Nigerian law compliant)
-├── business_documents/           # 26 operational forms and templates
-├── ai_strategy/                  # 6 AI strategy docs + 14 infographics
-├── brand_templates/              # 13 brand collateral templates
-├── design_assets/                # 14 logo variants + graphic elements
+├── contracts/                    # 12 legal templates (MD + PDF + DOCX) — Nigerian law compliant
+├── business_documents/           # 26 operational forms (MD + PDF + DOCX)
+├── ai_strategy/                  # 8 AI strategy docs + 14 infographics (MD + PDF + DOCX)
+├── brand_templates/              # 13 brand collateral templates (MD + PDF + DOCX)
+├── employment_xlsx/              # 40 Excel spreadsheet versions of all documents
+├── design_assets/                # 16 logo variants + graphic elements (SVG + PNG)
 ├── design_system/                # CSS design system + HTML component library
 ├── proposal_images/              # 26 charts and diagrams (SVG + PNG)
 └── scripts/                      # Automation scripts for document export
 ```
 
-**Total:** 130+ files across 9 directories.
+**Total:** 298 files across 10 directories — every document available in **MD, PDF, DOCX, and XLSX** formats with full PECH branding, logos, and watermarks.
 
 ---
 
@@ -353,6 +357,20 @@ Brand Guidelines, Business Card, Letterhead, Branded Invoice, Email Signature, C
 | Dark Orange | `#E08A00` | Darker accent shade |
 | Dark Background | `#1B2838` | Dark navy for charts/backgrounds |
 | White | `#FFFFFF` | Text on dark backgrounds |
+
+---
+
+## Excel Spreadsheets (40 files)
+
+All contracts, business documents, and operational forms are also available as branded XLSX spreadsheets in [`employment_xlsx/`](employment_xlsx/). Each spreadsheet includes:
+
+- PECH logo embedded in the header
+- Company name and tagline in branded colors
+- Blue and orange divider bars
+- Watermark text at the bottom
+- Print headers/footers with confidential marking
+
+See [`employment_xlsx/README.md`](employment_xlsx/README.md) for the full file index.
 
 ---
 
