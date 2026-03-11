@@ -412,10 +412,6 @@ def clean_markdown_for_docx(md_content):
         if stripped.startswith('<img ') and 'src=' in stripped:
             continue
 
-        # Skip <h1>/<h2> HTML tags with style (not markdown headings)
-        if re.match(r'<h[1-6]\s+style=', stripped):
-            continue
-
         cleaned.append(line)
 
     result = '\n'.join(cleaned)
