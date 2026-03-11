@@ -359,15 +359,103 @@ def generate_pdf(md_path, pdf_path):
         tmp_html.unlink(missing_ok=True)
 
 
+def clean_markdown_for_docx(md_content):
+    """
+    Pre-process markdown content to remove GitHub-specific HTML blocks
+    that confuse pandoc's DOCX conversion.
+
+    Strategy: Find the end of the HTML header block (marked by <!-- END HEADER -->
+    or the closing </div> followed by blank line + ---), then keep everything after.
+    Also strips any remaining HTML tags with style attributes, badges, etc.
+    """
+    # Strategy 1: Look for <!-- END HEADER --> marker
+    end_marker = re.search(r'<!--\s*=*\s*END\s+HEADER\s*=*\s*-->', md_content)
+    if end_marker:
+        # Take everything after the end marker
+        after_header = md_content[end_marker.end():]
+        # Also strip the closing </div> and any blank lines right after
+        after_header = re.sub(r'^\s*</div>\s*', '', after_header)
+    else:
+        # Strategy 2: Find the first markdown heading or --- that starts real content
+        # Skip everything before the first ## or --- that's on its own line
+        match = re.search(r'^(---|\#{1,6}\s)', md_content, re.MULTILINE)
+        if match:
+            after_header = md_content[match.start():]
+        else:
+            after_header = md_content
+
+    # Now clean remaining HTML artifacts line by line
+    lines = after_header.split('\n')
+    cleaned = []
+
+    for line in lines:
+        stripped = line.strip()
+
+        # Skip shields.io badge lines
+        if 'img.shields.io' in line or 'shields.io/badge' in line:
+            continue
+
+        # Skip standalone HTML tags with style attributes
+        if stripped.startswith('<') and stripped.endswith('>') and 'style=' in stripped:
+            continue
+
+        # Skip HTML comment lines
+        if stripped.startswith('<!--') and stripped.endswith('-->'):
+            continue
+
+        # Skip empty HTML tags
+        if stripped in ('</div>', '<div>', '<p>', '</p>', '<br>', '<br/>', '<br />', '</span>'):
+            continue
+
+        # Skip standalone <img> HTML tags (not markdown ![alt](src) images)
+        if stripped.startswith('<img ') and 'src=' in stripped:
+            continue
+
+        # Skip <h1>/<h2> HTML tags with style (not markdown headings)
+        if re.match(r'<h[1-6]\s+style=', stripped):
+            continue
+
+        cleaned.append(line)
+
+    result = '\n'.join(cleaned)
+
+    # Clean up excessive blank lines (more than 2 consecutive)
+    result = re.sub(r'\n{4,}', '\n\n\n', result)
+
+    return result.strip() + '\n'
+
+
 def generate_docx(md_path, docx_path):
-    """Generate branded DOCX from markdown using pandoc + brand_docx post-processor."""
+    """Generate branded DOCX from markdown using pandoc + brand_docx post-processor.
+
+    Pipeline:
+    1. Read markdown source
+    2. Clean HTML artifacts (GitHub-specific headers, badges, inline CSS)
+    3. Write cleaned markdown to temp file
+    4. Run pandoc with proper extensions for tables and images
+    5. Post-process with brand_docx (colors, ribbons, dividers)
+    6. Clean any remaining markdown artifacts in the DOCX
+    """
     print(f"    Generating DOCX: {docx_path.name}")
 
+    # Read and clean the markdown
+    with open(md_path, 'r', encoding='utf-8') as f:
+        md_content = f.read()
+
+    cleaned_md = clean_markdown_for_docx(md_content)
+
+    # Write cleaned markdown to temp file
+    tmp_md = md_path.with_suffix('.tmp.md')
+    with open(tmp_md, 'w', encoding='utf-8') as f:
+        f.write(cleaned_md)
+
+    # Use pandoc with explicit markdown extensions for proper table/bold/link handling
     cmd = [
-        'pandoc', str(md_path),
-        '-f', 'markdown',
+        'pandoc', str(tmp_md),
+        '-f', 'markdown+pipe_tables+grid_tables+raw_html+strikeout+yaml_metadata_block',
         '-t', 'docx',
-        '--resource-path', str(md_path.parent),
+        '--resource-path', str(md_path.parent) + ':' + str(PROJECT_ROOT),
+        '--extract-media', str(md_path.parent / '_docx_media'),
         '-o', str(docx_path)
     ]
 
@@ -381,6 +469,16 @@ def generate_docx(md_path, docx_path):
             print(f"    x DOCX failed: {result.stderr}")
     except Exception as e:
         print(f"    x DOCX failed: {e}")
+    finally:
+        tmp_md.unlink(missing_ok=True)
+        # Clean up extracted media dir if empty
+        media_dir = md_path.parent / '_docx_media'
+        if media_dir.exists():
+            try:
+                import shutil
+                shutil.rmtree(media_dir, ignore_errors=True)
+            except Exception:
+                pass
 
 
 def discover_md_files(directory):

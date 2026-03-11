@@ -479,16 +479,85 @@ def style_code_blocks(doc):
                 run.font.color.rgb = SKY_BLUE
 
 
+def clean_markdown_artifacts(doc):
+    """
+    Clean up any remaining markdown syntax artifacts in the DOCX text.
+
+    Fixes:
+    - **bold** markers → actual bold formatting
+    - [text](#anchor) links → plain text
+    - Removes empty paragraphs with only whitespace or unicode lines
+    - Removes duplicate "PECH GROUP HOLDINGS LTD" text from body
+    """
+    company_name_seen = False
+
+    for paragraph in doc.paragraphs:
+        text = paragraph.text
+
+        # Remove paragraphs that are just unicode line characters (━━━)
+        if text.strip() and all(c in '━─═─▬▰▱░▒▓' for c in text.strip()):
+            paragraph.clear()
+            continue
+
+        # Track and remove duplicate company name mentions from body text
+        # (the branded header block adds its own, so body ones are duplicates)
+        if text.strip() == 'PECH GROUP HOLDINGS LTD':
+            if company_name_seen:
+                paragraph.clear()
+                continue
+            company_name_seen = True
+
+        # Fix **bold** markers in runs — make text actually bold
+        for run in paragraph.runs:
+            if '**' in run.text:
+                # Split on ** markers and rebuild
+                parts = run.text.split('**')
+                if len(parts) >= 3:
+                    # Rebuild: even-indexed parts are normal, odd-indexed are bold
+                    new_text = ''.join(parts)
+                    run.text = new_text
+                    # If the whole run was **text**, make it bold
+                    if len(parts) == 3 and parts[0] == '' and parts[2] == '':
+                        run.font.bold = True
+                    elif len(parts) == 3 and parts[0] == '':
+                        run.font.bold = True
+                    else:
+                        run.font.bold = True
+
+        # Fix [text](#anchor) markdown link patterns in runs
+        for run in paragraph.runs:
+            if '](#' in run.text or '][' in run.text:
+                # Replace [text](#anchor) with just text
+                cleaned = re.sub(r'\[([^\]]+)\]\([^)]*\)', r'\1', run.text)
+                # Replace [text][ref] with just text
+                cleaned = re.sub(r'\[([^\]]+)\]\[[^\]]*\]', r'\1', cleaned)
+                run.text = cleaned
+
+
+def clean_table_of_contents(doc):
+    """
+    Fix Table of Contents entries that show raw markdown links.
+    Convert [1. Title](#anchor) numbered items to clean text.
+    """
+    for paragraph in doc.paragraphs:
+        style_name = paragraph.style.name if paragraph.style else ""
+        if style_name.startswith("List"):
+            for run in paragraph.runs:
+                if '](#' in run.text:
+                    run.text = re.sub(r'\[([^\]]+)\]\([^)]*\)', r'\1', run.text)
+
+
 def brand_docx(docx_path):
     """
     Apply full PECH branding to a DOCX file:
-    1. Branded header block (company name + ribbons)
+    0. Clean markdown artifacts (**bold**, [links], unicode lines, duplicates)
+    1. Branded header block (company name + ribbons) — single instance only
     2. Colored headings (H1=dark blue+orange underline, H2=dark blue+blue underline, H3=orange, H4=sky blue)
     3. Colored dividers before each H2 section
     4. Branded tables (blue header, alternating rows)
     5. Styled blockquotes (orange left border)
     6. Styled code blocks (dark navy background)
-    7. Footer ribbon
+    7. Footer ribbon — single instance only
     """
     docx_path = Path(docx_path)
     if not docx_path.exists():
@@ -499,6 +568,10 @@ def brand_docx(docx_path):
 
     try:
         doc = Document(str(docx_path))
+
+        # Clean up markdown artifacts FIRST (before adding branding)
+        clean_markdown_artifacts(doc)
+        clean_table_of_contents(doc)
 
         # Apply all branding transformations
         create_header_block(doc)
