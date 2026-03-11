@@ -64,15 +64,15 @@ Pech-IOT-and-SMART-SYSTEMS-PLATFORM-FOR-AFRICA/
 ├── CLAUDE.md                                        # AI assistant guidelines
 ├── CODEBASE_SUMMARY.md                              # This file
 │
-├── ai_strategy/                                     # [29 files] AI ecosystem docs & diagrams
-├── business_documents/                              # [51 files] Operational forms (MD + DOCX)
-├── contracts/                                       # [24 files] Legal templates (MD + DOCX)
-├── brand_templates/                                 # [25 files] Brand collateral (MD + DOCX)
+├── ai_strategy/                                     # [36 files] AI ecosystem docs, diagrams & PDFs
+├── business_documents/                              # [76 files] Operational forms (MD + DOCX + PDF)
+├── contracts/                                       # [36 files] Legal templates (MD + DOCX + PDF)
+├── brand_templates/                                 # [37 files] Brand collateral (MD + DOCX + PDF)
 ├── employment_xlsx/                                 # [40 files] Excel versions (39 XLSX + README)
 ├── design_assets/                                   # [14 files] Logos, graphics, templates
 ├── design_system/                                   # [2 files]  CSS design system + HTML components
 ├── proposal_images/                                 # [26 files] Infographics (SVG + PNG)
-├── scripts/                                         # [5 files]  Document generation scripts
+├── scripts/                                         # [8 files]  Document generation scripts
 ├── .claude/commands/                                # [1 file]   Slash command templates
 │
 ├── PECH_GROUP_FINANCIAL_PROPOSAL_250M_NAIRA.md/docx/pdf  # Full 24-month budget
@@ -91,7 +91,7 @@ Pech-IOT-and-SMART-SYSTEMS-PLATFORM-FOR-AFRICA/
 
 ## Detailed Directory Breakdown
 
-### `ai_strategy/` — AI Ecosystem Documentation (29 files)
+### `ai_strategy/` — AI Ecosystem Documentation (36 files)
 
 The core technical and strategic documentation for PECH's self-hosted AI infrastructure.
 
@@ -115,9 +115,9 @@ The core technical and strategic documentation for PECH's self-hosted AI infrast
 - Nigerian salaries corrected from $2-4K/mo to ₦400K–₦1M/mo
 - Hardware costs include 25-35% Nigeria import duties + 7.5% VAT
 
-### `business_documents/` — Operational Forms (51 files)
+### `business_documents/` — Operational Forms (76 files)
 
-25 Markdown templates + 26 DOCX exports across 4 operational categories.
+25 Markdown templates + 26 DOCX exports + 25 PDF exports across 4 operational categories.
 
 | Category | Forms | Key Documents |
 |----------|-------|---------------|
@@ -128,9 +128,9 @@ The core technical and strategic documentation for PECH's self-hosted AI infrast
 
 **Notable:** `PECH_JOB_REQUIREMENTS_HANDBOOK.md` (72 KB) — all 37 roles across 5 departments with qualifications, compensation, and hiring timeline.
 
-### `contracts/` — Legal Templates (24 files)
+### `contracts/` — Legal Templates (36 files)
 
-12 Markdown templates + 12 DOCX exports, all Nigerian law-compliant.
+12 Markdown templates + 12 DOCX exports + 12 PDF exports, all Nigerian law-compliant.
 
 | Contract | Purpose |
 |----------|---------|
@@ -147,9 +147,9 @@ The core technical and strategic documentation for PECH's self-hosted AI infrast
 | Office Marketer Agreement | In-house marketing staff terms |
 | Schedule B Templates | Contract appendix templates |
 
-### `brand_templates/` — Brand Collateral (25 files)
+### `brand_templates/` — Brand Collateral (37 files)
 
-13 Markdown templates + 12 DOCX exports for consistent brand identity.
+13 Markdown templates + 12 DOCX exports + 12 PDF exports for consistent brand identity.
 
 | Template | Purpose |
 |----------|---------|
@@ -215,14 +215,15 @@ design_assets/
 
 All files feature PECH branding, dropdown validations, alternating row colors, and Google Sheets compatibility.
 
-### `scripts/` — Document Generation (5 files)
+### `scripts/` — Document Generation (6 files)
 
 | Script | Language | Purpose |
 |--------|----------|---------|
 | `generate_application_form.py` | Python (35 KB) | Generates branded Excel (.xlsx) and Word (.docx) application forms with clickable checkboxes |
 | `generate_employment_xlsx.py` | Python (62 KB) | Generates 15 employment contract/HR Excel files with PECH branding |
 | `generate_business_xlsx.py` | Python (59 KB) | Generates 24 business/operational Excel files with PECH branding |
-| `regenerate_proposals.py` | Python (8 KB) | Converts Markdown proposals → PDF (pdfkit + wkhtmltopdf) and DOCX (pandoc) with embedded base64 images and PECH CSS styling |
+| `regenerate_proposals.py` | Python (13 KB) | Converts all 59 Markdown files → PDF + DOCX with PECH brand styling (headers, colored headings, gradient tables, branded footers) |
+| `brand_docx.py` | Python (20 KB) | Post-processes DOCX files with PECH brand styling: colored dividers, branded headers, table formatting |
 | `export_hr_docs.sh` | Bash (6 KB) | Batch exports HR Markdown documents to PDF/DOCX via Pandoc + texlive-xetex |
 
 ### `.claude/commands/` — AI Assistant Commands (1 file)
@@ -404,16 +405,16 @@ PECH's platform architecture spans 5 layers:
 | Markdown Documents | 67 | .md |
 | Word Documents | 60 | .docx |
 | Excel Spreadsheets | 40 | .xlsx |
-| PDF Documents | 3 | .pdf |
+| PDF Documents | 59 | .pdf |
 | SVG Graphics | 30 | .svg |
 | PNG Images | 24 | .png |
-| Python Scripts | 4 | .py |
+| Python Scripts | 5 | .py |
 | Bash Scripts | 1 | .sh |
 | CSS Stylesheets | 2 | .css |
 | HTML Files | 1 | .html |
 | Strategy Transcripts | 4 | plaintext |
-| **Total** | **238** | Mixed |
-| **Total Size** | **~30 MB** | — |
+| **Total** | **296** | Mixed |
+| **Total Size** | **~39 MB** | — |
 
 ---
 
