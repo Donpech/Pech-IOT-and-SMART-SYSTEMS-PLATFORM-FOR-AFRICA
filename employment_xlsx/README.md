@@ -5,9 +5,9 @@
 <div style="padding:24px 36px 18px;">
 <div style="display:inline-block;background:linear-gradient(135deg,#0099CC,#00BFFF);border-radius:12px;padding:10px 14px;margin-bottom:8px;"><span style="font-size:1.8em;">📊</span></div>
 <h1 style="margin:6px 0 0;font-size:1.7em;background:linear-gradient(90deg,#0099CC,#F5A623);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;">Employment Documents</h1>
-<h2 style="margin:6px 0 12px;font-size:1.05em;color:#0099CC;font-weight:500;">Excel (.xlsx) & Google Sheets — 15 Branded Files</h2>
+<h2 style="margin:6px 0 12px;font-size:1.05em;color:#0099CC;font-weight:500;">Excel (.xlsx) & Google Sheets — 39 Branded Files</h2>
 <p>
-<img src="https://img.shields.io/badge/Files-15%20Excel-0099CC?style=for-the-badge&labelColor=1B2838" alt="15 Excel" />
+<img src="https://img.shields.io/badge/Files-39%20Excel-0099CC?style=for-the-badge&labelColor=1B2838" alt="39 Excel" />
 <img src="https://img.shields.io/badge/HR-Employment%20Docs-F5A623?style=for-the-badge&labelColor=1B2838" alt="HR Docs" />
 </p>
 <p><img src="https://img.shields.io/badge/Lagos%2C%20Nigeria-pechgroupholdings.tech-0099CC?style=flat-square" alt="Location" /></p>
@@ -21,7 +21,7 @@
 
 ## Overview
 
-This directory contains **15 branded Excel (.xlsx) files** covering all PECH employment documents — contracts, HR forms, and tracking spreadsheets. Each file features:
+This directory contains **39 branded Excel (.xlsx) files** covering all PECH documents — contracts, HR forms, business documents, and tracking spreadsheets. Each file features:
 
 - **Full PECH branding** (Sky Blue #00BFFF, Orange #F5A623, Dark Navy #1B2838)
 - **Colorful header blocks** with company name, document title, and accent bars
@@ -58,11 +58,50 @@ This directory contains **15 branded Excel (.xlsx) files** covering all PECH emp
 | `PECH_STAFF_ID_CARD_REQUEST.xlsx` | ID card request tracker + fillable form | 2 |
 | `PECH_JOB_REQUIREMENTS_HANDBOOK.xlsx` | All 37 roles pre-filled with details | 1 |
 
-### Dashboard (1 file)
+### Business Documents — Financial (10 files)
+
+| File | Description | Sheets |
+|------|-------------|--------|
+| `PECH_SALES_INVOICE.xlsx` | Sales/tax invoice tracker + fillable form | 2 |
+| `PECH_PROFORMA_INVOICE.xlsx` | Pre-sale quotation tracker | 2 |
+| `PECH_CREDIT_NOTE.xlsx` | Refunds and billing adjustments | 2 |
+| `PECH_DEBIT_NOTE.xlsx` | Additional charges tracker | 2 |
+| `PECH_PAYMENT_RECEIPT.xlsx` | Payment receipt register | 2 |
+| `PECH_PAYMENT_VOUCHER.xlsx` | Payment voucher tracker | 2 |
+| `PECH_PETTY_CASH_VOUCHER.xlsx` | Petty cash tracker | 2 |
+| `PECH_EXPENSE_REPORT.xlsx` | Expense report tracker | 2 |
+| `PECH_QUOTATION.xlsx` | Quotation register | 2 |
+| `PECH_PURCHASE_ORDER.xlsx` | Purchase order tracker | 2 |
+
+### Business Documents — Operations (12 files)
+
+| File | Description | Sheets |
+|------|-------------|--------|
+| `PECH_DELIVERY_NOTE.xlsx` | Delivery note tracker | 2 |
+| `PECH_GOODS_RECEIVED_NOTE.xlsx` | Goods received register | 2 |
+| `PECH_WAYBILL.xlsx` | Transport/waybill tracker | 2 |
+| `PECH_STOCK_REQUISITION_FORM.xlsx` | Stock requisition register | 2 |
+| `PECH_ASSET_REGISTER_FORM.xlsx` | Asset register + form | 2 |
+| `PECH_WORK_ORDER.xlsx` | Work order tracker | 2 |
+| `PECH_JOB_COMPLETION_REPORT.xlsx` | Job completion register | 2 |
+| `PECH_INSTALLATION_COMPLETION_CERTIFICATE.xlsx` | Installation completion tracker | 2 |
+| `PECH_INCIDENT_REPORT_FORM.xlsx` | Incident report register | 2 |
+| `PECH_VISITOR_LOG.xlsx` | Visitor log register | 2 |
+| `PECH_HACKATHON_RULES_AND_GUIDELINES.xlsx` | Hackathon participant tracker | 1 |
+| `PECH_MEDIA_AND_PUBLIC_COMMUNICATIONS_POLICY.xlsx` | Media policy register | 1 |
+
+### Business Documents — HR Extended (1 file)
+
+| File | Description | Sheets |
+|------|-------------|--------|
+| `PECH_SCHEDULE_B_TEMPLATES.xlsx` | Schedule B compensation tracker | 1 |
+
+### Dashboards (2 files)
 
 | File | Description |
 |------|-------------|
-| `PECH_HR_MASTER_DASHBOARD.xlsx` | Master overview of all documents + Google Sheets setup instructions |
+| `PECH_HR_MASTER_DASHBOARD.xlsx` | HR overview of employment documents + Google Sheets setup instructions |
+| `PECH_MASTER_DOCUMENT_DASHBOARD.xlsx` | Master overview of all 39 documents with status tracking |
 
 ---
 
@@ -86,7 +125,8 @@ All dropdown validations, colors, and formatting are preserved in Google Sheets.
 To regenerate all Excel files (e.g., after updating the templates):
 
 ```bash
-python3 scripts/generate_employment_xlsx.py
+python3 scripts/generate_employment_xlsx.py   # Employment contracts & HR forms
+python3 scripts/generate_business_xlsx.py     # Business & operational documents
 ```
 
 Requires: `openpyxl` (`pip install openpyxl`)
