@@ -4,6 +4,7 @@
 <div style="height:2px;background:linear-gradient(90deg,#00BFFF,#E08A00 50%,#00BFFF);"></div>
 <div style="padding:24px 36px 18px;">
 <div style="display:inline-block;background:linear-gradient(135deg,#E08A00,#E08A00);border-radius:12px;padding:10px 14px;margin-bottom:8px;"><span style="font-size:1.8em;">📢</span></div>
+<img src="../design_assets/logos/pech_logo_horizontal.svg" alt="PECH Group Holdings Ltd" width="180" style="margin-bottom:8px;"/>
 <h1 style="margin:6px 0 0;font-size:1.7em;background:linear-gradient(90deg,#E08A00,#F5A623);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;">TABLE OF CONTENTS</h1>
 <p>
 <img src="https://img.shields.io/badge/CONFIDENTIAL-🔒-E08A00?style=for-the-badge&labelColor=1B2838" alt="Confidential" />
@@ -148,6 +149,14 @@ In this Agreement, unless the context otherwise requires:
 
 ---
 
+<div align="center" style="margin:32px 0;">
+<div style="height:1px;background:linear-gradient(90deg,transparent,#00BFFF 20%,#F5A623 50%,#00BFFF 80%,transparent);margin-bottom:6px;"></div>
+<span style="font-family:'Montserrat','Segoe UI',Arial,sans-serif;font-size:10px;letter-spacing:8px;color:rgba(0,153,204,0.12);font-weight:800;text-transform:uppercase;">PECH GROUP HOLDINGS LTD</span>
+<div style="height:1px;background:linear-gradient(90deg,transparent,#F5A623 20%,#00BFFF 50%,#F5A623 80%,transparent);margin-top:6px;"></div>
+</div>
+
+---
+
 ## 3. COMMENCEMENT & PROBATION
 
 3.1. **Commencement Date:** The Employee's employment shall commence on **____________________**.
@@ -235,6 +244,14 @@ In this Agreement, unless the context otherwise requires:
    (d) Any other deductions required by law or authorized in writing by the Employee.
 
 6.7. **Salary Review:** The Employee's base salary shall be reviewed annually at the discretion of the Employer, taking into account individual performance, sales achievement, company performance, and market conditions. A salary review does not guarantee a salary increase.
+
+---
+
+<div align="center" style="margin:32px 0;">
+<div style="height:1px;background:linear-gradient(90deg,transparent,#00BFFF 20%,#F5A623 50%,#00BFFF 80%,transparent);margin-bottom:6px;"></div>
+<span style="font-family:'Montserrat','Segoe UI',Arial,sans-serif;font-size:10px;letter-spacing:8px;color:rgba(0,153,204,0.12);font-weight:800;text-transform:uppercase;">PECH GROUP HOLDINGS LTD</span>
+<div style="height:1px;background:linear-gradient(90deg,transparent,#F5A623 20%,#00BFFF 50%,#F5A623 80%,transparent);margin-top:6px;"></div>
+</div>
 
 ---
 
@@ -357,6 +374,14 @@ The Employer shall provide the following statutory benefits in compliance with N
    (c) Any commission paid on sales that are subsequently reversed or refunded shall be recoverable by the Employer.
 
 10.7. **Commission Review:** The commission rates set out in this Clause may be reviewed and adjusted by the Employer at the beginning of each financial year, with at least thirty (30) days' written notice to the Employee.
+
+---
+
+<div align="center" style="margin:32px 0;">
+<div style="height:1px;background:linear-gradient(90deg,transparent,#00BFFF 20%,#F5A623 50%,#00BFFF 80%,transparent);margin-bottom:6px;"></div>
+<span style="font-family:'Montserrat','Segoe UI',Arial,sans-serif;font-size:10px;letter-spacing:8px;color:rgba(0,153,204,0.12);font-weight:800;text-transform:uppercase;">PECH GROUP HOLDINGS LTD</span>
+<div style="height:1px;background:linear-gradient(90deg,transparent,#F5A623 20%,#00BFFF 50%,#F5A623 80%,transparent);margin-top:6px;"></div>
+</div>
 
 ---
 
@@ -488,6 +513,14 @@ The Employer shall provide the following statutory benefits in compliance with N
 
 ---
 
+<div align="center" style="margin:32px 0;">
+<div style="height:1px;background:linear-gradient(90deg,transparent,#00BFFF 20%,#F5A623 50%,#00BFFF 80%,transparent);margin-bottom:6px;"></div>
+<span style="font-family:'Montserrat','Segoe UI',Arial,sans-serif;font-size:10px;letter-spacing:8px;color:rgba(0,153,204,0.12);font-weight:800;text-transform:uppercase;">PECH GROUP HOLDINGS LTD</span>
+<div style="height:1px;background:linear-gradient(90deg,transparent,#F5A623 20%,#00BFFF 50%,#F5A623 80%,transparent);margin-top:6px;"></div>
+</div>
+
+---
+
 ## 15. NON-COMPETITION
 
 15.1. The Employee agrees that during the term of employment and for a period of **twelve (12) months** after the termination of employment (the "Restriction Period"), the Employee shall not, directly or indirectly, without the prior written consent of the Employer:
@@ -607,6 +640,14 @@ The Employer shall provide the following statutory benefits in compliance with N
 18.5. **Data Retention:** The Employer shall retain the Employee's personal data for the duration of employment and for a period of six (6) years after termination, or as required by applicable law.
 
 18.6. **Employee Rights:** The Employee has the right to access, correct, and request deletion of their personal data, subject to the Employer's legal obligations and legitimate interests.
+
+---
+
+<div align="center" style="margin:32px 0;">
+<div style="height:1px;background:linear-gradient(90deg,transparent,#00BFFF 20%,#F5A623 50%,#00BFFF 80%,transparent);margin-bottom:6px;"></div>
+<span style="font-family:'Montserrat','Segoe UI',Arial,sans-serif;font-size:10px;letter-spacing:8px;color:rgba(0,153,204,0.12);font-weight:800;text-transform:uppercase;">PECH GROUP HOLDINGS LTD</span>
+<div style="height:1px;background:linear-gradient(90deg,transparent,#F5A623 20%,#00BFFF 50%,#F5A623 80%,transparent);margin-top:6px;"></div>
+</div>
 
 ---
 
@@ -763,6 +804,14 @@ The Employer shall provide the following statutory benefits in compliance with N
 
 ---
 
+<div align="center" style="margin:32px 0;">
+<div style="height:1px;background:linear-gradient(90deg,transparent,#00BFFF 20%,#F5A623 50%,#00BFFF 80%,transparent);margin-bottom:6px;"></div>
+<span style="font-family:'Montserrat','Segoe UI',Arial,sans-serif;font-size:10px;letter-spacing:8px;color:rgba(0,153,204,0.12);font-weight:800;text-transform:uppercase;">PECH GROUP HOLDINGS LTD</span>
+<div style="height:1px;background:linear-gradient(90deg,transparent,#F5A623 20%,#00BFFF 50%,#F5A623 80%,transparent);margin-top:6px;"></div>
+</div>
+
+---
+
 ## 23. SIGNATURE BLOCK
 
 ### DECLARATION
@@ -895,7 +944,34 @@ The Employee declares the following pre-existing Intellectual Property:
 
 ---
 
+<div align="center" style="margin:32px 0;">
+<div style="height:1px;background:linear-gradient(90deg,transparent,#00BFFF 20%,#F5A623 50%,#00BFFF 80%,transparent);margin-bottom:6px;"></div>
+<span style="font-family:'Montserrat','Segoe UI',Arial,sans-serif;font-size:10px;letter-spacing:8px;color:rgba(0,153,204,0.12);font-weight:800;text-transform:uppercase;">PECH GROUP HOLDINGS LTD</span>
+<div style="height:1px;background:linear-gradient(90deg,transparent,#F5A623 20%,#00BFFF 50%,#F5A623 80%,transparent);margin-top:6px;"></div>
+</div>
+
+---
+
 *PECH Group Holdings Ltd | Confidential | pechgroupholdings.tech*
 
 <div style="height:5px;background:linear-gradient(90deg,#E08A00,#F5A623 25%,#0099CC 75%,#00BFFF);margin:20px -28px -24px -28px;"></div>
+</div>
+
+
+---
+
+<div align="center" style="margin:48px 0 24px;">
+<div style="height:3px;background:linear-gradient(90deg,#00BFFF,#0099CC 25%,#F5A623 50%,#E08A00 75%,#00BFFF);border-radius:2px;"></div>
+<div style="padding:28px 0 8px;">
+<img src="../design_assets/logos/pech_logo_icon_only.svg" alt="PECH" width="48" style="opacity:0.15;margin-bottom:8px;" />
+<div style="font-family:'Montserrat','Segoe UI',Arial,sans-serif;font-size:11px;letter-spacing:10px;color:rgba(0,153,204,0.13);font-weight:800;text-transform:uppercase;margin-bottom:4px;">PECH GROUP HOLDINGS LTD</div>
+<div style="font-family:'Montserrat','Segoe UI',Arial,sans-serif;font-size:11px;letter-spacing:10px;color:rgba(0,153,204,0.13);font-weight:800;text-transform:uppercase;margin-bottom:4px;">PECH GROUP HOLDINGS LTD</div>
+<div style="font-family:'Montserrat','Segoe UI',Arial,sans-serif;font-size:11px;letter-spacing:10px;color:rgba(0,153,204,0.13);font-weight:800;text-transform:uppercase;margin-bottom:4px;">PECH GROUP HOLDINGS LTD</div>
+<div style="font-family:'Open Sans','Segoe UI',Arial,sans-serif;font-size:8px;letter-spacing:4px;color:rgba(245,166,35,0.18);font-weight:400;text-transform:uppercase;">Technology & Infrastructure Enablers for People</div>
+<div style="margin-top:12px;">
+<img src="../design_assets/graphics/pech_watermark.svg" alt="PECH Watermark" width="120" style="opacity:0.08;" />
+</div>
+</div>
+<div style="height:3px;background:linear-gradient(90deg,#F5A623,#E08A00 25%,#00BFFF 50%,#0099CC 75%,#F5A623);border-radius:2px;"></div>
+<div style="font-family:'Open Sans',Arial,sans-serif;font-size:7px;letter-spacing:3px;color:rgba(0,153,204,0.2);margin-top:8px;text-transform:uppercase;">Confidential — PECH Group Holdings Ltd — Lagos, Nigeria — pechgroupholdings.tech</div>
 </div>

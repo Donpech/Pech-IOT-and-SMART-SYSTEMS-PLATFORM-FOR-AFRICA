@@ -12,6 +12,7 @@
 <span style="font-size:2em;">📋</span>
 </div>
 
+<img src="design_assets/logos/pech_logo_horizontal.svg" alt="PECH Group Holdings Ltd" width="180" style="margin-bottom:8px;"/>
 <h1 style="margin:8px 0 0;font-size:2.1em;background:linear-gradient(90deg,#F5A623,#00BFFF);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;">PECH Group Holdings Ltd</h1>
 
 <h2 style="margin:6px 0 16px;font-size:1.2em;color:#F5A623;font-weight:600;letter-spacing:0.5px;">Executive Summary — ₦250M Capital Deployment Plan</h2>
@@ -70,6 +71,14 @@ All PECH products are **designed for Africa** — wide voltage tolerance, heat r
 ## Secured Capital
 
 **₦250,000,000** committed capital for the first 24 months. The investor will inject additional capital as the business gains traction.
+
+---
+
+<div align="center" style="margin:32px 0;">
+<div style="height:1px;background:linear-gradient(90deg,transparent,#00BFFF 20%,#F5A623 50%,#00BFFF 80%,transparent);margin-bottom:6px;"></div>
+<span style="font-family:'Montserrat','Segoe UI',Arial,sans-serif;font-size:10px;letter-spacing:8px;color:rgba(0,153,204,0.12);font-weight:800;text-transform:uppercase;">PECH GROUP HOLDINGS LTD</span>
+<div style="height:1px;background:linear-gradient(90deg,transparent,#F5A623 20%,#00BFFF 50%,#F5A623 80%,transparent);margin-top:6px;"></div>
+</div>
 
 ---
 
@@ -148,6 +157,14 @@ All PECH products are **designed for Africa** — wide voltage tolerance, heat r
 
 ---
 
+<div align="center" style="margin:32px 0;">
+<div style="height:1px;background:linear-gradient(90deg,transparent,#00BFFF 20%,#F5A623 50%,#00BFFF 80%,transparent);margin-bottom:6px;"></div>
+<span style="font-family:'Montserrat','Segoe UI',Arial,sans-serif;font-size:10px;letter-spacing:8px;color:rgba(0,153,204,0.12);font-weight:800;text-transform:uppercase;">PECH GROUP HOLDINGS LTD</span>
+<div style="height:1px;background:linear-gradient(90deg,transparent,#F5A623 20%,#00BFFF 50%,#F5A623 80%,transparent);margin-top:6px;"></div>
+</div>
+
+---
+
 ## Team Growth (Lean)
 
 | Phase | People | Monthly Payroll (₦) | Key Hires |
@@ -202,6 +219,14 @@ All PECH products are **designed for Africa** — wide voltage tolerance, heat r
 
 ---
 
+<div align="center" style="margin:32px 0;">
+<div style="height:1px;background:linear-gradient(90deg,transparent,#00BFFF 20%,#F5A623 50%,#00BFFF 80%,transparent);margin-bottom:6px;"></div>
+<span style="font-family:'Montserrat','Segoe UI',Arial,sans-serif;font-size:10px;letter-spacing:8px;color:rgba(0,153,204,0.12);font-weight:800;text-transform:uppercase;">PECH GROUP HOLDINGS LTD</span>
+<div style="height:1px;background:linear-gradient(90deg,transparent,#F5A623 20%,#00BFFF 50%,#F5A623 80%,transparent);margin-top:6px;"></div>
+</div>
+
+---
+
 **PECH Group Holdings Ltd**
 Lagos, Nigeria
 Pechenergysolutions@gmail.com | [pechgroupholdings.tech](https://pechgroupholdings.tech)
@@ -211,4 +236,23 @@ Pechenergysolutions@gmail.com | [pechgroupholdings.tech](https://pechgroupholdin
 *This document is confidential and intended solely for the use of prospective investors and strategic partners of PECH Group Holdings Ltd. Unauthorized distribution is prohibited.*
 
 <div style="height:5px;background:linear-gradient(90deg,#E08A00,#F5A623 25%,#0099CC 75%,#00BFFF);margin:20px -28px -24px -28px;"></div>
+</div>
+
+
+---
+
+<div align="center" style="margin:48px 0 24px;">
+<div style="height:3px;background:linear-gradient(90deg,#00BFFF,#0099CC 25%,#F5A623 50%,#E08A00 75%,#00BFFF);border-radius:2px;"></div>
+<div style="padding:28px 0 8px;">
+<img src="design_assets/logos/pech_logo_icon_only.svg" alt="PECH" width="48" style="opacity:0.15;margin-bottom:8px;" />
+<div style="font-family:'Montserrat','Segoe UI',Arial,sans-serif;font-size:11px;letter-spacing:10px;color:rgba(0,153,204,0.13);font-weight:800;text-transform:uppercase;margin-bottom:4px;">PECH GROUP HOLDINGS LTD</div>
+<div style="font-family:'Montserrat','Segoe UI',Arial,sans-serif;font-size:11px;letter-spacing:10px;color:rgba(0,153,204,0.13);font-weight:800;text-transform:uppercase;margin-bottom:4px;">PECH GROUP HOLDINGS LTD</div>
+<div style="font-family:'Montserrat','Segoe UI',Arial,sans-serif;font-size:11px;letter-spacing:10px;color:rgba(0,153,204,0.13);font-weight:800;text-transform:uppercase;margin-bottom:4px;">PECH GROUP HOLDINGS LTD</div>
+<div style="font-family:'Open Sans','Segoe UI',Arial,sans-serif;font-size:8px;letter-spacing:4px;color:rgba(245,166,35,0.18);font-weight:400;text-transform:uppercase;">Technology & Infrastructure Enablers for People</div>
+<div style="margin-top:12px;">
+<img src="design_assets/graphics/pech_watermark.svg" alt="PECH Watermark" width="120" style="opacity:0.08;" />
+</div>
+</div>
+<div style="height:3px;background:linear-gradient(90deg,#F5A623,#E08A00 25%,#00BFFF 50%,#0099CC 75%,#F5A623);border-radius:2px;"></div>
+<div style="font-family:'Open Sans',Arial,sans-serif;font-size:7px;letter-spacing:3px;color:rgba(0,153,204,0.2);margin-top:8px;text-transform:uppercase;">Confidential — PECH Group Holdings Ltd — Lagos, Nigeria — pechgroupholdings.tech</div>
 </div>

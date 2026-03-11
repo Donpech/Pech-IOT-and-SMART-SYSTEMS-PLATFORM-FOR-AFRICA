@@ -11,6 +11,7 @@
 <!-- Inline SVG Logo -->
 <img src="design_assets/logos/pech_logo_primary.svg" alt="PECH Group Holdings" width="120" style="margin-bottom:16px;" />
 
+<img src="design_assets/logos/pech_logo_horizontal.svg" alt="PECH Group Holdings Ltd" width="180" style="margin-bottom:8px;"/>
 <h1 style="margin:0;font-size:2.2em;background:linear-gradient(90deg,#00BFFF,#F5A623);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;">PECH Group Holdings Ltd</h1>
 
 <p style="margin:8px 0 16px;font-size:1.15em;color:#00BFFF;font-weight:600;letter-spacing:1px;">TECHNOLOGY AND INFRASTRUCTURE ENABLERS FOR PEOPLE</p>
@@ -89,6 +90,14 @@ PECH Group Holdings Ltd is a Nigerian technology company building Africa's first
 | **Enterprise Solutions** | Custom IoT and AI deployments for businesses |
 
 **Hardware Portfolio:** 25 SKUs across 6 categories — purpose-built for African conditions (voltage tolerance, heat/dust resistance, offline capability).
+
+---
+
+<div align="center" style="margin:32px 0;">
+<div style="height:1px;background:linear-gradient(90deg,transparent,#00BFFF 20%,#F5A623 50%,#00BFFF 80%,transparent);margin-bottom:6px;"></div>
+<span style="font-family:'Montserrat','Segoe UI',Arial,sans-serif;font-size:10px;letter-spacing:8px;color:rgba(0,153,204,0.12);font-weight:800;text-transform:uppercase;">PECH GROUP HOLDINGS LTD</span>
+<div style="height:1px;background:linear-gradient(90deg,transparent,#F5A623 20%,#00BFFF 50%,#F5A623 80%,transparent);margin-top:6px;"></div>
+</div>
 
 ---
 
@@ -238,6 +247,14 @@ Legal templates compliant with Nigerian labour law, NDPA 2023, and FCCPA 2019.
 
 ---
 
+<div align="center" style="margin:32px 0;">
+<div style="height:1px;background:linear-gradient(90deg,transparent,#00BFFF 20%,#F5A623 50%,#00BFFF 80%,transparent);margin-bottom:6px;"></div>
+<span style="font-family:'Montserrat','Segoe UI',Arial,sans-serif;font-size:10px;letter-spacing:8px;color:rgba(0,153,204,0.12);font-weight:800;text-transform:uppercase;">PECH GROUP HOLDINGS LTD</span>
+<div style="height:1px;background:linear-gradient(90deg,transparent,#F5A623 20%,#00BFFF 50%,#F5A623 80%,transparent);margin-top:6px;"></div>
+</div>
+
+---
+
 ## Team — 37 Roles Across 5 Departments
 
 Scaling from 5 to 37 over 24 months across 6 hiring phases. Full role descriptions, qualifications, and compensation details are in the [Job Requirements Handbook](business_documents/PECH_JOB_REQUIREMENTS_HANDBOOK.md).
@@ -292,6 +309,14 @@ Comprehensive technical strategy for the PECH AI ecosystem. See [`ai_strategy/RE
 | [Investor Version](PECH_INVESTOR_VERSION.md) | MD / DOCX / PDF | Full investor-focused business proposal |
 
 For budget allocation, 24-month targets, and financial projections, refer to the canonical documents linked above. Key highlights: ₦250M total capital, 24-month deployment, break-even at Month 16–18, ₦21.3M/month revenue target by Month 24.
+
+---
+
+<div align="center" style="margin:32px 0;">
+<div style="height:1px;background:linear-gradient(90deg,transparent,#00BFFF 20%,#F5A623 50%,#00BFFF 80%,transparent);margin-bottom:6px;"></div>
+<span style="font-family:'Montserrat','Segoe UI',Arial,sans-serif;font-size:10px;letter-spacing:8px;color:rgba(0,153,204,0.12);font-weight:800;text-transform:uppercase;">PECH GROUP HOLDINGS LTD</span>
+<div style="height:1px;background:linear-gradient(90deg,transparent,#F5A623 20%,#00BFFF 50%,#F5A623 80%,transparent);margin-top:6px;"></div>
+</div>
 
 ---
 
@@ -396,6 +421,14 @@ Or use VS Code Markdown-to-PDF extensions, Google Docs, or any Markdown renderer
 
 ---
 
+<div align="center" style="margin:32px 0;">
+<div style="height:1px;background:linear-gradient(90deg,transparent,#00BFFF 20%,#F5A623 50%,#00BFFF 80%,transparent);margin-bottom:6px;"></div>
+<span style="font-family:'Montserrat','Segoe UI',Arial,sans-serif;font-size:10px;letter-spacing:8px;color:rgba(0,153,204,0.12);font-weight:800;text-transform:uppercase;">PECH GROUP HOLDINGS LTD</span>
+<div style="height:1px;background:linear-gradient(90deg,transparent,#F5A623 20%,#00BFFF 50%,#F5A623 80%,transparent);margin-top:6px;"></div>
+</div>
+
+---
+
 ## Contributing
 
 1. Fork this repository
@@ -416,3 +449,22 @@ Website: [pechgroupholdings.tech](https://pechgroupholdings.tech)
 ---
 
 *This repository and its contents are confidential and proprietary to PECH Group Holdings Ltd. Unauthorized distribution is prohibited.*
+
+
+---
+
+<div align="center" style="margin:48px 0 24px;">
+<div style="height:3px;background:linear-gradient(90deg,#00BFFF,#0099CC 25%,#F5A623 50%,#E08A00 75%,#00BFFF);border-radius:2px;"></div>
+<div style="padding:28px 0 8px;">
+<img src="design_assets/logos/pech_logo_icon_only.svg" alt="PECH" width="48" style="opacity:0.15;margin-bottom:8px;" />
+<div style="font-family:'Montserrat','Segoe UI',Arial,sans-serif;font-size:11px;letter-spacing:10px;color:rgba(0,153,204,0.13);font-weight:800;text-transform:uppercase;margin-bottom:4px;">PECH GROUP HOLDINGS LTD</div>
+<div style="font-family:'Montserrat','Segoe UI',Arial,sans-serif;font-size:11px;letter-spacing:10px;color:rgba(0,153,204,0.13);font-weight:800;text-transform:uppercase;margin-bottom:4px;">PECH GROUP HOLDINGS LTD</div>
+<div style="font-family:'Montserrat','Segoe UI',Arial,sans-serif;font-size:11px;letter-spacing:10px;color:rgba(0,153,204,0.13);font-weight:800;text-transform:uppercase;margin-bottom:4px;">PECH GROUP HOLDINGS LTD</div>
+<div style="font-family:'Open Sans','Segoe UI',Arial,sans-serif;font-size:8px;letter-spacing:4px;color:rgba(245,166,35,0.18);font-weight:400;text-transform:uppercase;">Technology & Infrastructure Enablers for People</div>
+<div style="margin-top:12px;">
+<img src="design_assets/graphics/pech_watermark.svg" alt="PECH Watermark" width="120" style="opacity:0.08;" />
+</div>
+</div>
+<div style="height:3px;background:linear-gradient(90deg,#F5A623,#E08A00 25%,#00BFFF 50%,#0099CC 75%,#F5A623);border-radius:2px;"></div>
+<div style="font-family:'Open Sans',Arial,sans-serif;font-size:7px;letter-spacing:3px;color:rgba(0,153,204,0.2);margin-top:8px;text-transform:uppercase;">Confidential — PECH Group Holdings Ltd — Lagos, Nigeria — pechgroupholdings.tech</div>
+</div>

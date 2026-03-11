@@ -4,6 +4,7 @@
 <div style="height:2px;background:linear-gradient(90deg,#00BFFF,#E08A00 50%,#00BFFF);"></div>
 <div style="padding:24px 36px 18px;">
 <div style="display:inline-block;background:linear-gradient(135deg,#E08A00,#E08A00);border-radius:12px;padding:10px 14px;margin-bottom:8px;"><span style="font-size:1.8em;">📑</span></div>
+<img src="../design_assets/logos/pech_logo_horizontal.svg" alt="PECH Group Holdings Ltd" width="180" style="margin-bottom:8px;"/>
 <h1 style="margin:6px 0 0;font-size:1.7em;background:linear-gradient(90deg,#E08A00,#F5A623);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;">SCHEDULE B: JOB DESCRIPTION & KPIs — TEMPLATES</h1>
 <p>
 <img src="https://img.shields.io/badge/CONFIDENTIAL-🔒-E08A00?style=for-the-badge&labelColor=1B2838" alt="Confidential" />
@@ -111,6 +112,14 @@ CTO → CTO + Board Member → CTO + Co-Founder equity vesting
 
 ---
 
+<div align="center" style="margin:32px 0;">
+<div style="height:1px;background:linear-gradient(90deg,transparent,#00BFFF 20%,#F5A623 50%,#00BFFF 80%,transparent);margin-bottom:6px;"></div>
+<span style="font-family:'Montserrat','Segoe UI',Arial,sans-serif;font-size:10px;letter-spacing:8px;color:rgba(0,153,204,0.12);font-weight:800;text-transform:uppercase;">PECH GROUP HOLDINGS LTD</span>
+<div style="height:1px;background:linear-gradient(90deg,transparent,#F5A623 20%,#00BFFF 50%,#F5A623 80%,transparent);margin-top:6px;"></div>
+</div>
+
+---
+
 **Employee Signature:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ **Date:** \_\_\_\_/\_\_\_\_/\_\_\_\_\_\_\_\_
 
 **Employer Signature:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ **Date:** \_\_\_\_/\_\_\_\_/\_\_\_\_\_\_\_\_
@@ -163,6 +172,14 @@ Full-Stack Engineer → Senior Engineer → Tech Lead → Engineering Manager / 
 **Employee Signature:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ **Date:** \_\_\_\_/\_\_\_\_/\_\_\_\_\_\_\_\_
 
 **Employer Signature:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ **Date:** \_\_\_\_/\_\_\_\_/\_\_\_\_\_\_\_\_
+
+---
+
+<div align="center" style="margin:32px 0;">
+<div style="height:1px;background:linear-gradient(90deg,transparent,#00BFFF 20%,#F5A623 50%,#00BFFF 80%,transparent);margin-bottom:6px;"></div>
+<span style="font-family:'Montserrat','Segoe UI',Arial,sans-serif;font-size:10px;letter-spacing:8px;color:rgba(0,153,204,0.12);font-weight:800;text-transform:uppercase;">PECH GROUP HOLDINGS LTD</span>
+<div style="height:1px;background:linear-gradient(90deg,transparent,#F5A623 20%,#00BFFF 50%,#F5A623 80%,transparent);margin-top:6px;"></div>
+</div>
 
 ---
 
@@ -220,6 +237,14 @@ Mobile Engineer → Senior Mobile Engineer → Mobile Tech Lead → Engineering 
 ### SCHEDULE B — JOB DESCRIPTION AND KEY PERFORMANCE INDICATORS
 
 **Attached to Employment Contract dated:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+---
+
+<div align="center" style="margin:32px 0;">
+<div style="height:1px;background:linear-gradient(90deg,transparent,#00BFFF 20%,#F5A623 50%,#00BFFF 80%,transparent);margin-bottom:6px;"></div>
+<span style="font-family:'Montserrat','Segoe UI',Arial,sans-serif;font-size:10px;letter-spacing:8px;color:rgba(0,153,204,0.12);font-weight:800;text-transform:uppercase;">PECH GROUP HOLDINGS LTD</span>
+<div style="height:1px;background:linear-gradient(90deg,transparent,#F5A623 20%,#00BFFF 50%,#F5A623 80%,transparent);margin-top:6px;"></div>
+</div>
 
 ---
 
@@ -307,6 +332,14 @@ Backend Developer → Senior Backend Developer → Backend Tech Lead → Enginee
 
 ---
 
+<div align="center" style="margin:32px 0;">
+<div style="height:1px;background:linear-gradient(90deg,transparent,#00BFFF 20%,#F5A623 50%,#00BFFF 80%,transparent);margin-bottom:6px;"></div>
+<span style="font-family:'Montserrat','Segoe UI',Arial,sans-serif;font-size:10px;letter-spacing:8px;color:rgba(0,153,204,0.12);font-weight:800;text-transform:uppercase;">PECH GROUP HOLDINGS LTD</span>
+<div style="height:1px;background:linear-gradient(90deg,transparent,#F5A623 20%,#00BFFF 50%,#F5A623 80%,transparent);margin-top:6px;"></div>
+</div>
+
+---
+
 **Employee Signature:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ **Date:** \_\_\_\_/\_\_\_\_/\_\_\_\_\_\_\_\_
 
 **Employer Signature:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ **Date:** \_\_\_\_/\_\_\_\_/\_\_\_\_\_\_\_\_
@@ -359,6 +392,14 @@ IoT Engineer → Senior IoT Engineer → IoT/Hardware Lead → VP Engineering (I
 **Employee Signature:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ **Date:** \_\_\_\_/\_\_\_\_/\_\_\_\_\_\_\_\_
 
 **Employer Signature:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ **Date:** \_\_\_\_/\_\_\_\_/\_\_\_\_\_\_\_\_
+
+---
+
+<div align="center" style="margin:32px 0;">
+<div style="height:1px;background:linear-gradient(90deg,transparent,#00BFFF 20%,#F5A623 50%,#00BFFF 80%,transparent);margin-bottom:6px;"></div>
+<span style="font-family:'Montserrat','Segoe UI',Arial,sans-serif;font-size:10px;letter-spacing:8px;color:rgba(0,153,204,0.12);font-weight:800;text-transform:uppercase;">PECH GROUP HOLDINGS LTD</span>
+<div style="height:1px;background:linear-gradient(90deg,transparent,#F5A623 20%,#00BFFF 50%,#F5A623 80%,transparent);margin-top:6px;"></div>
+</div>
 
 ---
 
@@ -416,6 +457,14 @@ DevOps Engineer → Senior DevOps → Platform/Infrastructure Lead → VP Engine
 ### SCHEDULE B — JOB DESCRIPTION AND KEY PERFORMANCE INDICATORS
 
 **Attached to Employment Contract dated:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+---
+
+<div align="center" style="margin:32px 0;">
+<div style="height:1px;background:linear-gradient(90deg,transparent,#00BFFF 20%,#F5A623 50%,#00BFFF 80%,transparent);margin-bottom:6px;"></div>
+<span style="font-family:'Montserrat','Segoe UI',Arial,sans-serif;font-size:10px;letter-spacing:8px;color:rgba(0,153,204,0.12);font-weight:800;text-transform:uppercase;">PECH GROUP HOLDINGS LTD</span>
+<div style="height:1px;background:linear-gradient(90deg,transparent,#F5A623 20%,#00BFFF 50%,#F5A623 80%,transparent);margin-top:6px;"></div>
+</div>
 
 ---
 
@@ -503,6 +552,14 @@ Senior Data Engineer → Staff Data Engineer → Head of Data → VP Engineering
 
 ---
 
+<div align="center" style="margin:32px 0;">
+<div style="height:1px;background:linear-gradient(90deg,transparent,#00BFFF 20%,#F5A623 50%,#00BFFF 80%,transparent);margin-bottom:6px;"></div>
+<span style="font-family:'Montserrat','Segoe UI',Arial,sans-serif;font-size:10px;letter-spacing:8px;color:rgba(0,153,204,0.12);font-weight:800;text-transform:uppercase;">PECH GROUP HOLDINGS LTD</span>
+<div style="height:1px;background:linear-gradient(90deg,transparent,#F5A623 20%,#00BFFF 50%,#F5A623 80%,transparent);margin-top:6px;"></div>
+</div>
+
+---
+
 **Employee Signature:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ **Date:** \_\_\_\_/\_\_\_\_/\_\_\_\_\_\_\_\_
 
 **Employer Signature:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ **Date:** \_\_\_\_/\_\_\_\_/\_\_\_\_\_\_\_\_
@@ -555,6 +612,14 @@ QA Engineer → Senior QA Engineer → QA Lead → Head of Quality
 **Employee Signature:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ **Date:** \_\_\_\_/\_\_\_\_/\_\_\_\_\_\_\_\_
 
 **Employer Signature:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ **Date:** \_\_\_\_/\_\_\_\_/\_\_\_\_\_\_\_\_
+
+---
+
+<div align="center" style="margin:32px 0;">
+<div style="height:1px;background:linear-gradient(90deg,transparent,#00BFFF 20%,#F5A623 50%,#00BFFF 80%,transparent);margin-bottom:6px;"></div>
+<span style="font-family:'Montserrat','Segoe UI',Arial,sans-serif;font-size:10px;letter-spacing:8px;color:rgba(0,153,204,0.12);font-weight:800;text-transform:uppercase;">PECH GROUP HOLDINGS LTD</span>
+<div style="height:1px;background:linear-gradient(90deg,transparent,#F5A623 20%,#00BFFF 50%,#F5A623 80%,transparent);margin-top:6px;"></div>
+</div>
 
 ---
 
@@ -612,6 +677,14 @@ UI/UX Designer → Senior Designer → Design Lead → Head of Design
 ### SCHEDULE B — JOB DESCRIPTION AND KEY PERFORMANCE INDICATORS
 
 **Attached to Employment Contract dated:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+---
+
+<div align="center" style="margin:32px 0;">
+<div style="height:1px;background:linear-gradient(90deg,transparent,#00BFFF 20%,#F5A623 50%,#00BFFF 80%,transparent);margin-bottom:6px;"></div>
+<span style="font-family:'Montserrat','Segoe UI',Arial,sans-serif;font-size:10px;letter-spacing:8px;color:rgba(0,153,204,0.12);font-weight:800;text-transform:uppercase;">PECH GROUP HOLDINGS LTD</span>
+<div style="height:1px;background:linear-gradient(90deg,transparent,#F5A623 20%,#00BFFF 50%,#F5A623 80%,transparent);margin-top:6px;"></div>
+</div>
 
 ---
 
@@ -699,6 +772,14 @@ Data Analyst → Senior Data Analyst → Analytics Manager → Head of Analytics
 
 ---
 
+<div align="center" style="margin:32px 0;">
+<div style="height:1px;background:linear-gradient(90deg,transparent,#00BFFF 20%,#F5A623 50%,#00BFFF 80%,transparent);margin-bottom:6px;"></div>
+<span style="font-family:'Montserrat','Segoe UI',Arial,sans-serif;font-size:10px;letter-spacing:8px;color:rgba(0,153,204,0.12);font-weight:800;text-transform:uppercase;">PECH GROUP HOLDINGS LTD</span>
+<div style="height:1px;background:linear-gradient(90deg,transparent,#F5A623 20%,#00BFFF 50%,#F5A623 80%,transparent);margin-top:6px;"></div>
+</div>
+
+---
+
 **Employee Signature:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ **Date:** \_\_\_\_/\_\_\_\_/\_\_\_\_\_\_\_\_
 
 **Employer Signature:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ **Date:** \_\_\_\_/\_\_\_\_/\_\_\_\_\_\_\_\_
@@ -751,6 +832,14 @@ BD Lead → Head of Business Development → VP Sales & Partnerships → Chief R
 **Employee Signature:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ **Date:** \_\_\_\_/\_\_\_\_/\_\_\_\_\_\_\_\_
 
 **Employer Signature:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ **Date:** \_\_\_\_/\_\_\_\_/\_\_\_\_\_\_\_\_
+
+---
+
+<div align="center" style="margin:32px 0;">
+<div style="height:1px;background:linear-gradient(90deg,transparent,#00BFFF 20%,#F5A623 50%,#00BFFF 80%,transparent);margin-bottom:6px;"></div>
+<span style="font-family:'Montserrat','Segoe UI',Arial,sans-serif;font-size:10px;letter-spacing:8px;color:rgba(0,153,204,0.12);font-weight:800;text-transform:uppercase;">PECH GROUP HOLDINGS LTD</span>
+<div style="height:1px;background:linear-gradient(90deg,transparent,#F5A623 20%,#00BFFF 50%,#F5A623 80%,transparent);margin-top:6px;"></div>
+</div>
 
 ---
 
@@ -808,6 +897,14 @@ Compliance Officer → Head of Compliance → Chief Compliance Officer
 ### SCHEDULE B — JOB DESCRIPTION AND KEY PERFORMANCE INDICATORS
 
 **Attached to Employment Contract dated:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+---
+
+<div align="center" style="margin:32px 0;">
+<div style="height:1px;background:linear-gradient(90deg,transparent,#00BFFF 20%,#F5A623 50%,#00BFFF 80%,transparent);margin-bottom:6px;"></div>
+<span style="font-family:'Montserrat','Segoe UI',Arial,sans-serif;font-size:10px;letter-spacing:8px;color:rgba(0,153,204,0.12);font-weight:800;text-transform:uppercase;">PECH GROUP HOLDINGS LTD</span>
+<div style="height:1px;background:linear-gradient(90deg,transparent,#F5A623 20%,#00BFFF 50%,#F5A623 80%,transparent);margin-top:6px;"></div>
+</div>
 
 ---
 
@@ -894,6 +991,14 @@ Market Ops Manager → Head of Operations → VP Operations → COO
 
 ---
 
+<div align="center" style="margin:32px 0;">
+<div style="height:1px;background:linear-gradient(90deg,transparent,#00BFFF 20%,#F5A623 50%,#00BFFF 80%,transparent);margin-bottom:6px;"></div>
+<span style="font-family:'Montserrat','Segoe UI',Arial,sans-serif;font-size:10px;letter-spacing:8px;color:rgba(0,153,204,0.12);font-weight:800;text-transform:uppercase;">PECH GROUP HOLDINGS LTD</span>
+<div style="height:1px;background:linear-gradient(90deg,transparent,#F5A623 20%,#00BFFF 50%,#F5A623 80%,transparent);margin-top:6px;"></div>
+</div>
+
+---
+
 ## 18. REGIONAL FIELD COORDINATOR
 
 ### SCHEDULE B — JOB DESCRIPTION AND KEY PERFORMANCE INDICATORS
@@ -975,6 +1080,14 @@ Market Ops Manager → Head of Operations → VP Operations → COO
 **Employee Signature:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ **Date:** \_\_\_\_/\_\_\_\_/\_\_\_\_\_\_\_\_
 
 **Employer Signature:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ **Date:** \_\_\_\_/\_\_\_\_/\_\_\_\_\_\_\_\_
+
+---
+
+<div align="center" style="margin:32px 0;">
+<div style="height:1px;background:linear-gradient(90deg,transparent,#00BFFF 20%,#F5A623 50%,#00BFFF 80%,transparent);margin-bottom:6px;"></div>
+<span style="font-family:'Montserrat','Segoe UI',Arial,sans-serif;font-size:10px;letter-spacing:8px;color:rgba(0,153,204,0.12);font-weight:800;text-transform:uppercase;">PECH GROUP HOLDINGS LTD</span>
+<div style="height:1px;background:linear-gradient(90deg,transparent,#F5A623 20%,#00BFFF 50%,#F5A623 80%,transparent);margin-top:6px;"></div>
+</div>
 
 ---
 
@@ -1069,6 +1182,14 @@ AI/ML Engineer → Senior AI/ML Engineer → AI Lead → Head of AI
 
 ---
 
+<div align="center" style="margin:32px 0;">
+<div style="height:1px;background:linear-gradient(90deg,transparent,#00BFFF 20%,#F5A623 50%,#00BFFF 80%,transparent);margin-bottom:6px;"></div>
+<span style="font-family:'Montserrat','Segoe UI',Arial,sans-serif;font-size:10px;letter-spacing:8px;color:rgba(0,153,204,0.12);font-weight:800;text-transform:uppercase;">PECH GROUP HOLDINGS LTD</span>
+<div style="height:1px;background:linear-gradient(90deg,transparent,#F5A623 20%,#00BFFF 50%,#F5A623 80%,transparent);margin-top:6px;"></div>
+</div>
+
+---
+
 **Employee Signature:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ **Date:** \_\_\_\_/\_\_\_\_/\_\_\_\_\_\_\_\_
 
 **Employer Signature:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ **Date:** \_\_\_\_/\_\_\_\_/\_\_\_\_\_\_\_\_
@@ -1123,6 +1244,14 @@ Data Engineer → Senior Data Engineer → Data Engineering Lead → Head of Dat
 **Employee Signature:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ **Date:** \_\_\_\_/\_\_\_\_/\_\_\_\_\_\_\_\_
 
 **Employer Signature:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ **Date:** \_\_\_\_/\_\_\_\_/\_\_\_\_\_\_\_\_
+
+---
+
+<div align="center" style="margin:32px 0;">
+<div style="height:1px;background:linear-gradient(90deg,transparent,#00BFFF 20%,#F5A623 50%,#00BFFF 80%,transparent);margin-bottom:6px;"></div>
+<span style="font-family:'Montserrat','Segoe UI',Arial,sans-serif;font-size:10px;letter-spacing:8px;color:rgba(0,153,204,0.12);font-weight:800;text-transform:uppercase;">PECH GROUP HOLDINGS LTD</span>
+<div style="height:1px;background:linear-gradient(90deg,transparent,#F5A623 20%,#00BFFF 50%,#F5A623 80%,transparent);margin-top:6px;"></div>
+</div>
 
 ---
 
@@ -1183,6 +1312,14 @@ MLOps Engineer → Senior MLOps → Infrastructure Lead → Head of Platform
 ### SCHEDULE B — JOB DESCRIPTION AND KEY PERFORMANCE INDICATORS
 
 **Attached to Employment Contract dated:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+---
+
+<div align="center" style="margin:32px 0;">
+<div style="height:1px;background:linear-gradient(90deg,transparent,#00BFFF 20%,#F5A623 50%,#00BFFF 80%,transparent);margin-bottom:6px;"></div>
+<span style="font-family:'Montserrat','Segoe UI',Arial,sans-serif;font-size:10px;letter-spacing:8px;color:rgba(0,153,204,0.12);font-weight:800;text-transform:uppercase;">PECH GROUP HOLDINGS LTD</span>
+<div style="height:1px;background:linear-gradient(90deg,transparent,#F5A623 20%,#00BFFF 50%,#F5A623 80%,transparent);margin-top:6px;"></div>
+</div>
 
 ---
 
@@ -1276,6 +1413,14 @@ AI Product Manager → Senior PM → VP Product → Chief Product Officer
 
 ---
 
+<div align="center" style="margin:32px 0;">
+<div style="height:1px;background:linear-gradient(90deg,transparent,#00BFFF 20%,#F5A623 50%,#00BFFF 80%,transparent);margin-bottom:6px;"></div>
+<span style="font-family:'Montserrat','Segoe UI',Arial,sans-serif;font-size:10px;letter-spacing:8px;color:rgba(0,153,204,0.12);font-weight:800;text-transform:uppercase;">PECH GROUP HOLDINGS LTD</span>
+<div style="height:1px;background:linear-gradient(90deg,transparent,#F5A623 20%,#00BFFF 50%,#F5A623 80%,transparent);margin-top:6px;"></div>
+</div>
+
+---
+
 **Employee Signature:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ **Date:** \_\_\_\_/\_\_\_\_/\_\_\_\_\_\_\_\_
 
 **Employer Signature:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ **Date:** \_\_\_\_/\_\_\_\_/\_\_\_\_\_\_\_\_
@@ -1331,6 +1476,14 @@ Developer Advocate → Senior DevRel → Head of Developer Relations
 **Employee Signature:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ **Date:** \_\_\_\_/\_\_\_\_/\_\_\_\_\_\_\_\_
 
 **Employer Signature:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ **Date:** \_\_\_\_/\_\_\_\_/\_\_\_\_\_\_\_\_
+
+---
+
+<div align="center" style="margin:32px 0;">
+<div style="height:1px;background:linear-gradient(90deg,transparent,#00BFFF 20%,#F5A623 50%,#00BFFF 80%,transparent);margin-bottom:6px;"></div>
+<span style="font-family:'Montserrat','Segoe UI',Arial,sans-serif;font-size:10px;letter-spacing:8px;color:rgba(0,153,204,0.12);font-weight:800;text-transform:uppercase;">PECH GROUP HOLDINGS LTD</span>
+<div style="height:1px;background:linear-gradient(90deg,transparent,#F5A623 20%,#00BFFF 50%,#F5A623 80%,transparent);margin-top:6px;"></div>
+</div>
 
 ---
 
@@ -1391,6 +1544,14 @@ Technical Writer → Senior Writer → Documentation Lead → Head of Content
 ### SCHEDULE B — JOB DESCRIPTION AND KEY PERFORMANCE INDICATORS
 
 **Attached to Employment Contract dated:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+---
+
+<div align="center" style="margin:32px 0;">
+<div style="height:1px;background:linear-gradient(90deg,transparent,#00BFFF 20%,#F5A623 50%,#00BFFF 80%,transparent);margin-bottom:6px;"></div>
+<span style="font-family:'Montserrat','Segoe UI',Arial,sans-serif;font-size:10px;letter-spacing:8px;color:rgba(0,153,204,0.12);font-weight:800;text-transform:uppercase;">PECH GROUP HOLDINGS LTD</span>
+<div style="height:1px;background:linear-gradient(90deg,transparent,#F5A623 20%,#00BFFF 50%,#F5A623 80%,transparent);margin-top:6px;"></div>
+</div>
 
 ---
 
@@ -1485,6 +1646,14 @@ Fintech Ops Manager → Head of Fintech Operations → VP Financial Services
 
 ---
 
+<div align="center" style="margin:32px 0;">
+<div style="height:1px;background:linear-gradient(90deg,transparent,#00BFFF 20%,#F5A623 50%,#00BFFF 80%,transparent);margin-bottom:6px;"></div>
+<span style="font-family:'Montserrat','Segoe UI',Arial,sans-serif;font-size:10px;letter-spacing:8px;color:rgba(0,153,204,0.12);font-weight:800;text-transform:uppercase;">PECH GROUP HOLDINGS LTD</span>
+<div style="height:1px;background:linear-gradient(90deg,transparent,#F5A623 20%,#00BFFF 50%,#F5A623 80%,transparent);margin-top:6px;"></div>
+</div>
+
+---
+
 **Employee Signature:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ **Date:** \_\_\_\_/\_\_\_\_/\_\_\_\_\_\_\_\_
 
 **Employer Signature:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ **Date:** \_\_\_\_/\_\_\_\_/\_\_\_\_\_\_\_\_
@@ -1541,9 +1710,36 @@ AI/ML Intern → Junior AI/ML Engineer → AI/ML Engineer
 
 ---
 
+<div align="center" style="margin:32px 0;">
+<div style="height:1px;background:linear-gradient(90deg,transparent,#00BFFF 20%,#F5A623 50%,#00BFFF 80%,transparent);margin-bottom:6px;"></div>
+<span style="font-family:'Montserrat','Segoe UI',Arial,sans-serif;font-size:10px;letter-spacing:8px;color:rgba(0,153,204,0.12);font-weight:800;text-transform:uppercase;">PECH GROUP HOLDINGS LTD</span>
+<div style="height:1px;background:linear-gradient(90deg,transparent,#F5A623 20%,#00BFFF 50%,#F5A623 80%,transparent);margin-top:6px;"></div>
+</div>
+
+---
+
 *This document is the property of PECH Group Holdings Ltd. Unauthorized reproduction is prohibited.*
 
 **PECH Group Holdings Ltd** — *Technology & Infrastructure Enablers for People*
 
 <div style="height:5px;background:linear-gradient(90deg,#E08A00,#F5A623 25%,#0099CC 75%,#00BFFF);margin:20px -28px -24px -28px;"></div>
+</div>
+
+
+---
+
+<div align="center" style="margin:48px 0 24px;">
+<div style="height:3px;background:linear-gradient(90deg,#00BFFF,#0099CC 25%,#F5A623 50%,#E08A00 75%,#00BFFF);border-radius:2px;"></div>
+<div style="padding:28px 0 8px;">
+<img src="../design_assets/logos/pech_logo_icon_only.svg" alt="PECH" width="48" style="opacity:0.15;margin-bottom:8px;" />
+<div style="font-family:'Montserrat','Segoe UI',Arial,sans-serif;font-size:11px;letter-spacing:10px;color:rgba(0,153,204,0.13);font-weight:800;text-transform:uppercase;margin-bottom:4px;">PECH GROUP HOLDINGS LTD</div>
+<div style="font-family:'Montserrat','Segoe UI',Arial,sans-serif;font-size:11px;letter-spacing:10px;color:rgba(0,153,204,0.13);font-weight:800;text-transform:uppercase;margin-bottom:4px;">PECH GROUP HOLDINGS LTD</div>
+<div style="font-family:'Montserrat','Segoe UI',Arial,sans-serif;font-size:11px;letter-spacing:10px;color:rgba(0,153,204,0.13);font-weight:800;text-transform:uppercase;margin-bottom:4px;">PECH GROUP HOLDINGS LTD</div>
+<div style="font-family:'Open Sans','Segoe UI',Arial,sans-serif;font-size:8px;letter-spacing:4px;color:rgba(245,166,35,0.18);font-weight:400;text-transform:uppercase;">Technology & Infrastructure Enablers for People</div>
+<div style="margin-top:12px;">
+<img src="../design_assets/graphics/pech_watermark.svg" alt="PECH Watermark" width="120" style="opacity:0.08;" />
+</div>
+</div>
+<div style="height:3px;background:linear-gradient(90deg,#F5A623,#E08A00 25%,#00BFFF 50%,#0099CC 75%,#F5A623);border-radius:2px;"></div>
+<div style="font-family:'Open Sans',Arial,sans-serif;font-size:7px;letter-spacing:3px;color:rgba(0,153,204,0.2);margin-top:8px;text-transform:uppercase;">Confidential — PECH Group Holdings Ltd — Lagos, Nigeria — pechgroupholdings.tech</div>
 </div>

@@ -4,6 +4,7 @@
 <div style="height:2px;background:linear-gradient(90deg,#F5A623,#0099CC 50%,#F5A623);"></div>
 <div style="padding:24px 36px 18px;">
 <div style="display:inline-block;background:linear-gradient(135deg,#0099CC,#0099CC);border-radius:12px;padding:10px 14px;margin-bottom:8px;"><span style="font-size:1.8em;">🌍</span></div>
+<img src="../design_assets/logos/pech_logo_horizontal.svg" alt="PECH Group Holdings Ltd" width="180" style="margin-bottom:8px;"/>
 <h1 style="margin:6px 0 0;font-size:1.7em;background:linear-gradient(90deg,#0099CC,#F5A623);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;">Nigeria & Africa Automation and Smart Systems Industry Research</h1>
 <h2 style="margin:6px 0 12px;font-size:1.05em;color:#0099CC;font-weight:500;">Table of Contents</h2>
 <p>
@@ -83,6 +84,14 @@ Nigeria represents the **single largest market** in West Africa for automation a
 - 172M+ mobile subscribers
 
 ...makes it uniquely positioned for IoT and automation adoption.
+
+---
+
+<div align="center" style="margin:32px 0;">
+<div style="height:1px;background:linear-gradient(90deg,transparent,#00BFFF 20%,#F5A623 50%,#00BFFF 80%,transparent);margin-bottom:6px;"></div>
+<span style="font-family:'Montserrat','Segoe UI',Arial,sans-serif;font-size:10px;letter-spacing:8px;color:rgba(0,153,204,0.12);font-weight:800;text-transform:uppercase;">PECH GROUP HOLDINGS LTD</span>
+<div style="height:1px;background:linear-gradient(90deg,transparent,#F5A623 20%,#00BFFF 50%,#F5A623 80%,transparent);margin-top:6px;"></div>
+</div>
 
 ---
 
@@ -233,6 +242,14 @@ Nigeria represents the **single largest market** in West Africa for automation a
 - **No micro-financing partnerships** — fintech integration could unlock mass market
 - **No SME-specific pricing** — 40M small businesses ignored
 - **No community/estate pricing** — bulk deals for housing developments could reduce per-unit costs dramatically
+
+---
+
+<div align="center" style="margin:32px 0;">
+<div style="height:1px;background:linear-gradient(90deg,transparent,#00BFFF 20%,#F5A623 50%,#00BFFF 80%,transparent);margin-bottom:6px;"></div>
+<span style="font-family:'Montserrat','Segoe UI',Arial,sans-serif;font-size:10px;letter-spacing:8px;color:rgba(0,153,204,0.12);font-weight:800;text-transform:uppercase;">PECH GROUP HOLDINGS LTD</span>
+<div style="height:1px;background:linear-gradient(90deg,transparent,#F5A623 20%,#00BFFF 50%,#F5A623 80%,transparent);margin-top:6px;"></div>
+</div>
 
 ---
 
@@ -393,6 +410,14 @@ Based on search behavior analysis:
 
 ---
 
+<div align="center" style="margin:32px 0;">
+<div style="height:1px;background:linear-gradient(90deg,transparent,#00BFFF 20%,#F5A623 50%,#00BFFF 80%,transparent);margin-bottom:6px;"></div>
+<span style="font-family:'Montserrat','Segoe UI',Arial,sans-serif;font-size:10px;letter-spacing:8px;color:rgba(0,153,204,0.12);font-weight:800;text-transform:uppercase;">PECH GROUP HOLDINGS LTD</span>
+<div style="height:1px;background:linear-gradient(90deg,transparent,#F5A623 20%,#00BFFF 50%,#F5A623 80%,transparent);margin-top:6px;"></div>
+</div>
+
+---
+
 ## 11. Real Problems People Will Pay to Solve
 
 ### 11.1 Problem-Willingness Matrix
@@ -534,6 +559,14 @@ This is PECH's opportunity. The platform architecture (ThingsBoard + AI + Fintec
 
 ---
 
+<div align="center" style="margin:32px 0;">
+<div style="height:1px;background:linear-gradient(90deg,transparent,#00BFFF 20%,#F5A623 50%,#00BFFF 80%,transparent);margin-bottom:6px;"></div>
+<span style="font-family:'Montserrat','Segoe UI',Arial,sans-serif;font-size:10px;letter-spacing:8px;color:rgba(0,153,204,0.12);font-weight:800;text-transform:uppercase;">PECH GROUP HOLDINGS LTD</span>
+<div style="height:1px;background:linear-gradient(90deg,transparent,#F5A623 20%,#00BFFF 50%,#F5A623 80%,transparent);margin-top:6px;"></div>
+</div>
+
+---
+
 ## 15. Regulatory & Policy Landscape
 
 | Regulation | Status | Impact |
@@ -634,4 +667,23 @@ This is PECH's opportunity. The platform architecture (ThingsBoard + AI + Fintec
 *This research was compiled for PECH Group Holdings Ltd strategic planning. Data sourced from multiple market research firms, news sources, and industry reports. All figures should be validated with primary research before investment decisions.*
 
 <div style="height:5px;background:linear-gradient(90deg,#E08A00,#F5A623 25%,#0099CC 75%,#00BFFF);margin:20px -28px -24px -28px;"></div>
+</div>
+
+
+---
+
+<div align="center" style="margin:48px 0 24px;">
+<div style="height:3px;background:linear-gradient(90deg,#00BFFF,#0099CC 25%,#F5A623 50%,#E08A00 75%,#00BFFF);border-radius:2px;"></div>
+<div style="padding:28px 0 8px;">
+<img src="../design_assets/logos/pech_logo_icon_only.svg" alt="PECH" width="48" style="opacity:0.15;margin-bottom:8px;" />
+<div style="font-family:'Montserrat','Segoe UI',Arial,sans-serif;font-size:11px;letter-spacing:10px;color:rgba(0,153,204,0.13);font-weight:800;text-transform:uppercase;margin-bottom:4px;">PECH GROUP HOLDINGS LTD</div>
+<div style="font-family:'Montserrat','Segoe UI',Arial,sans-serif;font-size:11px;letter-spacing:10px;color:rgba(0,153,204,0.13);font-weight:800;text-transform:uppercase;margin-bottom:4px;">PECH GROUP HOLDINGS LTD</div>
+<div style="font-family:'Montserrat','Segoe UI',Arial,sans-serif;font-size:11px;letter-spacing:10px;color:rgba(0,153,204,0.13);font-weight:800;text-transform:uppercase;margin-bottom:4px;">PECH GROUP HOLDINGS LTD</div>
+<div style="font-family:'Open Sans','Segoe UI',Arial,sans-serif;font-size:8px;letter-spacing:4px;color:rgba(245,166,35,0.18);font-weight:400;text-transform:uppercase;">Technology & Infrastructure Enablers for People</div>
+<div style="margin-top:12px;">
+<img src="../design_assets/graphics/pech_watermark.svg" alt="PECH Watermark" width="120" style="opacity:0.08;" />
+</div>
+</div>
+<div style="height:3px;background:linear-gradient(90deg,#F5A623,#E08A00 25%,#00BFFF 50%,#0099CC 75%,#F5A623);border-radius:2px;"></div>
+<div style="font-family:'Open Sans',Arial,sans-serif;font-size:7px;letter-spacing:3px;color:rgba(0,153,204,0.2);margin-top:8px;text-transform:uppercase;">Confidential — PECH Group Holdings Ltd — Lagos, Nigeria — pechgroupholdings.tech</div>
 </div>
