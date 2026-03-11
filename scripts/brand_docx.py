@@ -496,14 +496,16 @@ def clean_markdown_artifacts(doc):
 
         # Remove paragraphs that are just unicode line characters (━━━)
         if text.strip() and all(c in '━─═─▬▰▱░▒▓' for c in text.strip()):
-            paragraph.clear()
+            p_element = paragraph._element
+            p_element.getparent().remove(p_element)
             continue
 
         # Track and remove duplicate company name mentions from body text
         # (the branded header block adds its own, so body ones are duplicates)
         if text.strip() == 'PECH GROUP HOLDINGS LTD':
             if company_name_seen:
-                paragraph.clear()
+                p_element = paragraph._element
+                p_element.getparent().remove(p_element)
                 continue
             company_name_seen = True
 
