@@ -1,13 +1,22 @@
 #!/usr/bin/env python3
 """
-PECH Group Holdings Ltd — Proposal Document Regenerator
+PECH Group Holdings Ltd — Full Document Regenerator
 
-Regenerates PDF and DOCX versions of proposal documents from updated Markdown sources.
-Uses pdfkit (wkhtmltopdf) for PDF generation with embedded images.
-Uses pandoc for DOCX generation.
+Regenerates PDF and DOCX versions of ALL documents from Markdown sources.
+Uses pdfkit (wkhtmltopdf) for PDF generation with embedded images and brand CSS.
+Uses pandoc for DOCX generation, then applies PECH brand styling via brand_docx.
+
+Covers:
+  - Root-level proposals (PDF + DOCX)
+  - ai_strategy/ documents (PDF + DOCX)
+  - brand_templates/ documents (PDF + DOCX)
+  - business_documents/ documents (PDF + DOCX)
+  - contracts/ documents (PDF + DOCX)
 
 Usage:
-    python3 scripts/regenerate_proposals.py
+    python3 scripts/regenerate_proposals.py          # Regenerate ALL documents
+    python3 scripts/regenerate_proposals.py --docx   # DOCX only (skip PDF)
+    python3 scripts/regenerate_proposals.py --pdf    # PDF only (skip DOCX)
 """
 
 import os
@@ -24,37 +33,75 @@ from brand_docx import brand_docx
 
 PROJECT_ROOT = Path(__file__).parent.parent
 
-# Documents to regenerate (markdown source → output base name)
-PROPOSAL_DOCS = [
+# ── Document directories to process ──────────────────────────────────────────
+# Each entry: (directory_relative_to_root, list_of_basenames_without_extension)
+# If list is None, auto-discover all .md files in that directory.
+
+DOCUMENT_GROUPS = [
     {
-        "md": "PECH_GROUP_FINANCIAL_PROPOSAL_250M_NAIRA.md",
-        "pdf": "PECH_GROUP_FINANCIAL_PROPOSAL_250M_NAIRA.pdf",
-        "docx": "PECH_GROUP_FINANCIAL_PROPOSAL_250M_NAIRA.docx",
+        "label": "PROPOSAL DOCUMENTS (Root)",
+        "dir": ".",
+        "files": [
+            "PECH_GROUP_FINANCIAL_PROPOSAL_250M_NAIRA",
+            "PECH_INVESTOR_VERSION",
+            "PECH_PROPOSAL_EXECUTIVE_SUMMARY",
+        ],
+        "pdf": True,
+        "docx": True,
     },
     {
-        "md": "PECH_INVESTOR_VERSION.md",
-        "pdf": "PECH_INVESTOR_VERSION.pdf",
-        "docx": "PECH_INVESTOR_VERSION.docx",
+        "label": "AI STRATEGY DOCUMENTS",
+        "dir": "ai_strategy",
+        "files": None,  # Auto-discover
+        "pdf": True,
+        "docx": True,
     },
     {
-        "md": "PECH_PROPOSAL_EXECUTIVE_SUMMARY.md",
-        "pdf": "PECH_PROPOSAL_EXECUTIVE_SUMMARY.pdf",
-        "docx": "PECH_PROPOSAL_EXECUTIVE_SUMMARY.docx",
+        "label": "BRAND TEMPLATES",
+        "dir": "brand_templates",
+        "files": None,
+        "pdf": True,
+        "docx": True,
+    },
+    {
+        "label": "BUSINESS DOCUMENTS",
+        "dir": "business_documents",
+        "files": None,
+        "pdf": True,
+        "docx": True,
+    },
+    {
+        "label": "CONTRACTS & AGREEMENTS",
+        "dir": "contracts",
+        "files": None,
+        "pdf": True,
+        "docx": True,
     },
 ]
 
-AI_STRATEGY_DOCS = [
-    "ai_strategy/PECH_AI_ARCHITECTURE_GUIDE",
-    "ai_strategy/PECH_AI_HARDWARE_AND_SETUP_GUIDE",
-    "ai_strategy/PECH_AI_MODEL_CATALOG",
-    "ai_strategy/PECH_OPEN_SOURCE_PLATFORM_STACK",
-    "ai_strategy/PECH_ECOSYSTEM_COMPREHENSIVE_GUIDE",
-    "ai_strategy/NIGERIA_AFRICA_AUTOMATION_SMART_SYSTEMS_INDUSTRY_RESEARCH",
-    "ai_strategy/CRM_ERP_INTEGRATION_RESEARCH",
-]
+# Skip README.md files (not real documents)
+SKIP_FILES = {"README"}
 
-# PECH brand CSS for PDF generation
+# ── PECH brand CSS for PDF generation ────────────────────────────────────────
 PECH_CSS = """
+@page {
+    margin: 15mm;
+    size: A4;
+
+    @top-center {
+        content: "PECH GROUP HOLDINGS LTD";
+        font-family: 'Segoe UI', Arial, sans-serif;
+        font-size: 8pt;
+        color: #0099CC;
+    }
+    @bottom-center {
+        content: "Page " counter(page) " of " counter(pages);
+        font-family: 'Segoe UI', Arial, sans-serif;
+        font-size: 8pt;
+        color: #888;
+    }
+}
+
 body {
     font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
     font-size: 11pt;
@@ -64,6 +111,40 @@ body {
     margin: 0 auto;
     padding: 20px 30px;
 }
+
+/* ── Branded Header Banner ── */
+.pech-header {
+    text-align: center;
+    padding: 18px 0 12px;
+    margin-bottom: 20px;
+    border-top: 5px solid #F5A623;
+    border-bottom: 2px solid #00BFFF;
+}
+.pech-header .company-name {
+    font-size: 16pt;
+    font-weight: bold;
+    color: #0099CC;
+    margin: 0;
+    letter-spacing: 1px;
+}
+.pech-header .tagline {
+    font-size: 9pt;
+    color: #E08A00;
+    font-style: italic;
+    margin: 2px 0 0;
+}
+
+/* ── Branded Footer Banner ── */
+.pech-footer {
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 8px;
+    border-top: 5px solid #F5A623;
+    font-size: 8pt;
+    color: #0099CC;
+}
+
+/* ── Headings ── */
 h1 {
     color: #0099CC;
     border-bottom: 3px solid #F5A623;
@@ -83,6 +164,8 @@ h3 {
     margin-top: 18px;
 }
 h4 { color: #0099CC; font-size: 11pt; }
+
+/* ── Tables ── */
 table {
     border-collapse: collapse;
     width: 100%;
@@ -90,7 +173,7 @@ table {
     font-size: 9.5pt;
 }
 th {
-    background-color: #0099CC;
+    background: linear-gradient(135deg, #00BFFF, #0099CC);
     color: white;
     padding: 8px 10px;
     text-align: left;
@@ -98,16 +181,22 @@ th {
 }
 td {
     padding: 6px 10px;
-    border: 1px solid #ddd;
+    border: 1px solid #B0D4E8;
 }
-tr:nth-child(even) { background-color: #f8f9fa; }
-tr:hover { background-color: #e8f4f8; }
+tr:nth-child(even) { background-color: #E8F8FF; }
+tr:nth-child(odd) { background-color: #FFFFFF; }
+/* Keep header row text white for bold/link/em */
+th strong, th a, th em { color: #FFFFFF; }
+
+/* ── Images ── */
 img {
     max-width: 100%;
     height: auto;
     margin: 12px 0;
     border-radius: 8px;
 }
+
+/* ── Code ── */
 code {
     background-color: #f4f4f4;
     padding: 2px 6px;
@@ -121,16 +210,30 @@ pre {
     border-radius: 6px;
     overflow-x: auto;
     font-size: 9pt;
+    border: 1px solid #F5A623;
 }
+
+/* ── Blockquotes ── */
 blockquote {
     border-left: 4px solid #F5A623;
     margin: 12px 0;
     padding: 8px 16px;
     background-color: #fff8e1;
 }
+
+/* ── Inline ── */
 strong { color: #0099CC; }
 a { color: #00BFFF; text-decoration: none; }
-hr { border: 1px solid #F5A623; margin: 20px 0; }
+
+/* ── Horizontal Rules (Dividers) ── */
+hr {
+    border: none;
+    height: 0;
+    border-top: 3px solid #F5A623;
+    border-bottom: 1px solid #00BFFF;
+    margin: 24px 0;
+}
+
 .page-break { page-break-before: always; }
 """
 
@@ -147,7 +250,7 @@ def embed_images_in_html(html_content, md_dir):
 
         img_path = (md_dir / src).resolve()
         if not img_path.exists():
-            print(f"  WARNING: Image not found: {img_path}")
+            print(f"    WARNING: Image not found: {img_path}")
             return full_match
 
         # Determine MIME type
@@ -165,8 +268,17 @@ def embed_images_in_html(html_content, md_dir):
     return re.sub(r'<img[^>]+src="([^"]+)"', replace_img, html_content)
 
 
+def strip_remote_images(html_content):
+    """Remove remote image tags (badges, shields.io, etc.) that cause network errors in PDF gen."""
+    # Remove <img> tags with http/https src
+    html_content = re.sub(r'<img[^>]+src="https?://[^"]*"[^>]*/?\s*>', '', html_content)
+    # Remove empty <p> tags left behind
+    html_content = re.sub(r'<p>\s*</p>', '', html_content)
+    return html_content
+
+
 def md_to_html(md_path):
-    """Convert markdown file to styled HTML with embedded images."""
+    """Convert markdown file to styled HTML with branded header/footer and embedded images."""
     with open(md_path, 'r', encoding='utf-8') as f:
         md_content = f.read()
 
@@ -176,9 +288,24 @@ def md_to_html(md_path):
         extensions=['tables', 'fenced_code', 'toc', 'attr_list', 'md_in_html']
     )
 
-    # Embed images as base64
+    # Embed local images as base64, then strip remote images that cause network errors
     md_dir = md_path.parent
     html_body = embed_images_in_html(html_body, md_dir)
+    html_body = strip_remote_images(html_body)
+
+    # Branded header + footer wrappers
+    header_html = """
+    <div class="pech-header">
+        <p class="company-name">PECH GROUP HOLDINGS LTD</p>
+        <p class="tagline">Technology &amp; Infrastructure Enablers for Africa</p>
+    </div>
+    """
+
+    footer_html = """
+    <div class="pech-footer">
+        PECH Group Holdings Ltd &nbsp;|&nbsp; Lagos, Nigeria &nbsp;|&nbsp; pechgroupholdings.tech
+    </div>
+    """
 
     # Wrap in full HTML document
     html = f"""<!DOCTYPE html>
@@ -188,7 +315,9 @@ def md_to_html(md_path):
     <style>{PECH_CSS}</style>
 </head>
 <body>
+{header_html}
 {html_body}
+{footer_html}
 </body>
 </html>"""
 
@@ -196,10 +325,10 @@ def md_to_html(md_path):
 
 
 def generate_pdf(md_path, pdf_path):
-    """Generate PDF from markdown using wkhtmltopdf via pdfkit."""
+    """Generate branded PDF from markdown using wkhtmltopdf via pdfkit."""
     import pdfkit
 
-    print(f"  Generating PDF: {pdf_path.name}")
+    print(f"    Generating PDF: {pdf_path.name}")
     html = md_to_html(md_path)
 
     # Write temp HTML
@@ -215,23 +344,24 @@ def generate_pdf(md_path, pdf_path):
         'margin-left': '15mm',
         'encoding': 'UTF-8',
         'enable-local-file-access': '',
-        'print-media-type': '',
         'no-stop-slow-scripts': '',
-        'javascript-delay': '1000',
+        'javascript-delay': '500',
+        'load-error-handling': 'ignore',
+        'load-media-error-handling': 'ignore',
     }
 
     try:
         pdfkit.from_file(str(tmp_html), str(pdf_path), options=options)
-        print(f"  ✓ PDF created: {pdf_path.name}")
+        print(f"    + PDF created: {pdf_path.name}")
     except Exception as e:
-        print(f"  ✗ PDF failed: {e}")
+        print(f"    x PDF failed: {e}")
     finally:
         tmp_html.unlink(missing_ok=True)
 
 
 def generate_docx(md_path, docx_path):
-    """Generate DOCX from markdown using pandoc, then apply PECH branding."""
-    print(f"  Generating DOCX: {docx_path.name}")
+    """Generate branded DOCX from markdown using pandoc + brand_docx post-processor."""
+    print(f"    Generating DOCX: {docx_path.name}")
 
     cmd = [
         'pandoc', str(md_path),
@@ -244,53 +374,98 @@ def generate_docx(md_path, docx_path):
     try:
         result = subprocess.run(cmd, capture_output=True, text=True, cwd=str(md_path.parent))
         if result.returncode == 0:
-            print(f"  ✓ DOCX created: {docx_path.name}")
+            print(f"    + DOCX created: {docx_path.name}")
             # Apply PECH brand colors, headers, dividers, and table styling
             brand_docx(docx_path)
         else:
-            print(f"  ✗ DOCX failed: {result.stderr}")
+            print(f"    x DOCX failed: {result.stderr}")
     except Exception as e:
-        print(f"  ✗ DOCX failed: {e}")
+        print(f"    x DOCX failed: {e}")
+
+
+def discover_md_files(directory):
+    """Find all .md files in a directory, excluding README.md."""
+    md_files = []
+    for f in sorted(directory.glob("*.md")):
+        basename = f.stem
+        if basename in SKIP_FILES:
+            continue
+        md_files.append(basename)
+    return md_files
 
 
 def main():
-    print("=" * 60)
-    print("  PECH Document Regenerator")
-    print("  Rebuilding PDFs and DOCX from updated Markdown sources")
-    print("=" * 60)
+    # Parse command-line flags
+    do_pdf = True
+    do_docx = True
+    if "--docx" in sys.argv:
+        do_pdf = False
+    elif "--pdf" in sys.argv:
+        do_docx = False
+
+    mode = "PDF + DOCX" if (do_pdf and do_docx) else ("DOCX only" if do_docx else "PDF only")
+
+    print("=" * 65)
+    print("  PECH Full Document Regenerator")
+    print(f"  Mode: {mode}")
+    print("  Rebuilding from Markdown sources with PECH brand styling")
+    print("=" * 65)
     print()
 
-    # Regenerate proposal documents (PDF + DOCX)
-    print("--- PROPOSAL DOCUMENTS ---")
-    for doc in PROPOSAL_DOCS:
-        md_path = PROJECT_ROOT / doc["md"]
-        pdf_path = PROJECT_ROOT / doc["pdf"]
-        docx_path = PROJECT_ROOT / doc["docx"]
+    total_pdf = 0
+    total_docx = 0
+    total_failed = 0
 
-        if not md_path.exists():
-            print(f"SKIP: {doc['md']} not found")
+    for group in DOCUMENT_GROUPS:
+        label = group["label"]
+        dir_rel = group["dir"]
+        dir_path = PROJECT_ROOT / dir_rel if dir_rel != "." else PROJECT_ROOT
+
+        # Discover or use predefined file list
+        if group["files"] is None:
+            basenames = discover_md_files(dir_path)
+        else:
+            basenames = group["files"]
+
+        if not basenames:
             continue
 
-        print(f"\nSource: {doc['md']}")
-        generate_pdf(md_path, pdf_path)
-        generate_docx(md_path, docx_path)
+        print(f"--- {label} ({len(basenames)} files) ---")
 
-    # Regenerate ai_strategy DOCX files
-    print("\n--- AI STRATEGY DOCUMENTS ---")
-    for doc_base in AI_STRATEGY_DOCS:
-        md_path = PROJECT_ROOT / f"{doc_base}.md"
-        docx_path = PROJECT_ROOT / f"{doc_base}.docx"
+        for basename in basenames:
+            md_path = dir_path / f"{basename}.md"
+            if not md_path.exists():
+                print(f"  SKIP: {basename}.md not found")
+                total_failed += 1
+                continue
 
-        if not md_path.exists():
-            print(f"SKIP: {doc_base}.md not found")
-            continue
+            print(f"\n  Source: {dir_rel}/{basename}.md" if dir_rel != "." else f"\n  Source: {basename}.md")
 
-        print(f"\nSource: {doc_base}.md")
-        generate_docx(md_path, docx_path)
+            # Generate PDF
+            if do_pdf and group.get("pdf", True):
+                pdf_path = dir_path / f"{basename}.pdf"
+                try:
+                    generate_pdf(md_path, pdf_path)
+                    total_pdf += 1
+                except Exception as e:
+                    print(f"    x PDF error: {e}")
+                    total_failed += 1
 
-    print("\n" + "=" * 60)
-    print("  Regeneration complete!")
-    print("=" * 60)
+            # Generate DOCX
+            if do_docx and group.get("docx", True):
+                docx_path = dir_path / f"{basename}.docx"
+                try:
+                    generate_docx(md_path, docx_path)
+                    total_docx += 1
+                except Exception as e:
+                    print(f"    x DOCX error: {e}")
+                    total_failed += 1
+
+        print()
+
+    print("=" * 65)
+    print(f"  Done! {total_pdf} PDFs + {total_docx} DOCXs generated, {total_failed} failed")
+    print("=" * 65)
 
 
 if __name__ == "__main__":
