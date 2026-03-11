@@ -18,6 +18,10 @@ import base64
 import re
 from pathlib import Path
 
+# Import DOCX branding post-processor
+sys.path.insert(0, str(Path(__file__).parent))
+from brand_docx import brand_docx
+
 PROJECT_ROOT = Path(__file__).parent.parent
 
 # Documents to regenerate (markdown source → output base name)
@@ -226,7 +230,7 @@ def generate_pdf(md_path, pdf_path):
 
 
 def generate_docx(md_path, docx_path):
-    """Generate DOCX from markdown using pandoc."""
+    """Generate DOCX from markdown using pandoc, then apply PECH branding."""
     print(f"  Generating DOCX: {docx_path.name}")
 
     cmd = [
@@ -241,6 +245,8 @@ def generate_docx(md_path, docx_path):
         result = subprocess.run(cmd, capture_output=True, text=True, cwd=str(md_path.parent))
         if result.returncode == 0:
             print(f"  ✓ DOCX created: {docx_path.name}")
+            # Apply PECH brand colors, headers, dividers, and table styling
+            brand_docx(docx_path)
         else:
             print(f"  ✗ DOCX failed: {result.stderr}")
     except Exception as e:
