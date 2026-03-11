@@ -1,11 +1,35 @@
-<div style="border:3px solid; border-image:linear-gradient(180deg,#00BFFF,#0099CC 30%,#F5A623 70%,#E08A00) 1; padding:24px 28px; box-shadow:inset 0 0 12px rgba(0,191,255,0.06),inset 0 0 12px rgba(245,166,35,0.06);">
-<div style="height:5px;background:linear-gradient(90deg,#00BFFF,#0099CC 25%,#F5A623 75%,#E08A00);margin:-24px -28px 20px -28px;"></div>
+<div align="center">
 
-# PECH IoT & Smart Systems Platform for Africa — Codebase Summary
+<!-- ============== CODEBASE SUMMARY HEADER ============== -->
+<div style="background:linear-gradient(135deg,#1B2838 0%,#0d1b2a 50%,#162435 100%);border-radius:16px;padding:0;overflow:hidden;border:2px solid #00BFFF;box-shadow:0 8px 32px rgba(0,191,255,0.15),0 4px 16px rgba(245,166,35,0.1);">
 
-> **Last Updated:** March 10, 2026
-> **Repository Type:** Business Blueprint & Strategic Planning
-> **Status:** Pre-launch — Phase 1 (Crawl) underway
+<div style="height:4px;background:linear-gradient(90deg,#00BFFF,#0099CC 25%,#F5A623 50%,#E08A00 75%,#00BFFF);"></div>
+<div style="height:2px;background:linear-gradient(90deg,#F5A623,#00BFFF 50%,#F5A623);"></div>
+
+<div style="padding:28px 40px 20px;">
+
+<div style="display:inline-block;background:linear-gradient(135deg,#0099CC,#00BFFF);border-radius:12px;padding:10px 14px;margin-bottom:10px;">
+<span style="font-size:1.8em;">📦</span>
+</div>
+
+<h1 style="margin:8px 0 0;font-size:1.9em;background:linear-gradient(90deg,#00BFFF,#F5A623);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;">PECH IoT & Smart Systems Platform for Africa</h1>
+
+<h2 style="margin:4px 0 12px;font-size:1.1em;color:#F5A623;font-weight:500;">Codebase Summary & Repository Guide</h2>
+
+<p>
+<img src="https://img.shields.io/badge/Updated-March%2011%2C%202026-00BFFF?style=for-the-badge&labelColor=1B2838" alt="Updated" />
+<img src="https://img.shields.io/badge/Type-Business%20Blueprint-F5A623?style=for-the-badge&labelColor=1B2838" alt="Blueprint" />
+<img src="https://img.shields.io/badge/Status-Phase%201%20(Crawl)-0099CC?style=for-the-badge&labelColor=1B2838" alt="Status" />
+</p>
+
+<div style="height:2px;background:linear-gradient(90deg,#00BFFF,#F5A623 50%,#00BFFF);margin:12px -40px 0;"></div>
+<div style="height:4px;background:linear-gradient(90deg,#F5A623,#E08A00 25%,#00BFFF 50%,#0099CC 75%,#F5A623);margin:0 -40px -20px;"></div>
+
+</div>
+</div>
+<!-- ============== END HEADER ============== -->
+
+</div>
 
 ---
 
@@ -44,10 +68,11 @@ Pech-IOT-and-SMART-SYSTEMS-PLATFORM-FOR-AFRICA/
 ├── business_documents/                              # [51 files] Operational forms (MD + DOCX)
 ├── contracts/                                       # [24 files] Legal templates (MD + DOCX)
 ├── brand_templates/                                 # [25 files] Brand collateral (MD + DOCX)
+├── employment_xlsx/                                 # [40 files] Excel versions (39 XLSX + README)
 ├── design_assets/                                   # [14 files] Logos, graphics, templates
 ├── design_system/                                   # [2 files]  CSS design system + HTML components
 ├── proposal_images/                                 # [26 files] Infographics (SVG + PNG)
-├── scripts/                                         # [3 files]  Document generation scripts
+├── scripts/                                         # [5 files]  Document generation scripts
 ├── .claude/commands/                                # [1 file]   Slash command templates
 │
 ├── PECH_GROUP_FINANCIAL_PROPOSAL_250M_NAIRA.md/docx/pdf  # Full 24-month budget
@@ -78,8 +103,8 @@ The core technical and strategic documentation for PECH's self-hosted AI infrast
 | `PECH_OPEN_SOURCE_PLATFORM_STACK.md` | 31 KB | 25+ platforms (Keycloak, ERPNext, Medusa, Fineract, etc.) with license audit |
 | `PECH_AI_HARDWARE_AND_SETUP_GUIDE.md` | 35 KB | Hardware BOM, China sourcing, Nigeria import duties, power/cooling |
 | `PECH_AI_ARCHITECTURE_GUIDE.md` | 36 KB | 5-layer architecture, 78 microservices, RAG pipeline, API gateway, NDPA compliance |
-| `CRM_ERP_INTEGRATION_RESEARCH.md` | — | ERP integration analysis |
-| `NIGERIA_AFRICA_AUTOMATION_SMART_SYSTEMS_INDUSTRY_RESEARCH.md` | — | Automation & smart systems sector analysis |
+| `CRM_ERP_INTEGRATION_RESEARCH.md` | 28 KB | CRM/ERP integration research — 870 lines, 17 sections, market data, architecture, cost analysis |
+| `NIGERIA_AFRICA_AUTOMATION_SMART_SYSTEMS_INDUSTRY_RESEARCH.md` | 22 KB | Automation & smart systems sector analysis — 638 lines, 17 sections, competitor analysis, 30+ sources |
 | `images/` | — | 7 SVG + 7 PNG infographics (ecosystem, model stack, pipeline, infrastructure, team, roadmap, logistics) |
 
 **Key license corrections from ChatGPT conversations:**
@@ -175,11 +200,28 @@ design_assets/
 - ROI analysis
 - Technology stack overview
 
-### `scripts/` — Document Generation (3 files)
+### `employment_xlsx/` — Excel Spreadsheets (40 files)
+
+39 branded Excel (.xlsx) files covering all PECH documents + 1 README:
+
+| Category | Count | Description |
+|----------|-------|-------------|
+| **Contracts** | 9 | Employment, contractor, NDA, installer, marketer agreements |
+| **HR Forms** | 5 | Application form, interview checklist, leave request, staff ID, job handbook |
+| **Financial** | 10 | Invoices, receipts, vouchers, expense reports, quotations, purchase orders |
+| **Operations** | 12 | Delivery notes, waybills, stock requisitions, work orders, incident reports |
+| **HR Extended** | 1 | Schedule B compensation tracker |
+| **Dashboards** | 2 | HR Master Dashboard + Master Document Dashboard |
+
+All files feature PECH branding, dropdown validations, alternating row colors, and Google Sheets compatibility.
+
+### `scripts/` — Document Generation (5 files)
 
 | Script | Language | Purpose |
 |--------|----------|---------|
-| `generate_application_form.py` | Python (28 KB) | Generates branded Excel (.xlsx) and Word (.docx) application forms using openpyxl + python-docx |
+| `generate_application_form.py` | Python (35 KB) | Generates branded Excel (.xlsx) and Word (.docx) application forms with clickable checkboxes |
+| `generate_employment_xlsx.py` | Python (62 KB) | Generates 15 employment contract/HR Excel files with PECH branding |
+| `generate_business_xlsx.py` | Python (59 KB) | Generates 24 business/operational Excel files with PECH branding |
 | `regenerate_proposals.py` | Python (8 KB) | Converts Markdown proposals → PDF (pdfkit + wkhtmltopdf) and DOCX (pandoc) with embedded base64 images and PECH CSS styling |
 | `export_hr_docs.sh` | Bash (6 KB) | Batch exports HR Markdown documents to PDF/DOCX via Pandoc + texlive-xetex |
 
@@ -359,18 +401,19 @@ PECH's platform architecture spans 5 layers:
 
 | Category | Count | Formats |
 |----------|-------|---------|
-| Markdown Documents | ~74 | .md |
-| Microsoft Office | ~50 | .docx, .xlsx |
-| PDF Documents | ~6 | .pdf |
-| SVG Graphics | ~20 | .svg |
-| PNG Images | ~20 | .png |
-| Python Scripts | 2 | .py |
+| Markdown Documents | 67 | .md |
+| Word Documents | 60 | .docx |
+| Excel Spreadsheets | 40 | .xlsx |
+| PDF Documents | 3 | .pdf |
+| SVG Graphics | 30 | .svg |
+| PNG Images | 24 | .png |
+| Python Scripts | 4 | .py |
 | Bash Scripts | 1 | .sh |
 | CSS Stylesheets | 2 | .css |
 | HTML Files | 1 | .html |
 | Strategy Transcripts | 4 | plaintext |
-| **Total** | **~180+** | Mixed |
-| **Total Size** | **~16 MB** | — |
+| **Total** | **238** | Mixed |
+| **Total Size** | **~30 MB** | — |
 
 ---
 
@@ -409,5 +452,6 @@ PECH Group Holdings Ltd is building **Africa's Infrastructure Operating System**
 
 **Current Status:** Documentation and strategic planning complete. Phase 1 (Crawl) infrastructure deployment underway. No production application code exists yet — this repository serves as the comprehensive blueprint for engineering execution.
 
-<div style="height:5px;background:linear-gradient(90deg,#E08A00,#F5A623 25%,#0099CC 75%,#00BFFF);margin:20px -28px -24px -28px;"></div>
-</div>
+---
+
+*PECH Group Holdings Ltd | Confidential | Technology & Infrastructure Enablers for People*

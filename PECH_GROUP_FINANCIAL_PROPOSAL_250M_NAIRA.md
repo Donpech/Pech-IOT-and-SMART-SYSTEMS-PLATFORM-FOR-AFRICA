@@ -1,16 +1,41 @@
-<div style="border:3px solid; border-image:linear-gradient(180deg,#00BFFF,#0099CC 30%,#F5A623 70%,#E08A00) 1; padding:24px 28px; box-shadow:inset 0 0 12px rgba(0,191,255,0.06),inset 0 0 12px rgba(245,166,35,0.06);">
-<div style="height:5px;background:linear-gradient(90deg,#00BFFF,#0099CC 25%,#F5A623 75%,#E08A00);margin:-24px -28px 20px -28px;"></div>
+<div align="center">
 
-# PECH: Africa's Commerce & Infrastructure Operating System
-## ₦250M Capital Deployment Plan — 24-Month Operational Roadmap
+<!-- ============== FINANCIAL PROPOSAL HEADER ============== -->
+<div style="background:linear-gradient(135deg,#1B2838 0%,#0d1b2a 40%,#162435 100%);border-radius:16px;padding:0;overflow:hidden;border:2px solid #F5A623;box-shadow:0 8px 32px rgba(245,166,35,0.2),0 4px 16px rgba(0,191,255,0.1),0 0 60px rgba(245,166,35,0.05);">
 
----
+<div style="height:5px;background:linear-gradient(90deg,#F5A623,#E08A00 20%,#00BFFF 40%,#0099CC 60%,#F5A623 80%,#E08A00);"></div>
+<div style="height:2px;background:linear-gradient(90deg,#00BFFF,#F5A623 50%,#00BFFF);"></div>
 
-**Prepared by:** PECH Group Holdings Ltd
-**Date:** March 2026
-**Capital Requirement:** ₦250,000,000 (Two Hundred and Fifty Million Naira)
-**Deployment Period:** 24 Months (March 2026 — February 2028)
-**Confidentiality:** This document is strictly confidential
+<div style="padding:32px 44px 24px;">
+
+<div style="display:inline-block;background:linear-gradient(135deg,#F5A623,#E08A00);border-radius:50%;padding:14px 18px;margin-bottom:12px;box-shadow:0 4px 20px rgba(245,166,35,0.3);">
+<span style="font-size:2.2em;">💰</span>
+</div>
+
+<h1 style="margin:8px 0 0;font-size:2.1em;background:linear-gradient(90deg,#F5A623,#00BFFF,#F5A623);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;">PECH: Africa's Commerce & Infrastructure OS</h1>
+
+<h2 style="margin:6px 0 16px;font-size:1.2em;color:#F5A623;font-weight:600;letter-spacing:0.5px;">₦250M Capital Deployment Plan — 24-Month Operational Roadmap</h2>
+
+<p>
+<img src="https://img.shields.io/badge/CONFIDENTIAL-🔒%20Strictly%20Confidential-E08A00?style=for-the-badge&labelColor=1B2838" alt="Confidential" />
+<img src="https://img.shields.io/badge/Capital-₦250%2C000%2C000-F5A623?style=for-the-badge&labelColor=1B2838" alt="Capital" />
+</p>
+
+<p>
+<img src="https://img.shields.io/badge/Prepared%20By-PECH%20Group%20Holdings%20Ltd-00BFFF?style=flat-square" alt="Prepared By" />
+<img src="https://img.shields.io/badge/Date-March%202026-F5A623?style=flat-square" alt="Date" />
+<img src="https://img.shields.io/badge/Period-24%20Months-0099CC?style=flat-square" alt="Period" />
+<img src="https://img.shields.io/badge/March%202026-February%202028-E08A00?style=flat-square" alt="Timeline" />
+</p>
+
+<div style="height:2px;background:linear-gradient(90deg,#F5A623,#00BFFF 50%,#F5A623);margin:14px -44px 0;"></div>
+<div style="height:5px;background:linear-gradient(90deg,#00BFFF,#0099CC 20%,#F5A623 40%,#E08A00 60%,#00BFFF 80%,#0099CC);margin:0 -44px -24px;"></div>
+
+</div>
+</div>
+<!-- ============== END HEADER ============== -->
+
+</div>
 
 ---
 

@@ -1,16 +1,22 @@
-<div style="border:3px solid; border-image:linear-gradient(180deg,#00BFFF,#0099CC 30%,#F5A623 70%,#E08A00) 1; padding:24px 28px; box-shadow:inset 0 0 12px rgba(0,191,255,0.06),inset 0 0 12px rgba(245,166,35,0.06);">
-<div style="height:5px;background:linear-gradient(90deg,#00BFFF,#0099CC 25%,#F5A623 75%,#E08A00);margin:-24px -28px 20px -28px;"></div>
-
-# PECH GROUP HOLDINGS LTD
-
-## AI-Native Ecosystem — Comprehensive Implementation Guide
-
-### CONFIDENTIAL
-
----
-
-**PECH Group Holdings Ltd**
-Lagos, Nigeria | Website: [pechgroupholdings.tech](https://pechgroupholdings.tech)
+<div align="center">
+<div style="background:linear-gradient(135deg,#1B2838 0%,#0d1b2a 50%,#162435 100%);border-radius:16px;padding:0;overflow:hidden;border:2px solid #00BFFF;box-shadow:0 8px 32px rgba(0,191,255,0.15),0 4px 16px rgba(245,166,35,0.1);">
+<div style="height:5px;background:linear-gradient(90deg,#00BFFF,#0099CC 20%,#F5A623 40%,#E08A00 60%,#00BFFF 80%,#0099CC);"></div>
+<div style="height:2px;background:linear-gradient(90deg,#F5A623,#00BFFF 50%,#F5A623);"></div>
+<div style="padding:28px 40px 20px;">
+<div style="display:inline-block;background:linear-gradient(135deg,#00BFFF,#0099CC);border-radius:12px;padding:12px 16px;margin-bottom:10px;box-shadow:0 4px 16px rgba(0,191,255,0.25);"><span style="font-size:2em;">🌍</span></div>
+<h1 style="margin:8px 0 0;font-size:1.9em;background:linear-gradient(90deg,#00BFFF,#F5A623);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;">PECH GROUP HOLDINGS LTD</h1>
+<h2 style="margin:6px 0 12px;font-size:1.1em;color:#00BFFF;font-weight:500;">AI-Native Ecosystem — Comprehensive Implementation Guide</h2>
+<p>
+<img src="https://img.shields.io/badge/CONFIDENTIAL-🔒-E08A00?style=for-the-badge&labelColor=1B2838" alt="Confidential" />
+<img src="https://img.shields.io/badge/Master-Reference%20Doc-00BFFF?style=for-the-badge&labelColor=1B2838" alt="Master Reference" />
+<img src="https://img.shields.io/badge/10-Verticals-F5A623?style=for-the-badge&labelColor=1B2838" alt="10 Verticals" />
+</p>
+<p><img src="https://img.shields.io/badge/Lagos%2C%20Nigeria-pechgroupholdings.tech-0099CC?style=flat-square" alt="Location" /></p>
+<div style="height:2px;background:linear-gradient(90deg,#00BFFF,#F5A623 50%,#00BFFF);margin:12px -40px 0;"></div>
+<div style="height:4px;background:linear-gradient(90deg,#F5A623,#E08A00 25%,#00BFFF 50%,#0099CC 75%,#F5A623);margin:0 -40px -20px;"></div>
+</div>
+</div>
+</div>
 
 ---
 

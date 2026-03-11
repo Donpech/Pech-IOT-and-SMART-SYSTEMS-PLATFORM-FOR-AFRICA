@@ -36,10 +36,13 @@ except ImportError:
 
 try:
     from docx import Document
-    from docx.shared import Inches, Pt, Cm, RGBColor
+    from docx.shared import Inches, Pt, Cm, RGBColor, Emu
     from docx.enum.text import WD_ALIGN_PARAGRAPH
     from docx.enum.table import WD_TABLE_ALIGNMENT
     from docx.enum.section import WD_ORIENT
+    from docx.oxml.ns import qn, nsdecls
+    from docx.oxml import parse_xml
+    import copy
 except ImportError:
     MISSING.append("python-docx")
 
@@ -399,7 +402,13 @@ def create_excel():
 # ============================================================================
 
 def create_word():
-    """Generate the PECH Candidate Application Form as a Word document."""
+    """Generate the PECH Candidate Application Form as a Word document.
+
+    Features:
+    - Colorful gradient section dividers (blue-to-orange)
+    - Clickable checkbox form fields (☐ / ☑) that users can tick in Word
+    - Professional PECH branding throughout
+    """
     doc = Document()
 
     # Page setup
@@ -416,8 +425,92 @@ def create_word():
     style.font.name = "Calibri"
     style.font.size = Pt(10)
 
+    # --- Gradient divider colors (blue-to-orange, 4 segments) ---
+    GRADIENT_COLORS = ["00BFFF", "0099CC", "F5A623", "E08A00"]
+
+    def add_gradient_divider():
+        """Add a colorful blue-to-orange gradient divider bar using a 1-row table."""
+        table = doc.add_table(rows=1, cols=len(GRADIENT_COLORS))
+        table.alignment = WD_TABLE_ALIGNMENT.CENTER
+        # Remove all borders and set cell shading
+        for j, color in enumerate(GRADIENT_COLORS):
+            cell = table.cell(0, j)
+            # Set cell shading
+            shading = parse_xml(
+                f'<w:shd {nsdecls("w")} w:fill="{color}" w:val="clear"/>'
+            )
+            cell._tc.get_or_add_tcPr().append(shading)
+            # Set minimal height
+            p = cell.paragraphs[0]
+            p.paragraph_format.space_before = Pt(0)
+            p.paragraph_format.space_after = Pt(0)
+            pf = p.paragraph_format
+            pf.line_spacing = Pt(4)
+            # Remove cell borders
+            tc_pr = cell._tc.get_or_add_tcPr()
+            borders = parse_xml(
+                f'<w:tcBorders {nsdecls("w")}>'
+                '  <w:top w:val="none" w:sz="0" w:space="0" w:color="auto"/>'
+                '  <w:left w:val="none" w:sz="0" w:space="0" w:color="auto"/>'
+                '  <w:bottom w:val="none" w:sz="0" w:space="0" w:color="auto"/>'
+                '  <w:right w:val="none" w:sz="0" w:space="0" w:color="auto"/>'
+                '</w:tcBorders>'
+            )
+            tc_pr.append(borders)
+        # Set row height
+        tr = table.rows[0]._tr
+        trPr = tr.get_or_add_trPr()
+        trHeight = parse_xml(
+            f'<w:trHeight {nsdecls("w")} w:val="80" w:hRule="exact"/>'
+        )
+        trPr.append(trHeight)
+        return table
+
+    def add_checkbox_sdt(paragraph, label, checked=False):
+        """Add a clickable checkbox (Structured Document Tag) to a paragraph.
+
+        This creates an actual Word checkbox content control that users can
+        click to check/uncheck in Word (Yes ☑ / No ☐).
+        """
+        # Create the SDT (Structured Document Tag) for checkbox
+        checked_val = "1" if checked else "0"
+        symbol = "☑" if checked else "☐"
+
+        sdt_xml = (
+            f'<w:sdt {nsdecls("w")} {nsdecls("w14")}>'
+            '  <w:sdtPr>'
+            f'    <w14:checkbox><w14:checked w14:val="{checked_val}"/>'
+            '      <w14:checkedState w14:val="2612" w14:font="MS Gothic"/>'
+            '      <w14:uncheckedState w14:val="2610" w14:font="MS Gothic"/>'
+            '    </w14:checkbox>'
+            '  </w:sdtPr>'
+            '  <w:sdtContent>'
+            '    <w:r>'
+            '      <w:rPr><w:rFonts w:ascii="MS Gothic" w:eastAsia="MS Gothic" w:hAnsi="MS Gothic"/>'
+            '        <w:sz w:val="18"/><w:szCs w:val="18"/>'
+            '      </w:rPr>'
+            f'      <w:t>{symbol}</w:t>'
+            '    </w:r>'
+            '  </w:sdtContent>'
+            '</w:sdt>'
+        )
+        sdt = parse_xml(sdt_xml)
+        paragraph._p.append(sdt)
+        # Add the label text after the checkbox
+        run = paragraph.add_run(f" {label}   ")
+        run.font.size = Pt(9)
+
+    def add_checkbox_row(cell, options):
+        """Fill a table cell with clickable checkboxes for each option."""
+        p = cell.paragraphs[0]
+        for option in options:
+            add_checkbox_sdt(p, option)
+
     def add_header():
         """Add PECH branded header."""
+        # Top gradient bar
+        add_gradient_divider()
+
         p = doc.add_paragraph()
         p.alignment = WD_ALIGN_PARAGRAPH.CENTER
         run = p.add_run("PECH GROUP HOLDINGS LTD")
@@ -444,33 +537,40 @@ def create_word():
         run.font.size = Pt(9)
         run.font.color.rgb = RGBColor(0x66, 0x66, 0x66)
 
-        doc.add_paragraph("_" * 80)
+        add_gradient_divider()
 
         p = doc.add_paragraph()
         run = p.add_run("Document Reference: ")
         run.font.bold = True
         run.font.size = Pt(9)
         p.add_run("PECH-HR-CAF-2026-________").font.size = Pt(9)
+        p2 = doc.add_paragraph()
+        run2 = p2.add_run("Form Version: 1.0  |  Date Issued: 10th March, 2026  |  Effective Year: 2026")
+        run2.font.size = Pt(9)
+        run2.font.color.rgb = RGBColor(0x66, 0x66, 0x66)
 
     def add_section_heading(title):
-        """Add a branded section heading."""
+        """Add a branded section heading with colorful gradient divider."""
         doc.add_paragraph()  # spacing
+        add_gradient_divider()
         p = doc.add_paragraph()
         run = p.add_run(title)
         run.font.size = Pt(12)
         run.font.bold = True
         run.font.color.rgb = RGBColor(0x00, 0xBF, 0xFF)
-        # Add a line under
-        p = doc.add_paragraph("_" * 80)
-        p.runs[0].font.size = Pt(6)
-        p.runs[0].font.color.rgb = RGBColor(0x00, 0xBF, 0xFF)
 
     def add_form_table(fields):
-        """Add a form table with label-value pairs."""
+        """Add a form table with label-value pairs.
+
+        If a value contains checkbox options (list of strings), actual
+        clickable Word checkboxes are inserted instead of plain text.
+        """
         table = doc.add_table(rows=len(fields), cols=2)
         table.style = "Table Grid"
         table.alignment = WD_TABLE_ALIGNMENT.CENTER
-        for i, (label, default) in enumerate(fields):
+        for i, field_data in enumerate(fields):
+            label = field_data[0]
+            default = field_data[1]
             # Label cell
             cell = table.cell(i, 0)
             cell.width = Cm(6)
@@ -481,9 +581,13 @@ def create_word():
             # Value cell
             cell = table.cell(i, 1)
             cell.width = Cm(11)
-            p = cell.paragraphs[0]
-            run = p.add_run(default)
-            run.font.size = Pt(9)
+            # Check if this is a checkbox field (list of options)
+            if isinstance(default, list):
+                add_checkbox_row(cell, default)
+            else:
+                p = cell.paragraphs[0]
+                run = p.add_run(default)
+                run.font.size = Pt(9)
         return table
 
     def add_note(text):
@@ -499,13 +603,18 @@ def create_word():
         table = doc.add_table(rows=num_rows + 1, cols=len(headers))
         table.style = "Table Grid"
         table.alignment = WD_TABLE_ALIGNMENT.CENTER
-        # Header row
+        # Header row with PECH dark blue background
         for j, h in enumerate(headers):
             cell = table.cell(0, j)
             p = cell.paragraphs[0]
             run = p.add_run(h)
             run.font.bold = True
             run.font.size = Pt(8)
+            run.font.color.rgb = RGBColor(0xFF, 0xFF, 0xFF)
+            shading = parse_xml(
+                f'<w:shd {nsdecls("w")} w:fill="{PECH_DARK_BLUE}" w:val="clear"/>'
+            )
+            cell._tc.get_or_add_tcPr().append(shading)
         return table
 
     # ---- BUILD DOCUMENT ----
@@ -519,8 +628,8 @@ def create_word():
         ("First Name:", ""),
         ("Middle Name:", ""),
         ("Date of Birth:", "____/____/__________ (DD/MM/YYYY)"),
-        ("Gender:", "[ ] Male   [ ] Female   [ ] Prefer not to say"),
-        ("Marital Status:", "[ ] Single   [ ] Married   [ ] Divorced   [ ] Widowed"),
+        ("Gender:", ["Male", "Female", "Prefer not to say"]),
+        ("Marital Status:", ["Single", "Married", "Divorced", "Widowed"]),
         ("Nationality:", ""),
         ("State of Origin:", ""),
         ("LGA:", ""),
@@ -539,8 +648,8 @@ def create_word():
     add_form_table([
         ("Position / Job Title:", ""),
         ("Role ID (if known):", ""),
-        ("Department:", "[ ] Engineering  [ ] Design  [ ] Product & Business  [ ] Operations  [ ] Internship"),
-        ("Employment Type:", "[ ] Full-Time   [ ] Contract   [ ] Internship"),
+        ("Department:", ["Engineering", "Design", "Product & Business", "Operations", "Internship"]),
+        ("Employment Type:", ["Full-Time", "Contract", "Internship"]),
         ("Expected Salary (NGN/month):", ""),
         ("Available Start Date:", "____/____/__________"),
         ("Notice Period:", ""),
@@ -566,9 +675,10 @@ def create_word():
         add_form_table([
             ("Company:", ""),
             ("Job Title:", ""),
-            ("Type:", "[ ] Full-Time  [ ] Part-Time  [ ] Contract  [ ] Internship"),
+            ("Type:", ["Full-Time", "Part-Time", "Contract", "Internship"]),
             ("Start Date:", "____/____/__________"),
-            ("End Date:", "____/____/__________  or  [ ] Still Employed"),
+            ("End Date:", "____/____/__________"),
+            ("Still Employed?:", ["Yes", "No"]),
             ("Monthly Salary (NGN):", ""),
             ("Supervisor Name & Phone:", ""),
             ("Reason for Leaving:", ""),
@@ -623,10 +733,13 @@ def create_word():
     # SECTION 8
     add_section_heading("SECTION 8: HEALTH & EMERGENCY INFORMATION")
     add_form_table([
-        ("Blood Group:", "[ ] A+  [ ] A-  [ ] B+  [ ] B-  [ ] AB+  [ ] AB-  [ ] O+  [ ] O-"),
-        ("Genotype:", "[ ] AA   [ ] AS   [ ] SS   [ ] AC   [ ] SC"),
-        ("Medical Conditions:", ""),
-        ("Disability/Accommodation:", ""),
+        ("Blood Group:", ["A+", "A-", "B+", "B-", "AB+", "AB-", "O+", "O-"]),
+        ("Genotype:", ["AA", "AS", "SS", "AC", "SC"]),
+        ("Medical Conditions?:", ["Yes", "No"]),
+        ("If yes, specify:", ""),
+        ("Disability/Accommodation?:", ["Yes", "No"]),
+        ("If yes, specify:", ""),
+        ("Currently on medication?:", ["Yes", "No"]),
     ])
     doc.add_paragraph()
     p = doc.add_paragraph()
@@ -636,25 +749,30 @@ def create_word():
     add_form_table([
         ("Full Name:", ""),
         ("Relationship:", ""),
-        ("Phone:", ""),
+        ("Phone (Primary):", ""),
+        ("Phone (Secondary):", ""),
+        ("Address:", ""),
     ])
 
     # SECTION 9
     add_section_heading("SECTION 9: ADDITIONAL DECLARATIONS")
-    declarations = [
-        ("Criminal conviction?:", "[ ] Yes   [ ] No"),
-        ("Previously dismissed?:", "[ ] Yes   [ ] No"),
-        ("Ongoing legal proceedings?:", "[ ] Yes   [ ] No"),
-        ("Relatives at PECH?:", "[ ] Yes   [ ] No"),
-        ("Currently employed?:", "[ ] Yes   [ ] No"),
-        ("Willing to relocate?:", "[ ] Yes   [ ] No   [ ] Negotiable"),
-        ("Willing to travel?:", "[ ] Yes   [ ] No   [ ] Domestic Only"),
-        ("Valid driver's license?:", "[ ] Yes   [ ] No"),
-        ("Valid passport?:", "[ ] Yes   [ ] No"),
-        ("Authorized to work in Nigeria?:", "[ ] Yes   [ ] No"),
-        ("If Yes to any, details:", ""),
-    ]
-    add_form_table(declarations)
+    add_form_table([
+        ("Criminal conviction?:", ["Yes", "No"]),
+        ("If yes, details:", ""),
+        ("Previously dismissed?:", ["Yes", "No"]),
+        ("If yes, details:", ""),
+        ("Ongoing legal proceedings?:", ["Yes", "No"]),
+        ("If yes, details:", ""),
+        ("Relatives at PECH?:", ["Yes", "No"]),
+        ("If yes, name & relationship:", ""),
+        ("Currently employed?:", ["Yes", "No"]),
+        ("If yes, employer & notice:", ""),
+        ("Willing to relocate?:", ["Yes", "No", "Negotiable"]),
+        ("Willing to travel?:", ["Yes", "No", "Domestic Only"]),
+        ("Valid driver's license?:", ["Yes", "No"]),
+        ("Valid passport?:", ["Yes", "No"]),
+        ("Authorized to work in Nigeria?:", ["Yes", "No"]),
+    ])
 
     # SECTION 10
     add_section_heading("SECTION 10: DECLARATION & CONSENT")
@@ -667,10 +785,16 @@ def create_word():
     )
     run.font.size = Pt(9)
     doc.add_paragraph()
+
+    # Data protection consent checkbox
+    p = doc.add_paragraph()
+    add_checkbox_sdt(p, "I consent to the processing of my personal data as described above")
+
+    doc.add_paragraph()
     add_form_table([
         ("Applicant's Full Name:", ""),
         ("Signature:", ""),
-        ("Date:", "____/____/__________"),
+        ("Date:", "____/____/__________ (DD/MM/YYYY)"),
     ])
 
     # SECTION 11
@@ -680,22 +804,84 @@ def create_word():
         ("Application Ref No.:", "CAF-________-________"),
         ("Date Received:", "____/____/__________"),
         ("Received By:", ""),
-        ("Application Complete?:", "[ ] Yes   [ ] No — Missing: _______________"),
-        ("Decision:", "[ ] Shortlist   [ ] Waitlist   [ ] Reject"),
-        ("Reason:", ""),
-        ("Approved By:", ""),
-        ("Date:", "____/____/__________"),
+        ("Application Complete?:", ["Yes", "No"]),
+        ("If No, missing docs:", ""),
+    ])
+
+    doc.add_paragraph()
+    add_note("Document Verification Checklist:")
+    verification_items = [
+        "CV / Resume", "Cover Letter", "Passport Photograph",
+        "Educational Certificates", "Professional Certifications",
+        "NIN Verification", "Portfolio / GitHub (tech roles)"
+    ]
+    for item in verification_items:
+        p = doc.add_paragraph()
+        p.paragraph_format.space_after = Pt(2)
+        run = p.add_run(f"  {item}:  Received ")
+        run.font.size = Pt(9)
+        add_checkbox_sdt(p, "Yes")
+        add_checkbox_sdt(p, "No")
+        run2 = p.add_run("  Verified ")
+        run2.font.size = Pt(9)
+        add_checkbox_sdt(p, "Yes")
+        add_checkbox_sdt(p, "No")
+        add_checkbox_sdt(p, "N/A")
+
+    doc.add_paragraph()
+    add_note("Recommendation:")
+    p = doc.add_paragraph()
+    add_checkbox_sdt(p, "Shortlist for Interview — Proceed to Round 1")
+    doc.add_paragraph()
+    p = doc.add_paragraph()
+    add_checkbox_sdt(p, "Waitlist — Qualified but hold for comparison")
+    doc.add_paragraph()
+    p = doc.add_paragraph()
+    add_checkbox_sdt(p, "Reject — Does not meet minimum requirements")
+
+    doc.add_paragraph()
+    add_form_table([
+        ("Reason for Decision:", ""),
+        ("Interview Scheduled?:", ["Yes", "No"]),
+        ("Round 1 Date:", "____/____/__________ at ______:______"),
+        ("Round 1 Interviewer(s):", ""),
+    ])
+
+    doc.add_paragraph()
+    add_note("Final Decision:")
+    add_form_table([
+        ("Final Status:", ["HIRED", "WAITLISTED", "REJECTED"]),
+        ("Offer Made?:", ["Yes", "No"]),
+        ("Offer Date:", "____/____/__________"),
+        ("Offered Salary (NGN/month):", ""),
+        ("Offer Accepted?:", ["Yes", "No"]),
+        ("Start Date Confirmed:", "____/____/__________"),
+    ])
+
+    doc.add_paragraph()
+    add_note("Approval Chain:")
+    add_form_table([
+        ("HR Officer:", "Name: ________________  Date: ____/____/____"),
+        ("HR Officer Decision:", ["Approved", "Denied"]),
+        ("Hiring Manager:", "Name: ________________  Date: ____/____/____"),
+        ("Hiring Manager Decision:", ["Approved", "Denied"]),
+        ("HR Head:", "Name: ________________  Date: ____/____/____"),
+        ("HR Head Decision:", ["Approved", "Denied"]),
+        ("MD/CEO (Senior Roles):", "Name: ________________  Date: ____/____/____"),
+        ("MD/CEO Decision:", ["Approved", "Denied"]),
     ])
 
     # Footer
+    add_gradient_divider()
     doc.add_paragraph()
-    doc.add_paragraph("_" * 80)
     p = doc.add_paragraph()
     p.alignment = WD_ALIGN_PARAGRAPH.CENTER
     run = p.add_run(FOOTER_TAGLINE)
     run.font.size = Pt(8)
     run.font.italic = True
     run.font.color.rgb = RGBColor(0x99, 0x99, 0x99)
+    # Bottom gradient bar
+    add_gradient_divider()
 
     # Save
     output_path = os.path.join(OUTPUT_DIR, "PECH_CANDIDATE_APPLICATION_FORM.docx")

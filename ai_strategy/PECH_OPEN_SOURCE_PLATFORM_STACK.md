@@ -1,25 +1,20 @@
-<div style="border:3px solid; border-image:linear-gradient(180deg,#00BFFF,#0099CC 30%,#F5A623 70%,#E08A00) 1; padding:24px 28px; box-shadow:inset 0 0 12px rgba(0,191,255,0.06),inset 0 0 12px rgba(245,166,35,0.06);">
-<div style="height:5px;background:linear-gradient(90deg,#00BFFF,#0099CC 25%,#F5A623 75%,#E08A00);margin:-24px -28px 20px -28px;"></div>
-
-# PECH GROUP HOLDINGS LTD
-
-## Open-Source Platform Stack — Complete Reference
-
-### CONFIDENTIAL
-
----
-
-**PECH Group Holdings Ltd**
-Lagos, Nigeria | Website: [pechgroupholdings.tech](https://pechgroupholdings.tech)
-
----
-
-> **Document Reference:** PECH-AI-PLATFORMS-2026-001
-> **Version:** 1.0
-> **Effective Date:** March 2026
-> **Prepared By:** Technology Department
-> **Approved By:** Managing Director / CEO
-
+<div align="center">
+<div style="background:linear-gradient(135deg,#1B2838 0%,#0d1b2a 50%,#162435 100%);border-radius:16px;padding:0;overflow:hidden;border:2px solid #0099CC;box-shadow:0 8px 32px rgba(0,191,255,0.12),0 4px 16px rgba(245,166,35,0.08);">
+<div style="height:4px;background:linear-gradient(90deg,#0099CC,#00BFFF 20%,#F5A623 40%,#E08A00 60%,#0099CC 80%,#00BFFF);"></div>
+<div style="height:2px;background:linear-gradient(90deg,#F5A623,#0099CC 50%,#F5A623);"></div>
+<div style="padding:24px 36px 18px;">
+<div style="display:inline-block;background:linear-gradient(135deg,#0099CC,#0099CC);border-radius:12px;padding:10px 14px;margin-bottom:8px;"><span style="font-size:1.8em;">🏗️</span></div>
+<h1 style="margin:6px 0 0;font-size:1.7em;background:linear-gradient(90deg,#0099CC,#F5A623);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;">Open-Source Platform Stack — Complete Reference</h1>
+<p>
+<img src="https://img.shields.io/badge/CONFIDENTIAL-🔒-E08A00?style=for-the-badge&labelColor=1B2838" alt="Confidential" />
+<img src="https://img.shields.io/badge/AI%20Strategy-PECH-0099CC?style=for-the-badge&labelColor=1B2838" alt="AI Strategy" />
+</p>
+<p><img src="https://img.shields.io/badge/Lagos%2C%20Nigeria-pechgroupholdings.tech-0099CC?style=flat-square" alt="Location" /></p>
+<div style="height:2px;background:linear-gradient(90deg,#F5A623,#0099CC 50%,#F5A623);margin:10px -36px 0;"></div>
+<div style="height:4px;background:linear-gradient(90deg,#0099CC,#00BFFF 20%,#F5A623 40%,#E08A00 60%,#0099CC 80%,#00BFFF);margin:0 -36px -18px;"></div>
+</div>
+</div>
+</div>
 ---
 
 ## TABLE OF CONTENTS

@@ -1,22 +1,52 @@
-# PECH GROUP HOLDINGS LTD
+<div align="center">
 
-## AI Strategy & Ecosystem Documentation
+<!-- ============== AI STRATEGY BRANDED HEADER ============== -->
+<div style="background:linear-gradient(135deg,#1B2838 0%,#0d1b2a 50%,#162435 100%);border-radius:16px;padding:0;overflow:hidden;border:2px solid #F5A623;box-shadow:0 8px 32px rgba(245,166,35,0.15),0 4px 16px rgba(0,191,255,0.1);">
 
-### CONFIDENTIAL
+<!-- Top double gradient bar -->
+<div style="height:4px;background:linear-gradient(90deg,#00BFFF,#0099CC 25%,#F5A623 50%,#E08A00 75%,#00BFFF);"></div>
+<div style="height:2px;background:linear-gradient(90deg,#F5A623,#00BFFF 50%,#F5A623);"></div>
 
----
+<div style="padding:28px 40px 20px;">
 
-**PECH Group Holdings Ltd**
-Lagos, Nigeria
-Website: [pechgroupholdings.tech](https://pechgroupholdings.tech)
+<!-- Hexagonal AI icon -->
+<div style="display:inline-block;background:linear-gradient(135deg,#00BFFF,#F5A623);border-radius:12px;padding:12px 16px;margin-bottom:12px;">
+<span style="font-size:2em;">🧠</span>
+</div>
 
----
+<h1 style="margin:8px 0 0;font-size:2em;background:linear-gradient(90deg,#F5A623,#00BFFF);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;">AI Strategy & Ecosystem</h1>
 
-> **Document Reference:** PECH-AI-README-2026-001
-> **Version:** 1.0
-> **Effective Date:** March 2026
-> **Prepared By:** Technology Department
-> **Approved By:** Managing Director / CEO
+<h2 style="margin:4px 0 12px;font-size:1.1em;color:#0099CC;font-weight:500;">PECH Group Holdings Ltd — Technology Documentation</h2>
+
+<!-- Badge row -->
+<p>
+<img src="https://img.shields.io/badge/CONFIDENTIAL-🔒-E08A00?style=for-the-badge&labelColor=1B2838" alt="Confidential" />
+<img src="https://img.shields.io/badge/AI--Native-Self--Hosted%20LLMs-00BFFF?style=for-the-badge&labelColor=1B2838" alt="AI-Native" />
+<img src="https://img.shields.io/badge/Models-50%2B%20Catalog-F5A623?style=for-the-badge&labelColor=1B2838" alt="50+ Models" />
+</p>
+
+<p>
+<img src="https://img.shields.io/badge/Location-Lagos%2C%20Nigeria-00BFFF?style=flat-square" alt="Lagos" />
+<img src="https://img.shields.io/badge/GPU-RTX%204090-F5A623?style=flat-square" alt="RTX 4090" />
+<img src="https://img.shields.io/badge/License-Apache%202.0%20%2F%20MIT%20Only-0099CC?style=flat-square" alt="License" />
+<img src="https://img.shields.io/badge/Microservices-78-E08A00?style=flat-square" alt="78 Microservices" />
+<img src="https://img.shields.io/badge/Verticals-10%20Domains-00BFFF?style=flat-square" alt="10 Verticals" />
+</p>
+
+<p style="margin:8px 0 0;font-size:0.85em;color:#999;">
+<strong>Ref:</strong> PECH-AI-README-2026-001 &nbsp;|&nbsp; <strong>Version:</strong> 1.0 &nbsp;|&nbsp; <strong>Effective:</strong> March 2026<br/>
+<strong>Prepared By:</strong> Technology Department &nbsp;|&nbsp; <strong>Approved By:</strong> Managing Director / CEO
+</p>
+
+<!-- Bottom gradient bars -->
+<div style="height:2px;background:linear-gradient(90deg,#00BFFF,#F5A623 50%,#00BFFF);margin:16px -40px 0;"></div>
+<div style="height:4px;background:linear-gradient(90deg,#F5A623,#E08A00 25%,#00BFFF 50%,#0099CC 75%,#F5A623);margin:0 -40px -20px;"></div>
+
+</div>
+</div>
+<!-- ============== END HEADER ============== -->
+
+</div>
 
 ---
 

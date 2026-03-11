@@ -1,10 +1,44 @@
-# PECH Group Holdings Ltd
+<div align="center">
 
-**Technology and Infrastructure Enablers for People**
+<!-- ============== PECH BRANDED HEADER ============== -->
+<div style="background:linear-gradient(135deg,#1B2838 0%,#0d1b2a 40%,#1B2838 100%);border-radius:16px;padding:0;overflow:hidden;border:2px solid #00BFFF;box-shadow:0 8px 32px rgba(0,191,255,0.15),0 4px 16px rgba(245,166,35,0.1);">
 
-Lagos, Nigeria | [pechgroupholdings.tech](https://pechgroupholdings.tech)
+<!-- Top gradient bar -->
+<div style="height:6px;background:linear-gradient(90deg,#00BFFF,#0099CC 20%,#F5A623 50%,#E08A00 80%,#00BFFF);"></div>
 
-![Logo](design_assets/logos/pech_logo_primary.svg)
+<div style="padding:32px 40px 24px;">
+
+<!-- Inline SVG Logo -->
+<img src="design_assets/logos/pech_logo_primary.svg" alt="PECH Group Holdings" width="120" style="margin-bottom:16px;" />
+
+<h1 style="margin:0;font-size:2.2em;background:linear-gradient(90deg,#00BFFF,#F5A623);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;">PECH Group Holdings Ltd</h1>
+
+<p style="margin:8px 0 16px;font-size:1.15em;color:#00BFFF;font-weight:600;letter-spacing:1px;">TECHNOLOGY AND INFRASTRUCTURE ENABLERS FOR PEOPLE</p>
+
+<!-- Badge row -->
+<p>
+<img src="https://img.shields.io/badge/Location-Lagos%2C%20Nigeria-00BFFF?style=for-the-badge&labelColor=1B2838" alt="Lagos, Nigeria" />
+<img src="https://img.shields.io/badge/Platform-IoT%20%26%20Smart%20Systems-F5A623?style=for-the-badge&labelColor=1B2838" alt="IoT & Smart Systems" />
+<img src="https://img.shields.io/badge/AI--Native-Self--Hosted-0099CC?style=for-the-badge&labelColor=1B2838" alt="AI-Native" />
+<img src="https://img.shields.io/badge/License-Apache%202.0%20%2F%20MIT-E08A00?style=for-the-badge&labelColor=1B2838" alt="License" />
+</p>
+
+<p>
+<a href="https://pechgroupholdings.tech"><img src="https://img.shields.io/badge/Web-pechgroupholdings.tech-00BFFF?style=flat-square&logo=google-chrome&logoColor=white" alt="Website" /></a>
+<img src="https://img.shields.io/badge/Team-37%20Roles-F5A623?style=flat-square" alt="Team" />
+<img src="https://img.shields.io/badge/Budget-₦250M-0099CC?style=flat-square" alt="Budget" />
+<img src="https://img.shields.io/badge/SKUs-25%20Products-E08A00?style=flat-square" alt="SKUs" />
+<img src="https://img.shields.io/badge/Verticals-10%20Domains-00BFFF?style=flat-square" alt="Verticals" />
+</p>
+
+<!-- Bottom gradient bar -->
+<div style="height:4px;background:linear-gradient(90deg,#F5A623,#E08A00 20%,#00BFFF 50%,#0099CC 80%,#F5A623);margin:16px -40px -24px;"></div>
+
+</div>
+</div>
+<!-- ============== END HEADER ============== -->
+
+</div>
 
 ---
 

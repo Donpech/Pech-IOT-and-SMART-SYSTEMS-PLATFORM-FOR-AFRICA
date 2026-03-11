@@ -1,4 +1,22 @@
-# PECH Group Holdings Ltd — Brand Templates
+<div align="center">
+<div style="background:linear-gradient(135deg,#1B2838 0%,#0d1b2a 50%,#162435 100%);border-radius:16px;padding:0;overflow:hidden;border:2px solid #F5A623;box-shadow:0 8px 32px rgba(245,166,35,0.12),0 4px 16px rgba(0,191,255,0.08);">
+<div style="height:4px;background:linear-gradient(90deg,#F5A623,#E08A00 20%,#00BFFF 40%,#0099CC 60%,#F5A623 80%,#E08A00);"></div>
+<div style="height:2px;background:linear-gradient(90deg,#00BFFF,#F5A623 50%,#00BFFF);"></div>
+<div style="padding:24px 36px 18px;">
+<div style="display:inline-block;background:linear-gradient(135deg,#F5A623,#E08A00);border-radius:12px;padding:10px 14px;margin-bottom:8px;"><span style="font-size:1.8em;">🎨</span></div>
+<h1 style="margin:6px 0 0;font-size:1.7em;background:linear-gradient(90deg,#F5A623,#00BFFF);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;">Brand Templates</h1>
+<h2 style="margin:6px 0 12px;font-size:1.05em;color:#F5A623;font-weight:500;">PECH Group Holdings Ltd — 12 Brand Identity Templates</h2>
+<p>
+<img src="https://img.shields.io/badge/Templates-12%20Files-F5A623?style=for-the-badge&labelColor=1B2838" alt="12 Templates" />
+<img src="https://img.shields.io/badge/Brand-Identity%20System-00BFFF?style=for-the-badge&labelColor=1B2838" alt="Identity System" />
+</p>
+<div style="height:2px;background:linear-gradient(90deg,#00BFFF,#F5A623 50%,#00BFFF);margin:10px -36px 0;"></div>
+<div style="height:4px;background:linear-gradient(90deg,#F5A623,#E08A00 20%,#00BFFF 40%,#0099CC 60%,#F5A623 80%,#E08A00);margin:0 -36px -18px;"></div>
+</div>
+</div>
+</div>
+
+---
 
 ## Overview
 
