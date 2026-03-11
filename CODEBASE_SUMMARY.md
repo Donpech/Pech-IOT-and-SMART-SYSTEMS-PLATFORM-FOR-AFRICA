@@ -1,11 +1,35 @@
-<div style="border:3px solid; border-image:linear-gradient(180deg,#00BFFF,#0099CC 30%,#F5A623 70%,#E08A00) 1; padding:24px 28px; box-shadow:inset 0 0 12px rgba(0,191,255,0.06),inset 0 0 12px rgba(245,166,35,0.06);">
-<div style="height:5px;background:linear-gradient(90deg,#00BFFF,#0099CC 25%,#F5A623 75%,#E08A00);margin:-24px -28px 20px -28px;"></div>
+<div align="center">
 
-# PECH IoT & Smart Systems Platform for Africa — Codebase Summary
+<!-- ============== CODEBASE SUMMARY HEADER ============== -->
+<div style="background:linear-gradient(135deg,#1B2838 0%,#0d1b2a 50%,#162435 100%);border-radius:16px;padding:0;overflow:hidden;border:2px solid #00BFFF;box-shadow:0 8px 32px rgba(0,191,255,0.15),0 4px 16px rgba(245,166,35,0.1);">
 
-> **Last Updated:** March 10, 2026
-> **Repository Type:** Business Blueprint & Strategic Planning
-> **Status:** Pre-launch — Phase 1 (Crawl) underway
+<div style="height:4px;background:linear-gradient(90deg,#00BFFF,#0099CC 25%,#F5A623 50%,#E08A00 75%,#00BFFF);"></div>
+<div style="height:2px;background:linear-gradient(90deg,#F5A623,#00BFFF 50%,#F5A623);"></div>
+
+<div style="padding:28px 40px 20px;">
+
+<div style="display:inline-block;background:linear-gradient(135deg,#0099CC,#00BFFF);border-radius:12px;padding:10px 14px;margin-bottom:10px;">
+<span style="font-size:1.8em;">📦</span>
+</div>
+
+<h1 style="margin:8px 0 0;font-size:1.9em;background:linear-gradient(90deg,#00BFFF,#F5A623);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;">PECH IoT & Smart Systems Platform for Africa</h1>
+
+<h2 style="margin:4px 0 12px;font-size:1.1em;color:#F5A623;font-weight:500;">Codebase Summary & Repository Guide</h2>
+
+<p>
+<img src="https://img.shields.io/badge/Updated-March%2010%2C%202026-00BFFF?style=for-the-badge&labelColor=1B2838" alt="Updated" />
+<img src="https://img.shields.io/badge/Type-Business%20Blueprint-F5A623?style=for-the-badge&labelColor=1B2838" alt="Blueprint" />
+<img src="https://img.shields.io/badge/Status-Phase%201%20(Crawl)-0099CC?style=for-the-badge&labelColor=1B2838" alt="Status" />
+</p>
+
+<div style="height:2px;background:linear-gradient(90deg,#00BFFF,#F5A623 50%,#00BFFF);margin:12px -40px 0;"></div>
+<div style="height:4px;background:linear-gradient(90deg,#F5A623,#E08A00 25%,#00BFFF 50%,#0099CC 75%,#F5A623);margin:0 -40px -20px;"></div>
+
+</div>
+</div>
+<!-- ============== END HEADER ============== -->
+
+</div>
 
 ---
 
