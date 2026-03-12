@@ -395,9 +395,10 @@ def clean_markdown_for_docx(md_content):
         if 'img.shields.io' in line or 'shields.io/badge' in line:
             continue
 
-        # Skip standalone HTML tags with style attributes
+        # Skip known container/header HTML tags with style attributes (div, span, p, h1-h6)
         if stripped.startswith('<') and stripped.endswith('>') and 'style=' in stripped:
-            continue
+            if re.match(r'<(div|span|p|h[1-6]|header|section|nav)\b', stripped):
+                continue
 
         # Skip HTML comment lines
         if stripped.startswith('<!--') and stripped.endswith('-->'):
@@ -409,10 +410,6 @@ def clean_markdown_for_docx(md_content):
 
         # Skip standalone <img> HTML tags (not markdown ![alt](src) images)
         if stripped.startswith('<img ') and 'src=' in stripped:
-            continue
-
-        # Skip <h1>/<h2> HTML tags with style (not markdown headings)
-        if re.match(r'<h[1-6]\s+style=', stripped):
             continue
 
         cleaned.append(line)
@@ -454,7 +451,7 @@ def generate_docx(md_path, docx_path):
         'pandoc', str(tmp_md),
         '-f', 'markdown+pipe_tables+grid_tables+raw_html+strikeout+yaml_metadata_block',
         '-t', 'docx',
-        '--resource-path', str(md_path.parent) + ':' + str(PROJECT_ROOT),
+        '--resource-path', os.pathsep.join([str(md_path.parent), str(PROJECT_ROOT)]),
         '--extract-media', str(md_path.parent / '_docx_media'),
         '-o', str(docx_path)
     ]
