@@ -82,10 +82,10 @@ Pech-IOT-and-SMART-SYSTEMS-PLATFORM-FOR-AFRICA/
 ├── PECH_CANDIDATE_APPLICATION_FORM.docx/xlsx             # Hiring form
 │
 ├── proposal_style.css                               # Proposal PDF styling
-├── the Idea to build                                # Original ChatGPT strategy transcript
-├── AI integrations and adoptions in our ecosystems  # AI integration planning
-├── must read, what to understand about our ecosystem # Ecosystem context document
-└── Review Claude's plan                             # Plan review notes
+├── the-idea-to-build                                # Original ChatGPT strategy transcript
+├── ai-integrations-and-adoptions-in-our-ecosystems  # AI integration planning
+├── must-read-what-to-understand-about-our-ecosystem # Ecosystem context document
+└── review-claudes-plan                              # Plan review notes
 ```
 
 ---
@@ -267,16 +267,16 @@ Three versions of the ₦250M (~$160K USD) 24-month capital deployment plan:
 
 | File | Description |
 |------|-------------|
-| `the Idea to build` (333 KB) | Original ChatGPT conversation transcript — 65 exchanges across 32 topics covering entire business vision, architecture, market strategy, and execution roadmap |
-| `AI integrations and adoptions in our ecosystems` (49 KB) | AI integration planning and adoption strategy |
-| `must read, what to understand about our ecosystem` (53 KB) | Ecosystem context and understanding document |
-| `Review Claude's plan` (10 KB) | Review notes on Claude's proposed plans |
+| `the-idea-to-build` (333 KB) | Original ChatGPT conversation transcript — 65 exchanges across 32 topics covering entire business vision, architecture, market strategy, and execution roadmap |
+| `ai-integrations-and-adoptions-in-our-ecosystems` (49 KB) | AI integration planning and adoption strategy |
+| `must-read-what-to-understand-about-our-ecosystem` (53 KB) | Ecosystem context and understanding document |
+| `review-claudes-plan` (10 KB) | Review notes on Claude's proposed plans |
 
 ---
 
 ## ChatGPT Conversation Index (65 Exchanges)
 
-The `the Idea to build` document contains **65 user prompts** across **32 major topics**:
+The `the-idea-to-build` document contains **65 user prompts** across **32 major topics**:
 
 | # | Topic | Key Outputs |
 |---|-------|-------------|
