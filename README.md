@@ -53,6 +53,7 @@
 - [Contracts](#contracts-12-documents)
 - [Team](#team--37-roles-across-5-departments) *(summary — full details in [Job Requirements Handbook](business_documents/PECH_JOB_REQUIREMENTS_HANDBOOK.md))*
 - [Business Documents](#business-documents-26-forms)
+- [Strategic Planning Conversations](#strategic-planning-conversations) *(founder's ChatGPT sessions — unified vision document)*
 - [AI Strategy Documentation](#ai-strategy-documentation)
 - [Financial Proposals](#financial-proposals) *(summary — canonical figures in [Executive Summary](PECH_PROPOSAL_EXECUTIVE_SUMMARY.md))*
 - [Brand & Design Assets](#brand--design-assets)
@@ -191,6 +192,7 @@ Pech-IOT-and-SMART-SYSTEMS-PLATFORM-FOR-AFRICA/
 ├── ai_strategy/                  # 8 AI strategy docs + 14 infographics (MD + PDF + DOCX)
 ├── brand_templates/              # 13 brand collateral templates (MD + PDF + DOCX)
 ├── employment_xlsx/              # 40 Excel spreadsheet versions of all documents
+├── conversations/                # Strategic planning conversations (MD + DOCX + PDF)
 ├── design_assets/                # 16 logo variants + graphic elements (SVG + PNG)
 ├── design_system/                # CSS design system + HTML component library
 ├── proposal_images/              # 26 charts and diagrams (SVG + PNG)
@@ -301,6 +303,45 @@ Comprehensive technical strategy for the PECH AI ecosystem. See [`ai_strategy/RE
 | [`PECH_AI_ARCHITECTURE_GUIDE.md`](ai_strategy/PECH_AI_ARCHITECTURE_GUIDE.md) | 78-microservice architecture, RAG pipeline, API gateway, deployment |
 
 **Infographics** (SVG + PNG in `ai_strategy/images/`): Ecosystem Architecture, Model Stack, Data Pipeline, Infrastructure Diagram, Team Structure, Roadmap Phases, Hub-and-Spoke Logistics.
+
+---
+
+## Strategic Planning Conversations
+
+The founder's ChatGPT strategic planning sessions — the origin story and complete vision for the PECH ecosystem. Three conversations totaling ~100 exchanges and 23,000+ lines of strategic planning, unified into a single reference document. See [`conversations/README.md`](conversations/README.md) for the full index.
+
+### Unified Reference Document
+
+| Document | Format | Description |
+|----------|--------|-------------|
+| [PECH Strategic Vision Complete](conversations/PECH_STRATEGIC_VISION_COMPLETE.md) | MD / [DOCX](conversations/PECH_STRATEGIC_VISION_COMPLETE.docx) / [PDF](conversations/PECH_STRATEGIC_VISION_COMPLETE.pdf) | **Master document** — all 3 conversations unified with 20 structured sections |
+
+### Individual Conversations
+
+| # | Conversation | Exchanges | Key Topics |
+|---|-------------|-----------|------------|
+| 1 | [The Idea to Build](conversations/01-The-Idea-to-Build.md) | 65 | Business model, IoT platform, 24-month roadmap, Alibaba model, fintech/PSSP |
+| 2 | [Understanding Our Ecosystem](conversations/02-Ecosystem-Understanding.md) | ~20 | HR tools, 78-microservice architecture, platform tools, dynamic pricing |
+| 3 | [AI Integrations and Adoptions](conversations/03-AI-Integrations-and-Adoptions.md) | ~15 | AI model catalog, Chinese AI, per-vertical AI, real estate, PMAP |
+
+### Architecture Diagrams
+
+| Diagram | Description |
+|---------|-------------|
+| OpenClaw Agent Workflows | Multi-actor marketplace with escrow, verification, delivery tracking |
+| Igbo Trade Marketplace | Complete marketplace & escrow platform (Buy, Sell, Lend, Deliver, Verify) |
+| System Architecture & Workflow | Technical architecture with service components and transaction flowchart |
+
+### New Platform Roles (from Marketplace Diagrams)
+
+| Role | Description |
+|------|-------------|
+| **Buyer** | Browse, verify, fund escrow, confirm delivery, rate |
+| **Seller / Hustler** | List products, accept orders, upload proof |
+| **Supplier** | Wholesale inventory provider |
+| **Driver** | Delivery with GPS tracking, photo/video proof |
+| **Lender** | Micro-lending, negotiate rates, track repayments |
+| **OpenClaw Agent** | AI marketplace orchestrator (WhatsApp, Telegram, SMS, Email) |
 
 ---
 
