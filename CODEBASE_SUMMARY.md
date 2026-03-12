@@ -18,7 +18,7 @@
 <h2 style="margin:4px 0 12px;font-size:1.1em;color:#F5A623;font-weight:500;">Codebase Summary & Repository Guide</h2>
 
 <p>
-<img src="https://img.shields.io/badge/Updated-March%2011%2C%202026-00BFFF?style=for-the-badge&labelColor=1B2838" alt="Updated" />
+<img src="https://img.shields.io/badge/Updated-March%2012%2C%202026-00BFFF?style=for-the-badge&labelColor=1B2838" alt="Updated" />
 <img src="https://img.shields.io/badge/Type-Business%20Blueprint-F5A623?style=for-the-badge&labelColor=1B2838" alt="Blueprint" />
 <img src="https://img.shields.io/badge/Status-Phase%201%20(Crawl)-0099CC?style=for-the-badge&labelColor=1B2838" alt="Status" />
 </p>
@@ -70,10 +70,10 @@ Pech-IOT-and-SMART-SYSTEMS-PLATFORM-FOR-AFRICA/
 ├── contracts/                                       # [36 files] Legal templates (MD + DOCX + PDF)
 ├── brand_templates/                                 # [37 files] Brand collateral (MD + DOCX + PDF)
 ├── employment_xlsx/                                 # [40 files] Excel versions (39 XLSX + README)
-├── design_assets/                                   # [14 files] Logos, graphics, templates
+├── design_assets/                                   # [16 files] Logos, graphics, templates
 ├── design_system/                                   # [2 files]  CSS design system + HTML components
 ├── proposal_images/                                 # [26 files] Infographics (SVG + PNG)
-├── scripts/                                         # [8 files]  Document generation scripts
+├── scripts/                                         # [6 files]  Document generation scripts
 ├── .claude/commands/                                # [1 file]   Slash command templates
 │
 ├── PECH_GROUP_FINANCIAL_PROPOSAL_250M_NAIRA.md/docx/pdf  # Full 24-month budget
@@ -167,7 +167,7 @@ The core technical and strategic documentation for PECH's self-hosted AI infrast
 | Merchandise Guidelines | Branded merchandise specs |
 | Signage | Office/event signage standards |
 
-### `design_assets/` — Visual Assets (14 files)
+### `design_assets/` — Visual Assets (16 files)
 
 ```
 design_assets/
@@ -216,7 +216,7 @@ design_assets/
 
 All files feature PECH branding, dropdown validations, alternating row colors, and Google Sheets compatibility.
 
-### `scripts/` — Document Generation (6 files)
+### `scripts/` — Document Generation & Branding (6 files)
 
 | Script | Language | Purpose |
 |--------|----------|---------|
@@ -424,13 +424,13 @@ PECH's platform architecture spans 5 layers:
 | Excel Spreadsheets | 40 | .xlsx |
 | PDF Documents | 59 | .pdf |
 | SVG Graphics | 30 | .svg |
-| PNG Images | 24 | .png |
+| PNG Images | 26 | .png |
 | Python Scripts | 5 | .py |
 | Bash Scripts | 1 | .sh |
 | CSS Stylesheets | 2 | .css |
 | HTML Files | 1 | .html |
 | Strategy Transcripts | 4 | plaintext |
-| **Total** | **296** | Mixed |
+| **Total** | **295** | Mixed |
 | **Total Size** | **~39 MB** | — |
 
 ---

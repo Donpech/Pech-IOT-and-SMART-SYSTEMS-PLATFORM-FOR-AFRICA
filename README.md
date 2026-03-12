@@ -197,7 +197,7 @@ Pech-IOT-and-SMART-SYSTEMS-PLATFORM-FOR-AFRICA/
 └── scripts/                      # Automation scripts for document export
 ```
 
-**Total:** 298 files across 10 directories — every document available in **MD, PDF, DOCX, and XLSX** formats with full PECH branding, logos, and watermarks.
+**Total:** 295 files across 10 directories — every document available in **MD, PDF, DOCX, and XLSX** formats with full PECH branding, logos, and watermarks.
 
 ---
 
@@ -378,8 +378,12 @@ See [`employment_xlsx/README.md`](employment_xlsx/README.md) for the full file i
 
 | Script | Description |
 |--------|-------------|
-| [`scripts/export_hr_docs.sh`](scripts/export_hr_docs.sh) | Export HR documents to PDF/DOCX via Pandoc |
-| [`scripts/generate_application_form.py`](scripts/generate_application_form.py) | Generate application forms programmatically |
+| [`scripts/regenerate_proposals.py`](scripts/regenerate_proposals.py) | Regenerate all 59 PDFs + 60 DOCXs from Markdown with PECH brand styling |
+| [`scripts/brand_docx.py`](scripts/brand_docx.py) | Post-process DOCX files with brand colors, headers, dividers, table formatting |
+| [`scripts/generate_application_form.py`](scripts/generate_application_form.py) | Generate branded Excel + Word application forms with clickable checkboxes |
+| [`scripts/generate_employment_xlsx.py`](scripts/generate_employment_xlsx.py) | Generate 15 employment/HR Excel spreadsheets with PECH branding |
+| [`scripts/generate_business_xlsx.py`](scripts/generate_business_xlsx.py) | Generate 24 business/operational Excel spreadsheets with PECH branding |
+| [`scripts/export_hr_docs.sh`](scripts/export_hr_docs.sh) | Batch export HR Markdown documents to PDF/DOCX via Pandoc |
 
 ---
 
