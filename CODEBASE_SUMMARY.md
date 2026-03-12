@@ -72,6 +72,14 @@ Pech-IOT-and-SMART-SYSTEMS-PLATFORM-FOR-AFRICA/
 ├── employment_xlsx/                                 # [40 files] Excel versions (39 XLSX + README)
 ├── design_assets/                                   # [16 files] Logos, graphics, templates
 ├── design_system/                                   # [2 files]  CSS design system + HTML components
+├── conversations/                                   # Strategic planning conversations
+│   ├── PECH_STRATEGIC_VISION_COMPLETE.md/docx/pdf   #   Unified reference document
+│   ├── PECH_CLAUDE_INDEPENDENT_ANALYSIS.md/docx/pdf #   Claude's independent analysis
+│   ├── 01-The-Idea-to-Build.md/docx/pdf             #   Formatted conversation 1
+│   ├── 02-Ecosystem-Understanding.md/docx/pdf       #   Formatted conversation 2
+│   ├── 03-AI-Integrations-and-Adoptions.md/docx/pdf #   Formatted conversation 3
+│   ├── originals/                                   #   Original unformatted transcripts
+│   └── images/                                      #   Architecture diagrams
 ├── proposal_images/                                 # [26 files] Infographics (SVG + PNG)
 ├── scripts/                                         # [6 files]  Document generation scripts
 ├── .claude/commands/                                # [1 file]   Slash command templates
@@ -82,10 +90,10 @@ Pech-IOT-and-SMART-SYSTEMS-PLATFORM-FOR-AFRICA/
 ├── PECH_CANDIDATE_APPLICATION_FORM.docx/xlsx             # Hiring form
 │
 ├── proposal_style.css                               # Proposal PDF styling
-├── the-idea-to-build                                # Original ChatGPT strategy transcript
-├── ai-integrations-and-adoptions-in-our-ecosystems  # AI integration planning
-├── must-read-what-to-understand-about-our-ecosystem # Ecosystem context document
-└── review-claudes-plan                              # Plan review notes
+├── the Idea to build                                # Original ChatGPT strategy transcript
+├── AI integrations and adoptions in our ecosystems  # AI integration planning
+├── must read, what to understand about our ecosystem # Ecosystem context document
+└── Review Claude's plan                              # Plan review notes
 ```
 
 ---
