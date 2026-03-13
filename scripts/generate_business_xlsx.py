@@ -48,7 +48,9 @@ def _make_workbook(title, subtitle, headers, widths, row_count=30, validations_s
     set_column_widths(ws, widths)
     row = add_branded_header(ws, title.upper(), subtitle, mc)
     row = add_section_header(ws, row, f"{title.upper()} REGISTER", mc)
+    header_row = row
     row = add_table_headers(ws, row, headers)
+    data_start_row = row  # First data row (after table headers)
 
     dvs = {}
     if validations_spec:
@@ -59,7 +61,12 @@ def _make_workbook(title, subtitle, headers, widths, row_count=30, validations_s
 
     row = _tracker_rows(ws, row, mc, row_count, dvs)
     add_footer(ws, row, mc)
-    add_print_setup(ws)
+
+    # Add auto-filter on the header row for easy sorting/filtering
+    from openpyxl.utils import get_column_letter
+    ws.auto_filter.ref = f"A{header_row}:{get_column_letter(mc)}{data_start_row + row_count - 1}"
+
+    add_print_setup(ws, freeze_row=data_start_row)
     return wb
 
 
@@ -68,6 +75,7 @@ def _make_form_sheet(wb, sheet_title, doc_title, subtitle, sections, max_col=6):
     ws = wb.create_sheet(sheet_title[:31])
     set_column_widths(ws, [4, 30, 32, 4, 30, 32][:max_col])
     row = add_branded_header(ws, doc_title, subtitle, max_col)
+    form_start_row = row  # First form row after header
 
     for section_name, fields in sections:
         row = add_section_header(ws, row, section_name, max_col)
@@ -76,7 +84,7 @@ def _make_form_sheet(wb, sheet_title, doc_title, subtitle, sections, max_col=6):
         row += 1
 
     add_footer(ws, row, max_col)
-    add_print_setup(ws)
+    add_print_setup(ws, freeze_row=form_start_row)
     return ws
 
 

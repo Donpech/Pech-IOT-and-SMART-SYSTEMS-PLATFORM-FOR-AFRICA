@@ -236,12 +236,19 @@ def set_column_widths(ws, widths):
             ws.column_dimensions[get_column_letter(idx)].width = width
 
 
-def add_print_setup(ws):
-    """Configure print settings."""
-    ws.sheet_properties.pageSetUpPr = None
+def add_print_setup(ws, freeze_row=None):
+    """Configure print settings and freeze panes for better usability."""
     ws.page_setup.orientation = "landscape"
     ws.page_setup.fitToWidth = 1
     ws.page_setup.fitToHeight = 0
+    ws.page_setup.paperSize = ws.PAPERSIZE_A4
+
+    # Freeze panes below header area so data scrolls under the branding
+    if freeze_row:
+        ws.freeze_panes = ws.cell(row=freeze_row, column=1)
+    else:
+        # Default: freeze below row 10 (after branded header + table headers)
+        ws.freeze_panes = "A10"
 
 
 # ═══════════════════════════════════════════════════════════════════════════════
