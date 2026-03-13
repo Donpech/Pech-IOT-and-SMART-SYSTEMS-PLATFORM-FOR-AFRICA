@@ -32,6 +32,7 @@ def _tracker_rows(ws, row, max_col, count, validations=None):
             cell.border = THIN_BORDER
             cell.alignment = ALIGN_LEFT
         ws.cell(row=row, column=1).value = i + 1
+        ws.row_dimensions[row].height = 22
         if validations:
             for col_idx, dv in validations.items():
                 dv.add(ws.cell(row=row, column=col_idx))
