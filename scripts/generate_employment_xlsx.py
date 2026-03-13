@@ -75,10 +75,16 @@ def ensure_output_dir():
 
 def add_branded_header(ws, title, subtitle, max_col=8):
     """Add a colorful branded header block to a worksheet."""
+    no_border = Border(
+        left=Side(style=None), right=Side(style=None),
+        top=Side(style=None), bottom=Side(style=None),
+    )
+
     # Row 1: Top gradient bar (blue)
     for col in range(1, max_col + 1):
         cell = ws.cell(row=1, column=col)
         cell.fill = FILL_BLUE
+        cell.border = no_border
         cell.value = ""
     ws.row_dimensions[1].height = 6
 
@@ -89,25 +95,32 @@ def add_branded_header(ws, title, subtitle, max_col=8):
     cell.font = FONT_TITLE
     cell.fill = FILL_DARK_BG
     cell.alignment = ALIGN_CENTER
+    cell.border = no_border
     for col in range(2, max_col + 1):
-        ws.cell(row=2, column=col).fill = FILL_DARK_BG
+        c = ws.cell(row=2, column=col)
+        c.fill = FILL_DARK_BG
+        c.border = no_border
     ws.row_dimensions[2].height = 36
 
-    # Row 3: Dark background with subtitle
+    # Row 3: Dark background with document title
     ws.merge_cells(start_row=3, start_column=1, end_row=3, end_column=max_col)
     cell = ws.cell(row=3, column=1)
     cell.value = title
     cell.font = FONT_SUBTITLE
     cell.fill = FILL_DARK_BG
     cell.alignment = ALIGN_CENTER
+    cell.border = no_border
     for col in range(2, max_col + 1):
-        ws.cell(row=3, column=col).fill = FILL_DARK_BG
+        c = ws.cell(row=3, column=col)
+        c.fill = FILL_DARK_BG
+        c.border = no_border
     ws.row_dimensions[3].height = 24
 
     # Row 4: Orange accent bar
     for col in range(1, max_col + 1):
         cell = ws.cell(row=4, column=col)
         cell.fill = FILL_ORANGE
+        cell.border = no_border
     ws.row_dimensions[4].height = 4
 
     # Row 5: Company info line
@@ -117,8 +130,11 @@ def add_branded_header(ws, title, subtitle, max_col=8):
     cell.font = FONT_COMPANY
     cell.fill = FILL_DARK_BG
     cell.alignment = ALIGN_CENTER
+    cell.border = no_border
     for col in range(2, max_col + 1):
-        ws.cell(row=5, column=col).fill = FILL_DARK_BG
+        c = ws.cell(row=5, column=col)
+        c.fill = FILL_DARK_BG
+        c.border = no_border
     ws.row_dimensions[5].height = 20
 
     # Row 6: Bottom gradient bar (orange to blue)
@@ -128,9 +144,14 @@ def add_branded_header(ws, title, subtitle, max_col=8):
             cell.fill = FILL_ORANGE
         else:
             cell.fill = FILL_BLUE
+        cell.border = no_border
     ws.row_dimensions[6].height = 4
 
     # Row 7: Spacer
+    for col in range(1, max_col + 1):
+        c = ws.cell(row=7, column=col)
+        c.fill = FILL_WHITE
+        c.border = no_border
     ws.row_dimensions[7].height = 8
 
     return 8  # Next available row
@@ -138,14 +159,21 @@ def add_branded_header(ws, title, subtitle, max_col=8):
 
 def add_section_header(ws, row, title, max_col=8):
     """Add a colored section header row."""
+    no_border = Border(
+        left=Side(style=None), right=Side(style=None),
+        top=Side(style=None), bottom=Side(style=None),
+    )
     ws.merge_cells(start_row=row, start_column=1, end_row=row, end_column=max_col)
     cell = ws.cell(row=row, column=1)
     cell.value = f"  {title}"
     cell.font = Font(name="Calibri", size=11, bold=True, color=PECH_WHITE)
     cell.fill = FILL_DARK_BLUE
     cell.alignment = Alignment(horizontal="left", vertical="center")
+    cell.border = no_border
     for col in range(2, max_col + 1):
-        ws.cell(row=row, column=col).fill = FILL_DARK_BLUE
+        c = ws.cell(row=row, column=col)
+        c.fill = FILL_DARK_BLUE
+        c.border = no_border
     ws.row_dimensions[row].height = 26
     return row + 1
 
@@ -203,25 +231,38 @@ def add_data_row(ws, row, num_cols, alt=False):
 
 def add_footer(ws, row, max_col=8):
     """Add a branded footer."""
+    no_border = Border(
+        left=Side(style=None), right=Side(style=None),
+        top=Side(style=None), bottom=Side(style=None),
+    )
     row += 1
     # Orange bar
     for col in range(1, max_col + 1):
-        ws.cell(row=row, column=col).fill = FILL_ORANGE
+        c = ws.cell(row=row, column=col)
+        c.fill = FILL_ORANGE
+        c.border = no_border
     ws.row_dimensions[row].height = 3
     row += 1
 
     ws.merge_cells(start_row=row, start_column=1, end_row=row, end_column=max_col)
     cell = ws.cell(row=row, column=1)
-    cell.value = "PECH Group Holdings Ltd  |  Confidential  |  pechgroupholdings.tech  |  Technology & Infrastructure Enablers for People"
+    cell.value = "Confidential  |  pechgroupholdings.tech  |  Technology & Infrastructure Enablers for People"
     cell.font = FONT_FOOTER
     cell.alignment = ALIGN_CENTER
+    cell.fill = FILL_WHITE
+    cell.border = no_border
     for col in range(2, max_col + 1):
-        ws.cell(row=row, column=col).fill = FILL_WHITE
+        c = ws.cell(row=row, column=col)
+        c.fill = FILL_WHITE
+        c.border = no_border
+    ws.row_dimensions[row].height = 18
 
     row += 1
     # Blue bar
     for col in range(1, max_col + 1):
-        ws.cell(row=row, column=col).fill = FILL_BLUE
+        c = ws.cell(row=row, column=col)
+        c.fill = FILL_BLUE
+        c.border = no_border
     ws.row_dimensions[row].height = 3
     return row + 1
 
@@ -236,12 +277,23 @@ def set_column_widths(ws, widths):
             ws.column_dimensions[get_column_letter(idx)].width = width
 
 
-def add_print_setup(ws):
-    """Configure print settings."""
-    ws.sheet_properties.pageSetUpPr = None
+def add_print_setup(ws, freeze_row=None):
+    """Configure print settings, freeze panes, zoom, and view for better usability."""
     ws.page_setup.orientation = "landscape"
     ws.page_setup.fitToWidth = 1
     ws.page_setup.fitToHeight = 0
+    ws.page_setup.paperSize = ws.PAPERSIZE_A4
+
+    # Freeze panes below header area so data scrolls under the branding
+    if freeze_row:
+        ws.freeze_panes = ws.cell(row=freeze_row, column=1)
+    else:
+        # Default: freeze below row 10 (after branded header + table headers)
+        ws.freeze_panes = "A10"
+
+    # Set zoom to 100% and select cell A1 for clean opening
+    ws.sheet_view.zoomScale = 100
+    ws.sheet_view.showGridLines = False
 
 
 # ═══════════════════════════════════════════════════════════════════════════════
@@ -286,6 +338,7 @@ def create_fulltime_contract():
         dv_yn.add(ws.cell(row=row, column=13))
         dv_yn.add(ws.cell(row=row, column=14))
         dv_yn.add(ws.cell(row=row, column=15))
+        ws.row_dimensions[row].height = 22
         row += 1
 
     add_footer(ws, row, max_col)
@@ -370,11 +423,13 @@ def create_contract_worker():
             cell.font = FONT_INPUT
             cell.fill = FILL_LIGHT_ORANGE if i % 2 else FILL_WHITE
             cell.border = THIN_BORDER
+            cell.alignment = ALIGN_LEFT
         ws.cell(row=row, column=1).value = i + 1
         dv.add(ws.cell(row=row, column=13))
         dv_yn.add(ws.cell(row=row, column=10))
         dv_yn.add(ws.cell(row=row, column=11))
         dv_yn.add(ws.cell(row=row, column=12))
+        ws.row_dimensions[row].height = 22
         row += 1
 
     add_footer(ws, row, max_col)
@@ -413,10 +468,12 @@ def create_internship():
             cell.font = FONT_INPUT
             cell.fill = FILL_LIGHT_ORANGE if i % 2 else FILL_WHITE
             cell.border = THIN_BORDER
+            cell.alignment = ALIGN_LEFT
         ws.cell(row=row, column=1).value = i + 1
         dv.add(ws.cell(row=row, column=16))
         dv_eval.add(ws.cell(row=row, column=14))
         dv_eval.add(ws.cell(row=row, column=15))
+        ws.row_dimensions[row].height = 22
         row += 1
 
     add_footer(ws, row, max_col)
@@ -453,8 +510,10 @@ def create_office_marketer():
             cell.font = FONT_INPUT
             cell.fill = FILL_LIGHT_ORANGE if i % 2 else FILL_WHITE
             cell.border = THIN_BORDER
+            cell.alignment = ALIGN_LEFT
         ws.cell(row=row, column=1).value = i + 1
         dv.add(ws.cell(row=row, column=14))
+        ws.row_dimensions[row].height = 22
         row += 1
 
     add_footer(ws, row, max_col)
@@ -491,8 +550,10 @@ def create_commission_marketer():
             cell.font = FONT_INPUT
             cell.fill = FILL_LIGHT_ORANGE if i % 2 else FILL_WHITE
             cell.border = THIN_BORDER
+            cell.alignment = ALIGN_LEFT
         ws.cell(row=row, column=1).value = i + 1
         dv.add(ws.cell(row=row, column=14))
+        ws.row_dimensions[row].height = 22
         row += 1
 
     add_footer(ws, row, max_col)
@@ -531,9 +592,11 @@ def create_installer():
             cell.font = FONT_INPUT
             cell.fill = FILL_LIGHT_ORANGE if i % 2 else FILL_WHITE
             cell.border = THIN_BORDER
+            cell.alignment = ALIGN_LEFT
         ws.cell(row=row, column=1).value = i + 1
         dv.add(ws.cell(row=row, column=14))
         dv_cert.add(ws.cell(row=row, column=7))
+        ws.row_dimensions[row].height = 22
         row += 1
 
     add_footer(ws, row, max_col)
@@ -574,11 +637,13 @@ def create_guarantor_form():
             cell.font = FONT_INPUT
             cell.fill = FILL_LIGHT_ORANGE if i % 2 else FILL_WHITE
             cell.border = THIN_BORDER
+            cell.alignment = ALIGN_LEFT
         ws.cell(row=row, column=1).value = i + 1
         dv.add(ws.cell(row=row, column=10))
         dv.add(ws.cell(row=row, column=11))
         dv.add(ws.cell(row=row, column=12))
         dv_app.add(ws.cell(row=row, column=13))
+        ws.row_dimensions[row].height = 22
         row += 1
 
     add_footer(ws, row, max_col)
@@ -652,8 +717,10 @@ def create_nda():
             cell.font = FONT_INPUT
             cell.fill = FILL_LIGHT_ORANGE if i % 2 else FILL_WHITE
             cell.border = THIN_BORDER
+            cell.alignment = ALIGN_LEFT
         ws.cell(row=row, column=1).value = i + 1
         dv.add(ws.cell(row=row, column=12))
+        ws.row_dimensions[row].height = 22
         row += 1
 
     add_footer(ws, row, max_col)
@@ -692,9 +759,11 @@ def create_api_developer():
             cell.font = FONT_INPUT
             cell.fill = FILL_LIGHT_ORANGE if i % 2 else FILL_WHITE
             cell.border = THIN_BORDER
+            cell.alignment = ALIGN_LEFT
         ws.cell(row=row, column=1).value = i + 1
         dv.add(ws.cell(row=row, column=14))
         dv_tier.add(ws.cell(row=row, column=7))
+        ws.row_dimensions[row].height = 22
         row += 1
 
     add_footer(ws, row, max_col)
@@ -739,6 +808,7 @@ def create_candidate_application():
             cell.font = FONT_INPUT
             cell.fill = FILL_LIGHT_ORANGE if i % 2 else FILL_WHITE
             cell.border = THIN_BORDER
+            cell.alignment = ALIGN_LEFT
         ws.cell(row=row, column=1).value = i + 1
         dv_dept.add(ws.cell(row=row, column=5))
         dv_type.add(ws.cell(row=row, column=6))
@@ -748,6 +818,7 @@ def create_candidate_application():
         dv_yn.add(ws.cell(row=row, column=13))
         dv_yn.add(ws.cell(row=row, column=15))
         dv_status.add(ws.cell(row=row, column=16))
+        ws.row_dimensions[row].height = 22
         row += 1
 
     add_footer(ws, row, max_col)
@@ -841,11 +912,13 @@ def create_interview_checklist():
             cell.font = FONT_INPUT
             cell.fill = FILL_LIGHT_ORANGE if i % 2 else FILL_WHITE
             cell.border = THIN_BORDER
+            cell.alignment = ALIGN_LEFT
         ws.cell(row=row, column=1).value = i + 1
         dv_level.add(ws.cell(row=row, column=5))
         dv_pass.add(ws.cell(row=row, column=8))
         dv_pass.add(ws.cell(row=row, column=11))
         dv_decision.add(ws.cell(row=row, column=15))
+        ws.row_dimensions[row].height = 22
         row += 1
 
     add_footer(ws, row, max_col)
@@ -873,9 +946,11 @@ def create_interview_checklist():
             cell.font = FONT_NORMAL
             cell.fill = FILL_LIGHT_ORANGE if idx % 2 else FILL_WHITE
             cell.border = THIN_BORDER
+            cell.alignment = ALIGN_LEFT
         ws2.cell(row=row, column=1).value = idx + 1
         ws2.cell(row=row, column=2).value = crit
         ws2.cell(row=row, column=8).value = weight
+        ws2.row_dimensions[row].height = 22
         row += 1
 
     add_footer(ws2, row, max_col2)
@@ -918,9 +993,11 @@ def create_leave_request():
             cell.font = FONT_INPUT
             cell.fill = FILL_LIGHT_ORANGE if i % 2 else FILL_WHITE
             cell.border = THIN_BORDER
+            cell.alignment = ALIGN_LEFT
         ws.cell(row=row, column=1).value = i + 1
         dv_type.add(ws.cell(row=row, column=5))
         dv_status.add(ws.cell(row=row, column=14))
+        ws.row_dimensions[row].height = 22
         row += 1
 
     add_footer(ws, row, max_col)
@@ -1002,10 +1079,12 @@ def create_staff_id():
             cell.font = FONT_INPUT
             cell.fill = FILL_LIGHT_ORANGE if i % 2 else FILL_WHITE
             cell.border = THIN_BORDER
+            cell.alignment = ALIGN_LEFT
         ws.cell(row=row, column=1).value = i + 1
         dv_type.add(ws.cell(row=row, column=6))
         dv_emp.add(ws.cell(row=row, column=5))
         dv_status.add(ws.cell(row=row, column=12))
+        ws.row_dimensions[row].height = 22
         row += 1
 
     add_footer(ws, row, max_col)
@@ -1123,6 +1202,7 @@ def create_job_requirements():
         ws.cell(row=row, column=8).value = phase
         ws.cell(row=row, column=9).value = comp
         dv_status.add(ws.cell(row=row, column=10))
+        ws.row_dimensions[row].height = 22
         row += 1
 
     # Add empty rows for additional roles
@@ -1132,11 +1212,13 @@ def create_job_requirements():
             cell.font = FONT_INPUT
             cell.fill = FILL_WHITE
             cell.border = THIN_BORDER
+            cell.alignment = ALIGN_LEFT
         ws.cell(row=row, column=1).value = len(roles) + i + 1
         dv_dept.add(ws.cell(row=row, column=4))
         dv_type.add(ws.cell(row=row, column=7))
         dv_phase.add(ws.cell(row=row, column=8))
         dv_status.add(ws.cell(row=row, column=10))
+        ws.row_dimensions[row].height = 22
         row += 1
 
     add_footer(ws, row, max_col)
@@ -1192,6 +1274,7 @@ def create_master_dashboard():
         ws.cell(row=row, column=3).value = cat
         ws.cell(row=row, column=8).value = "(paste Google Sheets URL here)"
         ws.cell(row=row, column=8).font = FONT_INPUT
+        ws.row_dimensions[row].height = 22
         row += 1
 
     row += 2
@@ -1209,9 +1292,11 @@ def create_master_dashboard():
             cell.font = Font(name="Calibri", size=10, bold=(cat == "TOTAL"), color="333333")
             cell.fill = FILL_LIGHT_BLUE if cat == "TOTAL" else (FILL_LIGHT_ORANGE if idx % 2 else FILL_WHITE)
             cell.border = THIN_BORDER
+            cell.alignment = ALIGN_LEFT
         ws.cell(row=row, column=1).value = idx + 1
         ws.cell(row=row, column=2).value = cat
         ws.cell(row=row, column=3).value = target
+        ws.row_dimensions[row].height = 22
         row += 1
 
     row += 2
