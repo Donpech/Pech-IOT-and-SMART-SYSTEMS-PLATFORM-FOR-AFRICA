@@ -424,7 +424,7 @@ Upon termination or expiration of this Agreement, or at any time upon the Compan
 
 (a) **Trade Secrets:** The Intern's obligations with respect to Trade Secrets shall continue **in perpetuity** (i.e., for an unlimited period) and shall survive the termination or expiration of this Agreement indefinitely, for so long as the information retains its character as a Trade Secret.
 
-(b) **Other Confidential Information:** The Intern's obligations with respect to all other Confidential Information shall continue for a period of **three (3) years** from the date of termination or expiration of this Agreement.
+(b) **Other Confidential Information:** The Intern's obligations with respect to all other Confidential Information shall continue for a period of **five (5) years** from the date of termination or expiration of this Agreement.
 
 ### 8.5 Permitted Disclosures
 

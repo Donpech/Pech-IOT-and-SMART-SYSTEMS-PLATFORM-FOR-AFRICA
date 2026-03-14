@@ -1041,7 +1041,7 @@ After Month 9, revenue from hardware sales and software products justifies deplo
 | 22 | 7.5 | 4.0 | 5.0 | 2.5 | 1.5 | **20.5** |
 | 23 | 8.0 | 4.0 | 5.0 | 2.5 | 1.8 | **21.3** |
 | 24 | 8.0 | 4.0 | 5.0 | 2.5 | 1.8 | **21.3** |
-| **TOTAL** | **95.3** | **43.6** | **56.4** | **25.2** | **18.1** | **₦243.6M** |
+| **TOTAL** | **95.3** | **45.6** | **57.4** | **29.2** | **18.1** | **₦245.6M** |
 
 ![Revenue vs Expenses](proposal_images/revenue_projection.png)
 
@@ -1060,7 +1060,7 @@ After Month 9, revenue from hardware sales and software products justifies deplo
 
   ✦ Break-even: Month 16–18 (operational break-even)
   ✦ Cash-positive: Month 19+ (revenue exceeds all costs)
-  ✦ 24-Month Cumulative Revenue: ₦243.6M
+  ✦ 24-Month Cumulative Revenue: ₦245.6M
 ```
 
 ---

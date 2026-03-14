@@ -59,7 +59,7 @@ PECH is building an **AI-native platform** — all models self-hosted on RTX 409
 - **RAG Framework:** LangChain (MIT) + LangGraph
 
 ### Architecture
-- 78 microservices across 12 domains
+- 78 microservices across 11 domains
 - 3-phase deployment: Crawl (TRX50 + Ollama) → Walk (add 2nd GPU + vLLM) → Run (co-locate + scale)
 - Zero-waste single-platform: TRX50 Workstation from Day 1, add components, never replace
 - Event streaming: NATS (Phase 1) → Apache Kafka (Phase 3)
@@ -79,6 +79,13 @@ PECH is building an **AI-native platform** — all models self-hosted on RTX 409
 - `ai_strategy/PECH_AI_MODEL_CATALOG.md` — all model details
 - `ai_strategy/PECH_AI_ARCHITECTURE_GUIDE.md` — technical architecture
 - `PECH_GROUP_FINANCIAL_PROPOSAL_250M_NAIRA.md` — budget context
+
+### Business Intelligence Platform (11th Vertical)
+- **Pech-African-Business-Intelligence-Platform** — Lead generation, market research, supplier discovery, installer networks, B2B marketplace
+- Modules: Lead Generation, Market Research, Supplier Discovery, Installer Networks, B2B Marketplace
+- Comparable to: ZoomInfo, Apollo.io, LinkedIn Sales Navigator, Lusha, Seamless.ai, LeadIQ
+- Uses AI web crawlers + ML for data collection and enrichment
+- Key document: `ai_strategy/PECH_AFRICAN_BUSINESS_INTELLIGENCE_PLATFORM.md`
 
 ### Industry Research
 - `ai_strategy/NIGERIA_AFRICA_AUTOMATION_SMART_SYSTEMS_INDUSTRY_RESEARCH.md` — Automation & Smart Systems sector analysis

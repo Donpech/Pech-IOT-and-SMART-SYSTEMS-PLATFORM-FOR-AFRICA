@@ -112,7 +112,7 @@ PECH Group Holdings Ltd is a Nigerian technology company building Africa's first
 | Secured Capital | ₦250,000,000 (~$160K USD) |
 | Deployment Period | 24 months (March 2026 — February 2028) |
 | Team | 37 roles (24 FT + 5 contract + 8 intern) |
-| Microservices | 78 across 12 domains |
+| Microservices | 78 across 11 domains |
 | AI Models | 50+ open-source models, self-hosted |
 | Hardware SKUs | 25 across 6 categories |
 | Break-even Target | Month 16–18 |

@@ -50,7 +50,7 @@
 | Ndu's Title | Co-Founder & Advisory Board Chairman | **Angel Investor & Advisory Board Chairman** |
 | Founder Narrative | Shared founding story | **Sole Founder: Chukwunwike Peter Ndibe** |
 | Economic Rights | 40% | **40% (identical)** |
-| Voting Rights | 4.7% | **4.7% (identical)** |
+| Voting Rights | 5.0% | **5.0% (identical)** |
 | Board Seat | Yes | **Yes (identical)** |
 | Operational Authority | None | **None (identical)** |
 | Co-founder IP claims | Possible (implied by title) | **None (explicitly excluded)** |
@@ -64,7 +64,7 @@
 | **Founder** | Chukwunwike Peter Ndibe — the sole founder of the Company |
 | **Angel Investor** | Ndu Jerry Chijioke — providing capital in exchange for equity |
 | **Class A Shares** | Ordinary shares carrying one (1) vote per share |
-| **Class B Shares** | Super-voting shares carrying ten (10) votes per share |
+| **Class B Shares** | Super-voting shares carrying eighteen (18) votes per share |
 | **Authorized Share Capital** | 10,000,000 ordinary shares at ₦1.00 par value |
 | **ESOP** | Employee Stock Ownership Plan |
 | **Vertical** | A distinct business unit within the PECH ecosystem |
@@ -83,11 +83,11 @@
 
 | Shareholder | Shares | Economic % | Share Class | Votes per Share | Total Votes | Voting % |
 |-------------|--------|-----------|-------------|-----------------|-------------|----------|
-| **Chukwunwike Peter Ndibe** (Sole Founder & CEO) | 4,000,000 | 40% | Class B (×10) | 10 | 40,000,000 | **93.0%** |
-| **Ndu Jerry Chijioke** (Angel Investor & Advisory Chairman) | 4,000,000 | 40% | Class A (×1) | 1 | 4,000,000 | 4.7% |
-| **ESOP Pool** | 1,000,000 | 10% | Class A (×1) | 1 | 1,000,000 | 1.2% |
-| **Strategic Reserve** | 1,000,000 | 10% | Class A (×1) | 1 | 1,000,000 | 1.2% |
-| **TOTAL** | **10,000,000** | **100%** | — | — | **46,000,000** | **100%** |
+| **Chukwunwike Peter Ndibe** (Sole Founder & CEO) | 4,000,000 | 40% | Class B (×18) | 18 | 72,000,000 | **90.0%** |
+| **Ndu Jerry Chijioke** (Angel Investor & Advisory Chairman) | 4,000,000 | 40% | Class A (×1) | 1 | 4,000,000 | 5.0% |
+| **ESOP Pool** | 1,000,000 | 10% | Class A (×1) | 1 | 1,000,000 | 1.25% |
+| **Strategic Reserve** | 1,000,000 | 10% | Class A (×1) | 1 | 1,000,000 | 1.25% |
+| **TOTAL** | **10,000,000** | **100%** | — | — | **80,000,000** | **100%** |
 
 ### 2.3 Economic Rights
 
@@ -111,7 +111,7 @@ CAMA 2020, Section 142 permits Nigerian companies to issue shares with **differe
 
 | Feature | Class A (Ordinary) | Class B (Super-Voting) |
 |---------|-------------------|----------------------|
-| **Votes per share** | 1 | 10 |
+| **Votes per share** | 1 | 18 |
 | **Holder(s)** | Ndu, ESOP, Strategic Reserve | Founder only |
 | **Dividend rights** | Equal per share | Equal per share |
 | **Transferability** | Subject to pre-emption | Non-transferable (auto-converts to Class A on transfer) |
@@ -134,15 +134,15 @@ Class B shares shall **automatically convert** to Class A shares upon:
 
 | Shareholder | Economic % | Voting % | Control Status |
 |-------------|-----------|----------|----------------|
-| Founder (Chukwunwike Peter Ndibe) | 40% | **93.0%** | Controlling shareholder |
-| Ndu Jerry Chijioke (Investor) | 40% | 4.7% | Minority voting, protected by veto rights |
-| ESOP Pool | 10% | 1.2% | Unallocated |
-| Strategic Reserve | 10% | 1.2% | Unissued |
+| Founder (Chukwunwike Peter Ndibe) | 40% | **90.0%** | Controlling shareholder |
+| Ndu Jerry Chijioke (Investor) | 40% | 5.0% | Minority voting, protected by veto rights |
+| ESOP Pool | 10% | 1.25% | Unallocated |
+| Strategic Reserve | 10% | 1.25% | Unissued |
 
 ### 4.2 Key Thresholds
 
 - **Ordinary Resolution (>50% votes):** Founder can pass unilaterally
-- **Special Resolution (≥75% votes):** Founder can pass unilaterally (93% > 75%)
+- **Special Resolution (≥75% votes):** Founder can pass unilaterally (90% > 75%)
 - **Founder maintains control** as long as Class B shares exist
 
 ---
@@ -153,8 +153,8 @@ Class B shares shall **automatically convert** to Class A shares upon:
 
 | Shareholder | Economic % | Votes | Voting % |
 |-------------|-----------|-------|----------|
-| Founder | 20% | 20,000,000 | **76.9%** |
-| Ndu + External Investors + Others | 80% | 6,000,000 | 23.1% |
+| Founder | 20% | 36,000,000 | **85.7%** |
+| Ndu + External Investors + Others | 80% | 6,000,000 | 14.3% |
 
 **Result:** Founder still controls the company with >75% voting power.
 
@@ -162,8 +162,8 @@ Class B shares shall **automatically convert** to Class A shares upon:
 
 | Shareholder | Economic % | Votes | Voting % |
 |-------------|-----------|-------|----------|
-| Founder | 10% | 10,000,000 | **62.5%** |
-| All Others | 90% | 6,000,000 | 37.5% |
+| Founder | 10% | 18,000,000 | **75.0%** |
+| All Others | 90% | 6,000,000 | 25.0% |
 
 **Result:** Founder still controls ordinary and special resolutions.
 
@@ -171,10 +171,10 @@ Class B shares shall **automatically convert** to Class A shares upon:
 
 | Shareholder | Economic % | Votes | Voting % |
 |-------------|-----------|-------|----------|
-| Founder | 40% | 40,000,000 | **87.0%** |
-| Ndu (Investor) | 40% | 4,000,000 | 8.7% |
-| ESOP (vested employees) | 10% | 1,000,000 | 2.2% |
-| Strategic Partners | 10% | 1,000,000 | 2.2% |
+| Founder | 40% | 72,000,000 | **90.0%** |
+| Ndu (Investor) | 40% | 4,000,000 | 5.0% |
+| ESOP (vested employees) | 10% | 1,000,000 | 1.25% |
+| Strategic Partners | 10% | 1,000,000 | 1.25% |
 
 ---
 
@@ -339,7 +339,7 @@ When external capital is needed (either due to Ndu's funding cessation or growth
 
 ### 11.1 Ndu's Protective Rights (as 40% Economic Shareholder)
 
-Despite having only 4.7% voting power, Ndu has the following protective provisions (veto rights):
+Despite having only 5.0% voting power, Ndu has the following protective provisions (veto rights):
 
 | Matter | Ndu's Consent Required? |
 |--------|------------------------|
@@ -376,7 +376,7 @@ Despite having only 4.7% voting power, Ndu has the following protective provisio
 |---------|--------|
 | **Pool Size** | 1,000,000 shares (10% of total) |
 | **Share Class** | Class A (1 vote per share) |
-| **Vesting** | 4-year standard vesting, 1-year cliff |
+| **Vesting** | 5-year vesting, 2-year cliff |
 | **Administered By** | Board of Directors |
 | **First Allocation** | CTO (1-3% from pool) |
 
@@ -384,10 +384,19 @@ Despite having only 4.7% voting power, Ndu has the following protective provisio
 
 | Milestone | Vested % |
 |-----------|---------|
-| End of Year 1 (cliff) | 25% |
-| End of Year 2 | 50% |
-| End of Year 3 | 75% |
-| End of Year 4 | 100% |
+| End of Year 1 | 0% (cliff period) |
+| End of Year 2 (cliff) | 40% |
+| End of Year 3 | 60% |
+| End of Year 4 | 80% |
+| End of Year 5 | 100% |
+
+*Note: Post-cliff vesting occurs monthly at 1.667% per month (60% ÷ 36 months). The milestones above show cumulative annual totals.*
+
+**Key Rules:**
+- **2-year cliff:** No shares vest before Month 24. If an employee leaves before completing 2 years, 100% of shares return to the pool
+- **Company buyback right:** The Company has the Right of First Refusal to purchase vested shares at Fair Market Value if the holder wishes to sell
+- **Pool return:** Any unvested shares from departing employees automatically return to the ESOP Pool for re-granting
+- See full ESOP Policy document: `PECH_ESOP_POLICY_AND_PLAN.md`
 
 ### 12.3 Eligible Roles
 
@@ -554,7 +563,7 @@ This document is a **DRAFT** for review by legal counsel.
 |---------|----------------------|--------------------------|
 | Ndu's Title | Co-Founder & Advisory Board Chairman | Angel Investor & Advisory Board Chairman |
 | Economic % | 40% | 40% |
-| Voting % | 4.7% | 4.7% |
+| Voting % | 5.0% | 5.0% |
 | Board Seat | Yes | Yes |
 | Operational Authority | None | None |
 | Founding Narrative | Shared | Sole Founder: Chukwunwike Peter Ndibe |

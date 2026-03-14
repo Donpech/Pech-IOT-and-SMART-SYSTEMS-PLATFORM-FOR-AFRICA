@@ -10,7 +10,7 @@
 <p>
 <img src="https://img.shields.io/badge/CONFIDENTIAL-🔒-E08A00?style=for-the-badge&labelColor=1B2838" alt="Confidential" />
 <img src="https://img.shields.io/badge/Master-Reference%20Doc-00BFFF?style=for-the-badge&labelColor=1B2838" alt="Master Reference" />
-<img src="https://img.shields.io/badge/10-Verticals-F5A623?style=for-the-badge&labelColor=1B2838" alt="10 Verticals" />
+<img src="https://img.shields.io/badge/11-Verticals-F5A623?style=for-the-badge&labelColor=1B2838" alt="10 Verticals" />
 </p>
 <p><img src="https://img.shields.io/badge/Lagos%2C%20Nigeria-pechgroupholdings.tech-0099CC?style=flat-square" alt="Location" /></p>
 <div style="height:2px;background:linear-gradient(90deg,#00BFFF,#F5A623 50%,#00BFFF);margin:12px -40px 0;"></div>
@@ -53,7 +53,7 @@
 
 ## 1. EXECUTIVE SUMMARY
 
-PECH Group Holdings Ltd is building an **AI-native digital infrastructure platform** for Africa, starting from Lagos, Nigeria. The ecosystem connects **10 business verticals** through a **unified AI core** — similar in architecture to platforms built by Alibaba Group, Amazon, and Tencent, but optimized for African markets, energy infrastructure, and commerce.
+PECH Group Holdings Ltd is building an **AI-native digital infrastructure platform** for Africa, starting from Lagos, Nigeria. The ecosystem connects **11 business verticals** through a **unified AI core** — similar in architecture to platforms built by Alibaba Group, Amazon, and Tencent, but optimized for African markets, energy infrastructure, and commerce.
 
 **Core principles:**
 - **Self-hosted AI** — no vendor lock-in, all models run on our own servers
@@ -62,7 +62,7 @@ PECH Group Holdings Ltd is building an **AI-native digital infrastructure platfo
 - **Nigeria-optimized** — power backup, import-duty-aware budgets, local infrastructure
 - **Phase-based deployment** — start lean, scale with revenue
 
-**The platform comprises ~78 microservices** across 12 domains, powered by ~20-25 open-source systems and 15+ AI/ML models, serving customers, merchants, installers, agents, and developers through a unified identity and data layer.
+**The platform comprises ~78 microservices** across 11 domains, powered by ~20-25 open-source systems and 15+ AI/ML models, serving customers, merchants, installers, agents, and developers through a unified identity and data layer.
 
 ---
 
@@ -76,20 +76,20 @@ PECH Group Holdings Ltd is building an **AI-native digital infrastructure platfo
 
 ## 2. ECOSYSTEM OVERVIEW
 
-### The 10 Interconnected Business Verticals
+### The 11 Interconnected Business Verticals
 
 ```
-                    PECH AI CORE
-                        |
-    +-------------------+-------------------+
-    |         |         |         |         |
-  Solar   Market-   Fintech    PMAP    Logistics
-  Energy  place     Wallet    Mapping   Network
-    |         |         |         |         |
-    +-------------------+-------------------+
-    |         |         |         |         |
-   IoT    Developer  Installer   ERP    Real Estate
-  Devices  Platform  Ecosystem  System   Platform
+                         PECH AI CORE
+                              |
+    +----------+---------+----+----+---------+----------+
+    |          |         |         |         |          |
+  Solar    Market-   Fintech    PMAP    Logistics   Business
+  Energy   place     Wallet    Mapping   Network    Intel
+    |          |         |         |         |          |
+    +----------+---------+----+----+---------+----------+
+    |          |         |         |         |
+   IoT     Developer  Installer   ERP    Real Estate
+  Devices   Platform  Ecosystem  System   Platform
 ```
 
 | # | Vertical | What It Does | AI Role |
@@ -104,6 +104,7 @@ PECH Group Holdings Ltd is building an **AI-native digital infrastructure platfo
 | 8 | **Installer Ecosystem** | Certified installation network | Installation guidance, troubleshooting, training, certification |
 | 9 | **ERP System** | Accounting, inventory, HR, procurement | Financial reports, inventory prediction, tax compliance, auditing |
 | 10 | **Real Estate** | Property buying, selling, renting | Property recommendations, price prediction, virtual tours |
+| 11 | **African Business Intelligence** | Lead generation, market research, supplier discovery, installer networks, B2B marketplace | AI-powered lead scoring, web crawling, contact enrichment, market analysis, competitive intelligence |
 
 ### Data Flow: Every Action Feeds the AI
 
