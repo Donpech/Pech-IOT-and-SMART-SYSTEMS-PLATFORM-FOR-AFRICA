@@ -18,7 +18,7 @@
 <h2 style="margin:4px 0 12px;font-size:1.1em;color:#F5A623;font-weight:500;">Codebase Summary & Repository Guide</h2>
 
 <p>
-<img src="https://img.shields.io/badge/Updated-March%2012%2C%202026-00BFFF?style=for-the-badge&labelColor=1B2838" alt="Updated" />
+<img src="https://img.shields.io/badge/Updated-March%2014%2C%202026-00BFFF?style=for-the-badge&labelColor=1B2838" alt="Updated" />
 <img src="https://img.shields.io/badge/Type-Business%20Blueprint-F5A623?style=for-the-badge&labelColor=1B2838" alt="Blueprint" />
 <img src="https://img.shields.io/badge/Status-Phase%201%20(Crawl)-0099CC?style=for-the-badge&labelColor=1B2838" alt="Status" />
 </p>
@@ -36,7 +36,7 @@
 
 ## Repository Overview
 
-This repository contains the **complete strategic planning, business operations, and technical blueprint** for **PECH Group Holdings Ltd** — building Africa's first vertically-integrated Infrastructure Operating System and Commerce Operating System. It combines IoT hardware, AI-native software platforms, and a multi-vertical ecosystem across 10+ business domains.
+This repository contains the **complete strategic planning, business operations, and technical blueprint** for **PECH Group Holdings Ltd** — building Africa's first vertically-integrated Infrastructure Operating System and Commerce Operating System. It combines IoT hardware, AI-native software platforms, and a multi-vertical ecosystem across 11 business domains.
 
 **What this repository IS:**
 - Complete business strategy, financial projections, and market analysis
@@ -82,7 +82,7 @@ Pech-IOT-and-SMART-SYSTEMS-PLATFORM-FOR-AFRICA/
 │   └── images/                                      #   Architecture diagrams
 ├── proposal_images/                                 # [26 files] Infographics (SVG + PNG)
 ├── scripts/                                         # [6 files]  Document generation scripts
-├── .claude/commands/                                # [1 file]   Slash command templates
+├── .claude/commands/                                # [16 files] Slash command templates
 │
 ├── PECH_GROUP_FINANCIAL_PROPOSAL_250M_NAIRA.md/docx/pdf  # Full 24-month budget
 ├── PECH_INVESTOR_VERSION.md/docx/pdf                     # Investor-focused proposal
@@ -107,7 +107,7 @@ The core technical and strategic documentation for PECH's self-hosted AI infrast
 | File | Size | Description |
 |------|------|-------------|
 | `README.md` | 2 KB | Directory index and quick-start guide |
-| `PECH_ECOSYSTEM_COMPREHENSIVE_GUIDE.md` | 39 KB | Master reference — all 10 verticals, 78 microservices, AI models, platforms, subscription tiers |
+| `PECH_ECOSYSTEM_COMPREHENSIVE_GUIDE.md` | 39 KB | Master reference — all 11 verticals, 78 microservices, AI models, platforms, subscription tiers |
 | `PECH_AI_MODEL_CATALOG.md` | 30 KB | 50+ AI/ML models across 15 categories with license verification, VRAM requirements |
 | `PECH_OPEN_SOURCE_PLATFORM_STACK.md` | 31 KB | 25+ platforms (Keycloak, ERPNext, Medusa, Fineract, etc.) with license audit |
 | `PECH_AI_HARDWARE_AND_SETUP_GUIDE.md` | 35 KB | Hardware BOM, China sourcing, Nigeria import duties, power/cooling |
@@ -235,11 +235,26 @@ All files feature PECH branding, dropdown validations, alternating row colors, a
 | `brand_docx.py` | Python (20 KB) | Post-processes DOCX files with PECH brand styling: colored dividers, branded headers, table formatting |
 | `export_hr_docs.sh` | Bash (6 KB) | Batch exports HR Markdown documents to PDF/DOCX via Pandoc + texlive-xetex |
 
-### `.claude/commands/` — AI Assistant Commands (1 file)
+### `.claude/commands/` — AI Assistant Commands (16 files)
 
 | File | Purpose |
 |------|---------|
-| `industry-research.md` | Slash command template for generating industry research reports — auto-adapts to any industry with 16+ mandatory sections |
+| `industry-research.md` | Generate comprehensive industry research reports with 16+ mandatory sections |
+| `generate-leads.md` | AI-powered lead generation from web sources |
+| `find-influencers.md` | Discover influencers in target sectors |
+| `find-marketers.md` | Find marketing professionals and agencies |
+| `find-doctors.md` | Locate healthcare professionals and facilities |
+| `scrape-marketplace.md` | Extract marketplace listing data (Jumia, Jiji, Konga) |
+| `gmaps-leads.md` | Google Maps-based lead extraction |
+| `classify-leads.md` | Classify, score, and rank collected leads |
+| `create-proposal.md` | Generate business proposals |
+| `generate-report.md` | Create structured business reports |
+| `find-designers.md` | Discover design professionals |
+| `outreach-campaign.md` | Plan and execute outreach campaigns |
+| `competitor-analysis.md` | Deep competitive intelligence analysis |
+| `find-schools.md` | Locate educational institutions |
+| `find-suppliers.md` | Discover suppliers and vendors |
+| `review-codebase.md` | Analyze repository structure and generate codebase summary |
 
 ---
 
@@ -408,7 +423,7 @@ PECH's platform architecture spans 5 layers:
 | **Walk** | Months 7–12 | Add 2nd GPU + vLLM, K3s | Commercial launch |
 | **Run** | Months 13–24 | Co-locate + scale, full K8s | ₦21.3M/month revenue |
 
-### 10 Business Verticals
+### 11 Business Verticals
 
 1. Solar Intelligence
 2. Marketplace Intelligence
@@ -420,6 +435,7 @@ PECH's platform architecture spans 5 layers:
 8. Installer Ecosystem
 9. ERP Intelligence
 10. Real Estate Platform
+11. African Business Intelligence Platform
 
 ---
 
@@ -427,18 +443,19 @@ PECH's platform architecture spans 5 layers:
 
 | Category | Count | Formats |
 |----------|-------|---------|
-| Markdown Documents | 67 | .md |
-| Word Documents | 60 | .docx |
+| Markdown Documents | 94 | .md |
+| Word Documents | 108 | .docx |
+| PDF Documents | 108 | .pdf |
 | Excel Spreadsheets | 40 | .xlsx |
-| PDF Documents | 59 | .pdf |
-| SVG Graphics | 30 | .svg |
+| SVG Graphics | 31 | .svg |
 | PNG Images | 26 | .png |
-| Python Scripts | 5 | .py |
+| Python Scripts | 6 | .py |
 | Bash Scripts | 1 | .sh |
 | CSS Stylesheets | 2 | .css |
 | HTML Files | 1 | .html |
-| Strategy Transcripts | 4 | plaintext |
-| **Total** | **295** | Mixed |
+| Strategy Transcripts | 6 | plaintext |
+| Other | 9 | .gs, .gitignore, .pyc, .txt |
+| **Total** | **432** | Mixed |
 | **Total Size** | **~39 MB** | — |
 
 ---
@@ -478,7 +495,7 @@ PECH Group Holdings Ltd is building **Africa's Infrastructure Operating System**
 1. **IoT Hardware** — Smart meters, sensors, gateways, CCTV, POS devices
 2. **AI-Native Platform** — 50+ self-hosted models on RTX 4090 GPUs, zero cloud dependency
 3. **Commerce OS** — Alibaba-inspired 6-layer ecosystem (ERP → Marketplace → Payments → Logistics → Credit → Data)
-4. **10 Business Verticals** — Solar, marketplace, fintech, mapping, logistics, IoT, developer, installer, ERP, real estate
+4. **11 Business Verticals** — Solar, marketplace, fintech, mapping, logistics, IoT, developer, installer, ERP, real estate, business intelligence
 5. **Open API Economy** — White-label, SDKs, webhooks via Apache APISIX gateway
 6. **37-Person Team** — 24 FT + 5 contract + 8 intern with Nigerian salary ranges
 
