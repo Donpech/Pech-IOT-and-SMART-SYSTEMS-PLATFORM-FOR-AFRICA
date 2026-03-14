@@ -1101,14 +1101,16 @@ After Month 9, revenue from hardware sales and software products justifies deplo
 
 ## 15. Equity & Governance
 
-### 15.1 Proposed Equity Structure
+### 15.1 Equity Structure (Dual-Class Shares — CAMA 2020 Section 142)
 
-| Stakeholder | Allocation | Notes |
-|------------|-----------|-------|
-| Founder(s) | 55–60% | Controlling stake, hardware + vision |
-| ESOP Pool | 10–12% | CTO, Payments PM, key hires (4-year vesting) |
-| Seed/Angel Investors | 15–20% | This round (₦250M valuation basis) |
-| Strategic Reserve | 10–15% | Future rounds, partnerships |
+| Shareholder | Allocation | Share Class | Voting Power | Notes |
+|------------|-----------|-------------|-------------|-------|
+| **Founder & CEO** (Chukwunwike Peter Ndibe) | 40% | Class B (10× votes) | **93.0%** | Controlling stake, hardware + vision |
+| **Angel Investor** (Ndu Jerry Chijioke) | 40% | Class A (1× vote) | 4.7% | Funds operations, Advisory Board Chairman |
+| **ESOP Pool** | 10% | Class A (1× vote) | 1.2% | CTO, Payments PM, key hires (4-year vesting) |
+| **Strategic Reserve** | 10% | Class A (1× vote) | 1.2% | Future investors, strategic sector partners |
+
+> **Dual-class structure:** Class B super-voting shares (10× voting power) ensure the Founder retains control of the company's vision even if economically diluted. All shares carry equal economic rights (dividends, distributions). See `contracts/PECH_EQUITY_AND_CORPORATE_STRUCTURE.md` for the full shareholders agreement.
 
 ### 15.2 Corporate Holding Structure
 
@@ -1123,19 +1125,24 @@ PECH Group Holdings Ltd (Parent — Technology Company)
 
 ### 15.3 Governance
 
-| Position | Responsibility |
-|----------|---------------|
-| **Founder/CEO** | Vision, hardware sourcing, partnerships, capital |
-| **CTO** | Architecture authority, technical hiring, security |
-| **Advisory Board** | Regulatory, finance, market access (3-5 advisors) |
+| Position | Holder | Responsibility |
+|----------|--------|---------------|
+| **Founder & CEO** | Chukwunwike Peter Ndibe | Vision, hardware sourcing, partnerships, capital, all operations |
+| **Advisory Board Chairman** | Ndu Jerry Chijioke | Strategic advice, business introductions, governance oversight |
+| **CTO** | TBD (ESOP recipient) | Architecture authority, technical hiring, security |
+| **Advisory Board** | 3-5 members | Regulatory, finance, market access advisors |
+
+> **Vertical governance:** Only people involved in each vertical vote on that vertical's operational matters. Company-level decisions follow the dual-class share structure.
 
 ### 15.4 Investor Protection
 
-- Monthly financial reporting
-- Board seat for lead investor (optional)
-- Quarterly milestone reviews
-- Anti-dilution provisions on next round
-- Right of first refusal on Series A
+- Monthly management accounts and P&L reporting
+- Board seat for Ndu Jerry Chijioke (Seat 2 of 5)
+- Quarterly board meetings with full information rights
+- Veto rights on: share class changes, new Class B issuance, asset sales >50%, dissolution, related-party transactions >₦5M
+- Anti-dilution: pro-rata participation rights in future rounds
+- Tag-along rights if Founder sells >20% of shares
+- Right of first refusal on Strategic Reserve issuance
 
 ---
 

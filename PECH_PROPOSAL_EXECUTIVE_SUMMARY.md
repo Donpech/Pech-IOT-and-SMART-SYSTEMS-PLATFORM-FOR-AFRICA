@@ -195,14 +195,16 @@ All PECH products are **designed for Africa** — wide voltage tolerance, heat r
 
 ---
 
-## Equity Structure
+## Equity Structure (Dual-Class Shares)
 
-| Stakeholder | Allocation | Notes |
-|------------|-----------|-------|
-| Founder(s) | 55–60% | Controlling stake, hardware + vision |
-| ESOP Pool | 10–12% | CTO, key hires (4-year vesting) |
-| Seed/Angel Investors | 15–20% | This round |
-| Strategic Reserve | 10–15% | Future rounds, partnerships |
+| Shareholder | Allocation | Voting Power | Notes |
+|------------|-----------|-------------|-------|
+| **Founder & CEO** (Chukwunwike Peter Ndibe) | 40% | **93.0%** (Class B, 10× votes) | Controlling stake, hardware + vision |
+| **Angel Investor** (Ndu Jerry Chijioke) | 40% | 4.7% (Class A) | Funds operations, Advisory Board Chairman |
+| **ESOP Pool** | 10% | 1.2% (Class A) | CTO, key hires (4-year vesting) |
+| **Strategic Reserve** | 10% | 1.2% (Class A) | Future investors, strategic sector partners |
+
+> Equal economic rights for all shares. Class B super-voting protects founder control even under dilution. CAMA 2020, Section 142 compliant.
 
 ---
 
