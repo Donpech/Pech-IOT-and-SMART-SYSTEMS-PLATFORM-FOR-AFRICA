@@ -80,6 +80,13 @@ PECH is building an **AI-native platform** — all models self-hosted on RTX 409
 - `ai_strategy/PECH_AI_ARCHITECTURE_GUIDE.md` — technical architecture
 - `PECH_GROUP_FINANCIAL_PROPOSAL_250M_NAIRA.md` — budget context
 
+### Business Intelligence Platform (11th Vertical)
+- **Pech-African-Business-Intelligence-Platform** — Lead generation, market research, supplier discovery, installer networks, B2B marketplace
+- Modules: Lead Generation, Market Research, Supplier Discovery, Installer Networks, B2B Marketplace
+- Comparable to: ZoomInfo, Apollo.io, LinkedIn Sales Navigator, Lusha, Seamless.ai, LeadIQ
+- Uses AI web crawlers + ML for data collection and enrichment
+- Key document: `ai_strategy/PECH_AFRICAN_BUSINESS_INTELLIGENCE_PLATFORM.md`
+
 ### Industry Research
 - `ai_strategy/NIGERIA_AFRICA_AUTOMATION_SMART_SYSTEMS_INDUSTRY_RESEARCH.md` — Automation & Smart Systems sector analysis
 - Use `/industry-research [INDUSTRY] [COUNTRY/REGION]` slash command to generate new industry research reports
