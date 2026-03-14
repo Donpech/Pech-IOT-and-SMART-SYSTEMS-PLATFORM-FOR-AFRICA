@@ -315,7 +315,7 @@
 
    (d) Failure to maintain certification or insurance;
 
-   (e) Material breach of this Agreement;
+   (e) Material breach of this Agreement (as defined in Clause 15.4);
 
    (f) Bringing PECH into disrepute.
 
@@ -331,13 +331,33 @@
 
    (e) Customer handover shall be completed.
 
+15.4. **Material Breach Defined:** For the purposes of this Agreement, "Material Breach" includes but is not limited to:
+
+   (a) Failure to perform installation services for thirty (30) or more consecutive days without reasonable cause;
+
+   (b) Violation of safety standards resulting in property damage or personal injury;
+
+   (c) Unauthorized disclosure of Confidential Information;
+
+   (d) Fraud, misrepresentation, or gross negligence in the performance of services;
+
+   (e) Failure to maintain required insurance coverage or professional certifications;
+
+   (f) Repeated failure to meet quality standards after written notice and reasonable opportunity to cure;
+
+   (g) Unauthorized use of PECH intellectual property or branding outside the scope of this Agreement.
+
 ---
 
 ## 16. DISPUTE RESOLUTION
 
-16.1. Good faith negotiation, then mediation, then arbitration in Lagos per the Arbitration and Mediation Act 2023.
+16.1. **Good Faith Negotiation:** Any dispute arising from or in connection with this Agreement shall first be resolved through good faith negotiation between the Parties within thirty (30) days of written notice of the dispute.
 
-16.2. **Governing Law:** Laws of the Federal Republic of Nigeria.
+16.2. **Mediation:** If the dispute is not resolved through negotiation, the Parties shall attempt to resolve it through mediation administered by the Lagos Multi-Door Courthouse within thirty (30) days.
+
+16.3. **Arbitration:** If mediation fails, the dispute shall be referred to and finally resolved by arbitration under the Arbitration and Mediation Act 2023, seated in Lagos, Nigeria. The arbitration shall be conducted by a sole arbitrator appointed by agreement of the Parties, or in default of agreement, by the President of the Nigerian Bar Association (NBA).
+
+16.4. **Governing Law:** This Agreement shall be governed by and construed in accordance with the laws of the Federal Republic of Nigeria.
 
 ---
 

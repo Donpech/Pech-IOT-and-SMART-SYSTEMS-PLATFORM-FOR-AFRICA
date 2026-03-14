@@ -167,7 +167,7 @@ In this Contract, unless the context otherwise requires:
 
    (b) **Cliff Period:** Two (2) years — no equity shall vest before the completion of the cliff period;
 
-   (c) **Vesting Schedule:** After the cliff period, equity shall vest monthly/quarterly in equal installments over the remaining three (3) years;
+   (c) **Vesting Schedule:** After the cliff period, equity shall vest monthly in equal installments (1.667% per month) over the remaining three (3) years;
 
    (d) **Good Leaver:** If the Employee leaves voluntarily after the cliff period or is made redundant, vested equity shall be retained subject to the terms in Schedule A;
 
@@ -297,7 +297,7 @@ The Employer shall provide the following statutory benefits in compliance with N
 
 ## 12. NON-COMPETITION
 
-12.1. The Employee agrees that during the term of employment and for a period of **twenty-four (24) months** after the termination of employment (the "Restriction Period"), the Employee shall not, directly or indirectly, without the prior written consent of the Employer:
+12.1. The Employee agrees that during the term of employment and for a period of **twelve (12) months** after the termination of employment (the "Restriction Period"), the Employee shall not, directly or indirectly, without the prior written consent of the Employer:
 
    (a) Be employed by, engaged by, or provide services to any business that is in direct competition with the business of the Employer or the Group within the Restricted Territory;
 
@@ -305,9 +305,9 @@ The Employer shall provide the following statutory benefits in compliance with N
 
    (c) Assist any person or entity in competing with the Employer or the Group within the Restricted Territory.
 
-12.2. **Restricted Territory:** Nigeria and any other country in which the Employer or the Group operates or has concrete plans to operate at the date of termination.
+12.2. **Restricted Territory:** Nigeria.
 
-12.3. **Competing Business:** A business that operates in the same or substantially similar market segments as the Employer, including but not limited to: IoT platforms, commerce operating systems, digital marketplace platforms, payment processing, logistics technology, and smart infrastructure.
+12.3. **Competing Business:** A business that is a direct competitor to the Employer in the IoT and smart systems sector, meaning a business whose primary activity is the development, deployment, or sale of IoT platforms, smart home/building automation systems, or smart infrastructure monitoring solutions that directly compete with PECH's products and services. For the avoidance of doubt, general technology employment (including employment in software development, cloud computing, data analytics, e-commerce, fintech, or other technology sectors that do not directly compete with the Employer's core IoT and smart systems business) shall not constitute employment with a Competing Business.
 
 12.4. **Garden Leave:** During the Restriction Period, the Employer may place the Employee on garden leave, during which the Employee shall remain employed and shall receive full salary and benefits but shall not be required to attend work or perform duties.
 
@@ -349,7 +349,7 @@ The Employer shall provide the following statutory benefits in compliance with N
 
 14.3. **Permitted Disclosures:** The Employee may disclose their job title and a general description of their role (e.g., for LinkedIn profiles or professional networking), but shall not disclose any Confidential Information or specific details about the Employer's projects, clients, technology, or strategy.
 
-14.4. **Duration:** The restrictions in this Clause shall apply during the term of employment and **perpetually** after termination. Confidential information about the Company never expires, and former employees can never publicly discuss internal Company matters.
+14.4. **Duration:** The restrictions in this Clause shall apply during the term of employment and for a period of **twenty-four (24) months** after termination. For the avoidance of doubt, the obligation to protect Confidential Information under Clause 11 (which has its own survival periods) remains separate from and unaffected by this media restriction period.
 
 14.5. **Breach:** Any unauthorized public communication shall constitute Gross Misconduct and may result in summary dismissal and/or legal action for damages.
 
@@ -591,7 +591,7 @@ By signing below, the Employee confirms that:
 | **Percentage of Company:** | \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ |
 | **Vesting Period:** | 5 years from Commencement Date |
 | **Cliff Period:** | 2 years |
-| **Vesting Schedule:** | Monthly/Quarterly after cliff |
+| **Vesting Schedule:** | Monthly after cliff (1.667%/month) |
 | **Exercise Price:** | \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ |
 | **Exercise Period (post-termination):** | 12 months (Good Leaver only) |
 | **Good Leaver Events:** | Voluntary resignation after cliff, redundancy, death, disability |
@@ -686,8 +686,6 @@ I acknowledge that I have read and understood this Data Protection Privacy Notic
 <div style="height:3px;background:linear-gradient(90deg,#00BFFF,#0099CC 25%,#F5A623 50%,#E08A00 75%,#00BFFF);border-radius:2px;"></div>
 <div style="padding:28px 0 8px;">
 <img src="../design_assets/logos/pech_logo_icon_only.svg" alt="PECH" width="48" style="opacity:0.15;margin-bottom:8px;" />
-<div style="font-family:'Montserrat','Segoe UI',Arial,sans-serif;font-size:11px;letter-spacing:10px;color:rgba(0,153,204,0.13);font-weight:800;text-transform:uppercase;margin-bottom:4px;">PECH GROUP HOLDINGS LTD</div>
-<div style="font-family:'Montserrat','Segoe UI',Arial,sans-serif;font-size:11px;letter-spacing:10px;color:rgba(0,153,204,0.13);font-weight:800;text-transform:uppercase;margin-bottom:4px;">PECH GROUP HOLDINGS LTD</div>
 <div style="font-family:'Montserrat','Segoe UI',Arial,sans-serif;font-size:11px;letter-spacing:10px;color:rgba(0,153,204,0.13);font-weight:800;text-transform:uppercase;margin-bottom:4px;">PECH GROUP HOLDINGS LTD</div>
 <div style="font-family:'Open Sans','Segoe UI',Arial,sans-serif;font-size:8px;letter-spacing:4px;color:rgba(245,166,35,0.18);font-weight:400;text-transform:uppercase;">Technology & Infrastructure Enablers for People</div>
 <div style="margin-top:12px;">

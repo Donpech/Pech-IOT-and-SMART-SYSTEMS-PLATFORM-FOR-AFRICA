@@ -339,7 +339,7 @@ When external capital is needed (either due to Ndu's funding cessation or growth
 
 ### 11.1 Ndu's Protective Rights (as 40% Economic Shareholder)
 
-Despite having only 4.7% voting power, Ndu has the following protective provisions (veto rights):
+Despite having only 5.0% voting power, Ndu has the following protective provisions (veto rights):
 
 | Matter | Ndu's Consent Required? |
 |--------|------------------------|
@@ -389,6 +389,8 @@ Despite having only 4.7% voting power, Ndu has the following protective provisio
 | End of Year 3 | 60% |
 | End of Year 4 | 80% |
 | End of Year 5 | 100% |
+
+*Note: Post-cliff vesting occurs monthly at 1.667% per month (60% ÷ 36 months). The milestones above show cumulative annual totals.*
 
 **Key Rules:**
 - **2-year cliff:** No shares vest before Month 24. If an employee leaves before completing 2 years, 100% of shares return to the pool

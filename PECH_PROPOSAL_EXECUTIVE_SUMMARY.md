@@ -138,7 +138,7 @@ All PECH products are **designed for Africa** — wide voltage tolerance, heat r
 | **Phase 2: MVP & Pilot** | 4–6 | 50 merchants, 30 IoT devices, 2 logistics stations, smart home + solar products launch | ₦52,000,000 |
 | **Phase 3: Market Entry** | 7–9 | 500 merchants, 3 markets, water controllers launch, marketing campaigns | ₦55,000,000 |
 | **Phase 4: Revenue Scale** | 10–12 | 1,500 merchants, 300 devices, credit scoring prototype | ₦45,000,000 |
-| **Phase 5: Ecosystem Maturity** | 13–18 | 3,000 merchants, 800 devices, API launch, LED displays, PSSP license application | ₦33,000,000 |
+| **Phase 5: Ecosystem Maturity** | 13–18 | 3,000 merchants, 800 devices, API launch, LED displays, PSSP license application | ₦35,000,000 |
 | **Phase 6: Growth & Expansion** | 19–24 | 5,000 merchants, 1,500 devices, West Africa expansion | ₦10,000,000 (revenue-funded) |
 
 ---

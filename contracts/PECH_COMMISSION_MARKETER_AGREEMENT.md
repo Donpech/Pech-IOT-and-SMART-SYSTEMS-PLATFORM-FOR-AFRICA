@@ -416,7 +416,7 @@ The obligations of confidentiality shall not apply to information that:
 
 ### 10.4 Duration
 
-The obligations of confidentiality shall survive the termination of this Agreement for a period of **three (3) years** from the date of termination, or for so long as the Confidential Information remains confidential, whichever is longer.
+The obligations of confidentiality with respect to Trade Secrets shall survive indefinitely for so long as the information retains its character as a Trade Secret. The obligations with respect to all other Confidential Information shall survive the termination of this Agreement for a period of **five (5) years** from the date of termination.
 
 ### 10.5 Return of Materials
 

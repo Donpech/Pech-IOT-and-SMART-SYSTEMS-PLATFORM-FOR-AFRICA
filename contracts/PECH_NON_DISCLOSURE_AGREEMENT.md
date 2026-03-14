@@ -144,7 +144,7 @@ The obligations set forth in this Agreement shall not apply to information that 
 
 6.1. **Agreement Term.** This Agreement shall become effective on the Effective Date and shall remain in force for a period of three (3) years from the Effective Date, unless earlier terminated by either Party upon thirty (30) days' prior written notice to the other Party.
 
-6.2. **Survival of Obligations — General Confidential Information.** The obligations of confidentiality and non-use with respect to Confidential Information (other than Trade Secrets) shall survive for a period of three (3) years from the date of disclosure of each item of Confidential Information, regardless of any earlier termination or expiration of this Agreement.
+6.2. **Survival of Obligations — General Confidential Information.** The obligations of confidentiality and non-use with respect to Confidential Information (other than Trade Secrets) shall survive for a period of five (5) years from the date of disclosure of each item of Confidential Information, regardless of any earlier termination or expiration of this Agreement.
 
 6.3. **Survival of Obligations — Trade Secrets.** The obligations of confidentiality and non-use with respect to any Confidential Information that constitutes a trade secret under applicable law shall continue in perpetuity, or for so long as such information remains a trade secret, whichever is longer.
 
@@ -265,7 +265,7 @@ The obligations set forth in this Agreement shall not apply to information that 
    PECH Group Holdings Ltd
    Lagos, Nigeria
    Website: pechgroupholdings.tech
-   Email: ________________________________________
+   Email: legal@pechgroupholdings.tech
 
    Notices to the Receiving Party shall be directed to the address and email set forth in Section 1 above.
 

@@ -59,7 +59,7 @@ PECH is building an **AI-native platform** — all models self-hosted on RTX 409
 - **RAG Framework:** LangChain (MIT) + LangGraph
 
 ### Architecture
-- 78 microservices across 12 domains
+- 78 microservices across 11 domains
 - 3-phase deployment: Crawl (TRX50 + Ollama) → Walk (add 2nd GPU + vLLM) → Run (co-locate + scale)
 - Zero-waste single-platform: TRX50 Workstation from Day 1, add components, never replace
 - Event streaming: NATS (Phase 1) → Apache Kafka (Phase 3)

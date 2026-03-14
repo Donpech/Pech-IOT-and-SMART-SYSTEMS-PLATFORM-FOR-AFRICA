@@ -313,13 +313,13 @@
 
 ## 15. DISPUTE RESOLUTION
 
-15.1. Any dispute shall first be resolved through good faith negotiation between the Parties.
+15.1. **Good Faith Negotiation:** Any dispute arising from or in connection with this Agreement shall first be resolved through good faith negotiation between the Parties within thirty (30) days of written notice of the dispute.
 
-15.2. If not resolved within thirty (30) days, the dispute shall be submitted to mediation.
+15.2. **Mediation:** If the dispute is not resolved through negotiation, the Parties shall attempt to resolve it through mediation administered by the Lagos Multi-Door Courthouse within thirty (30) days.
 
-15.3. If mediation fails, the dispute shall be resolved by arbitration in Lagos, Nigeria, in accordance with the Arbitration and Mediation Act 2023.
+15.3. **Arbitration:** If mediation fails, the dispute shall be referred to and finally resolved by arbitration under the Arbitration and Mediation Act 2023, seated in Lagos, Nigeria. The arbitration shall be conducted by a sole arbitrator appointed by agreement of the Parties, or in default of agreement, by the President of the Nigerian Bar Association (NBA).
 
-15.4. **Governing Law:** This Agreement shall be governed by the laws of the Federal Republic of Nigeria.
+15.4. **Governing Law:** This Agreement shall be governed by and construed in accordance with the laws of the Federal Republic of Nigeria.
 
 ---
 
